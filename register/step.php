@@ -50,7 +50,7 @@
    
   <div class="container-fluid" style="position: absolute;top: 7rem;" id="step">
     <div class="row" >
-    <button style="height:60px;" class="col-auto mx-auto my-3" data-target="log">
+    <button style="height:60px;" class="col-auto mx-auto my-3" data-target="login">
       <span>Step 1</span>
     </button>
         
