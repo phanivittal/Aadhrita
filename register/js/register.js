@@ -9,7 +9,7 @@ const header = document.querySelector('.main-header');
       }
     })
     $(document).ready(function(){
-      $('#content').load('./content/login.php');
+      $('#content').load('./content/log.php');
       $('#step .row button').click(function(){
           var page=$(this).attr('data-target');
           $('#content').load('./content/'+page+'.php');
