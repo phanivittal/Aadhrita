@@ -9,10 +9,10 @@ const header = document.querySelector('.main-header');
       }
     })
     $(document).ready(function(){
-      $('#content').load('./content/login.php');
+      $('#content').load('../register/content/login.php');
       $('#step .row button').click(function(){
           var page=$(this).attr('data-target');
-          $('#content').load('./content/'+page+'.php');
+          $('#content').load('../register/content/'+page+'.php');
           return false;
       });
   });

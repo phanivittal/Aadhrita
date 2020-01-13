@@ -9,13 +9,13 @@
   <script src='https://kit.fontawesome.com/a076d05399.js'></script>  
   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
   <link rel='stylesheet' href='https://fonts.googleapis.com/css?family=Open+Sans'>
-  <link rel="stylesheet" href="./css/register.css">
+  <link rel="stylesheet" href="../css/register_css/register.css">
  
 </head>
 <body >
   <header class="main-header">
     <div class="logo">
-      <a href="#">LOGO</a>
+      <a href="../index.php">LOGO</a>
     </div>
   
     <input type="checkbox" class="menu-btn" id="menu-btn">
@@ -25,25 +25,25 @@
   
     <ul class="nav-links">
       <li class="nav-link">
-        <a href="index.html">Home</a>
+        <a href="../index.php">Home</a>
       </li>
      
       <li class="nav-link">
-        <a href="./workshop/workshop.html">WorkShops</a>
+        <a href="../workshop.php">WorkShops</a>
       </li>
       <li class="nav-link">
-        <a href="./culturals/culturals.html">Culturals</a>
+        <a href="../cultural.php">Culturals</a>
       </li>
     
     <li class="nav-link">
-      <a href="./technical/technical.html">Technical</a>
+      <a href="../technical.php">Technical</a>
     </li>
   
     <li class="nav-link">
-      <a href="./register/register.html">Register</a>
+      <a href="../register/step.php">Register</a>
     </li>
     <li class="nav-link">
-      <a href="./about/about.html">About</a>
+      <a href="../about.php">About</a>
     </li>
   </ul>
   </header>
@@ -64,7 +64,9 @@
         </div>
        
 
-<div id="content"></div>
+<div id="content" >
+  
+</div>
 
 
    <footer  style="background-color: #2c292f;padding-top: 30px;min-height: 280;margin-bottom: 0px;">
@@ -138,9 +140,9 @@
         </div>  
     </div>
             <div class="foot" style="width: 100%;color: azure;background-color:dimgrey;height: 80px;margin-bottom: 0">
-            <p align="center" style="padding-top: 20px;">Copyright &copy;2019,Copy Addict</p>
+            <p align="center" style="padding-top: 20px;">Copyright &copy;2019,MVGR Glug</p>
     </div>
  </footer>
- <script  src="./js/register.js"></script>
+ <script  src="../js/register_js/register.js"></script>
 </body >
 </html>

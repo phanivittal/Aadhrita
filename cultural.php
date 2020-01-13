@@ -18,7 +18,7 @@
 
   <header class="main-header">
     <div class="logo">
-      <a href="./index.html">LOGO</a>
+      <a href="./index.php">LOGO</a>
     </div>
   
     <input type="checkbox" class="menu-btn" id="menu-btn">
@@ -28,25 +28,25 @@
   
     <ul class="nav-links">
       <li class="nav-link">
-        <a href="./index.html">Home</a>
+        <a href="./index.php">Home</a>
       </li>
      
       <li class="nav-link">
-        <a href="./workshop.html">WorkShops</a>
+        <a href="./workshop.php">WorkShops</a>
       </li>
       <li class="nav-link">
         <a href="#">Culturals</a>
       </li>
     
     <li class="nav-link">
-      <a href="./technical.html">Technical</a>
+      <a href="./technical.php">Technical</a>
     </li>
   
     <li class="nav-link">
       <a href="./register/step.php">Register</a>
     </li>
     <li class="nav-link">
-      <a href="./about.html">About</a>
+      <a href="./about.php">About</a>
     </li>
   </ul>
   </header>
@@ -376,7 +376,7 @@ because it requires specific images, where more than 50% of bg is transparent or
 <div class="container-fluid">
 <div class="row" > 
 <?php 
-    require 'db.php';
+    require 'php/db.php';
     for($i=0;$i<10;$i++)
     {
         $sql="select * from events where etype='CULT' and eid='AAD3CE00".$i."'" ;

@@ -14,7 +14,7 @@
 
   <header class="main-header">
     <div class="logo">
-      <a href="./index.html">LOGO</a>
+      <a href="./index.php">LOGO</a>
     </div>
   
     <input type="checkbox" class="menu-btn" id="menu-btn">
@@ -24,29 +24,29 @@
   
     <ul class="nav-links">
       <li class="nav-link">
-        <a href="./index.html">Home</a>
+        <a href="./index.php">Home</a>
       </li>
      
       <li class="nav-link">
         <a href="#">WorkShops</a>
       </li>
       <li class="nav-link">
-        <a href="./cultural.html">Culturals</a>
+        <a href="./cultural.php">Culturals</a>
       </li>
     
     <li class="nav-link">
-      <a href="./technical.html">Technical</a>
+      <a href="./technical.php">Technical</a>
     </li>
   
     <li class="nav-link">
-      <a href="./register/register.html">Register</a>
+      <a href="./register/step.php">Register</a>
     </li>
     <li class="nav-link">
-      <a href="/about.html">About</a>
+      <a href="/about.php">About</a>
     </li>
   </ul>
   </header>
-<!-- partial:index.partial.html -->
+<!-- partial:index.partial.php -->
 <!-- 
 Please note, that you can apply .m--global-blending-active to .fnc-slider 
 to enable blend-mode for all background-images or apply .m--blend-bg-active
@@ -225,7 +225,7 @@ because it requires specific images, where more than 50% of bg is transparent or
 <div class="container-fluid">
 <div class="row" > 
 <?php 
-    require 'db.php';
+    require './php/db.php';
     for($i=0;$i<5;$i++)
     {
         $sql="select ename,tagline,image,phone1,phone2,name1,name2,edesc,eventdesc2 from events where etype='WORK' and eid='AAD3WS00".$i."'" ;
@@ -254,7 +254,7 @@ because it requires specific images, where more than 50% of bg is transparent or
                                                <h2 align:center>'.$row['eventdesc2'].'</h2><br>
                                                 <h6>'.$row['edesc'].'</h6><br>                                   
                                            <a class="btn btn-primary" href="aad.pdf" role="button" id="file">Download</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                                           <a type="button" class="btn btn-info"  href="registration.html"  >register</a>
+                                           <a type="button" class="btn btn-info"  href="registration.php"  >register</a>
                                            
                                            </div>
                                 </div>
