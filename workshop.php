@@ -254,7 +254,7 @@ because it requires specific images, where more than 50% of bg is transparent or
                                                <h2 align:center>'.$row['eventdesc2'].'</h2><br>
                                                 <h6>'.$row['edesc'].'</h6><br>                                   
                                            <a class="btn btn-primary" href="aad.pdf" role="button" id="file">Download</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                                           <a type="button" class="btn btn-info"  href="registration.php"  >register</a>
+                                           <a type="button" class="btn btn-info"  href="./register/step.php"  >register</a>
                                            
                                            </div>
                                 </div>

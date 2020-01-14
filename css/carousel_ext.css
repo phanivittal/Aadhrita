@@ -736,16 +736,16 @@ margin-bottom: 10px;
     }
     .fnc-slide__action-btn{
       font-size: 20px;
-      left:-100px;
+      left:-150px;
     }
     .fnc-slide__mask {
       overflow: hidden;
       z-index: 1;
       position: absolute;
-      right: 33%;
-      top: 20%;
-      width: 30.25vh;
-      height:52vh;
+      right: 40%;
+      top: 24%;
+      width: 33.25vh;
+      height:50vh;
       margin-right: -40px;
       -webkit-clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%, 0 0, 6vh 0, 6vh 45vh, 38vh 45vh, 38vh 6vh, 6vh 6vh);
               clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%, 0 0, 6vh 0, 6vh 45vh, 38vh 45vh, 38vh 6vh, 6vh 6vh);
@@ -756,8 +756,8 @@ margin-bottom: 10px;
     .fnc-slide__mask-inner {
       z-index: -1;
       position: absolute;
-      left: 40%;
-      top: 40%;
+      left: 50%;
+      top: 45%;
       width: 70vw;
       height: 80vh;
       margin-left: -45vw;

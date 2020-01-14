@@ -5,14 +5,16 @@
   <meta name="viewport" content="width=device-width,initial-scale=1.0" charset="utf-8">
   <title>MVGR | Culturals</title>
  <link rel="stylesheet" href="./css/bootstrap.min.css">
-  <link rel="stylesheet" type="text/css" href="./css/technicalcs.css"/>
+  <link rel="stylesheet" type="text/css" href="./css/technical_car.css"/>
   <link rel='stylesheet' href='https://fonts.googleapis.com/css?family=Open+Sans'>
-  <link rel="stylesheet" href="./css/navbar.css">
   <link rel="stylesheet" href="./css/card.css">
-  
+  <link href='https://fonts.googleapis.com/css?family=Montserrat:400,700' rel='stylesheet' type='text/css'>
+  <link href='https://fonts.googleapis.com/css?family=Roboto:400,700,300italic' rel='stylesheet' type='text/css'>
+  <link href='https://fonts.googleapis.com/css?family=Kaushan+Script' rel='stylesheet' type='text/css'>
+  <link rel='stylesheet' href='https://dl.dropboxusercontent.com/u/69747888/MoGo%20carousel/font-awesome.min.css'>
 </head>
 <body style="background: linear-gradient(90deg, #B09FEE 500px, #5DE8F8 100%);">
-  <header class="main-header">
+  <header class="main-header_nav">
     <div class="logo">
       <a href="./index.php">LOGO</a>
     </div>
@@ -28,10 +30,10 @@
       </li>
      
       <li class="nav-link">
-        <a href="workshop.php">WorkShops</a>
+        <a href="./workshop.php">WorkShops</a>
       </li>
       <li class="nav-link">
-        <a href="cultural.php">Culturals</a>
+        <a href="./cultural.php">Culturals</a>
       </li>
     
     <li class="nav-link">
@@ -42,7 +44,7 @@
       <a href="./register/step.php">Register</a>
     </li>
     <li class="nav-link">
-      <a href="/about.php">About</a>
+      <a href="./about.php">About</a>
     </li>
   </ul>
   </header>
@@ -53,528 +55,200 @@ to enable blend-mode for all background-images or apply .m--blend-bg-active
 to some specific slides (.fnc-slide). It's disabled by default in this demo,
 because it requires specific images, where more than 50% of bg is transparent or monotone
 -->
-<div class="demo-cont">
-  <!-- slider start -->
-  <div class="fnc-slider example-slider">
-    <div class="fnc-slider__slides">
-      <!-- slide start -->
-      <div class="fnc-slide m--blend-green m--active-slide">
-        <div class="fnc-slide__inner">
-          <div class="fnc-slide__mask">
-            <div class="fnc-slide__mask-inner"></div>
+<section id="section-1">
+    <div class="content-slider">
+      <input type="radio" id="banner1" class="sec-1-input" name="banner" checked>
+      <input type="radio" id="banner2" class="sec-1-input" name="banner">
+      <input type="radio" id="banner3" class="sec-1-input" name="banner">
+      <input type="radio" id="banner4" class="sec-1-input" name="banner">
+      <input type="radio" id="banner5" class="sec-1-input" name="banner">
+      <input type="radio" id="banner6" class="sec-1-input" name="banner">
+      <input type="radio" id="banner7" class="sec-1-input" name="banner">
+      <input type="radio" id="banner8" class="sec-1-input" name="banner">
+      <input type="radio" id="banner9" class="sec-1-input" name="banner">
+      <input type="radio" id="banner10" class="sec-1-input" name="banner">
+      <input type="radio" id="banner11" class="sec-1-input" name="banner">
+      <input type="radio" id="banner12" class="sec-1-input" name="banner">
+      <input type="radio" id="banner13" class="sec-1-input" name="banner">
+      <input type="radio" id="banner14" class="sec-1-input" name="banner">
+      <input type="radio" id="banner15" class="sec-1-input" name="banner">
+      <input type="radio" id="banner16" class="sec-1-input" name="banner">
+      <input type="radio" id="banner17" class="sec-1-input" name="banner">
+      <input type="radio" id="banner18" class="sec-1-input" name="banner">
+      <div class="slider">
+        <div id="top-banner-1" class="banner">
+          <div class="banner-inner-wrapper">
+            <h2>Creative Template</h2>
+            <h1>Welcome<br>to MoGo</h1>
+            <div class="line"></div>
+            <div class="learn-more-button"><a href="#section-2">Learn More</a></div>
           </div>
-          <div class="fnc-slide__content">
-            <h2 class="fnc-slide__heading">
-              <div class="fnc-slide__heading-line">
-                <span>Paper</span>
-              </div>
-              <div class="fnc-slide__heading-line">
-                <span>Presentation</span>
-              </div>
-            </h2>
-            <button type="button" class="fnc-slide__action-btn">
-             Technical
-              <span data-text="Technical">Technical</span>
-            </button>
+        </div>
+        <div id="top-banner-2" class="banner">
+          <div class="banner-inner-wrapper">
+            <h2>What We Do</h2>
+            <h1>Great<br>MoGo</h1>
+            <div class="line"></div>
+            <div class="learn-more-button"><a href="#section-2">Learn More</a></div>
+          </div>
+        </div>
+        <div id="top-banner-3" class="banner">
+          <div class="banner-inner-wrapper">
+            <h2>Here We Are</h2>
+            <h1>We Are<br>MoGo</h1>
+            <div class="line"></div>
+            <div class="learn-more-button"><a href="#section-2">Learn More</a></div>
+          </div>
+        </div>
+        <div id="top-banner-4" class="banner">
+          <div class="banner-inner-wrapper">
+            <h2>Our Contacts</h2>
+            <h1>Welcome<br>to MoGo</h1>
+            <div class="line"></div>
+            <div class="learn-more-button"><a href="#section-2">Learn More</a></div>
+          </div>
+        </div>
+        <div id="top-banner-5" class="banner">
+          <div class="banner-inner-wrapper">
+            <h2>Creative Template</h2>
+            <h1>Welcome<br>to MoGo</h1>
+            <div class="line"></div>
+            <div class="learn-more-button"><a href="#section-2">Learn More</a></div>
+          </div>
+        </div>
+        <div id="top-banner-6" class="banner">
+          <div class="banner-inner-wrapper">
+            <h2>Creative Template</h2>
+            <h1>Welcome<br>to MoGo</h1>
+            <div class="line"></div>
+            <div class="learn-more-button"><a href="#section-2">Learn More</a></div>
+          </div>
+        </div>
+        <div id="top-banner-7" class="banner">
+          <div class="banner-inner-wrapper">
+            <h2>Creative Template</h2>
+            <h1>Welcome<br>to MoGo</h1>
+            <div class="line"></div>
+            <div class="learn-more-button"><a href="#section-2">Learn More</a></div>
+          </div>
+        </div>
+        <div id="top-banner-8" class="banner">
+          <div class="banner-inner-wrapper">
+            <h2>Creative Template</h2>
+            <h1>Welcome<br>to MoGo</h1>
+            <div class="line"></div>
+            <div class="learn-more-button"><a href="#section-2">Learn More</a></div>
+          </div>
+        </div>
+        <div id="top-banner-9" class="banner">
+          <div class="banner-inner-wrapper">
+            <h2>Creative Template</h2>
+            <h1>Welcome<br>to MoGo</h1>
+            <div class="line"></div>
+            <div class="learn-more-button"><a href="#section-2">Learn More</a></div>
+          </div>
+        </div>
+        <div id="top-banner-10" class="banner">
+          <div class="banner-inner-wrapper">
+            <h2>Creative Template</h2>
+            <h1>Welcome<br>to MoGo</h1>
+            <div class="line"></div>
+            <div class="learn-more-button"><a href="#section-2">Learn More</a></div>
+          </div>
+        </div>
+        <div id="top-banner-11" class="banner">
+          <div class="banner-inner-wrapper">
+            <h2>Creative Template</h2>
+            <h1>Welcome<br>to MoGo</h1>
+            <div class="line"></div>
+            <div class="learn-more-button"><a href="#section-2">Learn More</a></div>
+          </div>
+        </div>
+        <div id="top-banner-12" class="banner">
+          <div class="banner-inner-wrapper">
+            <h2>Creative Template</h2>
+            <h1>Welcome<br>to MoGo</h1>
+            <div class="line"></div>
+            <div class="learn-more-button"><a href="#section-2">Learn More</a></div>
+          </div>
+        </div>
+        <div id="top-banner-13" class="banner">
+          <div class="banner-inner-wrapper">
+            <h2>Creative Template</h2>
+            <h1>Welcome<br>to MoGo</h1>
+            <div class="line"></div>
+            <div class="learn-more-button"><a href="#section-2">Learn More</a></div>
+          </div>
+        </div>
+        <div id="top-banner-14" class="banner">
+          <div class="banner-inner-wrapper">
+            <h2>Creative Template</h2>
+            <h1>Welcome<br>to MoGo</h1>
+            <div class="line"></div>
+            <div class="learn-more-button"><a href="#section-2">Learn More</a></div>
+          </div>
+        </div>
+        <div id="top-banner-15" class="banner">
+          <div class="banner-inner-wrapper">
+            <h2>Creative Template</h2>
+            <h1>Welcome<br>to MoGo</h1>
+            <div class="line"></div>
+            <div class="learn-more-button"><a href="#section-2">Learn More</a></div>
+          </div>
+        </div>
+        <div id="top-banner-16" class="banner">
+          <div class="banner-inner-wrapper">
+            <h2>Creative Template</h2>
+            <h1>Welcome<br>to MoGo</h1>
+            <div class="line"></div>
+            <div class="learn-more-button"><a href="#section-2">Learn More</a></div>
+          </div>
+        </div>
+        <div id="top-banner-17" class="banner">
+          <div class="banner-inner-wrapper">
+            <h2>Creative Template</h2>
+            <h1>Welcome<br>to MoGo</h1>
+            <div class="line"></div>
+            <div class="learn-more-button"><a href="#section-2">Learn More</a></div>
+          </div>
+        </div>
+        <div id="top-banner-18" class="banner">
+          <div class="banner-inner-wrapper">
+            <h2>Creative Template</h2>
+            <h1>Welcome<br>to MoGo</h1>
+            <div class="line"></div>
+            <div class="learn-more-button"><a href="#section-2">Learn More</a></div>
           </div>
         </div>
       </div>
-      <!-- slide end -->
-      <!-- slide start -->
-      <div class="fnc-slide m--blend-dark">
-        <div class="fnc-slide__inner">
-          <div class="fnc-slide__mask">
-            <div class="fnc-slide__mask-inner"></div>
-          </div>
-          <div class="fnc-slide__content">
-            <h2 class="fnc-slide__heading">
-              <div class="fnc-slide__heading-line">
-                <span>Robo</span>
-              </div>
-              <div class="fnc-slide__heading-line">
-                <span>Challenge</span>
-              </div>
-            </h2>
-            <button type="button" class="fnc-slide__action-btn">
-             Technical
-              <span data-text="Technical">Technical</span>
-            </button>
-          </div>
+      <nav>
+        <div class="controls">
+          <label for="banner1"><span class="progressbar"><span class="progressbar-fill"></span></span><span>01</span> Intro</label>
+          <label for="banner2"><span class="progressbar"><span class="progressbar-fill"></span></span><span>02</span> Work</label>
+          <label for="banner3"><span class="progressbar"><span class="progressbar-fill"></span></span><span>03</span> About</label>
+          <label for="banner4"><span class="progressbar"><span class="progressbar-fill"></span></span><span>04</span> Contacts</label>
+          <label for="banner5"><span class="progressbar"><span class="progressbar-fill"></span></span><span>05</span> Intro</label>
+          <label for="banner6"><span class="progressbar"><span class="progressbar-fill"></span></span><span>06</span> Work</label>
+          <label for="banner7"><span class="progressbar"><span class="progressbar-fill"></span></span><span>07</span> About</label>
+          <label for="banner8"><span class="progressbar"><span class="progressbar-fill"></span></span><span>08</span> Contacts</label>
+          <label for="banner9"><span class="progressbar"><span class="progressbar-fill"></span></span><span>09</span> Intro</label>
+          <label for="banner10"><span class="progressbar"><span class="progressbar-fill"></span></span><span>10</span> Work</label>
+          <label for="banner11"><span class="progressbar"><span class="progressbar-fill"></span></span><span>11</span> About</label>
+          <label for="banner12"><span class="progressbar"><span class="progressbar-fill"></span></span><span>12</span> Contacts</label>
+          <label for="banner13"><span class="progressbar"><span class="progressbar-fill"></span></span><span>13</span> Intro</label>
+          <label for="banner14"><span class="progressbar"><span class="progressbar-fill"></span></span><span>14</span> Work</label>
+          <label for="banner15"><span class="progressbar"><span class="progressbar-fill"></span></span><span>15</span> About</label>
+          <label for="banner16"><span class="progressbar"><span class="progressbar-fill"></span></span><span>16</span> Contacts</label>
+          <label for="banner17"><span class="progressbar"><span class="progressbar-fill"></span></span><span>17</span> About</label>
+          <label for="banner18"><span class="progressbar"><span class="progressbar-fill"></span></span><span>18</span> Contacts</label>
         </div>
-      </div>
-      <!-- slide end -->
-      <!-- slide start -->
-      <div class="fnc-slide m--blend-red">
-        <div class="fnc-slide__inner">
-          <div class="fnc-slide__mask">
-            <div class="fnc-slide__mask-inner"></div>
-          </div>
-          <div class="fnc-slide__content">
-            <h2 class="fnc-slide__heading">
-              <div class="fnc-slide__heading-line">
-                <span>Hover Crafts</span>
-              </div>
-            </h2>
-            <button type="button" class="fnc-slide__action-btn">
-             Technical
-              <span data-text="Technical">Technical</span>
-            </button>
-          </div>
-        </div>
-      </div>
-      <!-- slide end -->
-      <!-- slide start -->
-      <div class="fnc-slide m--blend-blue">
-        <div class="fnc-slide__inner">
-          <div class="fnc-slide__mask">
-            <div class="fnc-slide__mask-inner"></div>
-          </div>
-          <div class="fnc-slide__content">
-            <h2 class="fnc-slide__heading">
-              <div class="fnc-slide__heading-line">
-                <span>Circuitrix</span>
-              </div>
-            </h2>
-            <button type="button" class="fnc-slide__action-btn">
-             Technical
-              <span data-text="Technical">Technical</span>
-            </button>
-          </div>
-        </div>
-      </div>
-      <!-- slide end -->
-         <!-- slide start -->
-         <div class="fnc-slide m--blend-grey">
-          <div class="fnc-slide__inner">
-            <div class="fnc-slide__mask">
-              <div class="fnc-slide__mask-inner"></div>
-            </div>
-            <div class="fnc-slide__content">
-              <h2 class="fnc-slide__heading">
-                <div class="fnc-slide__heading-line">
-                  <span>Embedded</span>
-                </div>
-                <div class="fnc-slide__heading-line">
-                  <span>Programming</span>
-                </div>
-              </h2>
-              <button type="button" class="fnc-slide__action-btn">
-               Technical
-                <span data-text="Technical">Technical</span>
-              </button>
-            </div>
-          </div>
-        </div>
-        <!-- slide end -->
-              <!-- slide start -->
-      <div class="fnc-slide m--blend-pink">
-        <div class="fnc-slide__inner">
-          <div class="fnc-slide__mask">
-            <div class="fnc-slide__mask-inner"></div>
-          </div>
-          <div class="fnc-slide__content">
-            <h2 class="fnc-slide__heading">
-              <div class="fnc-slide__heading-line">
-                <span>CADathon</span>
-              </div>
-            </h2>
-            <button type="button" class="fnc-slide__action-btn">
-             Technical
-              <span data-text="Technical">Technical</span>
-            </button>
-          </div>
-        </div>
-      </div>
-      <!-- slide end -->
-            <!-- slide start -->
-            <div class="fnc-slide m--blend-crimson">
-              <div class="fnc-slide__inner">
-                <div class="fnc-slide__mask">
-                  <div class="fnc-slide__mask-inner"></div>
-                </div>
-                <div class="fnc-slide__content" >
-                  <h2 class="fnc-slide__heading">
-                    <div class="fnc-slide__heading-line" >
-                      <span>Hardware</span>
-                    </div>
-                    <div class="fnc-slide__heading-line" >
-                      <span>Expo</span>
-                    </div>
-                  </h2>
-                  <button type="button" class="fnc-slide__action-btn" >
-                   Technical
-                    <span data-text="Technical">Technical</span>
-                  </button>
-                </div>
-              </div>
-            </div>
-            <!-- slide end -->
-<div class="fnc-slide m--blend-dark">
-        <div class="fnc-slide__inner">
-          <div class="fnc-slide__mask">
-            <div class="fnc-slide__mask-inner"></div>
-          </div>
-          <div class="fnc-slide__content">
-            <h2 class="fnc-slide__heading">
-              <div class="fnc-slide__heading-line">
-                <span>Water</span>
-              </div>
-              <div class="fnc-slide__heading-line">
-                <span>Rocket</span>
-              </div>
-            </h2>
-            <button type="button" class="fnc-slide__action-btn">
-             Technical
-              <span data-text="Technical">Technical</span>
-            </button>
-          </div>
-        </div>
-      </div>
-      <!-- slide end -->
-      <!-- slide start -->
-      
-      <div class="fnc-slide m--blend-red">
-        <div class="fnc-slide__inner">
-          <div class="fnc-slide__mask">
-            <div class="fnc-slide__mask-inner"></div>
-          </div>
-          <div class="fnc-slide__content">
-            <h2 class="fnc-slide__heading">
-              <div class="fnc-slide__heading-line">
-                <span>Hydraulic</span>
-              </div>
-              <div class="fnc-slide__heading-line">
-                <span>Crane</span>
-              </div>
-            </h2>
-            <button type="button" class="fnc-slide__action-btn">
-             Technical
-              <span data-text="Technical">Technical</span>
-            </button>
-          </div>
-        </div>
-      </div>
-      <!-- slide end -->
-      <!-- slide start -->
-      <div class="fnc-slide m--blend-blue">
-        <div class="fnc-slide__inner">
-          <div class="fnc-slide__mask">
-            <div class="fnc-slide__mask-inner"></div>
-          </div>
-          <div class="fnc-slide__content">
-            <h2 class="fnc-slide__heading">
-              <div class="fnc-slide__heading-line">
-                <span>Instridge</span>
-              </div>
-              
-            </h2>
-            <button type="button" class="fnc-slide__action-btn">
-             Technical
-              <span data-text="Technical">Technical</span>
-            </button>
-          </div>
-        </div>
-      </div>
-      <!-- slide end -->
-         <!-- slide start -->
-         <div class="fnc-slide m--blend-grey">
-          <div class="fnc-slide__inner">
-            <div class="fnc-slide__mask">
-              <div class="fnc-slide__mask-inner"></div>
-            </div>
-            <div class="fnc-slide__content">
-              <h2 class="fnc-slide__heading">
-                <div class="fnc-slide__heading-line">
-                  <span>Code</span>
-                </div>
-                <div class="fnc-slide__heading-line">
-                  <span>Champs</span>
-                </div>
-              </h2>
-              <button type="button" class="fnc-slide__action-btn">
-               Technical
-                <span data-text="Technical">Technical</span>
-              </button>
-            </div>
-          </div>
-        </div>
-        <!-- slide end -->
-              <!-- slide start -->
-      <div class="fnc-slide m--blend-pink">
-        <div class="fnc-slide__inner">
-          <div class="fnc-slide__mask">
-            <div class="fnc-slide__mask-inner"></div>
-          </div>
-          <div class="fnc-slide__content">
-            <h2 class="fnc-slide__heading">
-              <div class="fnc-slide__heading-line">
-                <span>Tech</span>
-              </div>
-              <div class="fnc-slide__heading-line">
-                <span>Solutions</span>
-              </div>
-            </h2>
-            <button type="button" class="fnc-slide__action-btn">
-             Technical
-              <span data-text="Technical">Technical</span>
-            </button>
-          </div>
-        </div>
-      </div>
-      <!-- slide end -->
-            <!-- slide start -->
-            <div class="fnc-slide m--blend-crimson">
-              <div class="fnc-slide__inner">
-                <div class="fnc-slide__mask">
-                  <div class="fnc-slide__mask-inner"></div>
-                </div>
-                <div class="fnc-slide__content" >
-                  <h2 class="fnc-slide__heading">
-                    <div class="fnc-slide__heading-line" >
-                      <span>Hackathon</span>
-                    </div>
-                    
-                  </h2>
-                  <button type="button" class="fnc-slide__action-btn" >
-                   Technical
-                    <span data-text="Technical">Technical</span>
-                  </button>
-                </div>
-              </div>
-            </div>
-            <!-- slide end -->
-            <div class="fnc-slide m--blend-dark">
-        <div class="fnc-slide__inner">
-          <div class="fnc-slide__mask">
-            <div class="fnc-slide__mask-inner"></div>
-          </div>
-          <div class="fnc-slide__content">
-            <h2 class="fnc-slide__heading">
-              <div class="fnc-slide__heading-line">
-                <span>Business</span>
-              </div>
-              <div class="fnc-slide__heading-line">
-                <span>Plan</span>
-              </div>
-            </h2>
-            <button type="button" class="fnc-slide__action-btn">
-             Technical
-              <span data-text="Technical">Technical</span>
-            </button>
-          </div>
-        </div>
-      </div>
-      <!-- slide end -->
-      <!-- slide start -->
-      
-      <div class="fnc-slide m--blend-red">
-        <div class="fnc-slide__inner">
-          <div class="fnc-slide__mask">
-            <div class="fnc-slide__mask-inner"></div>
-          </div>
-          <div class="fnc-slide__content">
-            <h2 class="fnc-slide__heading">
-              <div class="fnc-slide__heading-line">
-                <span>Business</span>
-              </div>
-              <div class="fnc-slide__heading-line">
-                <span>Quiz</span>
-              </div>
-            </h2>
-            <button type="button" class="fnc-slide__action-btn">
-             Technical
-              <span data-text="Technical">Technical</span>
-            </button>
-          </div>
-        </div>
-      </div>
-      <!-- slide end -->
-      <!-- slide start -->
-      <div class="fnc-slide m--blend-blue">
-        <div class="fnc-slide__inner">
-          <div class="fnc-slide__mask">
-            <div class="fnc-slide__mask-inner"></div>
-          </div>
-          <div class="fnc-slide__content">
-            <h2 class="fnc-slide__heading">
-              <div class="fnc-slide__heading-line">
-                <span>Advertisements</span>
-              </div>
-              <div class="fnc-slide__heading-line">
-                <span>Making</span>
-              </div>
-            </h2>
-            <button type="button" class="fnc-slide__action-btn">
-             Technical
-              <span data-text="Technical">Technical</span>
-            </button>
-          </div>
-        </div>
-      </div>
-      <!-- slide end -->
-         <!-- slide start -->
-         <div class="fnc-slide m--blend-grey">
-          <div class="fnc-slide__inner">
-            <div class="fnc-slide__mask">
-              <div class="fnc-slide__mask-inner"></div>
-            </div>
-            <div class="fnc-slide__content">
-              <h2 class="fnc-slide__heading">
-                <div class="fnc-slide__heading-line">
-                  <span>Witricity</span>
-                </div>
-                
-              </h2>
-              <button type="button" class="fnc-slide__action-btn">
-               Technical
-                <span data-text="Technical">Technical</span>
-              </button>
-            </div>
-          </div>
-        </div>
-        <!-- slide end -->
-              <!-- slide start -->
-      <div class="fnc-slide m--blend-pink">
-        <div class="fnc-slide__inner">
-          <div class="fnc-slide__mask">
-            <div class="fnc-slide__mask-inner"></div>
-          </div>
-          <div class="fnc-slide__content">
-            <h2 class="fnc-slide__heading">
-              <div class="fnc-slide__heading-line">
-                <span>Java</span>
-              </div>
-              <div class="fnc-slide__heading-line">
-                <span>Jithendra</span>
-              </div>
-            </h2>
-            <button type="button" class="fnc-slide__action-btn">
-             Technical
-              <span data-text="Technical">Technical</span>
-            </button>
-          </div>
-        </div>
-      </div>
-      <!-- slide end -->
-
+      </nav>
     </div>
-    <nav class="fnc-nav">
-      <div class="fnc-nav__bgs">
-        <div class="fnc-nav__bg m--navbg-green m--active-nav-bg"></div>
-        <div class="fnc-nav__bg m--navbg-dark"></div>
-        <div class="fnc-nav__bg m--navbg-red"></div>
-        <div class="fnc-nav__bg m--navbg-blue"></div>
-        <div class="fnc-nav__bg m--navbg-grey"></div>
-        <div class="fnc-nav__bg m--navbg-pink"></div>
-        <div class="fnc-nav__bg m--navbg-crimson"></div>
-        <div class="fnc-nav__bg m--navbg-dark"></div>
-        <div class="fnc-nav__bg m--navbg-red"></div>
-        <div class="fnc-nav__bg m--navbg-blue"></div>
-        <div class="fnc-nav__bg m--navbg-grey"></div>
-        <div class="fnc-nav__bg m--navbg-pink"></div>
-        <div class="fnc-nav__bg m--navbg-crimson"></div>
-        <div class="fnc-nav__bg m--navbg-dark"></div>
-        <div class="fnc-nav__bg m--navbg-red"></div>
-        <div class="fnc-nav__bg m--navbg-blue"></div>
-        <div class="fnc-nav__bg m--navbg-grey"></div>
-      
-      </div>
-      <div class="fnc-nav__controls">
-        <button class="fnc-nav__control">
-          Paper Presentation
-          <span class="fnc-nav__control-progress"></span>
-        </button>
-        <button class="fnc-nav__control">
-         Robo-Challenge
-          <span class="fnc-nav__control-progress"></span>
-        </button>
-        <button class="fnc-nav__control">
-         HoverCraft
-          <span class="fnc-nav__control-progress"></span>
-        </button>
-        <button class="fnc-nav__control">
-          Circuitrix
-          <span class="fnc-nav__control-progress"></span>
-        </button>
-        <button class="fnc-nav__control">
-          Embedded programming
-          <span class="fnc-nav__control-progress"></span>
-        </button>
-        <button class="fnc-nav__control">
-          CADathon
-          <span class="fnc-nav__control-progress"></span>
-        </button>
-        <button class="fnc-nav__control">
-          Hardware Expo
-          <span class="fnc-nav__control-progress"></span>
-        </button>
-        <button class="fnc-nav__control">
-          Water Rocket
-          <span class="fnc-nav__control-progress"></span>
-        </button>
-        <button class="fnc-nav__control">
-          Hydraulic Crane
-          <span class="fnc-nav__control-progress"></span>
-        </button>
-        <button class="fnc-nav__control">
-        Instridge
-          <span class="fnc-nav__control-progress"></span>
-        </button>
-        <button class="fnc-nav__control">
-        Code Champs
-          <span class="fnc-nav__control-progress"></span>
-        </button>
-        <button class="fnc-nav__control">
-        Tech Solution
-          <span class="fnc-nav__control-progress"></span>
-        </button>
-        <button class="fnc-nav__control">
-        Hackathon
-          <span class="fnc-nav__control-progress"></span>
-        </button>
-        <button class="fnc-nav__control">
-         Business Plan
-          <span class="fnc-nav__control-progress"></span>
-        </button>
-        <button class="fnc-nav__control">
-        Business Quiz
-          <span class="fnc-nav__control-progress"></span>
-        </button>
-        <button class="fnc-nav__control">
-        Advertisement making
-          <span class="fnc-nav__control-progress"></span>
-        </button>
-        <button class="fnc-nav__control">
-        Witricity
-          <span class="fnc-nav__control-progress"></span>
-        </button>
+  </section>
+  <section id="section-2" style="height: 50vh;background-color: aquamarine;">
 
-      </div>
-    </nav>
-  </div>
-  <!-- slider end -->
-  <div class="demo-cont__credits">
-    <div class="demo-cont__credits-close"></div>
-    <!-- <h2 class="demo-cont__Technical-heading">Made by</h2> -->
-    <br><h3 class="demo-cont__credits-heading">About</h3>
-    
-    <h2 class="demo-cont__credits-blend">Mvgr technical Events </h2><br>
-    
-    <h5 class="demo-cont__credits-name">Every year almost every engineering college in India organizes TechFest - an event comprising of technical events, competitions, paper presentation competitions, seminar presentations and so on. </h5>
-    <div class="colorful-switch">
-      <input type="checkbox" class="colorful-switch__checkbox js-activate-global-blending" id="colorful-switch-cb" />
-      <label class="colorful-switch__label" for="colorful-switch-cb">
-        <span class="colorful-switch__bg"></span>
-        <span class="colorful-switch__dot"></span>
-        <span class="colorful-switch__on">
-          <span class="colorful-switch__on__inner"></span>
-        </span>
-        <span class="colorful-switch__off"></span>
-      </label>
-    </div>
-  </div>
-</div>
-</div>
+    Heloo man
+  </section>
 <div class="container-fluid">
 <div class="row" > 
 <?php 
@@ -603,7 +277,8 @@ because it requires specific images, where more than 50% of bg is transparent or
                             
                                             <div class="card-back">
                                             <div class="card-body" >
-                                               <i class="fas fa-arrow-circle-left fa-x text-primary" onclick="$(\''.$y.'\').toggleClass(\'expand\')" ></i>                                    
+                                               <i class="fas fa-arrow-circle-left fa-2x text-primary" onclick="$(\''.$y.'\').toggleClass(\'expand\')" ></i>    
+                                               <br>                                
                                                <h2 align:center>'.$row['eventdesc2'].'</h2><br>
                                                 <h6>'.$row['edesc'].'</h6><br>                                   
                                            <a class="btn btn-primary" href="resume.pdf" role="button" id="file">Download</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
@@ -688,7 +363,10 @@ because it requires specific images, where more than 50% of bg is transparent or
   
   <script src="./js/jquery.min.js"></script>
   <script src='https://kit.fontawesome.com/a076d05399.js'></script> 
-  <script  src="./js/common.js"></script>
+ 
   <script src="./js/popper.min.js"></script>
+  <script  src="./js/technical_script.js"></script>
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.0/jquery.min.js'></script>
+<script src='https://use.fontawesome.com/8ae46bccf5.js'></script>
 </body>
 </html>
