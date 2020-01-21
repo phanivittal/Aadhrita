@@ -5,43 +5,55 @@
   <meta content="width=device-width, initial-scale=1.0" name="viewport">
   <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,700,700i|Raleway:300,400,500,700,800" rel="stylesheet">
   <link href="./css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="./css/navbar.css">
   <link href="js/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
   <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.3.5/css/swiper.min.css'>
   <link href="css/home_css/style.css" rel="stylesheet">
   <link href='https://fonts.googleapis.com/css?family=Kaushan+Script' rel='stylesheet' type='text/css'>
 </head>
-<body>
-  <header class="main-header">
-    <div class="logo">
-      <img  onclick="#" src="./static/logo.png" style="height:50px;width:30px;" alt="LOGO">
-    </div>
 
+ 
+<header class="main-header" style="font-size:16px;">
+<div class="logo">
+       <img   src="./static/logo3.png"  style="height:50px;width:50px;" alt="LOGO"></img>
+    </div>
     <input type="checkbox" class="menu-btn" id="menu-btn">
     <label for="menu-btn" class="menu-icon">
       <span class="menu-icon__line"></span>
     </label>
+  
     <ul class="nav-links">
       <li class="nav-link">
         <a href="#">Home</a>
       </li>
+     
       <li class="nav-link">
         <a href="./php/workshop.php">WorkShops</a>
       </li>
       <li class="nav-link">
         <a href="./php/cultural.php">Culturals</a>
       </li>
-      <li class="nav-link">
-        <a href="./php/technical.php">Technical</a>
-      </li>
-      <li class="nav-link">
-        <a href="./php/register/login.php">Register</a>
-      </li>
-      <li class="nav-link">
-        <a href="./php/about.php">About</a>
-      </li>
-    </ul>
+    
+    <li class="nav-link">
+      <a href="./php/technical.php">Technical</a>
+    </li>
+    <li class="nav-link">
+     <a href="./php/about.php">About</a>
+    </li>
+    <?php
+		        if (isset($_SESSION['session_email'])) {
+              echo '<li class="nav-link"><a href="./register/logout.php">Logout</a></li>
+              <li class="nav-link"><a href="./register/content/profile.php">Profile</a></li>';
+		        }
+		        else{
+		            echo '<li class="nav-link"><a href="./register/login.php">Register</a></li>';
+		        }
+		    ?>
+    
+  </ul>
   </header>
+  <body>
   <section id="intro">
     <div class="intro-container wow fadeIn">
 
@@ -142,12 +154,12 @@
 
         <ul class="nav nav-tabs" role="tablist">
           <li class="nav-item">
-            <a class="nav-link active" href="#day-1" role="tab" data-toggle="tab">Day 1</a>
+            <a class="nav-link active my-2 " href="#day-1" role="tab" data-toggle="tab">Day 1</a>
           </li>
-          <li class="nav-item">
+          <li class="nav-item my-2">
             <a class="nav-link" href="#day-2" role="tab" data-toggle="tab">Day 2</a>
           </li>
-          <li class="nav-item">
+          <li class="nav-item my-2">
             <a class="nav-link" href="#day-3" role="tab" data-toggle="tab">Day 3</a>
           </li>
         </ul>
@@ -521,7 +533,7 @@
   <script src='https://kit.fontawesome.com/a076d05399.js'></script> 
  
   <script src="js/jquery-migrate.min.js"></script>
-  <script src="js/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="js/bootstrap.bundle.min.js"></script>
   <script src="js/wow/wow.min.js"></script>
   <script src="js/owlcarousel/owl.carousel.min.js"></script>
   <script src="js/home_js/swipe.js"></script>

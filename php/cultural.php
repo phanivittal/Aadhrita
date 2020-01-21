@@ -50,7 +50,9 @@ session_start();
     <li class="nav-link">
       <a href="./technical.php">Technical</a>
     </li>
-  
+    <li class="nav-link">
+      <a href="./about.php">About</a>
+    </li>
     <?php
 		        if (isset($_SESSION['session_email'])) {
               echo '<li class="nav-link"><a href="./register/logout.php">Logout</a></li>
@@ -60,9 +62,7 @@ session_start();
 		            echo '<li class="nav-link"><a href="./register/login.php">Register</a></li>';
 		        }
 		    ?>
-    <li class="nav-link">
-      <a href="./about.php">About</a>
-    </li>
+    
   </ul>
   </header>
 <!-- partial:index.partial.html -->

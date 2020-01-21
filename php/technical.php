@@ -21,8 +21,8 @@
 }
   </style>
 </head>
-<body style="background: linear-gradient(90deg, #B09FEE 500px, #5DE8F8 100%);">
-<header class="main-header_nav">
+
+<header class="main-header_nav" style="font-size:16px;">
 <div class="logo">
        <img  onclick="window.location.href='../index.php'" src="../static/logo3.png"  style="height:50px;width:50px;" alt="LOGO"></img>
     </div>
@@ -67,6 +67,7 @@ to enable blend-mode for all background-images or apply .m--blend-bg-active
 to some specific slides (.fnc-slide). It's disabled by default in this demo,
 because it requires specific images, where more than 50% of bg is transparent or monotone
 -->
+<body style="background: linear-gradient(90deg, #B09FEE 500px, #5DE8F8 100%);">
 <section id="section-1">
     <div class="content-slider">
       <input type="radio" id="banner1" class="sec-1-input" name="banner" checked>

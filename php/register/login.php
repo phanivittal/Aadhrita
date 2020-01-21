@@ -12,10 +12,10 @@
   <link rel="stylesheet" href="../../css/register_css/register.css">
  
 </head>
-<body >
+<body style=" background: linear-gradient(to top right, #fc2c77 0%, #6c4079 100%);">
   <header class="main-header">
   <div class="logo">
-       <img  onclick="window.location.href='../../index.php'" src="../static/logo.png" style="height:50px;width:30px;" alt="LOGO"></img>
+       <img  onclick="window.location.href='../../index.php'" src="../../static/logo.png" style="height:50px;width:30px;" alt="LOGO"></img>
     </div>
   
     <input type="checkbox" class="menu-btn" id="menu-btn">
@@ -38,7 +38,9 @@
     <li class="nav-link">
       <a href="../technical.php">Technical</a>
     </li>
-  
+    <li class="nav-link">
+      <a href="../about.php">About</a>
+    </li>
     <?php
 		        if (isset($_SESSION['session_email'])) {
               echo '<li class="nav-link"><a href="./register/logout.php">Logout</a></li>
@@ -48,9 +50,7 @@
 		            echo '<li class="nav-link"><a href="#">Register</a></li>';
 		        }
 		    ?>
-    <li class="nav-link">
-      <a href="../about.php">About</a>
-    </li>
+  
   </ul>
   </header>
   
