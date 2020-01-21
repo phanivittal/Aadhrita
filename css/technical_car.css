@@ -72,9 +72,6 @@ body {
   .main-header_nav .nav-links .nav-link:nth-last-child(1){
  margin-right: 2rem;
   }
-  
-  
-  
   .main-header_nav .nav-links .nav-link a {
     margin: .2rem;
     padding: .7rem .5rem;

@@ -443,7 +443,7 @@ button {
   min-width: 210px;
   opacity: 1;
   z-index: 9;
-  background-image: linear-gradient(to right, #92fe9d 0%, #00c9ff 100%);
+  background-image:  linear-gradient(to bottom, #ff0000 0%, #ff9933 100%);
   border: 1px solid #fff;
 }
 button span {

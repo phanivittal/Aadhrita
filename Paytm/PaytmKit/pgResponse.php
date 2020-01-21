@@ -45,5 +45,5 @@ else {
 ?>
 <?php
 
- echo "<button  onclick=\"window.location.href='/aadritha/aadritha2.0/aadritha/register/step.php'\">Continue</button>"
+ echo "<br><br><button  onclick=\"window.location.href='/aadritha/aadritha2.0/aadritha/register/step.php'\">Continue</button>"
 ?>

@@ -8,11 +8,4 @@ const header = document.querySelector('.main-header');
         header.classList.remove('scrolled');
       }
     })
-    $(document).ready(function(){
-      $('#content').load('../register/content/login.php');
-      $('#step .row button').click(function(){
-          var page=$(this).attr('data-target');
-          $('#content').load('../register/content/'+page+'.php');
-          return false;
-      });
-  });
+   

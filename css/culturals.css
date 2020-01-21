@@ -15,47 +15,47 @@
   
   .example-slider .fnc-slide-1 .fnc-slide__inner,
   .example-slider .fnc-slide-1 .fnc-slide__mask-inner {
-    background-image: url("/images/sing.jfif");
+    background-image: url("../static/images/sing.png");
   }
   .example-slider .fnc-slide-2 .fnc-slide__inner,
   .example-slider .fnc-slide-2 .fnc-slide__mask-inner {
-    background-image: url("/images/design1.png");
+    background-image: url("../static/images/arts.png");
   }
   .example-slider .fnc-slide-3 .fnc-slide__inner,
   .example-slider .fnc-slide-3 .fnc-slide__mask-inner {
-    background-image: url("/images/bobands.jpeg");
+    background-image: url("../static/images/bobands.png");
   }
   .example-slider .fnc-slide-4 .fnc-slide__inner,
   .example-slider .fnc-slide-4 .fnc-slide__mask-inner {
-    background-image: url("/images/design1.png");
+    background-image: url("../static/images/design.png");
   }
   .example-slider .fnc-slide-5 .fnc-slide__inner,
   .example-slider .fnc-slide-5 .fnc-slide__mask-inner {
-    background-image: url("/images/arts.JPG");
+    background-image: url("../static/images/arts.png");
   }
   .example-slider .fnc-slide-6 .fnc-slide__inner,
   .example-slider .fnc-slide-6 .fnc-slide__mask-inner {
-    background-image: url("/images/design1.png");
+    background-image: url("../static/images/h1.png");
   }
   .example-slider .fnc-slide-7 .fnc-slide__inner,
   .example-slider .fnc-slide-7 .fnc-slide__mask-inner {
-    background-image: url("/images/photography.jfif");
+    background-image: url("../static/images/photography.png");
   }
   .example-slider .fnc-slide-8 .fnc-slide__inner,
   .example-slider .fnc-slide-8 .fnc-slide__mask-inner {
-    background-image: url("/images/shortfilm.jpeg");
+    background-image: url("../static/images/shortfilm.png");
   }
   .example-slider .fnc-slide-9 .fnc-slide__inner,
   .example-slider .fnc-slide-9 .fnc-slide__mask-inner {
-    background-image: url("/images/design1.png");
+    background-image: url("../static/images/design.png");
   }
   .example-slider .fnc-slide-10 .fnc-slide__inner,
   .example-slider .fnc-slide-10 .fnc-slide__mask-inner {
-    background-image: url("/images/arts.jpeg");
+    background-image: url("../static/images/arts.png");
   }
   .example-slider .fnc-slide-11 .fnc-slide__inner,
   .example-slider .fnc-slide-11 .fnc-slide__mask-inner {
-    background-image: url("/images/treasure.jpeg");
+    background-image: url("../static/images/treasure.png");
   }
   .example-slider .fnc-slide-3 .fnc-slide__inner:before {
     content: "";
