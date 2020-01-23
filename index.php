@@ -47,7 +47,7 @@
               <li class="nav-link"><a href="./register/content/profile.php">Profile</a></li>';
 		        }
 		        else{
-		            echo '<li class="nav-link"><a href="./register/login.php">Register</a></li>';
+		            echo '<li class="nav-link"><a href="../php/register/login.php">Register</a></li>';
 		        }
 		    ?>
     

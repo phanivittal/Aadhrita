@@ -3,6 +3,10 @@
 session_start();
 $otp = mt_rand(1000000, 9999999);
 $_SESSION['userName']=$_POST['name'];
+$_SESSION['userName']=$_POST['name'];
+$_SESSION['userName']=$_POST['name'];
+$_SESSION['userName']=$_POST['name'];
+$_SESSION['userName']=$_POST['name'];
 
 require '../../../php/phpmailer/phpmailer/PHPMailerAutoload.php';
 

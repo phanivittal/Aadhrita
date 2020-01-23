@@ -51,5 +51,5 @@ echo '<br/>'.$_SESSION['userName'];
 ?>
 <?php
 
- echo "<br><br><button  onclick=\"window.location.href='/aadritha/aadritha2.0/aadritha/register/step.php'\">Continue</button>"
+ echo "<br><br><button  onclick=\"window.location.href='/aadritha2.8/php/register/login.php'\">Continue</button>"
 ?>

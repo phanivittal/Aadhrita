@@ -28,39 +28,39 @@
     <!-- Main CSS-->
     <link href="../../../css/register_css/main.css" rel="stylesheet" media="all">
     <script>
-    function validate() {
-        var count2=0;
-        var contact=document.myform.contact.value;
-        var psd=document.myform.psd.value;
-     	var repsd=document.myform.repsd.value;
-        if(isNaN(contact)){
-				alert("contact number shoud contain numbers");
-				return false;
-			}
-         if(contact.length<10 || contact.length>10){
-				alert("enter a valid mobile number");
-				return false;
-			}
-            
-            if(psd!=repsd){
-				alert("password did not matched...!");
-				return false;
-			}
-            for(i=0;i<psd.length;i++){
-				if(psd[i]>='A' && psd[i]<='Z') count2++;
-				
-				}
-			
-			if(count2<1||psd.length<8){
-				alert("password must contain atleast  1 capitals..! with length of 8 .!");
-				return false;
-			}
+        function validate() {
+            var count2=0;
+            var contact=document.myform.contact.value;
+            var password=document.myform.password.value;
+         	var repassword=document.myform.repassword.value;
+            if(isNaN(contact)){
+    			alert("contact number shoud contain numbers");
+    			return false;
+    		}
+            if(contact.length<10 || contact.length>10){
+    			alert("enter a valid mobile number");
+    			return false;
+    		}
+         
+            if(password!=repassword){
+    			alert("password did not matched...!");
+    			return false;
+    		}
+            for(i=0;i<password.length;i++){
+    			if(password[i]>='A' && password[i]<='Z'){
+                    count2++;
+                }
+    		}
+    		if(count2<1||password.length<8){
+    			alert("password must contain atleast  1 capitals..! with length of 8 .!");
+    			return false;
+    		}
             if(!document.getElementById('accpt').checked){
-				alert("Please accept terms and condition to proceed");
-				return false;
-			}
-            }
-        </script>
+    			alert("Please accept terms and condition to proceed");
+    			return false;
+    		}
+        }
+    </script>
 </head>
 
 <body>
@@ -74,7 +74,7 @@
                             <div class="col-1" style="width:100%">
                                 <div class="input-group">
                                     <label class="label">Full name</label>
-                                    <input class="input--style-4" type="text" name="name" required>
+                                    <input class="input--style-4" type="text" name="UserName" required>
                                 </div>
                             </div>
                             
@@ -83,7 +83,7 @@
                             <div class="col-1" style="width:100%">
                                 <div class="input-group">
                                     <label class="label">College name</label>
-                                    <input class="input--style-4" type="text" name="clg" required>
+                                    <input class="input--style-4" type="text" name="collegeName" required>
                                 </div>
                             </div>
                             
@@ -92,7 +92,7 @@
                             <div class="col-1" style="width:100%">
                                 <div class="input-group">
                                     <label class="label">college Id</label>
-                                    <input class="input--style-4" type="text" name="clgid" required>
+                                    <input class="input--style-4" type="text" name="CollegeId" required>
                                 </div>
                             </div>
                             
@@ -125,14 +125,14 @@
                         </div>
                         <div class="row row-space">
                         <div class="input-group">
-                                    <label class="label">Accomidation</label>
+                                    <label class="label">Accommodation</label>
                                     <div class="p-t-10">
                                         <label class="radio-container m-r-45">No
-                                            <input type="radio" checked="checked" name="accom" required>
+                                            <input type="radio" checked="checked" name="accommodation" value="no" required>
                                             <span class="checkmark"></span>
                                         </label>
                                         <label class="radio-container">Yes
-                                            <input type="radio" name="accom">
+                                            <input type="accommodation" name="accom" value="yes">
                                             <span class="checkmark"></span>
                                         </label>
                                     </div>
@@ -147,10 +147,10 @@
                         <div class="input-group">
                             <label class="label">Department</label>
                             <div class="rs-select2 js-select-simple select--no-search">
-                                <select name="subject" required>
+                                <select name="department" required>
                                     <option disabled="disabled" selected="selected" value="">Choose option</option>
                                     <option value="CSE">CSE</option>
-                                    <option>ECE</option>
+                                    <option value="ECE">ECE</option>
                                     <option value="MECH">MECH</option>
                                     <option value="CHEM">CHEM</option>
                                     <option value="IT">IT</option>
@@ -165,7 +165,7 @@
                         <div class="input-group">
                             <label class="label">Year</label>
                             <div class="rs-select2 js-select-simple select--no-search">
-                                <select name="subject" required>
+                                <select name="year" required>
                                     <option disabled="disabled" selected="selected" value="">Choose option</option>
                                     <option value="1">1</option>
                                     <option value="2">2</option>
@@ -190,7 +190,7 @@
                             <div class="col-1" style="width:100%">
                                 <div class="input-group">
                                     <label class="label">Password</label>
-                                    <input class="input--style-4" type="password" name="psd" required>
+                                    <input class="input--style-4" type="password" name="password" required>
                                 </div>
                             </div>
                             
@@ -199,7 +199,7 @@
                             <div class="col-1" style="width:100%">
                                 <div class="input-group">
                                     <label class="label">confirm password</label>
-                                    <input class="input--style-4" type="password" name="repsd" required>
+                                    <input class="input--style-4" type="password" name="repassword" required>
                                 </div>
                             </div>
                              <div class="row row-space">
