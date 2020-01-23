@@ -16,7 +16,7 @@
  
 <header class="main-header" style="font-size:16px;">
 <div class="logo">
-       <img   src="./static/logo.png"  style="height:50px;width:50px;" alt="LOGO"></img>
+       <img   src="./static/logo2.png"  style="height:50px;width:40px;" alt="LOGO"></img>
     </div>
     <input type="checkbox" class="menu-btn" id="menu-btn">
     <label for="menu-btn" class="menu-icon">

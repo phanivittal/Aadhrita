@@ -50,7 +50,7 @@
 </head>
 <header class="main-header">
     <div class="logo">
-       <img  onclick="window.location.href='./index.php'" src="../static/logo.png" style="height:50px;width:30px;" alt="LOGO">
+       <img  onclick="window.location.href='./index.php'" src="../static/logo1.png" style="height:50px;width:40px;" alt="LOGO">
     </div>
   
     <input type="checkbox" class="menu-btn" id="menu-btn">

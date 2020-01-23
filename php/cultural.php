@@ -28,7 +28,7 @@ session_start();
 <body  style="background-color: #36096d;background-image: linear-gradient(315deg, #36096d 0%, #37d5d6 74%);">
 <header class="main-header">
 <div class="logo">
-       <img  onclick="window.location.href='../index.php'" src="../static/logo2.png" style="height:50px;width:30px;" alt="LOGO"></img>
+       <img  onclick="window.location.href='../index.php'" src="../static/logo2.png" style="height:50px;width:40px;" alt="LOGO"></img>
     </div>
     <input type="checkbox" class="menu-btn" id="menu-btn">
     <label for="menu-btn" class="menu-icon">

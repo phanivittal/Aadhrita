@@ -1015,6 +1015,12 @@ body a {
     margin: 1.7em auto;
   }
 }
+
+@media only screen and (max-width: 380px) {
+#section-2{
+  margin-bottom: 3.5rem;
+}
+}
 html {
   scroll-behavior: smooth;
 }

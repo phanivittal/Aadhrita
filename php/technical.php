@@ -4,7 +4,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width,initial-scale=1.0" charset="utf-8">
-  <title>MVGR | Culturals</title>
+  <title>MVGR | Technical</title>
  <link rel="stylesheet" href="../css/bootstrap.min.css">
   <link rel="stylesheet" type="text/css" href="../css/technical_car.css"/>
   <link rel='stylesheet' href='https://fonts.googleapis.com/css?family=Open+Sans'>
@@ -24,7 +24,7 @@
 
 <header class="main-header_nav" style="font-size:15px;">
 <div class="logo">
-       <img  onclick="window.location.href='../index.php'" src="../static/logo2.png"  style="height:50px;width:50px;" alt="LOGO"></img>
+       <img  onclick="window.location.href='../index.php'" src="../static/logo2.png"  style="height:50px;width:40px;" alt="LOGO"></img>
     </div>
     <input type="checkbox" class="menu-btn" id="menu-btn">
     <label for="menu-btn" class="menu-icon">
