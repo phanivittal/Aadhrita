@@ -115,16 +115,16 @@ h6 {
 #intro {
   width: 100%;
   height: 100vh;
-  background: url('../../static/images/home_img/bg3.jpg') bottom center;
+  background: url('../../static/images/home/bg2.jpg') bottom center;
   background-size: 100% 100%;
   overflow: hidden;
   position: relative;
-  transition: background-size 2s;
+  transition: background-size 0.5s;
 }
 
 #intro:before {
   content: "";
-  background: linear-gradient(to right, rgba(108, 95, 38, 0.9), rgba(34, 78, 37, 0.3),rgba(0,0,0,0.1));
+  background: linear-gradient(to right, rgba(8, 17, 8, 0.9), rgba(64, 78, 51, 0.24),rgba(0,0,0,0.1));
   position: absolute;
   bottom: 0;
   top: 0;
@@ -159,7 +159,7 @@ h6 {
 #intro h1 {
   margin-left: 7%;
   color: #fff;
-  font-family: 'Kaushan Script', cursive;
+  font-family: 'Oleo Script', cursive;
   font-size: 80px;
   font-weight: 600;
   text-transform: uppercase;
@@ -195,7 +195,7 @@ h6 {
   width: 94px;
   margin-left: 7%;
   height: 94px;
-  background: radial-gradient(#63f864 50%, rgba(101, 111, 150, 0.15) 52%);
+  background: radial-gradient(#41acf8 50%, rgba(101, 111, 150, 0.15) 52%);
   border-radius: 50%;
   display: block;
   position: relative;
@@ -321,7 +321,7 @@ h6 {
 --------------------------------------------------------------*/
 
 #about {
-  background: url("../../static/images/home_img/about-bg.jpg");
+  background: url("../../static/images/home/about-bg.jpg");
   background-size: cover;
   overflow: hidden;
   position: relative;
@@ -362,7 +362,7 @@ h6 {
 
 /* About Event HighLighta */
 #aboutbg{
-  background-image: url(../../static/images/home_img/edm1.jpeg);
+  background-image: url(../../static/images/home/edm1.jpeg);
 }
 #aboutEvent{
   padding-top: 3%;
@@ -943,14 +943,19 @@ h6 {
     font-size: 60px;
   }
 
-
+  #intro{
+    background: url('../../static/images/home/m.jpg') bottom center;
+    background-size: 120% 120%;
+  }
   #intro h2 {
-    font-size: 30px;
+    font-size: 25px;
   }
   #intro p {
     font-size: 16px;
   }
-
+  #intro p1{
+    font-size: 0px;
+  }
   #schedule .nav-tabs a {
     padding: 8px 60px;
   }
@@ -969,8 +974,10 @@ h6 {
     top: 13px;
   }
 
+
+
   #intro h1 {
-    font-size: 30px;
+    font-size: 40px;
   }
 }
 
@@ -978,6 +985,7 @@ h6 {
   #schedule .nav-tabs a {
     padding: 8px 50px;
   }
+
 }
 
 @media (max-width: 574px) {

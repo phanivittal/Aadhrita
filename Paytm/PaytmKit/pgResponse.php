@@ -1,4 +1,5 @@
 <?php
+session_start();
 header("Pragma: no-cache");
 header("Cache-Control: no-cache");
 header("Expires: 0");
@@ -42,6 +43,11 @@ else {
 	echo "<b>Checksum mismatched.</b>";
 	//Process transaction as suspicious.
 }
+
+if(!isset($_SESSION['userName']))
+echo "<script> alert('null')</script>";
+else
+echo '<br/>'.$_SESSION['userName'];
 ?>
 <?php
 

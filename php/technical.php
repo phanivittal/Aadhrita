@@ -22,13 +22,13 @@
   </style>
 </head>
 
-<header class="main-header_nav" style="font-size:16px;">
+<header class="main-header_nav" style="font-size:15px;">
 <div class="logo">
-       <img  onclick="window.location.href='../index.php'" src="../static/logo3.png"  style="height:50px;width:50px;" alt="LOGO"></img>
+       <img  onclick="window.location.href='../index.php'" src="../static/logo2.png"  style="height:50px;width:50px;" alt="LOGO"></img>
     </div>
     <input type="checkbox" class="menu-btn" id="menu-btn">
     <label for="menu-btn" class="menu-icon">
-      <span class="menu-icon__line"></span>
+    <span class="menu-icon__line"></span>
     </label>
   
     <ul class="nav-links">
@@ -46,6 +46,9 @@
     <li class="nav-link">
       <a href="#">Technical</a>
     </li>
+    <li class="nav-link">
+      <a href="./about.php">About</a>
+    </li>
     <?php
 		        if (isset($_SESSION['session_email'])) {
               echo '<li class="nav-link"><a href="./register/logout.php">Logout</a></li>
@@ -55,9 +58,7 @@
 		            echo '<li class="nav-link"><a href="./register/login.php">Register</a></li>';
 		        }
 		    ?>
-    <li class="nav-link">
-      <a href="./about.php">About</a>
-    </li>
+    
   </ul>
   </header>
 <!-- partial:index.partial.html -->
@@ -91,177 +92,182 @@ because it requires specific images, where more than 50% of bg is transparent or
       <div class="slider">
         <div id="top-banner-1" class="banner">
           <div class="banner-inner-wrapper">
-            <h2>Creative Template</h2>
-            <h1>Welcome<br>to MoGo</h1>
+            <h2>Welcome to</h2>
+            <h1>Paper<br>Presentation</h1>
             <div class="line"></div>
-            <div class="learn-more-button"><a href="#section-2">Learn More</a></div>
+            <div class="learn-more-button"><a  href="#section-2">Technical</a></div>
           </div>
         </div>
         <div id="top-banner-2" class="banner">
           <div class="banner-inner-wrapper">
-            <h2>What We Do</h2>
-            <h1>Great<br>MoGo</h1>
+            <h2>Welcome to</h2>
+            <h1>&nbsp;<br>Circuitrix</h1>
             <div class="line"></div>
-            <div class="learn-more-button"><a href="#section-2">Learn More</a></div>
+            <div class="learn-more-button"><a href="#section-2">Technical</a></div>
           </div>
         </div>
         <div id="top-banner-3" class="banner">
           <div class="banner-inner-wrapper">
-            <h2>Here We Are</h2>
-            <h1>We Are<br>MoGo</h1>
+            <h2>Welcome to</h2>
+            <h1>&nbsp;<br>Witricity</h1>
             <div class="line"></div>
-            <div class="learn-more-button"><a href="#section-2">Learn More</a></div>
+            <div class="learn-more-button"><a href="#section-2">Technical</a></div>
           </div>
         </div>
         <div id="top-banner-4" class="banner">
           <div class="banner-inner-wrapper">
-            <h2>Our Contacts</h2>
-            <h1>Welcome<br>to MoGo</h1>
+            <h2>Welcome to</h2>
+            <h1>Embedded<br>Programming</h1>
             <div class="line"></div>
-            <div class="learn-more-button"><a href="#section-2">Learn More</a></div>
+            <div class="learn-more-button"><a href="#section-2">Technical</a></div>
           </div>
         </div>
         <div id="top-banner-5" class="banner">
           <div class="banner-inner-wrapper">
-            <h2>Creative Template</h2>
-            <h1>Welcome<br>to MoGo</h1>
+            <h2>Welcome to</h2>
+            <h1>&nbsp;<br>Hovercraft</h1>
             <div class="line"></div>
-            <div class="learn-more-button"><a href="#section-2">Learn More</a></div>
+            <div class="learn-more-button"><a href="#section-2">Technical</a></div>
           </div>
         </div>
         <div id="top-banner-6" class="banner">
           <div class="banner-inner-wrapper">
-            <h2>Creative Template</h2>
-            <h1>Welcome<br>to MoGo</h1>
+            <h2>Welcome to</h2>
+            <h1>&nbsp;<br>CADathon</h1>
             <div class="line"></div>
-            <div class="learn-more-button"><a href="#section-2">Learn More</a></div>
+            <div class="learn-more-button"><a href="#section-2">Technical</a></div>
           </div>
         </div>
         <div id="top-banner-7" class="banner">
           <div class="banner-inner-wrapper">
-            <h2>Creative Template</h2>
-            <h1>Welcome<br>to MoGo</h1>
+            <h2>Welcome to</h2>
+            <h1>Water<br>Rocket</h1>
             <div class="line"></div>
-            <div class="learn-more-button"><a href="#section-2">Learn More</a></div>
+            <div class="learn-more-button"><a href="#section-2">Technical</a></div>
           </div>
         </div>
         <div id="top-banner-8" class="banner">
           <div class="banner-inner-wrapper">
-            <h2>Creative Template</h2>
-            <h1>Welcome<br>to MoGo</h1>
+            <h2>Welcome to</h2>
+            <h1>Hydraulic<br>Crane</h1>
             <div class="line"></div>
-            <div class="learn-more-button"><a href="#section-2">Learn More</a></div>
+            <div class="learn-more-button"><a href="#section-2">Technical</a></div>
           </div>
         </div>
         <div id="top-banner-9" class="banner">
           <div class="banner-inner-wrapper">
-            <h2>Creative Template</h2>
-            <h1>Welcome<br>to MoGo</h1>
+            <h2>Welcome to</h2>
+            <h1>&nbsp;<br>Instridge</h1>
             <div class="line"></div>
-            <div class="learn-more-button"><a href="#section-2">Learn More</a></div>
+            <div class="learn-more-button"><a href="#section-2">Technical</a></div>
           </div>
         </div>
         <div id="top-banner-10" class="banner">
           <div class="banner-inner-wrapper">
-            <h2>Creative Template</h2>
-            <h1>Welcome<br>to MoGo</h1>
+            <h2>Welcome to</h2>
+            <h1>Code<br>Champs</h1>
             <div class="line"></div>
-            <div class="learn-more-button"><a href="#section-2">Learn More</a></div>
+            <div class="learn-more-button"><a href="#section-2">Technical</a></div>
           </div>
         </div>
         <div id="top-banner-11" class="banner">
           <div class="banner-inner-wrapper">
-            <h2>Creative Template</h2>
-            <h1>Welcome<br>to MoGo</h1>
+            <h2>Welcome to</h2>
+            <h1>&nbsp;<br>Hackathon</h1>
             <div class="line"></div>
-            <div class="learn-more-button"><a href="#section-2">Learn More</a></div>
+            <div class="learn-more-button"><a href="#section-2">Technical</a></div>
           </div>
         </div>
         <div id="top-banner-12" class="banner">
           <div class="banner-inner-wrapper">
-            <h2>Creative Template</h2>
-            <h1>Welcome<br>to MoGo</h1>
+            <h2>Welcome to</h2>
+            <h1>TS<br>Software</h1>
             <div class="line"></div>
-            <div class="learn-more-button"><a href="#section-2">Learn More</a></div>
+            <div class="learn-more-button"><a href="#section-2">Technical</a></div>
           </div>
         </div>
         <div id="top-banner-13" class="banner">
           <div class="banner-inner-wrapper">
-            <h2>Creative Template</h2>
-            <h1>Welcome<br>to MoGo</h1>
+            <h2>Welcome to</h2>
+            <h1>TS<br>Industrial</h1>
             <div class="line"></div>
-            <div class="learn-more-button"><a href="#section-2">Learn More</a></div>
+            <div class="learn-more-button"><a href="#section-2">Technical</a></div>
           </div>
         </div>
+       
         <div id="top-banner-14" class="banner">
           <div class="banner-inner-wrapper">
-            <h2>Creative Template</h2>
-            <h1>Welcome<br>to MoGo</h1>
+            <h2>Welcome to</h2>
+            <h1>Business<br>Quiz</h1>
             <div class="line"></div>
-            <div class="learn-more-button"><a href="#section-2">Learn More</a></div>
+            <div class="learn-more-button"><a href="#section-2">Technical</a></div>
           </div>
         </div>
         <div id="top-banner-15" class="banner">
           <div class="banner-inner-wrapper">
-            <h2>Creative Template</h2>
-            <h1>Welcome<br>to MoGo</h1>
+            <h2>Welcome to</h2>
+            <h1>Business<br>Quiz</h1>
             <div class="line"></div>
-            <div class="learn-more-button"><a href="#section-2">Learn More</a></div>
+            <div class="learn-more-button"><a href="#section-2">Technical</a></div>
           </div>
         </div>
         <div id="top-banner-16" class="banner">
           <div class="banner-inner-wrapper">
-            <h2>Creative Template</h2>
-            <h1>Welcome<br>to MoGo</h1>
+            <h2>Welcome to</h2>
+            <h1>Business<br>Plan</h1>
             <div class="line"></div>
-            <div class="learn-more-button"><a href="#section-2">Learn More</a></div>
+            <div class="learn-more-button"><a href="#section-2">Technical</a></div>
           </div>
         </div>
         <div id="top-banner-17" class="banner">
           <div class="banner-inner-wrapper">
-            <h2>Creative Template</h2>
-            <h1>Welcome<br>to MoGo</h1>
+            <h2>Welcome to</h2>
+            <h1>&nbsp;<br>HR Event</h1>
             <div class="line"></div>
-            <div class="learn-more-button"><a href="#section-2">Learn More</a></div>
+            <div class="learn-more-button"><a href="#section-2">Technical</a></div>
           </div>
         </div>
         <div id="top-banner-18" class="banner">
           <div class="banner-inner-wrapper">
-            <h2>Creative Template</h2>
-            <h1>Welcome<br>to MoGo</h1>
+            <h2>Welcome to</h2>
+            <h1>Finance<br>Event</h1>
             <div class="line"></div>
-            <div class="learn-more-button"><a href="#section-2">Learn More</a></div>
+            <div class="learn-more-button"><a href="#section-2">Technical</a></div>
           </div>
         </div>
       </div>
       <nav>
         <div class="controls">
-          <label for="banner1"><span class="progressbar"><span class="progressbar-fill"></span></span><span>01</span> Intro</label>
-          <label for="banner2"><span class="progressbar"><span class="progressbar-fill"></span></span><span>02</span> Work</label>
-          <label for="banner3"><span class="progressbar"><span class="progressbar-fill"></span></span><span>03</span> About</label>
-          <label for="banner4"><span class="progressbar"><span class="progressbar-fill"></span></span><span>04</span> Contacts</label>
-          <label for="banner5"><span class="progressbar"><span class="progressbar-fill"></span></span><span>05</span> Intro</label>
-          <label for="banner6"><span class="progressbar"><span class="progressbar-fill"></span></span><span>06</span> Work</label>
-          <label for="banner7"><span class="progressbar"><span class="progressbar-fill"></span></span><span>07</span> About</label>
-          <label for="banner8"><span class="progressbar"><span class="progressbar-fill"></span></span><span>08</span> Contacts</label>
-          <label for="banner9"><span class="progressbar"><span class="progressbar-fill"></span></span><span>09</span> Intro</label>
-          <label for="banner10"><span class="progressbar"><span class="progressbar-fill"></span></span><span>10</span> Work</label>
-          <label for="banner11"><span class="progressbar"><span class="progressbar-fill"></span></span><span>11</span> About</label>
-          <label for="banner12"><span class="progressbar"><span class="progressbar-fill"></span></span><span>12</span> Contacts</label>
-          <label for="banner13"><span class="progressbar"><span class="progressbar-fill"></span></span><span>13</span> Intro</label>
-          <label for="banner14"><span class="progressbar"><span class="progressbar-fill"></span></span><span>14</span> Work</label>
-          <label for="banner15"><span class="progressbar"><span class="progressbar-fill"></span></span><span>15</span> About</label>
-          <label for="banner16"><span class="progressbar"><span class="progressbar-fill"></span></span><span>16</span> Contacts</label>
-          <label for="banner17"><span class="progressbar"><span class="progressbar-fill"></span></span><span>17</span> About</label>
-          <label for="banner18"><span class="progressbar"><span class="progressbar-fill"></span></span><span>18</span> Contacts</label>
+          <label for="banner1"><span class="progressbar"><span class="progressbar-fill"></span></span><span>01</span> Paper Presentation</label>
+          <label for="banner1"><span class="progressbar"><span class="progressbar-fill"></span></span><span>02</span> Circuitrix</label>
+          <label for="banner3"><span class="progressbar"><span class="progressbar-fill"></span></span><span>03</span> Witricity</label>
+          <label for="banner4"><span class="progressbar"><span class="progressbar-fill"></span></span><span>04</span> Embedded Programming</label>
+          <label for="banner5"><span class="progressbar"><span class="progressbar-fill"></span></span><span>05</span> Hovercraft</label>
+          <label for="banner6"><span class="progressbar"><span class="progressbar-fill"></span></span><span>06</span> CADathon</label>
+          <label for="banner7"><span class="progressbar"><span class="progressbar-fill"></span></span><span>07</span> Water Rocket</label>
+          <label for="banner8"><span class="progressbar"><span class="progressbar-fill"></span></span><span>08</span> Hydraulic<br>Crane</label>
+          <label for="banner9"><span class="progressbar"><span class="progressbar-fill"></span></span><span>09</span> Instridge</label>
+          <label for="banner10"><span class="progressbar"><span class="progressbar-fill"></span></span><span>10</span> Code Champs</label>
+          <label for="banner11"><span class="progressbar"><span class="progressbar-fill"></span></span><span>11</span> Hackathon</label>
+          <label for="banner12"><span class="progressbar"><span class="progressbar-fill"></span></span><span>12</span> TS Software</label>
+          <label for="banner13"><span class="progressbar"><span class="progressbar-fill"></span></span><span>13</span> TS Industrial</label>
+          <label for="banner14"><span class="progressbar"><span class="progressbar-fill"></span></span><span>14</span> Marketing Event</label>
+          <label for="banner15"><span class="progressbar"><span class="progressbar-fill"></span></span><span>15</span> Business Quiz</label>
+          <label for="banner16"><span class="progressbar"><span class="progressbar-fill"></span></span><span>16</span> Business Plan</label>
+          <label for="banner17"><span class="progressbar"><span class="progressbar-fill"></span></span><span>17</span> HR Event</label>
+          <label for="banner18"><span class="progressbar"><span class="progressbar-fill"></span></span><span>18</span> Finance Event</label>
         </div>
       </nav>
     </div>
-  </section>
-  <section id="section-2" style="height: 50vh;background-color: aquamarine;">
+    <section class="text-center" id="section-2" style="height:30vh;bakground-color:#fff;">  
+    <br><br>
 
-    Heloo man
-  </section>
+<h3 >About</h3>
+  <br>  
+  <h2>Mvgr technical Events </h2>
+  
+  <h5>It's the perfect time for tech-enthusiasts to glue their eyes to computer screens and show-off their skills. </h5>
+</section> 
   <div class="container">
     <div class="row" >
       <?php

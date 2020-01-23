@@ -2,6 +2,7 @@
 <?php 
 session_start();
 $otp = mt_rand(1000000, 9999999);
+$_SESSION['userName']=$_POST['name'];
 
 require '../../../php/phpmailer/phpmailer/PHPMailerAutoload.php';
 
@@ -149,18 +150,27 @@ $mail->send();
       <td>txnAmount*</td>
       <td><input title="TXN_AMOUNT" tabindex="10" size="45"
 						type="text" name="TXN_AMOUNT"
-						value="<?php echo $amount?>" readonly></td>
+						value="<?php echo $amount?>" ></td>
+    </tr>
+    <tr>
+      <th scope="row">5</th>
+      <td>odfghj*</td>
+      <td><input title="TXN_AMOUNT" tabindex="10" size="45"
+						type="text" name="TXN_AMOUNT1"
+						value="<?php echo $_POST['name']?>" ></td>
     </tr>
     <tr>
       <th scope="row">6</th>
       <td>Enter OTP</td>
       <td> <input  type="password"  size="45" name="fotp" id="iotp" required> </td>
     </tr>
+    
     <tr>
       <th scope="row"></th>
       <td></td>
       <td><input value="CheckOut" type="submit"	onclick=""></td>
     </tr>
+    
   </tbody>
 </table>
     

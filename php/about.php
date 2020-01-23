@@ -326,8 +326,8 @@
         <div class="col-md-4">
           <h4 class="my-3 text-warning text-center text-md-left">Map</h4>
           <div class="py-2">
-            <iframe width="230"
-                    height="230"
+            <iframe width="230px"
+                    height="230px"
                     frameborder="2" style="border:0;width:100%;height:auto;" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3793.245677096944!2d83.40339111442094!3d18.06017798767875!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3a3be4c4081c8dbb%3A0x1c634bbcd67ea3bf!2sMaharaj%20Vijayaram%20Gajapathi%20Raj%20College%20of%20Engineering%20(Autonomous)!5e0!3m2!1sen!2sin!4v1577787304518!5m2!1sen!2sin" width="600" height="450" frameborder="0" style="border:0;" allowfullscreen=""></iframe>
           </div>
         </div>
@@ -338,6 +338,7 @@
               <p align="center" style="padding-top: 20px;">Copyright &copy;2020,MVGR</p>
           </div>
           </footer>
+      </div>
 <script src="../js/nav.js"></script>
 <script src="../js/jquery.min.js"></script>
 <script src='https://kit.fontawesome.com/a076d05399.js'></script> 

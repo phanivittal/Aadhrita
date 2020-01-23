@@ -3,7 +3,7 @@
 <head>
   <title>Aadhrita | Home </title>
   <meta content="width=device-width, initial-scale=1.0" name="viewport">
-  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,700,700i|Raleway:300,400,500,700,800" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,700,700i|Raleway:300,400,500,700,800|Oleo+Script" rel="stylesheet">
   <link href="./css/bootstrap.min.css" rel="stylesheet">
   <link rel="stylesheet" href="./css/navbar.css">
   <link href="js/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
@@ -16,7 +16,7 @@
  
 <header class="main-header" style="font-size:16px;">
 <div class="logo">
-       <img   src="./static/logo3.png"  style="height:50px;width:50px;" alt="LOGO"></img>
+       <img   src="./static/logo.png"  style="height:50px;width:50px;" alt="LOGO"></img>
     </div>
     <input type="checkbox" class="menu-btn" id="menu-btn">
     <label for="menu-btn" class="menu-icon">
@@ -57,7 +57,7 @@
   <section id="intro">
     <div class="intro-container wow fadeIn">
 
-      <h1 class="mb-4 pb-0 title">Aadhritha&nbsp;&nbsp;&nbsp;2020</h1>
+      <h1 class="mb-4 pb-0 title">Aadhrita&nbsp;&nbsp;&nbsp;2020</h1>
      <p1>‘Aadhrita12’ aims in bringing together budding engineers <br>across the corners of the country to take part in it <br>thereby providing them a platform to brainstorm on developments in their disciplines.</p1>
       <h2 class="mb-4">&nbsp;<br>Venue</h2>
       <p class="mb-4 pb-10"><span> 20-24 Feb, MVGR College of Engineering, Vizianagaram</span></p>
@@ -94,7 +94,7 @@
           <div class="blog-slider__wrp swiper-wrapper">
             <div class="blog-slider__item swiper-slide">
               <div class="blog-slider__img">
-                <img src="static/images/home_img/edm1.jpeg" alt="">
+                <img src="static/images/home/edm1.jpeg" alt="">
               </div>
               <div class="blog-slider__content">
                 <h class="mb-4 pb-0">Event HighLights</h>
@@ -109,7 +109,7 @@
             </div>
             <div class="blog-slider__item swiper-slide">
               <div class="blog-slider__img">
-                <img src="static/images/home_img/cultural.jpeg" alt="">
+                <img src="static/images/home/cultural.jpeg" alt="">
               </div>
               <div class="blog-slider__content">
                 <h>Event HighLights</h>
@@ -127,7 +127,7 @@
 
             <div class="blog-slider__item swiper-slide">
               <div class="blog-slider__img">
-                <img src="static/images/home_img/trea.jpeg" alt="">
+                <img src="static/images/home/trea.jpeg" alt="">
               </div>
               <div class="blog-slider__content">
                 <h>Event HighLights</h>
@@ -164,8 +164,7 @@
           </li>
         </ul>
 
-        <h3 class="sub-heading">Voluptatem nulla veniam soluta et corrupti consequatur neque eveniet officia. Eius
-          necessitatibus voluptatem quis labore perspiciatis quia.</h3>
+        <h3 class="sub-heading">Events  Starting at</h3>
 
         <div class="tab-content row justify-content-center pl-2">
           <div role="tabpanel" class="col-lg-9 tab-pane fade show active" id="day-1">
@@ -315,17 +314,15 @@
       <div class="container">
         <div class="section-header">
           <h2>Our Gallery</h2>
-          <p>Sed tamen tempor magna labore dolore dolor sint tempor duis magna elit veniam aliqua esse amet veniam enim export quid quid veniam aliqua eram noster malis nulla duis fugiat culpa esse aute nulla ipsum velit export irure minim illum fore</p>
+          <p>Gallery </p>
         </div>
       </div>
-
       <div class="container-fluid">
         <div class="row no-gutters">
-
           <div class="col-lg-3 col-md-4">
             <div class="portfolio-item wow fadeInUp">
-              <a href="static/images/home_img/portfolio/1.jpg" class="portfolio-popup">
-                <img src="static/images/home_img/portfolio/1.jpg" alt="">
+              <a href="static/images/home/portfolio/1.jpg" class="portfolio-popup">
+                <img src="static/images/home/portfolio/1.jpg" alt="">
                 <div class="portfolio-overlay">
                   <div class="portfolio-info"><h2 class="wow fadeInUp">Portfolio Item 1</h2></div>
                 </div>
@@ -335,8 +332,8 @@
 
           <div class="col-lg-3 col-md-4">
             <div class="portfolio-item wow fadeInUp">
-              <a href="static/images/home_img/portfolio/2.jpg" class="portfolio-popup">
-                <img src="static/images/home_img/portfolio/2.jpg" alt="">
+              <a href="static/images/home/portfolio/2.jpg" class="portfolio-popup">
+                <img src="static/images/home/portfolio/2.jpg" alt="">
                 <div class="portfolio-overlay">
                   <div class="portfolio-info"><h2 class="wow fadeInUp">Portfolio Item 2</h2></div>
                 </div>
@@ -346,8 +343,8 @@
 
           <div class="col-lg-3 col-md-4">
             <div class="portfolio-item wow fadeInUp">
-              <a href="static/images/home_img/portfolio/3.jpg" class="portfolio-popup">
-                <img src="static/images/home_img/portfolio/3.jpg" alt="">
+              <a href="static/images/home/portfolio/3.jpg" class="portfolio-popup">
+                <img src="static/images/home/portfolio/3.jpg" alt="">
                 <div class="portfolio-overlay">
                   <div class="portfolio-info"><h2 class="wow fadeInUp">Portfolio Item 3</h2></div>
                 </div>
@@ -357,8 +354,8 @@
 
           <div class="col-lg-3 col-md-4">
             <div class="portfolio-item wow fadeInUp">
-              <a href="static/images/home_img/portfolio/4.jpg" class="portfolio-popup">
-                <img src="static/images/home_img/portfolio/4.jpg" alt="">
+              <a href="static/images/home/portfolio/4.jpg" class="portfolio-popup">
+                <img src="static/images/home/portfolio/4.jpg" alt="">
                 <div class="portfolio-overlay">
                   <div class="portfolio-info"><h2 class="wow fadeInUp">Portfolio Item 4</h2></div>
                 </div>
@@ -368,8 +365,8 @@
 
           <div class="col-lg-3 col-md-4">
             <div class="portfolio-item wow fadeInUp">
-              <a href="static/images/home_img/portfolio/5.jpg" class="portfolio-popup">
-                <img src="static/images/home_img/portfolio/5.jpg" alt="">
+              <a href="static/images/home/portfolio/5.jpg" class="portfolio-popup">
+                <img src="static/images/home/portfolio/5.jpg" alt="">
                 <div class="portfolio-overlay">
                   <div class="portfolio-info"><h2 class="wow fadeInUp">Portfolio Item 5</h2></div>
                 </div>
@@ -379,8 +376,8 @@
 
           <div class="col-lg-3 col-md-4">
             <div class="portfolio-item wow fadeInUp">
-              <a href="static/images/home_img/portfolio/6.jpg" class="portfolio-popup">
-                <img src="static/images/home_img/portfolio/6.jpg" alt="">
+              <a href="static/images/home/portfolio/6.jpg" class="portfolio-popup">
+                <img src="static/images/home/portfolio/6.jpg" alt="">
                 <div class="portfolio-overlay">
                   <div class="portfolio-info"><h2 class="wow fadeInUp">Portfolio Item 6</h2></div>
                 </div>
@@ -390,8 +387,8 @@
 
           <div class="col-lg-3 col-md-4">
             <div class="portfolio-item wow fadeInUp">
-              <a href="static/images/home_img/portfolio/7.jpg" class="portfolio-popup">
-                <img src="static/images/home_img/portfolio/7.jpg" alt="">
+              <a href="static/images/home/portfolio/7.jpg" class="portfolio-popup">
+                <img src="static/images/home/portfolio/7.jpg" alt="">
                 <div class="portfolio-overlay">
                   <div class="portfolio-info"><h2 class="wow fadeInUp">Portfolio Item 7</h2></div>
                 </div>
@@ -401,8 +398,8 @@
 
           <div class="col-lg-3 col-md-4">
             <div class="portfolio-item wow fadeInUp">
-              <a href="static/images/home_img/portfolio/8.jpg" class="portfolio-popup">
-                <img src="static/images/home_img/portfolio/8.jpg" alt="">
+              <a href="static/images/home/portfolio/8.jpg" class="portfolio-popup">
+                <img src="static/images/home/portfolio/8.jpg" alt="">
                 <div class="portfolio-overlay">
                   <div class="portfolio-info"><h2 class="wow fadeInUp">Portfolio Item 8</h2></div>
                 </div>
@@ -422,46 +419,46 @@
         <div class="row no-gutters supporters-wrap clearfix">
           <div class="col-lg-3 col-md-4 col-xs-6">
             <div class="supporter-logo">
-              <img src="static/images/home_img/supporters/1.png" class="img-fluid" alt="">
+              <img src="static/images/home/supporters/1.png" class="img-fluid" alt="">
             </div>
           </div>
           <div class="col-lg-3 col-md-4 col-xs-6">
             <div class="supporter-logo">
-              <img src="static/images/home_img/supporters/2.png" class="img-fluid" alt="">
+              <img src="static/images/home/supporters/2.png" class="img-fluid" alt="">
             </div>
           </div>
           <div class="col-lg-3 col-md-4 col-xs-6">
             <div class="supporter-logo">
-              <img src="static/images/home_img/supporters/3.png" class="img-fluid" alt="">
+              <img src="static/images/home/supporters/3.png" class="img-fluid" alt="">
             </div>
           </div>
           <div class="col-lg-3 col-md-4 col-xs-6">
             <div class="supporter-logo">
-              <img src="static/images/home_img/supporters/4.png" class="img-fluid" alt="">
-            </div>
-          </div>
-
-          <div class="col-lg-3 col-md-4 col-xs-6">
-            <div class="supporter-logo">
-              <img src="static/images/home_img/supporters/5.png" class="img-fluid" alt="">
+              <img src="static/images/home/supporters/4.png" class="img-fluid" alt="">
             </div>
           </div>
 
           <div class="col-lg-3 col-md-4 col-xs-6">
             <div class="supporter-logo">
-              <img src="static/images/home_img/supporters/6.png" class="img-fluid" alt="">
+              <img src="static/images/home/supporters/5.png" class="img-fluid" alt="">
             </div>
           </div>
 
           <div class="col-lg-3 col-md-4 col-xs-6">
             <div class="supporter-logo">
-              <img src="static/images/home_img/supporters/7.png" class="img-fluid" alt="">
+              <img src="static/images/home/supporters/6.png" class="img-fluid" alt="">
             </div>
           </div>
 
           <div class="col-lg-3 col-md-4 col-xs-6">
             <div class="supporter-logo">
-              <img src="static/images/home_img/supporters/8.png" class="img-fluid" alt="">
+              <img src="static/images/home/supporters/7.png" class="img-fluid" alt="">
+            </div>
+          </div>
+
+          <div class="col-lg-3 col-md-4 col-xs-6">
+            <div class="supporter-logo">
+              <img src="static/images/home/supporters/8.png" class="img-fluid" alt="">
             </div>
           </div>
 

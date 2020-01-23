@@ -7,7 +7,7 @@ session_start();
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width,initial-scale=1.0" charset="utf-8">
-  <title>MVGR | Culturals</title>
+  <title>MVGR | workshop </title>
  <link rel="stylesheet" href="../css/bootstrap.min.css">
   <link rel='stylesheet' href='https://fonts.googleapis.com/css?family=Open+Sans'>
   <link rel="stylesheet" href="../css/culturals.css">
@@ -86,7 +86,7 @@ because it requires specific images, where more than 50% of bg is transparent or
           <div class="fnc-slide__content">
             <h3 class="fnc-slide__heading">
               <div class="fnc-slide__heading-line">
-                <span>Data Science</span>
+                <span>Data Science </span>
               </div>
             </h3>
             <button type="button" class="fnc-slide__action-btn">
@@ -106,11 +106,9 @@ because it requires specific images, where more than 50% of bg is transparent or
           <div class="fnc-slide__content">
             <h3 class="fnc-slide__heading">
               <div class="fnc-slide__heading-line">
-                <span>Solar Vehicle</span>
+                <span>IEEE Wie</span>
               </div>
-              <div class="fnc-slide__heading-line">
-                <span>Design</span>
-              </div>
+              
             </h3>
             <button type="button" class="fnc-slide__action-btn">
               Workshop
@@ -129,7 +127,7 @@ because it requires specific images, where more than 50% of bg is transparent or
           <div class="fnc-slide__content">
             <h3 class="fnc-slide__heading">
               <div class="fnc-slide__heading-line">
-                <span>Epannet</span>
+                <span>IEEE- STEP</span>
               </div>
               
             </h3>
@@ -140,49 +138,6 @@ because it requires specific images, where more than 50% of bg is transparent or
           </div>
         </div>
       </div>
-      <!-- slide end -->
-      <!-- slide start -->
-      <div class="fnc-slide m--blend-blue">
-        <div class="fnc-slide__inner">
-          <div class="fnc-slide__mask">
-            <div class="fnc-slide__mask-inner"></div>
-          </div>
-          <div class="fnc-slide__content">
-            <h3 class="fnc-slide__heading">
-              <div class="fnc-slide__heading-line">
-                <span>Stock Market</span>
-              </div>
-              
-            </h3>
-            <button type="button" class="fnc-slide__action-btn">
-              Workshop
-              <span data-text="Workshop">Workshop</span>
-            </button>
-          </div>
-        </div>
-      </div>
-      <!-- slide end -->
-         <!-- slide start -->
-         <div class="fnc-slide m--blend-grey">
-          <div class="fnc-slide__inner">
-            <div class="fnc-slide__mask">
-              <div class="fnc-slide__mask-inner"></div>
-            </div>
-            <div class="fnc-slide__content">
-              <h3 class="fnc-slide__heading">
-                <div class="fnc-slide__heading-line">
-                  <span>IOT</span>
-                </div>
-                
-              </h3>
-              <button type="button" class="fnc-slide__action-btn">
-                Workshop
-                <span data-text="Workshop">Workshop</span>
-              </button>
-            </div>
-          </div>
-        </div>
-        <!-- slide end -->
               
     </div>
 
@@ -191,8 +146,6 @@ because it requires specific images, where more than 50% of bg is transparent or
         <div class="fnc-nav__bg m--navbg-green m--active-nav-bg"></div>
         <div class="fnc-nav__bg m--navbg-dark"></div>
         <div class="fnc-nav__bg m--navbg-red"></div>
-        <div class="fnc-nav__bg m--navbg-blue"></div>
-        <div class="fnc-nav__bg m--navbg-grey"></div>
         
       </div>
       <div class="fnc-nav__controls">
@@ -201,21 +154,14 @@ because it requires specific images, where more than 50% of bg is transparent or
           <span class="fnc-nav__control-progress"></span>
         </button>
         <button class="fnc-nav__control">
-          Solar Vehicle Design
+          IEEE Wie
           <span class="fnc-nav__control-progress"></span>
         </button>
         <button class="fnc-nav__control">
-          Epannet
+          IEEE -STEP
           <span class="fnc-nav__control-progress"></span>
         </button>
-        <button class="fnc-nav__control">
-         Stock Market
-          <span class="fnc-nav__control-progress"></span>
-        </button>
-        <button class="fnc-nav__control">
-         IOT
-          <span class="fnc-nav__control-progress"></span>
-        </button>        
+        
       </div>
     </nav>
   </div>

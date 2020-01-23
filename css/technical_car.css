@@ -429,6 +429,8 @@ body {
 /*------------------------------------------------------------*/
 body section {
   display: block;
+  scroll-behavior: smooth;
+  transition: all 1000ms ease;
 }
 body h1,
 body h2,
@@ -548,10 +550,16 @@ body a {
   border: none;
 }
 /* Section-1 Styles */
+#section-2{
+  scroll-behavior: smooth;
+  transition: all 1000ms ease;
+}
 #section-1 {
   height: 50em;
   color: #fff;
   background-color: #222;
+  scroll-behavior: smooth;
+  transition: all 1000ms ease;
 }
 #section-1 .content-slider {
   position: relative;
@@ -583,7 +591,7 @@ body a {
 #section-1 .content-slider .slider .banner .banner-inner-wrapper {
   height: 100%;
   padding-top: 6em;
-  background-image: linear-gradient(rgba(243, 129, 129, 0.9), rgba(252, 227, 138, 0.9));
+  background-image: linear-gradient(to right, rgba(18, 22, 20, 0.9), rgba(34, 78, 37, 0.3), rgba(18, 22, 20, 0.9));
   box-sizing: border-box;
 }
 #section-1 .content-slider .slider .banner .banner-inner-wrapper h2 {
@@ -615,83 +623,85 @@ body a {
   font-size: 0.875em;
   color: #fff;
   text-transform: uppercase;
+  text-decoration: none;
   border: 0.1875em solid #fff;
 }
 #section-1 .content-slider .slider .banner .banner-inner-wrapper .learn-more-button a:hover {
   color: #e88382;
   border-color: #e88382;
   transition: 0.3s;
+  text-decoration: none;
 }
 #section-1 .content-slider .slider #top-banner-1 {
-  background: url('https://checkboxes-demo.webdevs.co.ua/images/mogo/banner-1.png') no-repeat center center;
+  background: url('../static/images/technical/paper.png') no-repeat center center;
   background-size: cover;
 }
 #section-1 .content-slider .slider #top-banner-2 {
-  background: url('https://checkboxes-demo.webdevs.co.ua/images/mogo/banner-2.png') no-repeat center center;
+  background: url('../static/images/technical/circuit.png') no-repeat center center;
   background-size: cover;
 }
 #section-1 .content-slider .slider #top-banner-3 {
-  background: url('https://checkboxes-demo.webdevs.co.ua/images/mogo/banner-3.png') no-repeat center center;
+  background: url('../static/images/technical/witric.png') no-repeat center center;
   background-size: cover;
 }
 #section-1 .content-slider .slider #top-banner-4 {
-  background: url('https://checkboxes-demo.webdevs.co.ua/images/mogo/banner-4.png') no-repeat center center;
+  background: url('../static/images/technical/embedded.png') no-repeat center center;
   background-size: cover;
 }
 #section-1 .content-slider .slider #top-banner-5 {
-  background: url('https://checkboxes-demo.webdevs.co.ua/images/mogo/banner-1.png') no-repeat center center;
+  background: url('../static/images/technical/hovercraft.png') no-repeat center center;
   background-size: cover;
 }
 #section-1 .content-slider .slider #top-banner-6 {
-  background: url('https://checkboxes-demo.webdevs.co.ua/images/mogo/banner-3.png') no-repeat center center;
+  background: url('../static/images/technical/cad.png') no-repeat center center;
   background-size: cover;
 }
 #section-1 .content-slider .slider #top-banner-7 {
-  background: url('https://checkboxes-demo.webdevs.co.ua/images/mogo/banner-4.png') no-repeat center center;
+  background: url('../static/images/technical/water_rocket.png') no-repeat center center;
   background-size: cover;
 }
 #section-1 .content-slider .slider #top-banner-8 {
-  background: url('https://checkboxes-demo.webdevs.co.ua/images/mogo/banner-1.png') no-repeat center center;
+  background: url('../static/images/technical/hydraulic.png') no-repeat center center;
   background-size: cover;
 }
 #section-1 .content-slider .slider #top-banner-9 {
-  background: url('https://checkboxes-demo.webdevs.co.ua/images/mogo/banner-2.png') no-repeat center center;
+  background: url('../static/images/technical/instridge.png') no-repeat center center;
   background-size: cover;
 }
 #section-1 .content-slider .slider #top-banner-10 {
-  background: url('https://checkboxes-demo.webdevs.co.ua/images/mogo/banner-3.png') no-repeat center center;
+  background: url('../static/images/technical/code.png') no-repeat center center;
   background-size: cover;
 }
 #section-1 .content-slider .slider #top-banner-11{
-  background: url('https://checkboxes-demo.webdevs.co.ua/images/mogo/banner-4.png') no-repeat center center;
+  background: url('../static/images/technical/hackathon.png') no-repeat center center;
   background-size: cover;
 }
 #section-1 .content-slider .slider #top-banner-12 {
-  background: url('https://checkboxes-demo.webdevs.co.ua/images/mogo/banner-1.png') no-repeat center center;
+  background: url('../static/images/technical/software.png') no-repeat center center;
   background-size: cover;
 }
 #section-1 .content-slider .slider #top-banner-13 {
-  background: url('https://checkboxes-demo.webdevs.co.ua/images/mogo/banner-2.png') no-repeat center center;
+  background: url('../static/images/technical/tsindustrial.png') no-repeat center center;
   background-size: cover;
 }
 #section-1 .content-slider .slider #top-banner-14 {
-  background: url('https://checkboxes-demo.webdevs.co.ua/images/mogo/banner-3.png') no-repeat center center;
+  background: url('../static/images/technical/marketing.png') no-repeat center center;
   background-size: cover;
 }
 #section-1 .content-slider .slider #top-banner-15 {
-  background: url('https://checkboxes-demo.webdevs.co.ua/images/mogo/banner-4.png') no-repeat center center;
+  background: url('../static/images/technical/bquiz.png') no-repeat center center;
   background-size: cover;
 }
 #section-1 .content-slider .slider #top-banner-16 {
-  background: url('https://checkboxes-demo.webdevs.co.ua/images/mogo/banner-3.png') no-repeat center center;
+  background: url('../static/images/technical/bplan.png') no-repeat center center;
   background-size: cover;
 }
 #section-1 .content-slider .slider #top-banner-17 {
-  background: url('https://checkboxes-demo.webdevs.co.ua/images/mogo/banner-4.png') no-repeat center center;
+  background: url('../static/images/technical/hr.png') no-repeat center center;
   background-size: cover;
 }
 #section-1 .content-slider .slider #top-banner-18 {
-  background: url('https://checkboxes-demo.webdevs.co.ua/images/mogo/banner-2.png') no-repeat center center;
+  background: url('../static/images/technical/finance.png') no-repeat center center;
   background-size: cover;
 }
 
@@ -1004,4 +1014,7 @@ body a {
   #section-1 .content-slider .slider .banner .banner-inner-wrapper .line {
     margin: 1.7em auto;
   }
+}
+html {
+  scroll-behavior: smooth;
 }

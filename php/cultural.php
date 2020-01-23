@@ -25,10 +25,10 @@ session_start();
   </style>
 
 </head>
-<body  style="background: linear-gradient(90deg, #fc6076 360px, #ff9a44 100%);">
+<body  style="background-color: #36096d;background-image: linear-gradient(315deg, #36096d 0%, #37d5d6 74%);">
 <header class="main-header">
 <div class="logo">
-       <img  onclick="window.location.href='../index.php'" src="../static/logo.png" style="height:50px;width:30px;" alt="LOGO"></img>
+       <img  onclick="window.location.href='../index.php'" src="../static/logo2.png" style="height:50px;width:30px;" alt="LOGO"></img>
     </div>
     <input type="checkbox" class="menu-btn" id="menu-btn">
     <label for="menu-btn" class="menu-icon">
@@ -37,7 +37,7 @@ session_start();
   
     <ul class="nav-links">
       <li class="nav-link">
-        <a href="./index.php">Home</a>
+        <a href="../index.php">Home</a>
       </li>
      
       <li class="nav-link">
