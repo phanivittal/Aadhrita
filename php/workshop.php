@@ -56,8 +56,10 @@ session_start();
     </li>
     <?php
 		        if (isset($_SESSION['session_email'])) {
-              echo '<li class="nav-link"><a href="./register/logout.php">Logout</a></li>
-              <li class="nav-link"><a href="./register/content/profile.php">Profile</a></li>';
+              echo '
+              <li class="nav-link"><a href="./register/content/profile.php">Profile</a></li>
+              <li class="nav-link"><a href="./register/logout.php">Logout</a></li>
+              ';
 		        }
 		        else{
 		            echo '<li class="nav-link"><a href="./register/login.php">Register</a></li>';

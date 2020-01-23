@@ -25,37 +25,36 @@
     <label for="menu-btn" class="menu-icon">
       <span class="menu-icon__line"></span>
     </label>
-  
     <ul class="nav-links">
-      <li class="nav-link">
-        <a href="../../index.php">Home</a>
-      </li>
-     
-      <li class="nav-link">
-        <a href="../workshop.php">WorkShops</a>
-      </li>
-      <li class="nav-link">
-        <a href="../cultural.php">Culturals</a>
-      </li>
-    
-    <li class="nav-link">
-      <a href="../technical.php">Technical</a>
-    </li>
+    	<li class="nav-link"><a href="../../index.php">Home</a></li>
+    	<li class="nav-link"><a href="../workshop.php">WorkShops</a></li>
+    	<li class="nav-link"><a href="../cultural.php">Culturals</a></li>
+    	<li class="nav-link"><a href="../technical.php">Technical</a></li>
+    	<li class="nav-link"><a href="../about.php">About</a></li>
+    	<?php
+    	if (isset($_SESSION['session_email'])) {
+    		echo '
+    		<li class="nav-link"><a href="./content/profile.php">Profile</a></li>
+    		<li class="nav-link"><a href="./register/logout.php">Logout</a></li>';
+    	}
+    	else{
+    		echo '<li class="nav-link"><a href="#">Register</a></li>';
+    	}
+    ?>
+    </ul>
   
     <?php
 		        if (isset($_SESSION['session_email'])) {
-					echo '<li class="nav-link"><a href="./register/logout.php">Logout</a></li>
-					<li class="nav-link"><a href="./content/profile.php">Profile</a></li>';
+					echo '
+					<li class="nav-link"><a href="./content/profile.php">Profile</a></li>
+					<li class="nav-link"><a href="./register/logout.php">Logout</a></li>
+					';
 		        }
 		        else{
 					echo '<li class="nav-link"><a href="./register/login.php">Register</a></li>
 						';
 		        }
 		    ?>
-    <li class="nav-link">
-      <a href="../about.php">About</a>
-    </li>
-  </ul>
   </header>
 	<body>
 	<div class="container jumbotron mt-5">

@@ -1,21 +1,21 @@
 <?php
-	session_start();
+session_start();
 ?>
 
 <!DOCTYPE html>
 <html>
-  <head>
-  	<title>Team Registration</title>
-  	<meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width,initial-scale=1.0" charset="utf-8">
-    <meta name="author" content=" seepana sai kiran">
-    <link rel="stylesheet" href="../css/bootstrap.min.css">
-    <link rel="stylesheet" type="text/css" href="../css/workshopcs.css"/>
-    <link rel='stylesheet' href='https://fonts.googleapis.com/css?family=Open+Sans'>
-    <link rel="stylesheet" href="../css/carousel_ext.css">
-    <link rel="stylesheet" href="../css/navbar.css">
-    <link rel="stylesheet" href="../css/card.css">
-  </head>
+<head>
+ <title>Team Registration</title>
+ <meta charset="UTF-8">
+ <meta name="viewport" content="width=device-width,initial-scale=1.0" charset="utf-8">
+ <meta name="author" content=" seepana sai kiran">
+ <link rel="stylesheet" href="../css/bootstrap.min.css">
+ <link rel="stylesheet" type="text/css" href="../css/workshopcs.css"/>
+ <link rel='stylesheet' href='https://fonts.googleapis.com/css?family=Open+Sans'>
+ <link rel="stylesheet" href="../css/carousel_ext.css">
+ <link rel="stylesheet" href="../css/navbar.css">
+ <link rel="stylesheet" href="../css/card.css">
+</head>
 <body>
 
 	<header class="main-header">
@@ -31,16 +31,21 @@
       <li class="nav-link"><a href="./technical.php">Technical</a></li>
       <li class="nav-link"><a href="./about.php">About</a></li>
       <?php
-              if (isset($_SESSION['session_email'])) {
-                echo '<li class="nav-link"><a href="./logout.php">Logout</a></li>';
-              }
-              else{
-                echo '<li class="nav-link"><a href="./register.php">Register</a></li>';
-              }
-            ?>
+      if (isset($_SESSION['session_email'])) {  
+        echo '
+        <li class="nav-link"><a href="#">Profile</a></li>
+        <li class="nav-link"><a href="../logout.php">Logout</a></li>
+        ';
+      }
+      else{
+        echo '
+        <li class="nav-link"><a href="./register/login.php">Register</a></li>
+        ';
+      }
+      ?>
     </ul>
   </header>
-<?php
+  <?php
   require './php/db/db.php';
   $_SESSION['team_size'] = $_POST['tsize'];
   $tsize = $_POST['tsize'];
@@ -156,46 +161,46 @@
       }
     }
   }
-?>
-    <footer  style="background-color: #2c292f;padding-top: 30px;min-height: 280;">
-      <div class="container">
-        <div class="row">
-          <div class="col-md-3 text-center ">
-            <h4 class="my-3 text-white">About<br><span class="mx-auto my-3  text-warning ">MVGR College of Engineering</span></h4>
-            <ul style="color:aliceblue">
-              <li>Alumini</li>
-              <li>Events</li>
-              <li>News & Events</li>
-              <li>Gallery</li>
-              <li>Press & Media</li>
-            </ul>
+  ?>
+  <footer  style="background-color: #2c292f;padding-top: 30px;min-height: 280;">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-3 text-center ">
+          <h4 class="my-3 text-white">About<br><span class="mx-auto my-3  text-warning ">MVGR College of Engineering</span></h4>
+          <ul style="color:aliceblue">
+            <li>Alumini</li>
+            <li>Events</li>
+            <li>News & Events</li>
+            <li>Gallery</li>
+            <li>Press & Media</li>
+          </ul>
+        </div>
+        <div class="col-md-3">
+          <div class="py-5">
+            <iframe width="230" height="230" frameborder="2" style="border:0;width:100%;height:auto;" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3793.245677096944!2d83.40339111442094!3d18.06017798767875!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3a3be4c4081c8dbb%3A0x1c634bbcd67ea3bf!2sMaharaj%20Vijayaram%20Gajapathi%20Raj%20College%20of%20Engineering%20(Autonomous) !5e0!3m2!1sen!2sin!4v1577787304518!5m2!1sen!2sin" width="600" height="450" frameborder="0" style="border:0;" allowfullscreen=""></iframe>
           </div>
-          <div class="col-md-3">
-            <div class="py-5">
-              <iframe width="230" height="230" frameborder="2" style="border:0;width:100%;height:auto;" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3793.245677096944!2d83.40339111442094!3d18.06017798767875!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3a3be4c4081c8dbb%3A0x1c634bbcd67ea3bf!2sMaharaj%20Vijayaram%20Gajapathi%20Raj%20College%20of%20Engineering%20(Autonomous) !5e0!3m2!1sen!2sin!4v1577787304518!5m2!1sen!2sin" width="600" height="450" frameborder="0" style="border:0;" allowfullscreen=""></iframe>
+        </div>
+        <div class="col-md-3 text-white text-center text-md-left">
+          <div class="py-0 my-4" >
+            <div>
+              <p class="text-white text-center text-md-left"> <i class="fa fa-map-marker mx-auto  "></i>
+                MVGR College of Engineering(A),
+                Vijayaram Nagar campus, Chintalavalasa,
+              Vizianagaram, Andhra Pradesh 535005</p></i>
             </div>
-          </div>
-          <div class="col-md-3 text-white text-center text-md-left">
-            <div class="py-0 my-4" >
-              <div>
-                <p class="text-white text-center text-md-left"> <i class="fa fa-map-marker mx-auto  "></i>
-                    MVGR College of Engineering(A),
-                    Vijayaram Nagar campus, Chintalavalasa,
-                    Vizianagaram, Andhra Pradesh 535005</p></i>
-              </div>
-              <div>
-                  <p><i class="fa fa-phone  mx-auto my-3 "></i> Contact: 08922 241732,<br>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp 08922 241039</p>
-              </div>
-  
-              <div>
-                  <p><i class="fa fa-envelope  mx-auto my-3"></i><a href="mailto:office@mvgrce.com">office@mvgrce.com</a></p>
-              </div>
-               <p class="footer-links font-weight-bold">
-                  <a class="text-white" href="#">Home |</a>
-                  <a class="text-white" href="#">Blog |</a>
-                  <a class="text-white" href="#">About |</a>
-                  <a class="text-white" href="#">Contact</a>
-              </p><br>
+            <div>
+              <p><i class="fa fa-phone  mx-auto my-3 "></i> Contact: 08922 241732,<br>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp 08922 241039</p>
+            </div>
+            
+            <div>
+              <p><i class="fa fa-envelope  mx-auto my-3"></i><a href="mailto:office@mvgrce.com">office@mvgrce.com</a></p>
+            </div>
+            <p class="footer-links font-weight-bold">
+              <a class="text-white" href="#">Home |</a>
+              <a class="text-white" href="#">Blog |</a>
+              <a class="text-white" href="#">About |</a>
+              <a class="text-white" href="#">Contact</a>
+            </p><br>
           </div>
         </div>
         <div class="col-md-3 text-center">
@@ -215,14 +220,14 @@
           </div>
         </div>
       </div>
-      </div>
-      <div class="foot" style="width: 100%;color: azure;background-color:dimgrey;height: 80px;margin-bottom: 0">
-        <p align="center" style="padding-top: 20px;">Copyright &copy;2020,MVGR</p>
-      </div>
-    </footer>
-    <script src="../js/jquery.min.js"></script>
-    <script src='https://kit.fontawesome.com/a076d05399.js'></script> 
-    <script  src="../js/common.js"></script>
-    <script src="../js/popper.min.js"></script>
+    </div>
+    <div class="foot" style="width: 100%;color: azure;background-color:dimgrey;height: 80px;margin-bottom: 0">
+      <p align="center" style="padding-top: 20px;">Copyright &copy;2020,MVGR</p>
+    </div>
+  </footer>
+  <script src="../js/jquery.min.js"></script>
+  <script src='https://kit.fontawesome.com/a076d05399.js'></script> 
+  <script  src="../js/common.js"></script>
+  <script src="../js/popper.min.js"></script>
 </body>
 </html>

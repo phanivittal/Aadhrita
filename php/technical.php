@@ -51,8 +51,10 @@
     </li>
     <?php
 		        if (isset($_SESSION['session_email'])) {
-              echo '<li class="nav-link"><a href="./register/logout.php">Logout</a></li>
-              <li class="nav-link"><a href="./register/content/profile.php">Profile</a></li>';
+              echo '
+              <li class="nav-link"><a href="./register/content/profile.php">Profile</a></li>
+              <li class="nav-link"><a href="./register/logout.php">Logout</a></li>
+              ';
 		        }
 		        else{
 		            echo '<li class="nav-link"><a href="./register/login.php">Register</a></li>';
@@ -304,7 +306,7 @@ because it requires specific images, where more than 50% of bg is transparent or
                     <p> For Rules <a href="'.$row['pdfs'].'">click here</a></p>
                   </div>
                   <div class="container mt-3">
-                    <a type="button" class="btn btn-info" href="../php/register/re_registrations.php?id='.urlencode(utf8_encode($eid)).'">Register</a>
+                    <a type="button" class="btn btn-info" href="../php/register/teamRegistrations.php?id='.urlencode(utf8_encode($eid)).'">Register</a>
                   </div>
                 </div>
               </div>
