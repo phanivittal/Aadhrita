@@ -7,6 +7,7 @@
   <title>MVGR | About Us</title>
   <link rel="stylesheet" href="../css/bootstrap.min.css">
   <link rel="stylesheet" type="text/css" href="../css/about.css"/>
+  <link rel="stylesheet" href="../css/navbar.css">
   <script src="../js/jquery.min.js"></script>
   <script src='https://kit.fontawesome.com/a076d05399.js'></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
@@ -74,7 +75,7 @@
     <a href="./technical.php">Technical</a>
   </li>
   <li class="nav-link">
-    <a href="./about.php">About</a>
+    <a href="#" class="active">About</a>
   </li>
   <?php
   if (isset($_SESSION['session_email'])) {

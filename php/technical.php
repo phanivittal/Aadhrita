@@ -44,7 +44,7 @@
       </li>
     
     <li class="nav-link">
-      <a href="#">Technical</a>
+      <a href="#"  class="active">Technical</a>
     </li>
     <li class="nav-link">
       <a href="./about.php">About</a>

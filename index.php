@@ -28,7 +28,7 @@ session_start();
 
 <ul class="nav-links">
   <li class="nav-link">
-    <a href="#">Home</a>
+    <a href="#" class="active">Home</a>
   </li>
 
   <li class="nav-link">

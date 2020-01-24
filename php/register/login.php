@@ -5,9 +5,7 @@
   <meta name="viewport" content="width=device-width,initial-scale=1.0" charset="utf-8">
   <title>MVGR | Register</title>
   <link rel="stylesheet" href="../../css/bootstrap.min.css">
-  <script src="../../js/jquery.min.js"></script>
-  <script src='https://kit.fontawesome.com/a076d05399.js'></script>  
-  <script src="../../js/popper.min.js"></script>
+  <link rel="stylesheet" href="../../css/navbar.css">
   <link rel='stylesheet' href='https://fonts.googleapis.com/css?family=Open+Sans'>
   <link rel="stylesheet" href="../../css/register_css/register.css">
 
@@ -27,7 +25,19 @@
     <li class="nav-link"><a href="../cultural.php">Culturals</a></li>
     <li class="nav-link"><a href="../technical.php">Technical</a></li>
     <li class="nav-link"><a href="../about.php">About</a></li>
-    <li class="nav-link"><a href="#">Register</a></li>
+   
+    <?php
+		        if (isset($_SESSION['session_email'])) {
+              echo '
+              <li class="nav-link"><a href="./content/profile.php">Profile</a></li>
+              <li class="nav-link"><a href="./logout.php">Logout</a></li>
+              ';
+		        }
+		        else{
+		            echo '<li class="nav-link"><a  class="active" href="./login.php">Register</a></li>';
+		        }
+		    ?>
+    
   </ul>
 </header>
 
@@ -120,6 +130,9 @@
     <p align="center" style="padding-top: 20px;">Copyright &copy;2020,MVGR</p>
   </div>
 </footer>
+<script src="../../js/jquery.min.js"></script>
+  <script src='https://kit.fontawesome.com/a076d05399.js'></script>  
+  <script src="../../js/popper.min.js"></script>
 <script  src="../../js/register_js/register.js"></script>
 </body >
 </html>

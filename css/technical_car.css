@@ -77,7 +77,7 @@ body {
     padding: .7rem .5rem;
   }
   
-  .main-header_nav .nav-links .nav-link a:hover {
+  .main-header_nav .nav-links .nav-link a:hover ,.active{
    background:rgba(255,255,255,0.4);
   border-radius: 4px;
   }
@@ -150,6 +150,10 @@ body {
     .main-header_nav .menu-icon {
       display: block;
     }
+    .main-header_nav .nav-links .nav-link:nth-last-child(1){
+      margin-right: 0rem;
+      padding-left: 1.5rem;
+       }
     .main-header_nav .menu-icon__line {
       -webkit-animation: closedMid 0.8s backwards;
               animation: closedMid 0.8s backwards;

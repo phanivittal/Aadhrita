@@ -44,7 +44,7 @@ session_start();
       <a href="./workshop.php">WorkShops</a>
     </li>
     <li class="nav-link">
-      <a href="#">Culturals</a>
+      <a href="#"  class="active">Culturals</a>
     </li>
     
     <li class="nav-link">

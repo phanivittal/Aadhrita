@@ -42,7 +42,7 @@ session_start();
       </li>
      
       <li class="nav-link">
-        <a href="#">WorkShops</a>
+        <a href="#" class="active">WorkShops</a>
       </li>
       <li class="nav-link">
         <a href="./cultural.php">Culturals</a>
