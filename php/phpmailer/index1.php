@@ -13,7 +13,7 @@ $mail->SMTPSecure='tls';
 $mail->Username='mvgrce17331a0564@gmail.com';
 $mail->Password='mailpassword';
 
-$mail->setFrom('mvgrce17331a0564@gmail.com','nani');
+$mail->setFrom('mvgrce17331a0564@gmail.com','aadhrita2020');
 $mail->addAddress($_POST['e1']);
 
 

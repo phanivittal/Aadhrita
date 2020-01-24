@@ -74,7 +74,7 @@
                             <div class="col-1" style="width:100%">
                                 <div class="input-group">
                                     <label class="label">Full name</label>
-                                    <input class="input--style-4" type="text" name="UserName" required>
+                                    <input class="input--style-4" type="text" name="userName" required>
                                 </div>
                             </div>
                             
@@ -210,7 +210,7 @@
                                 </div>
                         </div>
                         <select name="amount" style="display:none">
-                            <option value="350"></option>
+                            <option value="1"></option>
                          </select>
                         <div class="p-t-15">
                             <button class="btn btn--radius-2 btn--blue" type="submit">Submit</button>

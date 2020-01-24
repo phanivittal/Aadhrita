@@ -1,12 +1,15 @@
 <?php 
 session_start();
 $otp = mt_rand(1000000, 9999999);
-$_SESSION['userName']=$_POST['name'];
-$_SESSION['userName']=$_POST['name'];
-$_SESSION['userName']=$_POST['name'];
-$_SESSION['userName']=$_POST['name'];
-$_SESSION['userName']=$_POST['name'];
-
+$_SESSION['userName']=$_POST['userName'];
+$_SESSION['email']=$_POST['email'];
+$_SESSION['amount']=$_POST['amount'];
+$_SESSION['collegeName']=$_POST['collegeName'];
+$_SESSION['password']=$_POST['password'];
+$_SESSION['department']=$_POST['department'];
+$_SESSION['year']=$_POST['year'];
+$_SESSION['accommodation']=$_POST['accommodation'];
+        
 require '../../../php/phpmailer/phpmailer/PHPMailerAutoload.php';
 
 $mail = new PHPMailer;
@@ -33,11 +36,11 @@ $mail->send();
 header("Pragma: no-cache");
 header("Cache-Control: no-cache");
 header("Expires: 0");
-if(isset($_POST['amount'])&&isset($_POST['email'])&&isset($_POST['name'])&&isset($_POST['clg'])){
+if(isset($_POST['amount'])){
   $amount=$_POST['amount'];
   $email=$_POST['email'];
-  $name=$_POST['name'];
-  $clg=$_POST['clg'];
+  $name=$_POST['userName'];
+  $clg=$_POST['collegeName'];
 }
 ?>
 <!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
@@ -79,7 +82,7 @@ if(isset($_POST['amount'])&&isset($_POST['email'])&&isset($_POST['name'])&&isset
 	<h1 style="padding:20px;">AADHRITA REGISTRATION</h1>
 	<pre>
 	</pre>
-  <form name="myform" method="post" action="../../../Paytm/PaytmKit/pgRedirect.php" onsubmit="return validate()">
+  <form name="myform" method="post" action="../../../Paytm/PaytmKit/pgRedirect.php" onsubmit="return validate()" autocomplete="yes">
     <table class="table table-striped table-dark">
       <tr>
         <td>
@@ -162,7 +165,7 @@ if(isset($_POST['amount'])&&isset($_POST['email'])&&isset($_POST['name'])&&isset
           <td>
             <input title="TXN_AMOUNT" tabindex="10" size="45"
             type="text" name="TXN_AMOUNT"
-            value="<?php echo $amount?>" >
+            value="<?php echo $amount?>" readonly>
           </td>
         </tr>
         <tr>
