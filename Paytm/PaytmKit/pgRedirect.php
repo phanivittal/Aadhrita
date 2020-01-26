@@ -24,8 +24,10 @@ $paramList["CHANNEL_ID"] = $CHANNEL_ID;
 $paramList["TXN_AMOUNT"] = $TXN_AMOUNT;
 $paramList["WEBSITE"] = PAYTM_MERCHANT_WEBSITE;
 
+$EMAIL = $_POST["email"];
+$paramList["EMAIL"] = $EMAIL;
 
-$paramList["CALLBACK_URL"] = "http://localhost/aadhrita/tests/aadhrita2.8/Paytm/PaytmKit/pgResponse.php";
+$paramList["CALLBACK_URL"] = "http://localhost/git/aadhrita/Paytm/PaytmKit/pgResponse.php";
 /*
 $paramList["MSISDN"] = $MSISDN; //Mobile number of customer
 $paramList["EMAIL"] = $EMAIL; //Email ID of customer

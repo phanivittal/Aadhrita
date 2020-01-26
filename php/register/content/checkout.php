@@ -21,13 +21,13 @@ $mail->SMTPSecure='tls';
 $mail->Username='mvgrce17331a0564@gmail.com';
 $mail->Password='mailpassword';
 
-$mail->setFrom('mvgrce17331a0564@gmail.com','nani');
+$mail->setFrom('mvgrce17331a0564@gmail.com','aadhrita2020');
 $mail->addAddress($_POST['email']);
 
 
 $mail->isHTML(true);
-$mail->Subject ='otp';
-$mail->Body=$otp;
+$mail->Subject =' OTP For registration of aadhrita2020 ';
+$mail->Body='<h3> AADHRITA2020 OTP : '.$otp.'</h3>';
 $mail->send();
 
 ?>
@@ -79,9 +79,9 @@ if(isset($_POST['amount'])){
   </script>
 </head>
 <body>
-	<h1 style="padding:20px;">AADHRITA REGISTRATION</h1>
-	<pre>
-	</pre>
+  <h1 style="padding:20px;">AADHRITA REGISTRATION</h1>
+  <pre>
+  </pre>
   <form name="myform" method="post" action="../../../Paytm/PaytmKit/pgRedirect.php" onsubmit="return validate()" autocomplete="yes">
     <table class="table table-striped table-dark">
       <tr>
@@ -174,7 +174,7 @@ if(isset($_POST['amount'])){
           <td>
             <input title="TXN_AMOUNT" tabindex="10" size="45"
             type="text" name="TXN_AMOUNT1"
-            value="<?php echo $_POST['name']?>" >
+            value="<?php echo $_POST['userName']?>" >
           </td>
         </tr>
         <tr>
@@ -191,7 +191,7 @@ if(isset($_POST['amount'])){
 
           </td>
           <td>
-            <input value="CheckOut" type="submit"	onclick="">
+            <input value="CheckOut" type="submit" onclick="">
           </td>
         </tr>
 

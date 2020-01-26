@@ -1,6 +1,5 @@
 <?php
- session_start();
- $_SESSION['user']="AAD3RE001";
+session_start();
 ?>
 <!DOCTYPE html>
 <html lang="en">
@@ -32,35 +31,35 @@
             var count2=0;
             var contact=document.myform.contact.value;
             var password=document.myform.password.value;
-         	var repassword=document.myform.repassword.value;
+            var repassword=document.myform.repassword.value;
             if(isNaN(contact)){
-    			alert("contact number shoud contain numbers");
-    			return false;
-    		}
-            if(contact.length<10 || contact.length>10){
-    			alert("enter a valid mobile number");
-    			return false;
-    		}
-         
-            if(password!=repassword){
-    			alert("password did not matched...!");
-    			return false;
-    		}
-            for(i=0;i<password.length;i++){
-    			if(password[i]>='A' && password[i]<='Z'){
-                    count2++;
-                }
-    		}
-    		if(count2<1||password.length<8){
-    			alert("password must contain atleast  1 capitals..! with length of 8 .!");
-    			return false;
-    		}
-            if(!document.getElementById('accpt').checked){
-    			alert("Please accept terms and condition to proceed");
-    			return false;
-    		}
+               alert("contact number shoud contain numbers");
+               return false;
+           }
+           if(contact.length<10 || contact.length>10){
+               alert("enter a valid mobile number");
+               return false;
+           }
+
+           if(password!=repassword){
+               alert("password did not matched...!");
+               return false;
+           }
+           for(i=0;i<password.length;i++){
+               if(password[i]>='A' && password[i]<='Z'){
+                count2++;
+            }
         }
-    </script>
+        if(count2<1||password.length<8){
+           alert("password must contain atleast  1 capitals..! with length of 8 .!");
+           return false;
+       }
+       if(!document.getElementById('accpt').checked){
+           alert("Please accept terms and condition to proceed");
+           return false;
+       }
+   }
+</script>
 </head>
 
 <body>
@@ -95,20 +94,34 @@
                                     <input class="input--style-4" type="text" name="CollegeId" required>
                                 </div>
                             </div>
-                            
                         </div>
+                        <div class="row row-space">
+                            <div class="col-1" style="width:100%">
+                                <div class="input-group">
+                                    <label class="label">Email</label>
+                                    <input class="input--style-4" type="email"  name="email" required>
+                                </div>
+                            </div>
+                        </div>
+
                         <div class="row row-space">
                             <div class="col-2">
                                 <div class="input-group">
-                                    <label class="label">city</label>
-                                    <div class="input-group-icon">
-                                        <input class="input--style-4" type="text" name="city" required>
-                                     
-                                    </div>
+                                    <label class="label">Phone Number</label>
+                                    <input class="input--style-4" type="text" name="contact" required>
                                 </div>
                             </div>
                             <div class="col-2">
                                 <div class="input-group">
+                                    <label class="label">Pincode </label>
+                                    <div class="input-group-icon">
+                                        <input class="input--style-4" type="text" name="pincode" required>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row row-space">
+                            <div class="input-group">
                                     <label class="label">Gender</label>
                                     <div class="p-t-10">
                                         <label class="radio-container m-r-45">Male
@@ -121,26 +134,17 @@
                                         </label>
                                     </div>
                                 </div>
-                            </div>
-                        </div>
-                        <div class="row row-space">
-                        <div class="input-group">
-                                    <label class="label">Accommodation</label>
-                                    <div class="p-t-10">
-                                        <label class="radio-container m-r-45">No
-                                            <input type="radio" checked="checked" name="accommodation" value="no" required>
-                                            <span class="checkmark"></span>
-                                        </label>
-                                        <label class="radio-container">Yes
-                                            <input type="accommodation" name="accom" value="yes">
-                                            <span class="checkmark"></span>
-                                        </label>
-                                    </div>
-                                </div>
-                            <div class="col-2">
-                                <div class="input-group">
-                                    <label class="label">Phone Number</label>
-                                    <input class="input--style-4" type="text" name="contact" required>
+                            <div class="input-group">
+                                <label class="label">Accommodation</label>
+                                <div class="p-t-10">
+                                    <label class="radio-container m-r-45">No
+                                        <input type="radio" checked="checked" name="accommodation" value="NO" required>
+                                        <span class="checkmark"></span>
+                                    </label>
+                                    <label class="radio-container">Yes
+                                        <input type="accommodation" name="accommodation" value="YES">
+                                        <span class="checkmark"></span>
+                                    </label>
                                 </div>
                             </div>
                         </div>
@@ -175,15 +179,7 @@
                                 <div class="select-dropdown"></div>
                             </div>
                         </div>
-                        <div class="row row-space">
-                            <div class="col-1" style="width:100%">
-                                <div class="input-group">
-                                    <label class="label">Email</label>
-                                    <input class="input--style-4" type="email"  name="email" required>
-                                </div>
-                            </div>
-                            
-                        </div>
+                        
                         
                         
                         <div class="row row-space">
@@ -202,35 +198,35 @@
                                     <input class="input--style-4" type="password" name="repassword" required>
                                 </div>
                             </div>
-                             <div class="row row-space">
+                            <div class="row row-space">
                                 <div class="col-1" style="width:100%">
                                     <div class="input-group">
-                                    <label class="label" style="color:red;">Registration fee is Rs.350/- </label>   
+                                        <label class="label" style="color:red;">Registration fee is Rs.350/- </label>   
                                     </div>
                                 </div>
-                        </div>
-                        <select name="amount" style="display:none">
-                            <option value="1"></option>
-                         </select>
-                        <div class="p-t-15">
-                            <button class="btn btn--radius-2 btn--blue" type="submit">Submit</button>
-                        </div>
-                    </form>
+                            </div>
+                            <select name="amount" style="display:none">
+                                <option value="1"></option>
+                            </select>
+                            <div class="p-t-15">
+                                <button class="btn btn--radius-2 btn--blue" type="submit">Submit</button>
+                            </div>
+                        </form>
+                    </div>
                 </div>
             </div>
         </div>
-    </div>
 
-    <!-- Jquery JS-->
-    <script src="../../../js/jquery.min.js"></script>
-    <!-- ../css/register_css JS-->
-    <script src="../../../js/register_js/select2/select2.min.js"></script>
-   
+        <!-- Jquery JS-->
+        <script src="../../../js/jquery.min.js"></script>
+        <!-- ../css/register_css JS-->
+        <script src="../../../js/register_js/select2/select2.min.js"></script>
 
-    <!-- Main JS-->
-    <script src=" ../../../js/register_js/global.js"></script>
 
-</body><!-- This templates was made by Colorlib (https://colorlib.com) -->
-<script src='https://kit.fontawesome.com/a076d05399.js'></script>
-</html>
+        <!-- Main JS-->
+        <script src=" ../../../js/register_js/global.js"></script>
+
+    </body><!-- This templates was made by Colorlib (https://colorlib.com) -->
+    <script src='https://kit.fontawesome.com/a076d05399.js'></script>
+    </html>
 <!-- end document-->
