@@ -15,47 +15,47 @@
   
   .example-slider .fnc-slide-1 .fnc-slide__inner,
   .example-slider .fnc-slide-1 .fnc-slide__mask-inner {
-    background-image: url("../static/images/cultural/sing.png");
+    background-image: url("../static/images/culturals/singing.png");
   }
   .example-slider .fnc-slide-2 .fnc-slide__inner,
   .example-slider .fnc-slide-2 .fnc-slide__mask-inner {
-    background-image: url("../static/images/cultural/arts.png");
+    background-image: url("../static/images/culturals/arts.png");
   }
   .example-slider .fnc-slide-3 .fnc-slide__inner,
   .example-slider .fnc-slide-3 .fnc-slide__mask-inner {
-    background-image: url("../static/images/cultural/bobands.png");
+    background-image: url("../static/images/culturals/battle_of_bands.png");
   }
   .example-slider .fnc-slide-4 .fnc-slide__inner,
   .example-slider .fnc-slide-4 .fnc-slide__mask-inner {
-    background-image: url("../static/images/cultural/design.png");
+    background-image: url("../static/images/culturals/design.png");
   }
   .example-slider .fnc-slide-5 .fnc-slide__inner,
   .example-slider .fnc-slide-5 .fnc-slide__mask-inner {
-    background-image: url("../static/images/cultural/arts.png");
+    background-image: url("../static/images/culturals/arts.png");
   }
   .example-slider .fnc-slide-6 .fnc-slide__inner,
   .example-slider .fnc-slide-6 .fnc-slide__mask-inner {
-    background-image: url("../static/images/cultural/h1.png");
+    background-image: url("../static/images/culturals/h1.png");
   }
   .example-slider .fnc-slide-7 .fnc-slide__inner,
   .example-slider .fnc-slide-7 .fnc-slide__mask-inner {
-    background-image: url("../static/images/cultural/photography.png");
+    background-image: url("../static/images/culturals/photography.png");
   }
   .example-slider .fnc-slide-8 .fnc-slide__inner,
   .example-slider .fnc-slide-8 .fnc-slide__mask-inner {
-    background-image: url("../static/images/cultural/shortfilm.png");
+    background-image: url("../static/images/culturals/shortfilm.png");
   }
   .example-slider .fnc-slide-9 .fnc-slide__inner,
   .example-slider .fnc-slide-9 .fnc-slide__mask-inner {
-    background-image: url("../static/images/cultural/design.png");
+    background-image: url("../static/images/culturals/design.png");
   }
   .example-slider .fnc-slide-10 .fnc-slide__inner,
   .example-slider .fnc-slide-10 .fnc-slide__mask-inner {
-    background-image: url("../static/images/cultural/arts.png");
+    background-image: url("../static/images/culturals/arts.png");
   }
   .example-slider .fnc-slide-11 .fnc-slide__inner,
   .example-slider .fnc-slide-11 .fnc-slide__mask-inner {
-    background-image: url("../static/images/cultural/treasure.png");
+    background-image: url("../static/images/culturals/treasure.png");
   }
   .example-slider .fnc-slide-3 .fnc-slide__inner:before {
     content: "";

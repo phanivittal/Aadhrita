@@ -23,7 +23,7 @@
       background-image: linear-gradient(315deg, #f6f6f6 0%, #e9e9e9 74%);
   }
   .card.expanded {
-    height: 500px;
+    height: 540px;
   }
   .label {
     margin-top:1.5rem;
@@ -65,7 +65,8 @@
     transform: rotate(0deg);
       bottom: 15px;
   }
-  
+ 
+  }
   .title {
     font-family: 'Alegreya Sans', sans-serif;
     
