@@ -13,7 +13,7 @@
     bannerTimer = setInterval(bannerSwitcher, 4000)
   });
   const header = document.querySelector('.main-header_nav');
-    
+
   window.addEventListener('scroll', () => {
     const scrollPos = window.scrollY;
     if(scrollPos > 10){
@@ -22,6 +22,8 @@
       header.classList.remove('scrolled');
     }
   })
+
+
 ///// Anchor Smooth Scroll /////
 //   $('.main-menu a, .learn-more-button a').click(function(e){
     

@@ -42,6 +42,7 @@ if ($retval) {
     <li class="nav-link"><a href="./php/technical/">Technical</a></li>
     <li class="nav-link"><a href="./php/workshop/">WorkShops</a></li>
     <li class="nav-link"><a href="./php/cultural">Culturals</a></li>
+    <li class="nav-link"><a href="./php/sports/">sports</a></li>
     <li class="nav-link"><a href="./php/about/">About</a></li>
     <?php
     if (isset($_SESSION['session_email'])) {

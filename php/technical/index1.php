@@ -5,63 +5,48 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width,initial-scale=1.0" charset="utf-8">
   <title>Aadhrita | Technical</title>
- <link rel="stylesheet" href="../../css/bootstrap/bootstrap.min.css">
-  <link rel="stylesheet" type="text/css" href="../../css/technical_car.css"/>
-  <link rel='stylesheet' href='https://fonts.googleapis.com/css?family=Open+Sans'>
+
+  <link rel="stylesheet" href="../../css/bootstrap/bootstrap.min.css">
+  <link rel="stylesheet" href="../../css/technicalCarousel.css">
+  <link rel="stylesheet" href="../../css/navbar.css">
   <link rel="stylesheet" href="../../css/card.css">
   <link href='https://fonts.googleapis.com/css?family=Montserrat:400,700' rel='stylesheet' type='text/css'>
   <link href='https://fonts.googleapis.com/css?family=Roboto:400,700,300italic' rel='stylesheet' type='text/css'>
   <link href='https://fonts.googleapis.com/css?family=Kaushan+Script' rel='stylesheet' type='text/css'>
   <link rel='stylesheet' href='https://dl.dropboxusercontent.com/u/69747888/MoGo%20carousel/font-awesome.min.css'>
-  <style>
+  <style>  
    body h3 {
     font-family: 'Kaushan Script', cursive;
     font-size: 1.5em;
     font-weight: 400;
-}
+  }
   </style>
 </head>
 
-<header class="main-header_nav" style="font-size:15px;">
-<div class="logo">
-       <img  onclick="window.location.href='../../index.php'" src="../../static/logo2.png"  style="height:50px;width:40px;" alt="LOGO"></img>
-    </div>
-    <input type="checkbox" class="menu-btn" id="menu-btn">
-    <label for="menu-btn" class="menu-icon">
-    <span class="menu-icon__line"></span>
-    </label>
-  
-    <ul class="nav-links">
-      <li class="nav-link">
-        <a href="../../index.php">Home</a>
-      </li>
-     <li class="nav-link active">
-      <a href="#">Technical</a>
-    </li>
-      <li class="nav-link">
-        <a href="./workshop.php">WorkShops</a>
-      </li>
-      <li class="nav-link">
-        <a href="./cultural.php">Culturals</a>
-      </li>
-    
-      <li class="nav-link "><a href="./sports/">sports</a></li>
-    <li class="nav-link">
-      <a href="./about.php">About</a>
-    </li>
+<header class="main-header" style="font-size:16px;">
+  <div class="logo"><img   src="../../static/logo2.png"  style="height:50px;width:40px;" alt="LOGO"></img></div>
+  <input type="checkbox" class="menu-btn" id="menu-btn">
+  <label for="menu-btn" class="menu-icon"><span class="menu-icon__line"></span></label>
+  <ul class="nav-links">
+    <li class="nav-link"><a href="../../">Home</a></li>
+    <li class="nav-link active"><a href="../technical/">Technical</a></li>
+    <li class="nav-link"><a href="../workshop/">WorkShops</a></li>
+    <li class="nav-link"><a href="../cultural">Culturals</a></li>
+    <li class="nav-link "><a href="../sports/">sports</a></li>
+    <li class="nav-link"><a href="../about/">About</a></li>
     <?php
-      if (isset($_SESSION['session_email'])) {
-        echo '
-        <li class="nav-link"><a href="../profile/">Profile</a></li>
-        <li class="nav-link"><a href="../logout/">Logout</a></li>
-        ';
-      }
-      else{
-        echo '<li class="nav-link"><a href="../login/">Register</a></li>';
-      }
-      ?>
+    if (isset($_SESSION['session_email'])) {
+      echo '
+      <li class="nav-link"><a href="../profile/">Profile</a></li>
+      <li class="nav-link"><a href="../logout/">Logout</a></li>
+      ';
+    }
+    else{
+      echo '<li class="nav-link"><a href="../login/">Register</a></li>';
+    }
+    ?>
   </ul>
-  </header>
+</header>
 <!-- partial:index.partial.html -->
 <!-- 
 Please note, that you can apply .m--global-blending-active to .fnc-slider 
@@ -102,7 +87,7 @@ because it requires specific images, where more than 50% of bg is transparent or
         <div id="top-banner-2" class="banner">
           <div class="banner-inner-wrapper">
             <h2>Welcome to</h2>
-            <h1>Hydraulic<br>Crane</h1>
+            <h1>&nbsp;<br>Circuitrix</h1>
             <div class="line"></div>
             <div class="learn-more-button"><a href="#section-2">Technical</a></div>
           </div>
@@ -110,7 +95,7 @@ because it requires specific images, where more than 50% of bg is transparent or
         <div id="top-banner-3" class="banner">
           <div class="banner-inner-wrapper">
             <h2>Welcome to</h2>
-            <h1>Vipani <br> Kriya</h1>
+            <h1>&nbsp;<br>Witricity</h1>
             <div class="line"></div>
             <div class="learn-more-button"><a href="#section-2">Technical</a></div>
           </div>
@@ -118,7 +103,7 @@ because it requires specific images, where more than 50% of bg is transparent or
         <div id="top-banner-4" class="banner">
           <div class="banner-inner-wrapper">
             <h2>Welcome to</h2>
-            <h1>&nbsp;<br>Instridge</h1>
+            <h1>Embedded<br>Programming</h1>
             <div class="line"></div>
             <div class="learn-more-button"><a href="#section-2">Technical</a></div>
           </div>
@@ -126,7 +111,7 @@ because it requires specific images, where more than 50% of bg is transparent or
         <div id="top-banner-5" class="banner">
           <div class="banner-inner-wrapper">
             <h2>Welcome to</h2>
-            <h1>&nbsp;<br>Witricity</h1>
+            <h1>&nbsp;<br>Hovercraft</h1>
             <div class="line"></div>
             <div class="learn-more-button"><a href="#section-2">Technical</a></div>
           </div>
@@ -134,7 +119,7 @@ because it requires specific images, where more than 50% of bg is transparent or
         <div id="top-banner-6" class="banner">
           <div class="banner-inner-wrapper">
             <h2>Welcome to</h2>
-            <h1>Maanavaah Saadhana <br>Sampatti</h1>
+            <h1>&nbsp;<br>CADathon</h1>
             <div class="line"></div>
             <div class="learn-more-button"><a href="#section-2">Technical</a></div>
           </div>
@@ -142,7 +127,7 @@ because it requires specific images, where more than 50% of bg is transparent or
         <div id="top-banner-7" class="banner">
           <div class="banner-inner-wrapper">
             <h2>Welcome to</h2>
-            <h1>&nbsp<br>Hovercraft</h1>
+            <h1>Water<br>Rocket</h1>
             <div class="line"></div>
             <div class="learn-more-button"><a href="#section-2">Technical</a></div>
           </div>
@@ -150,7 +135,7 @@ because it requires specific images, where more than 50% of bg is transparent or
         <div id="top-banner-8" class="banner">
           <div class="banner-inner-wrapper">
             <h2>Welcome to</h2>
-            <h1>&nbsp;<br>Hackathon</h1>
+            <h1>Hydraulic<br>Crane</h1>
             <div class="line"></div>
             <div class="learn-more-button"><a href="#section-2">Technical</a></div>
           </div>
@@ -158,7 +143,7 @@ because it requires specific images, where more than 50% of bg is transparent or
         <div id="top-banner-9" class="banner">
           <div class="banner-inner-wrapper">
             <h2>Welcome to</h2>
-            <h1>Sampathi<br> Kreeda</h1>
+            <h1>&nbsp;<br>Instridge</h1>
             <div class="line"></div>
             <div class="learn-more-button"><a href="#section-2">Technical</a></div>
           </div>
@@ -166,7 +151,7 @@ because it requires specific images, where more than 50% of bg is transparent or
         <div id="top-banner-10" class="banner">
           <div class="banner-inner-wrapper">
             <h2>Welcome to</h2>
-            <h1>&nbsp;<br>Embedded</h1>
+            <h1>Code<br>Champs</h1>
             <div class="line"></div>
             <div class="learn-more-button"><a href="#section-2">Technical</a></div>
           </div>
@@ -174,7 +159,7 @@ because it requires specific images, where more than 50% of bg is transparent or
         <div id="top-banner-11" class="banner">
           <div class="banner-inner-wrapper">
             <h2>Welcome to</h2>
-            <h1>Code <br>Champs</h1>
+            <h1>&nbsp;<br>Hackathon</h1>
             <div class="line"></div>
             <div class="learn-more-button"><a href="#section-2">Technical</a></div>
           </div>
@@ -182,7 +167,7 @@ because it requires specific images, where more than 50% of bg is transparent or
         <div id="top-banner-12" class="banner">
           <div class="banner-inner-wrapper">
             <h2>Welcome to</h2>
-            <h1>&nbsp;<br>Circuitrix</h1>
+            <h1>TS<br>Software</h1>
             <div class="line"></div>
             <div class="learn-more-button"><a href="#section-2">Technical</a></div>
           </div>
@@ -190,7 +175,7 @@ because it requires specific images, where more than 50% of bg is transparent or
         <div id="top-banner-13" class="banner">
           <div class="banner-inner-wrapper">
             <h2>Welcome to</h2>
-            <h1>Tech<br>Industrial</h1>
+            <h1>TS<br>Industrial</h1>
             <div class="line"></div>
             <div class="learn-more-button"><a href="#section-2">Technical</a></div>
           </div>
@@ -199,7 +184,7 @@ because it requires specific images, where more than 50% of bg is transparent or
         <div id="top-banner-14" class="banner">
           <div class="banner-inner-wrapper">
             <h2>Welcome to</h2>
-            <h1>&nbsp;<br>CADathon</h1>
+            <h1>Business<br>Quiz</h1>
             <div class="line"></div>
             <div class="learn-more-button"><a href="#section-2">Technical</a></div>
           </div>
@@ -207,7 +192,7 @@ because it requires specific images, where more than 50% of bg is transparent or
         <div id="top-banner-15" class="banner">
           <div class="banner-inner-wrapper">
             <h2>Welcome to</h2>
-            <h1>&nbsp;<br>Bodha</h1>
+            <h1>Business<br>Quiz</h1>
             <div class="line"></div>
             <div class="learn-more-button"><a href="#section-2">Technical</a></div>
           </div>
@@ -215,7 +200,7 @@ because it requires specific images, where more than 50% of bg is transparent or
         <div id="top-banner-16" class="banner">
           <div class="banner-inner-wrapper">
             <h2>Welcome to</h2>
-            <h1>&nbsp;<br>Ankur</h1>
+            <h1>Business<br>Plan</h1>
             <div class="line"></div>
             <div class="learn-more-button"><a href="#section-2">Technical</a></div>
           </div>
@@ -223,7 +208,7 @@ because it requires specific images, where more than 50% of bg is transparent or
         <div id="top-banner-17" class="banner">
           <div class="banner-inner-wrapper">
             <h2>Welcome to</h2>
-            <h1>Aqua<br> Bazooka</h1>
+            <h1>&nbsp;<br>HR Event</h1>
             <div class="line"></div>
             <div class="learn-more-button"><a href="#section-2">Technical</a></div>
           </div>
@@ -231,7 +216,7 @@ because it requires specific images, where more than 50% of bg is transparent or
         <div id="top-banner-18" class="banner">
           <div class="banner-inner-wrapper">
             <h2>Welcome to</h2>
-            <h1>TECH<br> SOFTWARE</h1>
+            <h1>Finance<br>Event</h1>
             <div class="line"></div>
             <div class="learn-more-button"><a href="#section-2">Technical</a></div>
           </div>
@@ -240,23 +225,23 @@ because it requires specific images, where more than 50% of bg is transparent or
       <nav>
         <div class="controls">
           <label for="banner1" onclick="$(`#card1`).toggleClass(`expand`);location.href='#card1'"><span class="progressbar"><span class="progressbar-fill"></span></span><span>01</span>Paper Presentation</label>
-          <label for="banner2" onclick="$(`#card2`).toggleClass(`expand`);location.href='#card2'"><span class="progressbar"><span class="progressbar-fill"></span></span><span>02</span> Hydraulic Crane </label>
-          <label for="banner3" onclick="$(`#card3`).toggleClass(`expand`);location.href='#card3'"><span class="progressbar"><span class="progressbar-fill"></span></span><span>03</span> Vipani Kriya</label>
-          <label for="banner4" onclick="$(`#card4`).toggleClass(`expand`);location.href='#card4'"><span class="progressbar"><span class="progressbar-fill"></span></span><span>04</span>Instridge</label>
-          <label for="banner5" onclick="$(`#card5`).toggleClass(`expand`);location.href='#card5'"><span class="progressbar"><span class="progressbar-fill"></span></span><span>05</span> Witricity</label>
-          <label for="banner6" onclick="$(`#card6`).toggleClass(`expand`);location.href='#card6'"><span class="progressbar"><span class="progressbar-fill"></span></span><span>06</span> Sampatti</label>
-          <label for="banner7" onclick="$(`#card7`).toggleClass(`expand`);location.href='#card7'"><span class="progressbar"><span class="progressbar-fill"></span></span><span>07</span> Hovercraft</label>
-          <label for="banner8" onclick="$(`#card8`).toggleClass(`expand`);location.href='#card8'"><span class="progressbar"><span class="progressbar-fill"></span></span><span>08</span>Hackathon</label>
-          <label for="banner9" onclick="$(`#card9`).toggleClass(`expand`);location.href='#card9'"><span class="progressbar"><span class="progressbar-fill"></span></span><span>09</span>  Sampathi <br>Kreeda</label>
-          <label for="banner10" onclick="$(`#card10`).toggleClass(`expand`);location.href='#card10'"><span class="progressbar"><span class="progressbar-fill"></span></span><span>10</span> Embedded</label>
-          <label for="banner11" onclick="$(`#card11`).toggleClass(`expand`);location.href='#card11'"><span class="progressbar"><span class="progressbar-fill"></span></span><span>11</span> Code Champs</label>
-          <label for="banner12" onclick="$(`#card12`).toggleClass(`expand`);location.href='#card12'"><span class="progressbar"><span class="progressbar-fill"></span></span><span>12</span> Circuitrix</label>
-          <label for="banner13" onclick="$(`#card13`).toggleClass(`expand`);location.href='#card13'"><span class="progressbar"><span class="progressbar-fill"></span></span><span>13</span> Tech Industrial</label>
-          <label for="banner14" onclick="$(`#card14`).toggleClass(`expand`);location.href='#card14'"><span class="progressbar"><span class="progressbar-fill"></span></span><span>14</span>  CADathon</label>
-          <label for="banner15" onclick="$(`#card15`).toggleClass(`expand`);location.href='#card15'"><span class="progressbar"><span class="progressbar-fill"></span></span><span>15</span> Bodha</label>
-          <label for="banner16" onclick="$(`#card16`).toggleClass(`expand`);location.href='#card16'"><span class="progressbar"><span class="progressbar-fill"></span></span><span>16</span> Ankur</label>
-          <label for="banner17" onclick="$(`#card17`).toggleClass(`expand`);location.href='#card17'"><span class="progressbar"><span class="progressbar-fill"></span></span><span>17</span>Aqua Bazooka</label>
-          <label for="banner18" onclick="$(`#card18`).toggleClass(`expand`);location.href='#card18'"><span class="progressbar"><span class="progressbar-fill"></span></span><span>18</span>TECH SOFTWARE</label>
+          <label for="banner2" onclick="$(`#card2`).toggleClass(`expand`);location.href='#card2'"><span class="progressbar"><span class="progressbar-fill"></span></span><span>02</span> Circuitrix</label>
+          <label for="banner3" onclick="$(`#card3`).toggleClass(`expand`);location.href='#card3'"><span class="progressbar"><span class="progressbar-fill"></span></span><span>03</span> Witricity</label>
+          <label for="banner4" onclick="$(`#card4`).toggleClass(`expand`);location.href='#card4'"><span class="progressbar"><span class="progressbar-fill"></span></span><span>04</span> Embedded Programming</label>
+          <label for="banner5" onclick="$(`#card5`).toggleClass(`expand`);location.href='#card5'"><span class="progressbar"><span class="progressbar-fill"></span></span><span>05</span> Hovercraft</label>
+          <label for="banner6" onclick="$(`#card6`).toggleClass(`expand`);location.href='#card6'"><span class="progressbar"><span class="progressbar-fill"></span></span><span>06</span> CADathon</label>
+          <label for="banner7" onclick="$(`#card7`).toggleClass(`expand`);location.href='#card7'"><span class="progressbar"><span class="progressbar-fill"></span></span><span>07</span> Water Rocket</label>
+          <label for="banner8" onclick="$(`#card8`).toggleClass(`expand`);location.href='#card8'"><span class="progressbar"><span class="progressbar-fill"></span></span><span>08</span> Hydraulic<br>Crane</label>
+          <label for="banner9" onclick="$(`#card9`).toggleClass(`expand`);location.href='#card9'"><span class="progressbar"><span class="progressbar-fill"></span></span><span>09</span> Instridge</label>
+          <label for="banner10" onclick="$(`#card10`).toggleClass(`expand`);location.href='#card10'"><span class="progressbar"><span class="progressbar-fill"></span></span><span>10</span> Code Champs</label>
+          <label for="banner11" onclick="$(`#card11`).toggleClass(`expand`);location.href='#card11'"><span class="progressbar"><span class="progressbar-fill"></span></span><span>11</span> Hackathon</label>
+          <label for="banner12" onclick="$(`#card12`).toggleClass(`expand`);location.href='#card12'"><span class="progressbar"><span class="progressbar-fill"></span></span><span>12</span> TS Software</label>
+          <label for="banner13" onclick="$(`#card13`).toggleClass(`expand`);location.href='#card13'"><span class="progressbar"><span class="progressbar-fill"></span></span><span>13</span> TS Industrial</label>
+          <label for="banner14" onclick="$(`#card14`).toggleClass(`expand`);location.href='#card14'"><span class="progressbar"><span class="progressbar-fill"></span></span><span>14</span> Marketing Event</label>
+          <label for="banner15" onclick="$(`#card15`).toggleClass(`expand`);location.href='#card15'"><span class="progressbar"><span class="progressbar-fill"></span></span><span>15</span> Business Quiz</label>
+          <label for="banner16" onclick="$(`#card16`).toggleClass(`expand`);location.href='#card16'"><span class="progressbar"><span class="progressbar-fill"></span></span><span>16</span> Business Plan</label>
+          <label for="banner17" onclick="$(`#card17`).toggleClass(`expand`);location.href='#card17'"><span class="progressbar"><span class="progressbar-fill"></span></span><span>17</span> HR Event</label>
+          <label for="banner18" onclick="$(`#card18`).toggleClass(`expand`);location.href='#card18'"><span class="progressbar"><span class="progressbar-fill"></span></span><span>18</span> Finance Event</label>
         </div>
       </nav>
     </div>
@@ -266,12 +251,12 @@ because it requires specific images, where more than 50% of bg is transparent or
   <h3 style="font-size: 35px;" >About</h3>
   <h2>Mvgr technical Events </h2>
   
-  <h5 style="font-size: 19px;" > Want to unleash your technical skills by taking part in some interesting and unique competitions, then here is your chance. Aadhrita 2020 <br> offers never before opportunities to prove your technical skills. </h5>
+  <h5 style="font-size: 19px;" > Want to unleash your technical skills by taking part in some interesting and unique competitions, then here is your chance. Aadritha 2020 <br> offers never before opportunities to prove your technical skills. </h5>
   <div class="contain">
     <br><br>
   </div>
 </section> 
-<div class="container" style="padding-top: 25px">
+  <div class="container" style="padding-top: 25px">
     <div class="row" >
       <?php
           require '../db/db.php';
@@ -315,26 +300,25 @@ because it requires specific images, where more than 50% of bg is transparent or
           }
         ?>
     </div>
-    </div>
-    <footer  style="background-color: #2c292f;padding-top: 30px;min-height: 100px; font-family: 'Righteous', cursive;">
+    </div> 
+    <footer style="background-color: #2c292f;padding-top: 30px;min-height: 100px; font-family: 'Righteous', cursive;">
         <div class="container" >
           <div class="row">
-            <div class="col-md-4 text-center text-md-left">
+                   <div class="col-md-4 text-center text-md-left">
               <h4 class="my-3 text-warning">Quicklinks</h4>
               <p class="footer-links font-weight-bold">
                 <a class="text" style="color:#50d8af;" href="../../">Home |</a>
-                <a class="text"style="color: #50d8af;" href="#">Technical |</a>
-                <a class="text" style="color:#50d8af;" href="./workshop.php">Workshops |</a>
-                
-                <a class="text"style="color: #50d8af;" href="./cultural.php">Culturals |</a>
-                <!-- <a class="text"style="color: #50d8af;" href="./register/login.php">Register |</a> -->
-                <a class="text" style="color:#50d8af;" href="./about.php">About</a>
+                <a class="text"style="color: #50d8af;" href="../technical/">Technical |</a>
+                <a class="text" style="color:#50d8af;" href="../workshop/">Workshops |</a>
+                <a class="text"style="color: #50d8af;" href="../cultural/">Culturals |</a>
+                <a class="text"style="color: #50d8af;" href="../login/">Register |</a>
+                <a class="text" style="color:#50d8af;" href="../about/">About</a>
               </p>
               <div class="py-1">
                 <h4 class="my-3 text-warning">Follow us on</h4>
-                <a target="_blank" href="https://www.facebook.com/Aadhrita-MVGR-104600827715856/"><i class="fab fa-facebook fa-2x text-primary mx-3"></i></a>
+                <a target="_blank" href="https://www.facebook.com/aadhrita.mvgr"><i class="fab fa-facebook fa-2x text-primary mx-3"></i></a>
                 <a target="_blank" href="https://www.instagram.com/aadhrita2020/"><i class="fab fa-instagram fa-2x text-danger mx-6"></i></a>
-                <a target="_blank" href="https://twitter.com/MVGRCEA"><i class="fab fa-twitter fa-2x text-info mx-3"></i></a>
+                <a target="_blank" href="https://twitter.com/aadhrita2020"><i class="fab fa-twitter fa-2x text-info mx-3"></i></a>
                 <a target="_blank" href="https://www.youtube.com/channel/UCF4345SfdBnl5R73kmIfICw"><i class="fab fa-youtube fa-2x text-danger mx-6"></i></a>
               </div>
             </div>    
@@ -377,14 +361,12 @@ because it requires specific images, where more than 50% of bg is transparent or
       window.alert("Registrations will be opened soon");
     }
   </script>
+  <script src='https://kit.fontawesome.com/a076d05399.js'></script>
+  <script src='https://use.fontawesome.com/8ae46bccf5.js'></script>
   <script src="../../js/jquery.min.js"></script>
-  <script src='https://kit.fontawesome.com/a076d05399.js'></script> 
- 
   <script src="../../js/popper.min.js"></script>
   <script  src="../../js/technical_script.js"></script>
- 
-  <script src='../../js/jquery.min.js'></script>
-<script src='https://use.fontawesome.com/8ae46bccf5.js'></script>
-
+  <script src="../../js/common.js"></script> 
+  
 </body>
 </html>

@@ -7,49 +7,57 @@ session_start();
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width,initial-scale=1.0" charset="utf-8">
-  <title>MVGR | workshop </title>
- <link rel="stylesheet" href="../../css/bootstrap/bootstrap.min.css">
+  <title>Aadhrita | Culturals</title>
+  <link rel="stylesheet" href="../../css/bootstrap/bootstrap.min.css">
   <link rel='stylesheet' href='https://fonts.googleapis.com/css?family=Open+Sans'>
-  <link rel="stylesheet" href="../../css/workshopcs.css">
+  <link rel="stylesheet" href="../../css/sports.css">
   <link rel="stylesheet" href="../../css/navbar.css">
-  <link rel="stylesheet" href="../../css/card.css">
+  
   <link rel="stylesheet" href="../../css/carousel_ext.css">
   <link href='https://fonts.googleapis.com/css?family=Kaushan+Script' rel='stylesheet' type='text/css'>
-
+  
+  <link href='https://fonts.googleapis.com/css?family=Montserrat:400,700' rel='stylesheet' type='text/css'>
+  <link href='https://fonts.googleapis.com/css?family=Roboto:400,700,300italic' rel='stylesheet' type='text/css'>
   <style>
    body h3 {
     font-family: 'Kaushan Script', cursive;
     font-size: 2em;
     font-weight: 400;
-}
-  </style>
+  }
+</style>
 
 </head>
-<body  style="background: linear-gradient(90deg, #fc6076 360px, #ff9a44 100%);">
-
-<header class="main-header" style="font-size:16px;">
-  <div class="logo"><img   src="../../static/logo2.png"  style="height:50px;width:40px;" alt="LOGO"></img></div>
-  <input type="checkbox" class="menu-btn" id="menu-btn">
-  <label for="menu-btn" class="menu-icon"><span class="menu-icon__line"></span></label>
+<body  style="background-color: #36096d;background-image: linear-gradient(315deg, #36096d 0%, #37d5d6 74%);">
+  <header class="main-header">
+    <div class="logo">
+     <img  onclick="window.location.href='../../index.php'" src="../../static/logo2.png" style="height:50px;width:40px;" alt="LOGO"></img>
+   </div>
+   <input type="checkbox" class="menu-btn" id="menu-btn">
+   <label for="menu-btn" class="menu-icon">
+    <span class="menu-icon__line"></span>
+  </label>
+  
   <ul class="nav-links">
-    <li class="nav-link"><a href="../../">Home</a></li>
-    <li class="nav-link"><a href="../technical/">Technical</a></li>
-    <li class="nav-link active"><a href="#">WorkShops</a></li>
-    <li class="nav-link"><a href="../cultural/">Culturals</a></li>
-    <li class="nav-link "><a href="../sports/">sports</a></li>
-    <li class="nav-link"><a href="../about/">About</a></li>
+
+    <li class="nav-link"><a href="../../index.php">Home</a></li>
+    <li class="nav-link"><a href="../technical">Technical</a></li>
+    <li class="nav-link"><a href="../workshop">WorkShops</a></li>
+    <li class="nav-link "><a href="../cultural">Culturals</a></li>
+    <li class="nav-link active"><a href="#">Sports</a></li>
+    <li class="nav-link"><a href="../about">About</a></li>
     <?php
-    if (isset($_SESSION['session_email'])) {
-      echo '
-      <li class="nav-link"><a href="../profile/">Profile</a></li>
-      <li class="nav-link"><a href="./logout/">Logout</a></li>
-      ';
-    }
-    else{
-      echo '<li class="nav-link"><a href="../login/">Register</a></li>';
-    }
-    ?>
+      if (isset($_SESSION['session_email'])) {
+        echo '
+        <li class="nav-link"><a href="../profile/">Profile</a></li>
+        <li class="nav-link"><a href="../logout/">Logout</a></li>
+        ';
+      }
+      else{
+        echo '<li class="nav-link"><a href="../login/">Register</a></li>';
+      }
+      ?>
   </ul>
+
 </header>
   <!-- partial:index.partial.php -->
 <!-- 
@@ -58,7 +66,7 @@ to enable blend-mode for all background-images or apply .m--blend-bg-active
 to some specific slides (.fnc-slide). It's disabled by default in this demo,
 because it requires specific images, where more than 50% of bg is transparent or monotone
 -->
- <div class="demo-cont">
+<div class="demo-cont">
   <div class="fnc-slider example-slider">
     <div class="fnc-slider__slides">
       <div class="fnc-slide m--blend-green m--active-slide">
@@ -69,12 +77,12 @@ because it requires specific images, where more than 50% of bg is transparent or
           <div class="fnc-slide__content">
             <h3 class="fnc-slide__heading">
               <div class="fnc-slide__heading-line">
-                <span>Data Science </span>
+                <span>Basket Ball </span>
               </div>
             </h3>
             <button type="button" class="fnc-slide__action-btn">
-              Workshop
-              <span data-text="Workshop">Workshop</Canvas></span>
+            Sports
+              <span data-text="Workshop">Sports</Canvas></span>
             </button>
           </div>
         </div>
@@ -87,13 +95,13 @@ because it requires specific images, where more than 50% of bg is transparent or
           <div class="fnc-slide__content">
             <h3 class="fnc-slide__heading">
               <div class="fnc-slide__heading-line">
-                <span>Aero Modelling</span>
+                <span>Volley Ball</span>
               </div>
               
             </h3>
             <button type="button" class="fnc-slide__action-btn">
-              Workshop
-              <span data-text="Workshop">Workshop</span>
+            Sports
+              <span data-text="Workshop">Sports</span>
             </button>
           </div>
         </div>
@@ -106,75 +114,17 @@ because it requires specific images, where more than 50% of bg is transparent or
           <div class="fnc-slide__content">
             <h3 class="fnc-slide__heading">
               <div class="fnc-slide__heading-line">
-                <span>Biped Walking Robot</span>
+                <span>Kho Kho</span>
               </div>
               
             </h3>
             <button type="button" class="fnc-slide__action-btn">
-              Workshop
-              <span data-text="Workshop">Workshop</span>
+            Sports
+              <span data-text="Workshop">Sports</span>
             </button>
           </div>
         </div>
       </div>
-      <div class="fnc-slide m--blend-dark">
-        <div class="fnc-slide__inner">
-          <div class="fnc-slide__mask">
-            <div class="fnc-slide__mask-inner"></div>
-          </div>
-          <div class="fnc-slide__content">
-            <h3 class="fnc-slide__heading">
-              <div class="fnc-slide__heading-line">
-                <span>Drone Technology</span>
-              </div>
-              
-            </h3>
-            <button type="button" class="fnc-slide__action-btn">
-              Workshop
-              <span data-text="Workshop">Workshop</span>
-            </button>
-          </div>
-        </div>
-      </div>
-      <div class="fnc-slide m--blend-dark">
-        <div class="fnc-slide__inner">
-          <div class="fnc-slide__mask">
-            <div class="fnc-slide__mask-inner"></div>
-          </div>
-          <div class="fnc-slide__content">
-            <h3 class="fnc-slide__heading">
-              <div class="fnc-slide__heading-line">
-                <span>IEEE Technical Workshop</span>
-              </div>
-              
-            </h3>
-            <button type="button" class="fnc-slide__action-btn">
-              Workshop
-              <span data-text="Workshop">Workshop</span>
-            </button>
-          </div>
-        </div>
-      </div>
-      <div class="fnc-slide m--blend-dark">
-        <div class="fnc-slide__inner">
-          <div class="fnc-slide__mask">
-            <div class="fnc-slide__mask-inner"></div>
-          </div>
-          <div class="fnc-slide__content">
-            <h3 class="fnc-slide__heading">
-              <div class="fnc-slide__heading-line">
-                <span>IEEE Step</span>
-              </div>
-              
-            </h3>
-            <button type="button" class="fnc-slide__action-btn">
-              Workshop
-              <span data-text="Workshop">Workshop</span>
-            </button>
-          </div>
-        </div>
-      </div>
-      
       <div class="fnc-slide m--blend-red">
         <div class="fnc-slide__inner">
           <div class="fnc-slide__mask">
@@ -183,13 +133,13 @@ because it requires specific images, where more than 50% of bg is transparent or
           <div class="fnc-slide__content">
             <h3 class="fnc-slide__heading">
               <div class="fnc-slide__heading-line">
-                <span>RC-Framed structures</span>
+                <span>Throw Ball</span>
               </div>
               
             </h3>
             <button type="button" class="fnc-slide__action-btn">
-              Workshop
-              <span data-text="Workshop">Workshop</span>
+            Sports
+              <span data-text="Workshop">Sports</span>
             </button>
           </div>
         </div>
@@ -202,49 +152,36 @@ because it requires specific images, where more than 50% of bg is transparent or
         <div class="fnc-nav__bg m--navbg-green m--active-nav-bg"></div>
         <div class="fnc-nav__bg m--navbg-dark"></div>
         <div class="fnc-nav__bg m--navbg-red"></div>
-        <div class="fnc-nav__bg m--navbg-blue"></div>
-        <div class="fnc-nav__bg m--navbg-grey"></div>
-        <div class="fnc-nav__bg m--navbg-pink"></div>
-        <div class="fnc-nav__bg m--navbg-crimson"></div>
+        <div class="fnc-nav__bg m--navbg-dark"></div>
         
         
       </div>
       <div class="fnc-nav__controls">
-      <button class="fnc-nav__control">
-          Data Science
+        <button class="fnc-nav__control">
+          Basket Ball
           <span class="fnc-nav__control-progress"></span>
         </button>
         <button class="fnc-nav__control">
-          Aero Modelling
+          Volley Ball
           <span class="fnc-nav__control-progress"></span>
         </button>
         <button class="fnc-nav__control">
-         Walking robot
+          Kho-Kho
           <span class="fnc-nav__control-progress"></span>
         </button>
         <button class="fnc-nav__control">
-          Drone Tech
+         Throw Ball
           <span class="fnc-nav__control-progress"></span>
         </button>
-        <button class="fnc-nav__control">
-          IEEE Tech (AI)
-          <span class="fnc-nav__control-progress"></span>
-        </button>
-        <button class="fnc-nav__control">
-          IEEE -STEP
-          <span class="fnc-nav__control-progress"></span>
-        </button>
-        <button class="fnc-nav__control">
-          RC Frames
-          <span class="fnc-nav__control-progress"></span>
-        </button>
-    </div>
-  </nav>
+     
+        
+      </div>
+    </nav>
   </div>
   <div class="demo-cont__credits">
   <div class="demo-cont__credits-close"></div>
-  <h2 class="demo-cont__credits-heading">Workshops</h2>
-  <img src="#.jpg" alt="" class="demo-cont__Culturals-img" />
+  <h2 class="demo-cont__credits-heading">Sports</h2>
+  
   <h3 class="demo-cont__credits-name">Music pervades everyday life! Aadritha 2020 offers never before opportunities to inspire, impress, entertain and express your art in the form of music and dance.  Come and join us in  celebrations of this age old art form.</h3>
 
   <div class="colorful-switch">
@@ -261,55 +198,17 @@ because it requires specific images, where more than 50% of bg is transparent or
 </div>
 </div> 
 
-  <body  style="background-image: linear-gradient(-225deg, #69EACB 0%, #EACCF8 48%, #6654F1 100%);">
-    <div class="container">
+<body  style="background-image: linear-gradient(-225deg, #69EACB 0%, #EACCF8 48%, #6654F1 100%);">
+
+<div class="container">
       <div class="row" >
-        <?php
-          require '../db/db.php';
-          $sql = "SELECT * FROM `events` where etype = 'WORKSHOP'";
-          $retval = mysqli_query($conn,$sql);
-          $n = mysqli_num_rows($retval);
-          for ($i=1; $i <= $n ; $i++) {
-            $x="card".$i;
-            $y="#card".$i;
-            $row = mysqli_fetch_assoc($retval);
-            $eid = $row['eid'];
-            echo '
-            <div class="card card-flip col-auto mx-auto my-3" onmouseover="this.classList.toggle(`expanded`)"
-            onmouseout="this.classList.toggle(`expanded`)" id="'.$x.'" style="max-width: 20rem;min-height:29rem;" >
-              <div class="card-front">
-                <img class="label" src="'.$row['images'].'" viewBox="100 100 0 0"  width="100%">
-                <div class="text1">
-                  <div class="text-content">
-                    <h2 class="title">'.$row['ename'].'</h2>
-                    <div class="body-text">'.$row['etagline'].'</div>
-                    <button  onclick="$(`'.$y.'`).toggleClass(`expand`)" class="btn btn-outline-primary ">Description</button>
-                  </div>
-                  <svg class="chevron"  xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 35" width="30"><path d="M5 30L50 5l45 25" fill="none" stroke="#000" stroke-width="5"/></svg>
-                </div>
-              </div>
-              <div class="card-back"  >
-                <div class="card-body" >
-                  <i onclick="$(`'.$y.'`).toggleClass(`expand`)" class="fas fa-arrow-circle-left fa-2x text-primary"></i><br>
-                  <h3 align:center>'.$row['ename'].'</h3>
-                  <p> '.$row['edescription'].'</p>
-                  <div class="container">
-                    <p> For Rules <a href="'.$row['pdfs'].'">click here</a></p>
-                  </div>
-                  <div class="container mt-3">
-                    <a type="button" class="btn btn-info" href="../php/register/re_registrations.php?id='.urlencode(utf8_encode($eid)).'"  >Register</a>
-                  </div>
-                </div>
-              </div>
-            </div>';
-          }
-        ?>
+        
       </div>
       <div>
         <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
       </div>
       <div class="container">
-          <marquee> <h3>Workshops Section will be opened soon. </h3> </marquee>
+          <marquee> <h3>Sports Section will be opened soon. </h3> </marquee>
         </div>
       </div>
       <div>
@@ -325,6 +224,7 @@ because it requires specific images, where more than 50% of bg is transparent or
                 <a class="text"style="color: #50d8af;" href="../technical/">Technical |</a>
                 <a class="text" style="color:#50d8af;" href="../workshop/">Workshops |</a>
                 <a class="text"style="color: #50d8af;" href="../cultural/">Culturals |</a>
+                <a class="text" style="color:#50d8af;" href="../Sports/">Sports |</a>
                 <a class="text"style="color: #50d8af;" href="../login/">Register |</a>
                 <a class="text" style="color:#50d8af;" href="../about/">About</a>
               </p>
@@ -369,22 +269,17 @@ because it requires specific images, where more than 50% of bg is transparent or
           <p align="center" style="padding-top: 20px;">Copyright &copy;2020, AadhritaWebteam</p>
         </div>
       </footer>
-    <script src='https://kit.fontawesome.com/a076d05399.js'></script>
-    <script src="../../js/jquery.min.js"></script>
-    <script  src="../../js/common.js"></script>
-    <script src="../../js/popper.min.js"></script>
-    <script type="text/javascript" src="../../js/nav.js"></script>
-    <script>
-      const header = document.querySelector('.main-header');
-      window.addEventListener('scroll', () => {
-        const scrollPos = window.scrollY;
-        if(scrollPos > 10){
-          header.classList.add('scrolled');
-        } else {
-          header.classList.remove('scrolled');
-        }
-      })
-    </script>
+
+  <script type="text/javascript">
+    function soon() {
+      window.alert("Registrations will be opened soon");
+    }
+  </script>
+  <!-- partial -->
+  <script src="../../js/jquery.min.js"></script>
+  <script src='https://kit.fontawesome.com/a076d05399.js'></script> 
+  <script  src="../../js/common.js"></script>
+  <script src="../../js/popper.min.js"></script>
 
 </body>
 </html>

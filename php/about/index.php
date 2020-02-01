@@ -56,10 +56,10 @@
   <label for="menu-btn" class="menu-icon"><span class="menu-icon__line"></span></label>
   <ul class="nav-links">
     <li class="nav-link"><a href="../../">Home</a></li>
-    <li class="nav-link"><a href="../technical/">Technical</a></li>
-    <li class="nav-link"><a href="../workshop/">WorkShops</a></li>
-    <li class="nav-link"><a href="../cultural">Culturals</a></li>
-    <li class="nav-link active"><a href="../about/">About</a></li>
+    <li class="nav-link"><a href="./technical/">Technical</a></li>
+    <li class="nav-link"><a href="./workshop/">WorkShops</a></li>
+    <li class="nav-link"><a href="./cultural">Culturals</a></li>
+    <li class="nav-link active"><a href="#">About</a></li>
     <?php
     if (isset($_SESSION['session_email'])) {
       echo '
