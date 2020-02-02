@@ -23,6 +23,7 @@ if ($retval) {
   <link href="./css/bootstrap/bootstrap.min.css" rel="stylesheet">
   <link rel="stylesheet" href="./css/navbar.css">
   <link href="./js/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
+  <link href="css/preloader.css" rel="stylesheet">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
   <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.3.5/css/swiper.min.css'>
   <link href="./css/home/style.css" rel="stylesheet">
@@ -33,8 +34,17 @@ if ($retval) {
     }
   </script>
 </head>
+<div class="loader-wrapper">
+  <div class="loader triangle">
+    <svg viewBox="0 0 86 80">
+      <polygon points="40 8 79 72 7 72"></polygon>
+    </svg>
+  </div>
+</div>
+
+<body>
 <header class="main-header" style="font-size:16px;">
-  <div class="logo"><img   src="./static/logo2.png"  style="height:50px;width:40px;" alt="LOGO"></img></div>
+  <div class="logo"><img   src="./static/logo2.png"  style="height:70px;width:100px;" alt="LOGO"></img></div>
   <input type="checkbox" class="menu-btn" id="menu-btn">
   <label for="menu-btn" class="menu-icon"><span class="menu-icon__line"></span></label>
   <ul class="nav-links">
@@ -57,7 +67,6 @@ if ($retval) {
     ?>
   </ul>
 </header>
-<body>
   <section id="intro">
     <div class="intro-container wow fadeIn">
       <h1 class="mb-4 pb-0 title">Aadhrita&nbsp;&nbsp;&nbsp;2020</h1>
@@ -153,7 +162,7 @@ if ($retval) {
       </section>
     </section>
   </main>
-  <footer  style="background-color: #2c292f;padding-top: 30px;min-height: 100px; font-family: 'Righteous', cursive;">
+  <footer  class="footer" style="background-color: #2c292f;padding-top: 30px;min-height: 100px; font-family: 'Righteous', cursive;">
     <div class="container" >
       <div class="row">
                <div class="col-md-4 text-center text-md-left">
@@ -173,12 +182,12 @@ if ($retval) {
             <a target="_blank" href="https://twitter.com/aadhrita2020"><i class="fab fa-twitter fa-2x text-info mx-3"></i></a>
             <a target="_blank" href="https://www.youtube.com/channel/UCF4345SfdBnl5R73kmIfICw"><i class="fab fa-youtube fa-2x text-danger mx-6"></i></a>
           </div>
-        </div>    
+        </div>
         <div class="col-md-4 text-white text-center text-md-left ">
-          <h4 class="my-3 text-warning">Contact details</h4>  
+          <h4 class="my-3 text-warning">Contact details</h4>
           <div class="py-0 my-4">
             <div>
-              
+
             </div>
             <div>
               <ul>
@@ -194,7 +203,7 @@ if ($retval) {
           <p class="text-white text-center text-md-left"> <i class="fa fa-map-marker mx-auto  "></i>
                 MVGR College of Engineering(A),
                 Vijayaram Nagar campus, Chintalavalasa,
-              Vizianagaram, Andhra Pradesh 535005</p></i>       
+              Vizianagaram, Andhra Pradesh 535005</p></i>
           <div class="py-2">
             <iframe width="230"
             height="230"
@@ -209,17 +218,22 @@ if ($retval) {
   </footer>
 
   <script src="js/jquery.min.js"></script>
-  <script src='https://kit.fontawesome.com/a076d05399.js'></script> 
-
+  <script src='https://kit.fontawesome.com/a076d05399.js'></script>
   <script src="js/jquery.min.js"></script>
-  <script src='https://kit.fontawesome.com/a076d05399.js'></script> 
-
   <script src="js/jquery-migrate.min.js"></script>
   <script src="js/bootstrap.bundle.min.js"></script>
   <script src="js/wow/wow.min.js"></script>
   <script src="js/owlcarousel/owl.carousel.min.js"></script>
   <script src="js/home/swipe.js"></script>
   <script src="js/home/main.js"></script>
-  
+<script>
+  $(window).on("load",function(){
+    $(".loader-wrapper").fadeOut("slow");
+    $("#intro").fadeIn("slow");
+    $(".main-header").css("visibility","visible");
+    $("#main").css("visibility","visible");
+    $(".footer").fadeIn("slow");
+  });
+</script>
 </body>
 </html>

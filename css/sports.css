@@ -15,19 +15,19 @@
   
   .example-slider .fnc-slide-1 .fnc-slide__inner,
   .example-slider .fnc-slide-1 .fnc-slide__mask-inner {
-    background-image: url("../static/images/culturals/singing.png");
+    background-image: url("../static/images/sports/basketball.png");
   }
   .example-slider .fnc-slide-2 .fnc-slide__inner,
   .example-slider .fnc-slide-2 .fnc-slide__mask-inner {
-    background-image: url("../static/images/culturals/arts.png");
+    background-image: url("../static/images/sports/volleyball.png");
   }
   .example-slider .fnc-slide-3 .fnc-slide__inner,
   .example-slider .fnc-slide-3 .fnc-slide__mask-inner {
-    background-image: url("../static/images/culturals/battle_of_bands.png");
+    background-image: url("../static/images/sports/kho-kho.png");
   }
   .example-slider .fnc-slide-4 .fnc-slide__inner,
   .example-slider .fnc-slide-4 .fnc-slide__mask-inner {
-    background-image: url("../static/images/culturals/design.png");
+    background-image: url("../static/images/sports/throwball.png");
   }
  
   .example-slider .fnc-slide-3 .fnc-slide__inner:before {

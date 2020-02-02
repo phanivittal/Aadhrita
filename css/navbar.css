@@ -19,10 +19,12 @@
     -webkit-transition: .4s ease-out;
     transition: .4s ease-out;
     font-family:Arial, Helvetica, sans-serif;
+    visibility: hidden;
   }
   .main-header a {
     text-decoration: none;
     color: inherit;
+     
     text-transform: uppercase;
   }
   .main-header .nav-links {

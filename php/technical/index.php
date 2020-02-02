@@ -9,6 +9,7 @@
   <link rel="stylesheet" type="text/css" href="../../css/technical_car.css"/>
   <link rel='stylesheet' href='https://fonts.googleapis.com/css?family=Open+Sans'>
   <link rel="stylesheet" href="../../css/card.css">
+  <link rel="stylesheet" href="../../css/preloader.css">
   <link href='https://fonts.googleapis.com/css?family=Montserrat:400,700' rel='stylesheet' type='text/css'>
   <link href='https://fonts.googleapis.com/css?family=Roboto:400,700,300italic' rel='stylesheet' type='text/css'>
   <link href='https://fonts.googleapis.com/css?family=Kaushan+Script' rel='stylesheet' type='text/css'>
@@ -19,12 +20,23 @@
     font-size: 1.5em;
     font-weight: 400;
 }
+
+html {
+  scroll-behavior: smooth;
+}
+
   </style>
 </head>
-
+<div class="loader-wrapper">
+  <div class="loader triangle">
+    <svg viewBox="0 0 86 80">
+      <polygon points="40 8 79 72 7 72"></polygon>
+    </svg>
+  </div>
+</div>
 <header class="main-header_nav" style="font-size:15px;">
 <div class="logo">
-       <img  onclick="window.location.href='../../index.php'" src="../../static/logo2.png"  style="height:50px;width:40px;" alt="LOGO"></img>
+       <img  onclick="window.location.href='../../index.php'" src="../../static/logo2.png"  style="height:70px;width:100px;" alt="LOGO"></img>
     </div>
     <input type="checkbox" class="menu-btn" id="menu-btn">
     <label for="menu-btn" class="menu-icon">
@@ -39,15 +51,15 @@
       <a href="#">Technical</a>
     </li>
       <li class="nav-link">
-        <a href="./workshop.php">WorkShops</a>
+        <a href="../workshop/">WorkShops</a>
       </li>
       <li class="nav-link">
-        <a href="./cultural.php">Culturals</a>
+        <a href="../cultural/">Culturals</a>
       </li>
     
       <li class="nav-link "><a href="./sports/">sports</a></li>
     <li class="nav-link">
-      <a href="./about.php">About</a>
+      <a href="../about/">About</a>
     </li>
     <?php
       if (isset($_SESSION['session_email'])) {
@@ -69,7 +81,7 @@ to enable blend-mode for all background-images or apply .m--blend-bg-active
 to some specific slides (.fnc-slide). It's disabled by default in this demo,
 because it requires specific images, where more than 50% of bg is transparent or monotone
 -->
-<body style="background: linear-gradient(90deg, #B09FEE 500px, #5DE8F8 100%);">
+<body>
 <section id="section-1">
     <div class="content-slider">
       <input type="radio" id="banner1" class="sec-1-input" name="banner" checked>
@@ -239,39 +251,38 @@ because it requires specific images, where more than 50% of bg is transparent or
       </div>
       <nav>
         <div class="controls">
-          <label for="banner1" onclick="$(`#card1`).toggleClass(`expand`);location.href='#card1'"><span class="progressbar"><span class="progressbar-fill"></span></span><span>01</span>Paper Presentation</label>
-          <label for="banner2" onclick="$(`#card2`).toggleClass(`expand`);location.href='#card2'"><span class="progressbar"><span class="progressbar-fill"></span></span><span>02</span> Hydraulic Crane </label>
-          <label for="banner3" onclick="$(`#card3`).toggleClass(`expand`);location.href='#card3'"><span class="progressbar"><span class="progressbar-fill"></span></span><span>03</span> Vipani Kriya</label>
-          <label for="banner4" onclick="$(`#card4`).toggleClass(`expand`);location.href='#card4'"><span class="progressbar"><span class="progressbar-fill"></span></span><span>04</span>Instridge</label>
-          <label for="banner5" onclick="$(`#card5`).toggleClass(`expand`);location.href='#card5'"><span class="progressbar"><span class="progressbar-fill"></span></span><span>05</span> Witricity</label>
-          <label for="banner6" onclick="$(`#card6`).toggleClass(`expand`);location.href='#card6'"><span class="progressbar"><span class="progressbar-fill"></span></span><span>06</span> Sampatti</label>
-          <label for="banner7" onclick="$(`#card7`).toggleClass(`expand`);location.href='#card7'"><span class="progressbar"><span class="progressbar-fill"></span></span><span>07</span> Hovercraft</label>
-          <label for="banner8" onclick="$(`#card8`).toggleClass(`expand`);location.href='#card8'"><span class="progressbar"><span class="progressbar-fill"></span></span><span>08</span>Hackathon</label>
-          <label for="banner9" onclick="$(`#card9`).toggleClass(`expand`);location.href='#card9'"><span class="progressbar"><span class="progressbar-fill"></span></span><span>09</span>  Sampathi <br>Kreeda</label>
-          <label for="banner10" onclick="$(`#card10`).toggleClass(`expand`);location.href='#card10'"><span class="progressbar"><span class="progressbar-fill"></span></span><span>10</span> Embedded</label>
-          <label for="banner11" onclick="$(`#card11`).toggleClass(`expand`);location.href='#card11'"><span class="progressbar"><span class="progressbar-fill"></span></span><span>11</span> Code Champs</label>
-          <label for="banner12" onclick="$(`#card12`).toggleClass(`expand`);location.href='#card12'"><span class="progressbar"><span class="progressbar-fill"></span></span><span>12</span> Circuitrix</label>
-          <label for="banner13" onclick="$(`#card13`).toggleClass(`expand`);location.href='#card13'"><span class="progressbar"><span class="progressbar-fill"></span></span><span>13</span> Tech Industrial</label>
-          <label for="banner14" onclick="$(`#card14`).toggleClass(`expand`);location.href='#card14'"><span class="progressbar"><span class="progressbar-fill"></span></span><span>14</span>  CADathon</label>
-          <label for="banner15" onclick="$(`#card15`).toggleClass(`expand`);location.href='#card15'"><span class="progressbar"><span class="progressbar-fill"></span></span><span>15</span> Bodha</label>
-          <label for="banner16" onclick="$(`#card16`).toggleClass(`expand`);location.href='#card16'"><span class="progressbar"><span class="progressbar-fill"></span></span><span>16</span> Ankur</label>
-          <label for="banner17" onclick="$(`#card17`).toggleClass(`expand`);location.href='#card17'"><span class="progressbar"><span class="progressbar-fill"></span></span><span>17</span>Aqua Bazooka</label>
-          <label for="banner18" onclick="$(`#card18`).toggleClass(`expand`);location.href='#card18'"><span class="progressbar"><span class="progressbar-fill"></span></span><span>18</span>TECH SOFTWARE</label>
+          <label for="banner1" onclick="setTimeout(function(){ $(`#card1`).toggleClass(`expand`) }, 100);location.href='#card1'"><span class="progressbar"><span class="progressbar-fill"></span></span><span>01</span>Paper Presentation</label>
+          <label for="banner2" onclick="setTimeout(function(){ $(`#card2`).toggleClass(`expand`) }, 200);location.href='#card2'"><span class="progressbar"><span class="progressbar-fill"></span></span><span>02</span> Hydraulic Crane </label>
+          <label for="banner3" onclick="setTimeout(function(){ $(`#card3`).toggleClass(`expand`) }, 300);location.href='#card3'"><span class="progressbar"><span class="progressbar-fill"></span></span><span>03</span> Vipani Kriya</label>
+          <label for="banner4" onclick="setTimeout(function(){ $(`#card4`).toggleClass(`expand`) }, 400);location.href='#card4'"><span class="progressbar"><span class="progressbar-fill"></span></span><span>04</span>Instridge</label>
+          <label for="banner5" onclick="setTimeout(function(){ $(`#card5`).toggleClass(`expand`) }, 500);location.href='#card5'"><span class="progressbar"><span class="progressbar-fill"></span></span><span>05</span> Witricity</label>
+          <label for="banner6" onclick="setTimeout(function(){ $(`#card6`).toggleClass(`expand`) }, 600);location.href='#card6'"><span class="progressbar"><span class="progressbar-fill"></span></span><span>06</span> Sampatti</label>
+          <label for="banner7" onclick="setTimeout(function(){ $(`#card7`).toggleClass(`expand`) }, 700);location.href='#card7'"><span class="progressbar"><span class="progressbar-fill"></span></span><span>07</span> Hovercraft</label>
+          <label for="banner8" onclick="setTimeout(function(){ $(`#card8`).toggleClass(`expand`) }, 800);location.href='#card8'"><span class="progressbar"><span class="progressbar-fill"></span></span><span>08</span>Hackathon</label>
+          <label for="banner9" onclick="setTimeout(function(){ $(`#card9`).toggleClass(`expand`) }, 900);location.href='#card9'"><span class="progressbar"><span class="progressbar-fill"></span></span><span>09</span>  Sampathi <br>Kreeda</label>
+          <label for="banner10" onclick="setTimeout(function(){ $(`#card10`).toggleClass(`expand`) }; 1000);location.href='#card10'"><span class="progressbar"><span class="progressbar-fill"></span></span><span>10</span> Embedded</label>
+          <label for="banner11" onclick="setTimeout(function(){ $(`#card11`).toggleClass(`expand`) }, 1100);location.href='#card11'"><span class="progressbar"><span class="progressbar-fill"></span></span><span>11</span> Code Champs</label>
+          <label for="banner12" onclick="setTimeout(function(){ $(`#card12`).toggleClass(`expand`) }, 1200);location.href='#card12'"><span class="progressbar"><span class="progressbar-fill"></span></span><span>12</span> Circuitrix</label>
+          <label for="banner13" onclick="setTimeout(function(){ $(`#card13`).toggleClass(`expand`) }, 1200);location.href='#card13'"><span class="progressbar"><span class="progressbar-fill"></span></span><span>13</span> Tech Industrial</label>
+          <label for="banner14" onclick="setTimeout(function(){ $(`#card14`).toggleClass(`expand`) }, 1300);location.href='#card14'"><span class="progressbar"><span class="progressbar-fill"></span></span><span>14</span>  CADathon</label>
+          <label for="banner15" onclick="setTimeout(function(){ $(`#card15`).toggleClass(`expand`) }, 1300);location.href='#card15'"><span class="progressbar"><span class="progressbar-fill"></span></span><span>15</span> Bodha</label>
+          <label for="banner16" onclick="setTimeout(function(){ $(`#card16`).toggleClass(`expand`) }, 1400);location.href='#card16'"><span class="progressbar"><span class="progressbar-fill"></span></span><span>16</span> Ankur</label>
+          <label for="banner17" onclick="setTimeout(function(){ $(`#card17`).toggleClass(`expand`) }, 1400);location.href='#card17'"><span class="progressbar"><span class="progressbar-fill"></span></span><span>17</span>Aqua Bazooka</label>
+          <label for="banner18" onclick="setTimeout(function(){ $(`#card18`).toggleClass(`expand`) }, 1500);location.href='#card18'"><span class="progressbar"><span class="progressbar-fill"></span></span><span>18</span>TECH SOFTWARE</label>
         </div>
       </nav>
     </div>
-    <section class="text-center " id="section-2" style="height:30vh;bakground-color:#fff;">  
+    <section class="text-center " id="section-2" style="color:#fff;height:auto;background-image: linear-gradient(to right, #0F2027, #203A43,#2C5364);">  
     <br><br>
 
   <h3 style="font-size: 35px;" >About</h3>
   <h2>Mvgr technical Events </h2>
   
   <h5 style="font-size: 19px;" > Want to unleash your technical skills by taking part in some interesting and unique competitions, then here is your chance. Aadhrita 2020 <br> offers never before opportunities to prove your technical skills. </h5>
-  <div class="contain">
-    <br><br>
-  </div>
+ 
 </section> 
-<div class="container" style="padding-top: 25px">
+<div style="background-image: linear-gradient(to right, #0F2027, #203A43,#2C5364);">
+<div class="container" style="padding-top: 25px; visibility:hidden;">
     <div class="row" >
       <?php
           require '../db/db.php';
@@ -288,9 +299,10 @@ because it requires specific images, where more than 50% of bg is transparent or
             onmouseout="this.classList.toggle(`expanded`)" id="'.$x.'" style="max-width: 20rem;min-height:29rem;" >
               <div class="card-front" >
                 <img class="label" src="../'.$row['images'].'" viewBox="100 100 0 0"  width="100%">
+                <h3 class="title">'.$row['ename'].'</h3>
                 <div class="text1">
                   <div class="text-content">
-                    <h3 class="title">'.$row['ename'].'</h3>
+                    
                     <div class="body-text">'.$row['etagline'].'</div>
                     <button  onclick="$(`'.$y.'`).toggleClass(`expand`)" class="btn btn-outline-primary ">Description</button>
                   </div>
@@ -315,6 +327,7 @@ because it requires specific images, where more than 50% of bg is transparent or
           }
         ?>
     </div>
+        </div>
     </div>
     <footer  style="background-color: #2c292f;padding-top: 30px;min-height: 100px; font-family: 'Righteous', cursive;">
         <div class="container" >
@@ -387,4 +400,13 @@ because it requires specific images, where more than 50% of bg is transparent or
 <script src='https://use.fontawesome.com/8ae46bccf5.js'></script>
 
 </body>
+<script>
+      $(window).on("load",function(){
+        $(".loader-wrapper").fadeOut("slow");
+        $(".main-header_nav").css("visibility","visible");
+        $(".footer").fadeIn("slow");
+        $(".container").css("visibility","visible");
+        $("#section-1").css("visibility","visible");
+      });
+    </script>
 </html>

@@ -11,8 +11,9 @@ session_start();
   <link rel="stylesheet" href="../../css/bootstrap/bootstrap.min.css">
   <link rel='stylesheet' href='https://fonts.googleapis.com/css?family=Open+Sans'>
   <link rel="stylesheet" href="../../css/sports.css">
+  <link rel="stylesheet" href="../../css/card.css">
   <link rel="stylesheet" href="../../css/navbar.css">
-  
+  <link rel="stylesheet" href="../../css/preloader.css">
   <link rel="stylesheet" href="../../css/carousel_ext.css">
   <link href='https://fonts.googleapis.com/css?family=Kaushan+Script' rel='stylesheet' type='text/css'>
   
@@ -25,12 +26,18 @@ session_start();
     font-weight: 400;
   }
 </style>
-
+<div class="loader-wrapper">
+  <div class="loader triangle">
+    <svg viewBox="0 0 86 80">
+      <polygon points="40 8 79 72 7 72"></polygon>
+    </svg>
+  </div>
+</div>
 </head>
-<body  style="background-color: #36096d;background-image: linear-gradient(315deg, #36096d 0%, #37d5d6 74%);">
-  <header class="main-header">
+<body>
+  <header class="main-header" style="visibility:hidden;">
     <div class="logo">
-     <img  onclick="window.location.href='../../index.php'" src="../../static/logo2.png" style="height:50px;width:40px;" alt="LOGO"></img>
+     <img  onclick="window.location.href='../../index.php'" src="../../static/logo2.png" style="height:70px;width:100px;" alt="LOGO"></img>
    </div>
    <input type="checkbox" class="menu-btn" id="menu-btn">
    <label for="menu-btn" class="menu-icon">
@@ -66,7 +73,7 @@ to enable blend-mode for all background-images or apply .m--blend-bg-active
 to some specific slides (.fnc-slide). It's disabled by default in this demo,
 because it requires specific images, where more than 50% of bg is transparent or monotone
 -->
-<div class="demo-cont">
+<div class="demo-cont" style="visibility : hidden;">
   <div class="fnc-slider example-slider">
     <div class="fnc-slider__slides">
       <div class="fnc-slide m--blend-green m--active-slide">
@@ -198,22 +205,54 @@ because it requires specific images, where more than 50% of bg is transparent or
 </div>
 </div> 
 
-<body  style="background-image: linear-gradient(-225deg, #69EACB 0%, #EACCF8 48%, #6654F1 100%);">
-
+<body >
+<div  id="car_view" style="background-image: linear-gradient(to right, #0F2027, #203A43,#2C5364); ">
 <div class="container">
-      <div class="row" >
-        
+  <div class="row" >
+    <?php
+    require '../db/db.php';
+    $sql = "SELECT * FROM `events` where etype = 'CULTURAL'";
+    $retval = mysqli_query($conn,$sql);
+    $n = mysqli_num_rows($retval);
+    for ($i=1; $i <= $n ; $i++) {
+      $x="card".$i;
+      $y="#card".$i;
+      $row = mysqli_fetch_assoc($retval);
+      $eid = $row['eid'];
+      echo '
+      <div class="card card-flip col-auto mx-auto my-3" onmouseover="this.classList.toggle(`expanded`)"
+      onmouseout="this.classList.toggle(`expanded`)" id="'.$x.'" style="max-width: 20rem;min-height:29rem;" >
+      <div class="card-front">
+      <img class="label" src="'.$row['images'].'" viewBox="100 100 0 0"  width="100%">
+      <h3 class="title">'.$row['ename'].'</h3>
+      <div class="text1">
+      <div class="text-content">
+      
+      <div class="body-text">'.$row['etagline'].'</div>
+      <button  onclick="$(`'.$y.'`).toggleClass(`expand`)" class="btn btn-outline-primary ">Description</button>
       </div>
-      <div>
-        <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+      <svg class="chevron"  xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 35" width="30"><path d="M5 30L50 5l45 25" fill="none" stroke="#000" stroke-width="5"/></svg>
       </div>
+      </div>
+      <div class="card-back"  >
+      <div class="card-body" >
+      <i onclick="$(`'.$y.'`).toggleClass(`expand`)" class="fas fa-arrow-left fa-2x"></i><br>
+      <h3 align:center>'.$row['ename'].'</h3>
+      <p> '.$row['edescription'].'</p>
       <div class="container">
-          <marquee> <h3>Sports Section will be opened soon. </h3> </marquee>
-        </div>
+      <p> For Rules <a href="'.$row['pdfs'].'" target ="__blank" >click here</a></p>
       </div>
-      <div>
-        <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+      <div class="container mt-3">
+      <a type="button" class="btn btn-info" onclick = soon() >Register</a>
       </div>
+      </div>
+      </div>
+      </div>';
+    }
+    ?>
+  </div>
+</div>
+    </div>
       <footer style="background-color: #2c292f;padding-top: 30px;min-height: 100px; font-family: 'Righteous', cursive;">
         <div class="container" >
           <div class="row">
@@ -282,4 +321,13 @@ because it requires specific images, where more than 50% of bg is transparent or
   <script src="../../js/popper.min.js"></script>
 
 </body>
+<script>
+      $(window).on("load",function(){
+        $(".loader-wrapper").fadeOut("slow");
+        $(".main-header").css("visibility","visible");
+        $(".footer").fadeIn("slow");
+        $(".demo-cont").css("visibility","visible");
+        $("#car_view").css("visibility","visible");
+      });
+    </script>
 </html>

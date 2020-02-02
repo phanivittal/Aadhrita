@@ -1,4 +1,6 @@
-
+.footer{
+  display: none;
+}
   
   .example-slider {
     z-index: 2;

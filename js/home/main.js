@@ -25,8 +25,6 @@ window.addEventListener('scroll', () => {
 
 jQuery(document).ready(function( $ ) {
   new WOW().init();
-;
-
 });
 
 $(function(){

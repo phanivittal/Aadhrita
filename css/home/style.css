@@ -53,52 +53,15 @@ h6 {
 .wow {
   visibility: hidden;
 }
-
-/* Prelaoder */
-
-#preloader {
-  position: fixed;
-  left: 0;
-  top: 0;
-  z-index: 9999;
-  width: 100%;
-  height: 100%;
-  overflow: visible;
-  background: #fff url("/css/home_css/c35a782df901b5f2d302cb60e3bf82a8.svg") no-repeat center center;
-}
-
-/* Back to top button */
-
-.back-to-top {
-  position: fixed;
+#intro{
   display: none;
-  background: #f82249;
-  color: #fff;
-  width: 40px;
-  height: 40px;
-  text-align: center;
-  border-radius: 50px;
-  right: 15px;
-  bottom: 15px;
-  transition: background 0.5s ease-in-out;
 }
-
-.back-to-top i {
-  font-size: 24px;
-  padding-top: 6px;
+#main{
+  visibility: hidden;
 }
-
-.back-to-top:focus {
-  background: #e0072f;
-  color: #fff;
-  outline: none;
+.footer{
+  display: none;
 }
-
-.back-to-top:hover {
-  background: #e0072f;
-  color: #fff;
-}
-
 
 /*--------------------------------------------------------------
 # Intro Section

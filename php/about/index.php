@@ -10,7 +10,7 @@
   <link rel="stylesheet" href="../../css/navbar.css">
   <script src="../../js/jquery.min.js"></script>
   <script src="../../js/bootstrap.min.js"></script>
-
+  <link rel="stylesheet" href="../../css/preloader.css">
   <script src='https://kit.fontawesome.com/a076d05399.js'></script>
   <script src='https://use.fontawesome.com/8ae46bccf5.js'></script>
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
@@ -48,17 +48,27 @@
         left:5px;
       }
     }
+    #car_view{
+  visibility:hidden;
+}
   </style>
+  <div class="loader-wrapper">
+  <div class="loader triangle">
+    <svg viewBox="0 0 86 80">
+      <polygon points="40 8 79 72 7 72"></polygon>
+    </svg>
+  </div>
+</div>
 </head>
   <header class="main-header" style="font-size:16px;">
-  <div class="logo"><img   src="../../static/logo2.png"  style="height:50px;width:40px;" alt="LOGO"></img></div>
+  <div class="logo"><img   src="../../static/logo2.png"  style="height:70px;width:100px;" alt="LOGO"></img></div>
   <input type="checkbox" class="menu-btn" id="menu-btn">
   <label for="menu-btn" class="menu-icon"><span class="menu-icon__line"></span></label>
   <ul class="nav-links">
     <li class="nav-link"><a href="../../">Home</a></li>
-    <li class="nav-link"><a href="./technical/">Technical</a></li>
-    <li class="nav-link"><a href="./workshop/">WorkShops</a></li>
-    <li class="nav-link"><a href="./cultural">Culturals</a></li>
+    <li class="nav-link"><a href="../technical/">Technical</a></li>
+    <li class="nav-link"><a href="../workshop/">WorkShops</a></li>
+    <li class="nav-link"><a href="../cultural">Culturals</a></li>
     <li class="nav-link active"><a href="#">About</a></li>
     <?php
     if (isset($_SESSION['session_email'])) {
@@ -74,7 +84,7 @@
   </ul>
 </header>
 <body>
-
+<div id="car_view" style="visibility : hidden;">
   <div class="container-fluid">
     <div class="row">
       <div class=" col auto">
@@ -424,7 +434,8 @@
       </div>
     </div>
   </div>
-      <footer style="background-color: #2c292f;padding-top: 30px;min-height: 100px; font-family: 'Righteous', cursive;">
+  </div>
+      <footer style="background-color: #2c292f;padding-top: 30px;min-height: 100px; font-family: 'Righteous', cursive;visibility:hidden;">
         <div class="container" >
           <div class="row">
             <div class="col-md-4 text-center text-md-left">
@@ -484,4 +495,13 @@
     <script  src="../../js/common.js"></script>
     <script src="../../js/popper.min.js"></script>
 </body>
+<script>
+      $(window).on("load",function(){
+        $(".loader-wrapper").fadeOut("slow");
+        $(".main-header").css("visibility","visible");
+        $("footer").css("visibility","visible");
+        $(".demo-cont").css("visibility","visible");
+        $("#car_view").css("visibility","visible");
+      });
+    </script>
 </html>

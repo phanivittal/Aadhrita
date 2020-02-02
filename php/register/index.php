@@ -63,7 +63,7 @@ session_start();
 </script>
 </head>
 
-<body>
+<body style="background-image:linear-gradient(to right, #0F2027, #203A43,#2C5364);">
     <div class="page-wrapper bg-gra-02 p-t-130 p-b-100 font-poppins">
         <div class="wrapper wrapper--w680">
             <div class="card card-4">

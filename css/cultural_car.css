@@ -643,76 +643,49 @@ body a {
   text-decoration: none;
 }
 #section-1 .content-slider .slider #top-banner-1 {
-  background: url('../static/images/technical/presentation.png') no-repeat center center;
+  background: url('../static/images/culturals/singing.png') no-repeat center center;
   background-size: cover;
 }
 #section-1 .content-slider .slider #top-banner-2 {
-  background: url('../static/images/technical/circuitrix.png') no-repeat center center;
+  background: url('../static/images/culturals/arts.png') no-repeat center center;
   background-size: cover;
 }
 #section-1 .content-slider .slider #top-banner-3 {
-  background: url('../static/images/technical/witricity.png') no-repeat center center;
+  background: url('../static/images/culturals/battle_of_bands.png') no-repeat center center;
   background-size: cover;
 }
 #section-1 .content-slider .slider #top-banner-4 {
-  background: url('../static/images/technical/embeddedProgramming.png') no-repeat center center;
+  background: url('../static/images/culturals/design.png') no-repeat center center;
   background-size: cover;
 }
 #section-1 .content-slider .slider #top-banner-5 {
-  background: url('../static/images/technical/hovercraft.png') no-repeat center center;
+  background: url('../static/images/culturals/arts.png') no-repeat center center;
   background-size: cover;
 }
 #section-1 .content-slider .slider #top-banner-6 {
-  background: url('../static/images/technical/cadathon.png') no-repeat center center;
+  background: url('../static/images/culturals/h1.png') no-repeat center center;
   background-size: cover;
 }
 #section-1 .content-slider .slider #top-banner-7 {
-  background: url('../static/images/technical/water_rocket.png') no-repeat center center;
+  background: url('../static/images/culturals/arts.png') no-repeat center center;
   background-size: cover;
 }
 #section-1 .content-slider .slider #top-banner-8 {
-  background: url('../static/images/technical/hydraulic.png') no-repeat center center;
+  background: url('../static/images/culturals/photography.png') no-repeat center center;
   background-size: cover;
 }
 #section-1 .content-slider .slider #top-banner-9 {
-  background: url('../static/images/technical/instridge.png') no-repeat center center;
+  background: url('../static/images/culturals/design.png') no-repeat center center;
   background-size: cover;
 }
 #section-1 .content-slider .slider #top-banner-10 {
-  background: url('../static/images/technical/code_champs.png') no-repeat center center;
+  background: url('../static/images/culturals/arts.png') no-repeat center center;
   background-size: cover;
 }
 #section-1 .content-slider .slider #top-banner-11{
-  background: url('../static/images/technical/hackothon.png') no-repeat center center;
+  background: url('../static/images/culturals/treasure.png') no-repeat center center;
   background-size: cover;
-}
-#section-1 .content-slider .slider #top-banner-12 {
-  background: url('../static/images/technical/software.png') no-repeat center center;
-  background-size: cover;
-}
-#section-1 .content-slider .slider #top-banner-13 {
-  background: url('../static/images/technical/techsolution.png') no-repeat center center;
-  background-size: cover;
-}
-#section-1 .content-slider .slider #top-banner-14 {
-  background: url('../static/images/technical/marketing.png') no-repeat center center;
-  background-size: cover;
-}
-#section-1 .content-slider .slider #top-banner-15 {
-  background: url('../static/images/technical/bquiz.png') no-repeat center center;
-  background-size: cover;
-}
-#section-1 .content-slider .slider #top-banner-16 {
-  background: url('../static/images/technical/bplan.png') no-repeat center center;
-  background-size: cover;
-}
-#section-1 .content-slider .slider #top-banner-17 {
-  background: url('../static/images/technical/hrevent.png') no-repeat center center;
-  background-size: cover;
-}
-#section-1 .content-slider .slider #top-banner-18 {
-  background: url('../static/images/technical/finance.png') no-repeat center center;
-  background-size: cover;
+
 }
 
 
@@ -781,14 +754,7 @@ body a {
 #section-1 .content-slider #banner8:checked ~ .slider #top-banner-8,
 #section-1 .content-slider #banner9:checked ~ .slider #top-banner-9,
 #section-1 .content-slider #banner10:checked ~ .slider #top-banner-10,
-#section-1 .content-slider #banner11:checked ~ .slider #top-banner-11,
-#section-1 .content-slider #banner12:checked ~ .slider #top-banner-12,
-#section-1 .content-slider #banner13:checked ~ .slider #top-banner-13,
-#section-1 .content-slider #banner14:checked ~ .slider #top-banner-14,
-#section-1 .content-slider #banner15:checked ~ .slider #top-banner-15,
-#section-1 .content-slider #banner16:checked ~ .slider #top-banner-16,
-#section-1 .content-slider #banner17:checked ~ .slider #top-banner-17,
-#section-1 .content-slider #banner18:checked ~ .slider #top-banner-18{
+#section-1 .content-slider #banner11:checked ~ .slider #top-banner-11{
   opacity: 1;
   z-index: 1;
 }
@@ -802,14 +768,7 @@ body a {
 #section-1 .content-slider #banner8:checked ~ nav label:nth-of-type(8),
 #section-1 .content-slider #banner9:checked ~ nav label:nth-of-type(9),
 #section-1 .content-slider #banner10:checked ~ nav label:nth-of-type(10),
-#section-1 .content-slider #banner11:checked ~ nav label:nth-of-type(11),
-#section-1 .content-slider #banner12:checked ~ nav label:nth-of-type(12),
-#section-1 .content-slider #banner13:checked ~ nav label:nth-of-type(13),
-#section-1 .content-slider #banner14:checked ~ nav label:nth-of-type(14),
-#section-1 .content-slider #banner15:checked ~ nav label:nth-of-type(15),
-#section-1 .content-slider #banner16:checked ~ nav label:nth-of-type(16),
-#section-1 .content-slider #banner17:checked ~ nav label:nth-of-type(17),
-#section-1 .content-slider #banner18:checked ~ nav label:nth-of-type(18) {
+#section-1 .content-slider #banner11:checked ~ nav label:nth-of-type(11) {
   cursor: default;
   color: #fff;
   transition: all 0.5s;
@@ -824,14 +783,7 @@ body a {
 #section-1 .content-slider #banner8:checked ~ nav label:nth-of-type(8) .progressbar,
 #section-1 .content-slider #banner9:checked ~ nav label:nth-of-type(9) .progressbar,
 #section-1 .content-slider #banner10:checked ~ nav label:nth-of-type(10) .progressbar,
-#section-1 .content-slider #banner11:checked ~ nav label:nth-of-type(11) .progressbar,
-#section-1 .content-slider #banner12:checked ~ nav label:nth-of-type(12) .progressbar,
-#section-1 .content-slider #banner13checked ~ nav label:nth-of-type(13) .progressbar,
-#section-1 .content-slider #banner14:checked ~ nav label:nth-of-type(14) .progressbar,
-#section-1 .content-slider #banner15:checked ~ nav label:nth-of-type(15) .progressbar,
-#section-1 .content-slider #banner16:checked ~ nav label:nth-of-type(16) .progressbar,
-#section-1 .content-slider #banner17:checked ~ nav label:nth-of-type(17) .progressbar,
-#section-1 .content-slider #banner18:checked ~ nav label:nth-of-type(18) .progressbar {
+#section-1 .content-slider #banner11:checked ~ nav label:nth-of-type(11) .progressbar {
   background: #fff;
 }
 #section-1 .content-slider #banner1:checked ~ nav label:nth-of-type(1) .progressbar-fill,
@@ -844,14 +796,7 @@ body a {
 #section-1 .content-slider #banner8:checked ~ nav label:nth-of-type(8) .progressbar-fill,
 #section-1 .content-slider #banner9:checked ~ nav label:nth-of-type(9) .progressbar-fill,
 #section-1 .content-slider #banner10:checked ~ nav label:nth-of-type(10) .progressbar-fill,
-#section-1 .content-slider #banner11:checked ~ nav label:nth-of-type(11) .progressbar-fill,
-#section-1 .content-slider #banner12:checked ~ nav label:nth-of-type(12) .progressbar-fill,
-#section-1 .content-slider #banner13:checked ~ nav label:nth-of-type(13) .progressbar-fill,
-#section-1 .content-slider #banner14:checked ~ nav label:nth-of-type(14) .progressbar-fill,
-#section-1 .content-slider #banner15:checked ~ nav label:nth-of-type(15) .progressbar-fill,
-#section-1 .content-slider #banner16:checked ~ nav label:nth-of-type(16) .progressbar-fill,
-#section-1 .content-slider #banner17:checked ~ nav label:nth-of-type(17) .progressbar-fill,
-#section-1 .content-slider #banner18:checked ~ nav label:nth-of-type(18) .progressbar-fill{
+#section-1 .content-slider #banner11:checked ~ nav label:nth-of-type(11) .progressbar-fill{
   animation: progressBarFill 5s linear;
 }
 /* Animations */
@@ -1035,7 +980,7 @@ body a {
 }
 
 
-}
+
 html {
   scroll-behavior: smooth;
 }

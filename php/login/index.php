@@ -3,40 +3,45 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width,initial-scale=1.0" charset="utf-8">
-  <meta name="author" content=" SEEPANA SAIKIRAN ">
   <title>Aadhrita | Register</title>
   <link rel="stylesheet" href="../../css/bootstrap/bootstrap.min.css">
   <link rel="stylesheet" href="../../css/navbar.css">
+  <link rel="stylesheet" href="../../css/preloader.css">
   <link rel='stylesheet' href='https://fonts.googleapis.com/css?family=Open+Sans'>
-
+  <div class="loader-wrapper">
+  <div class="loader triangle">
+    <svg viewBox="0 0 86 80">
+      <polygon points="40 8 79 72 7 72"></polygon>
+    </svg>
+  </div>
+</div>
 </head>
-<body style=" background: linear-gradient(to top right, #fc2c77 0%, #6c4079 100%);">
-  <header class="main-header" style="font-size:16px;">
-    <div class="logo"><img   src="../../static/logo2.png"  style="height:50px;width:40px;" alt="LOGO"></img></div>
-    <input type="checkbox" class="menu-btn" id="menu-btn">
-    <label for="menu-btn" class="menu-icon"><span class="menu-icon__line"></span></label>
-    <ul class="nav-links">
-      <li class="nav-link"><a href="../../">Home</a></li>
-      <li class="nav-link"><a href="../technical/">Technical</a></li>
-      <li class="nav-link"><a href="../workshop/">WorkShops</a></li>
-      <li class="nav-link"><a href="../cultural">Culturals</a></li>
-      <li class="nav-link"><a href="../about/">About</a></li>
-      <?php
-      if (isset($_SESSION['session_email'])) {
-        echo '
-        <li class="nav-link"><a href="../profile/">Profile</a></li>
-        <li class="nav-link"><a href="../logout/">Logout</a></li>
-        ';
-      }
-      else{
-        echo '<li class="nav-link active"><a href="../login/">Register</a></li>';
-      }
-      ?>
-    </ul>
-  </header>
+<body >
+<header class="main-header" style="font-size:16px;">
+  <div class="logo"><img   src="../../static/logo2.png"  style="height:70px;width:100px;" alt="LOGO"></img></div>
+  <input type="checkbox" class="menu-btn" id="menu-btn">
+  <label for="menu-btn" class="menu-icon"><span class="menu-icon__line"></span></label>
+  <ul class="nav-links">
+    <li class="nav-link"><a href="../../">Home</a></li>
+    <li class="nav-link"><a href="../technical/">Technical</a></li>
+    <li class="nav-link"><a href="../workshop/">WorkShops</a></li>
+    <li class="nav-link"><a href="../cultural">Culturals</a></li>
+    <li class="nav-link active"><a href="../about">About</a></li>
+    <?php
+    if (isset($_SESSION['session_email'])) {
+      echo '
+      <li class="nav-link"><a href="../profile/">Profile</a></li>
+      <li class="nav-link"><a href="../logout/">Logout</a></li>
+      ';
+    }
+    else{
+      echo '<li class="nav-link"><a href="#">Register</a></li>';
+    }
+    ?>
+  </ul>
+</header>
 
-
-<div id="content" style="padding-top: 90px;">
+<div id="content" style="visibility:hidden;padding-top: 90px;background-image:linear-gradient(to right, #0F2027, #203A43,#2C5364);">
   <form action="./validateuser.php" method="POST" enctype="multipart/form-data" >
     <div class="container">
       <div class="jumbotron">
@@ -64,9 +69,8 @@
     </div>
   </div>
 </form>
-</div>
 
-      <footer style="background-color: #2c292f;padding-top: 30px;min-height: 100px; font-family: 'Righteous', cursive;">
+      <footer style="visibility:hidden;background-color: #2c292f;padding-top: 30px;min-height: 100px; font-family: 'Righteous', cursive;">
         <div class="container" >
           <div class="row">
             <div class="col-md-4 text-center text-md-left">
@@ -125,4 +129,12 @@
   <script src="../../js/popper.min.js"></script>
 <script  src="../../js/register/register.js"></script>
 </body >
+<script>
+      $(window).on("load",function(){
+        $(".loader-wrapper").fadeOut("slow");
+        $(".main-header").css("visibility","visible");
+        $("footer").css("visibility","visible");
+        $("#content").css("visibility","visible");
+      });
+    </script>
 </html>

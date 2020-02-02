@@ -1,43 +1,66 @@
-<?php 
-session_start(); 
-
-?>
+<?php session_start(); ?>
 <!DOCTYPE html>
 <html lang="en" >
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width,initial-scale=1.0" charset="utf-8">
-  <title>Aadhrita | Culturals</title>
-  <link rel="stylesheet" href="../../css/bootstrap/bootstrap.min.css">
+  <title>Aadhrita | Cultural</title>
+ <link rel="stylesheet" href="../../css/bootstrap/bootstrap.min.css">
+  <link rel="stylesheet" type="text/css" href="../../css/technical_car.css"/>
   <link rel='stylesheet' href='https://fonts.googleapis.com/css?family=Open+Sans'>
-  <link rel="stylesheet" href="../../css/culturals.css">
-  <link rel="stylesheet" href="../../css/navbar.css">
   <link rel="stylesheet" href="../../css/card.css">
-  <link rel="stylesheet" href="../../css/carousel_ext.css">
+  <link rel="stylesheet" href="../../css/preloader.css">
+  <link href='https://fonts.googleapis.com/css?family=Montserrat:400,700' rel='stylesheet' type='text/css'>
+  <link href='https://fonts.googleapis.com/css?family=Roboto:400,700,300italic' rel='stylesheet' type='text/css'>
   <link href='https://fonts.googleapis.com/css?family=Kaushan+Script' rel='stylesheet' type='text/css'>
-
+  <link rel='stylesheet' href='https://dl.dropboxusercontent.com/u/69747888/MoGo%20carousel/font-awesome.min.css'>
   <style>
    body h3 {
     font-family: 'Kaushan Script', cursive;
-    font-size: 2em;
+    font-size: 1.5em;
     font-weight: 400;
-  }
-</style>
+}
 
+html {
+  scroll-behavior: smooth;
+}
+  </style>
 </head>
-<body  style="background-color: #36096d;background-image: linear-gradient(315deg, #36096d 0%, #37d5d6 74%);">
-  <header class="main-header" style="font-size:16px;">
-    <div class="logo"><img   src="../../static/logo2.png"  style="height:50px;width:40px;" alt="LOGO"></img></div>
+<div class="loader-wrapper">
+  <div class="loader triangle">
+    <svg viewBox="0 0 86 80">
+      <polygon points="40 8 79 72 7 72"></polygon>
+    </svg>
+  </div>
+</div>
+<header class="main-header_nav" style="font-size:15px;">
+<div class="logo">
+       <img  onclick="window.location.href='../../index.php'" src="../../static/logo2.png"  style="height:70px;width:100px;" alt="LOGO"></img>
+    </div>
     <input type="checkbox" class="menu-btn" id="menu-btn">
-    <label for="menu-btn" class="menu-icon"><span class="menu-icon__line"></span></label>
+    <label for="menu-btn" class="menu-icon">
+    <span class="menu-icon__line"></span>
+    </label>
+  
     <ul class="nav-links">
-      <li class="nav-link"><a href="../../">Home</a></li>
-      <li class="nav-link"><a href="./technical/">Technical</a></li>
-      <li class="nav-link"><a href="./workshop/">WorkShops</a></li>
-      <li class="nav-link active"><a href="#">Culturals</a></li>
-      <li class="nav-link "><a href="./sports/">sports</a></li>
-      <li class="nav-link"><a href="./about/">About</a></li>
-      <?php
+      <li class="nav-link">
+        <a href="../../index.php">Home</a>
+      </li>
+     <li class="nav-link">
+      <a href="../technical/">Technical</a>
+    </li>
+      <li class="nav-link">
+        <a href="../workshop/">WorkShops</a>
+      </li>
+      <li class="nav-link active">
+        <a href="#">Culturals</a>
+      </li>
+    
+      <li class="nav-link "><a href="../sports/">sports</a></li>
+    <li class="nav-link">
+      <a href="../about/">About</a>
+    </li>
+    <?php
       if (isset($_SESSION['session_email'])) {
         echo '
         <li class="nav-link"><a href="../profile/">Profile</a></li>
@@ -48,324 +71,148 @@ session_start();
         echo '<li class="nav-link"><a href="../login/">Register</a></li>';
       }
       ?>
-    </ul>
+  </ul>
   </header>
 <!-- partial:index.partial.html -->
 <!-- 
 Please note, that you can apply .m--global-blending-active to .fnc-slider 
-
 to enable blend-mode for all background-images or apply .m--blend-bg-active
 to some specific slides (.fnc-slide). It's disabled by default in this demo,
 because it requires specific images, where more than 50% of bg is transparent or monotone
 -->
-<div class="demo-cont">
-  <!-- slider start -->
-  <div class="fnc-slider example-slider">
-    <div class="fnc-slider__slides">
-      <!-- slide start -->
-      <div class="fnc-slide m--blend-green m--active-slide">
-        <div class="fnc-slide__inner">
-          <div class="fnc-slide__mask">
-            <div class="fnc-slide__mask-inner"></div>
-          </div>
-          <div class="fnc-slide__content">
-            <h2 class="fnc-slide__heading">
-              <div class="fnc-slide__heading-line">
-                <span>SINGING</span>
-              </div>
-            </h2>
-            <button type="button" class="fnc-slide__action-btn">
-              Culturals
-              <span data-text="Culturals">Culturals</span>
-            </button>
-          </div>
-        </div>
-      </div>
-      <!-- slide end -->
-      <!-- slide start -->
-      <div class="fnc-slide m--blend-dark">
-        <div class="fnc-slide__inner">
-          <div class="fnc-slide__mask">
-            <div class="fnc-slide__mask-inner"></div>
-          </div>
-          <div class="fnc-slide__content">
-            <h2 class="fnc-slide__heading">
-              <div class="fnc-slide__heading-line">
-                <span>BEAT-BOX <br>RAP</span>
-              </div>
-
-            </h2>
-            <button type="button" class="fnc-slide__action-btn">
-              Culturals
-              <span data-text="Culturals">Culturals</span>
-            </button>
+<body>
+<section id="section-1">
+    <div class="content-slider">
+      <input type="radio" id="banner1" class="sec-1-input" name="banner" checked>
+      <input type="radio" id="banner2" class="sec-1-input" name="banner">
+      <input type="radio" id="banner3" class="sec-1-input" name="banner">
+      <input type="radio" id="banner4" class="sec-1-input" name="banner">
+      <input type="radio" id="banner5" class="sec-1-input" name="banner">
+      <input type="radio" id="banner6" class="sec-1-input" name="banner">
+      <input type="radio" id="banner7" class="sec-1-input" name="banner">
+      <input type="radio" id="banner8" class="sec-1-input" name="banner">
+      <input type="radio" id="banner9" class="sec-1-input" name="banner">
+      <input type="radio" id="banner10" class="sec-1-input" name="banner">
+      <input type="radio" id="banner11" class="sec-1-input" name="banner">
+     
+      <div class="slider">
+        <div id="top-banner-1" class="banner">
+          <div class="banner-inner-wrapper">
+            <h2>Welcome to</h2>
+            <h1>&nbsp;<br>swarasruthi</h1>
+            <div class="line"></div>
+            <div class="learn-more-button"><a  href="#section-2">Culturals</a></div>
           </div>
         </div>
-      </div>
-      <!-- slide end -->
-      <!-- slide start -->
-      <div class="fnc-slide m--blend-red">
-        <div class="fnc-slide__inner">
-          <div class="fnc-slide__mask">
-            <div class="fnc-slide__mask-inner"></div>
-          </div>
-          <div class="fnc-slide__content">
-            <h2 class="fnc-slide__heading">
-              <div class="fnc-slide__heading-line">
-                <span>BATTLE<br>OF<br>BANDS</span>
-              </div>
-            </h2>
-            <button type="button" class="fnc-slide__action-btn">
-              Culturals
-              <span data-text="Culturals">Culturals</span>
-            </button>
+        <div id="top-banner-2" class="banner">
+          <div class="banner-inner-wrapper">
+            <h2>Welcome to</h2>
+            <h1>&nbsp;<br>Beat-box/rap</h1>
+            <div class="line"></div>
+            <div class="learn-more-button"><a href="#section-2">Culturals</a></div>
           </div>
         </div>
-      </div>
-      <!-- slide end -->
-      <!-- slide start -->
-      <div class="fnc-slide m--blend-blue">
-        <div class="fnc-slide__inner">
-          <div class="fnc-slide__mask">
-            <div class="fnc-slide__mask-inner"></div>
-          </div>
-          <div class="fnc-slide__content">
-            <h2 class="fnc-slide__heading">
-              <div class="fnc-slide__heading-line">
-                <span>CLASSICAL<br>DANCE</span>
-              </div>
-            </h2>
-            <button type="button" class="fnc-slide__action-btn">
-              Culturals
-              <span data-text="Culturals">Culturals</span>
-            </button>
+        <div id="top-banner-3" class="banner">
+          <div class="banner-inner-wrapper">
+            <h2>Welcome to</h2>
+            <h1>&nbsp;<br>Dhvanipratapa</h1>
+            <div class="line"></div>
+            <div class="learn-more-button"><a href="#section-2">Culturals</a></div>
           </div>
         </div>
-      </div>
-      <!-- slide end -->
-      <!-- slide start -->
-      <div class="fnc-slide m--blend-grey">
-        <div class="fnc-slide__inner">
-          <div class="fnc-slide__mask">
-            <div class="fnc-slide__mask-inner"></div>
-          </div>
-          <div class="fnc-slide__content">
-            <h2 class="fnc-slide__heading">
-              <div class="fnc-slide__heading-line">
-                <span>SEMI-CLASSICAL<br>DANCE</span>
-              </div>
-            </h2>
-            <button type="button" class="fnc-slide__action-btn">
-              Culturals
-              <span data-text="Culturals">Culturals</span>
-            </button>
+        <div id="top-banner-4" class="banner">
+          <div class="banner-inner-wrapper">
+            <h2>Welcome to</h2>
+            <h1>&nbsp;<br>Abhivyakti</h1>
+            <div class="line"></div>
+            <div class="learn-more-button"><a href="#section-2">Culturals</a></div>
           </div>
         </div>
-      </div>
-      <!-- slide end -->
-      <!-- slide start -->
-      <div class="fnc-slide m--blend-pink">
-        <div class="fnc-slide__inner">
-          <div class="fnc-slide__mask">
-            <div class="fnc-slide__mask-inner"></div>
-          </div>
-          <div class="fnc-slide__content">
-            <h2 class="fnc-slide__heading">
-              <div class="fnc-slide__heading-line">
-                <span>WESTERN<br>DANCE</span>
-              </div>
-            </h2>
-            <button type="button" class="fnc-slide__action-btn">
-              Culturals
-              <span data-text="Culturals">Culturals</span>
-            </button>
+        <div id="top-banner-5" class="banner">
+          <div class="banner-inner-wrapper">
+            <h2>Welcome to</h2>
+            <h1>&nbsp;<br>Tridhara</h1>
+            <div class="line"></div>
+            <div class="learn-more-button"><a href="#section-2">Culturals</a></div>
           </div>
         </div>
-      </div>
-      <!-- slide end -->
-      <!-- slide start -->
-      <div class="fnc-slide m--blend-crimson">
-        <div class="fnc-slide__inner">
-          <div class="fnc-slide__mask">
-            <div class="fnc-slide__mask-inner"></div>
-          </div>
-          <div class="fnc-slide__content" >
-            <h2 class="fnc-slide__heading">
-              <div class="fnc-slide__heading-line" >
-                <span>PHOTOGRAPHY</span>
-              </div>
-            </h2>
-            <button type="button" class="fnc-slide__action-btn" >
-              Culturals
-              <span data-text="Culturals">Culturals</span>
-            </button>
+        <div id="top-banner-6" class="banner">
+          <div class="banner-inner-wrapper">
+            <h2>Welcome to</h2>
+            <h1>&nbsp;<br>Shresta</h1>
+            <div class="line"></div>
+            <div class="learn-more-button"><a href="#section-2">Culturals</a></div>
           </div>
         </div>
-      </div>
-      <!-- slide end -->
-      <!-- slide start -->
-      <div class="fnc-slide m--blend-red">
-        <div class="fnc-slide__inner">
-          <div class="fnc-slide__mask">
-            <div class="fnc-slide__mask-inner"></div>
-          </div>
-          <div class="fnc-slide__content">
-            <h2 class="fnc-slide__heading">
-              <div class="fnc-slide__heading-line">
-                <span>SHORT<br>FILM</span>
-              </div>
-            </h2>
-            <button type="button" class="fnc-slide__action-btn">
-              Culturals
-              <span data-text="Culturals">Culturals</span>
-            </button>
+        <div id="top-banner-7" class="banner">
+          <div class="banner-inner-wrapper">
+            <h2>Welcome to</h2>
+            <h1>&nbsp;<br>Kalakruthi</h1>
+            <div class="line"></div>
+            <div class="learn-more-button"><a href="#section-2">Culturals</a></div>
           </div>
         </div>
-      </div>
-      <!-- slide end -->
-      <!-- slide start -->
-      <div class="fnc-slide m--blend-dark">
-        <div class="fnc-slide__inner">
-          <div class="fnc-slide__mask">
-            <div class="fnc-slide__mask-inner"></div>
-          </div>
-          <div class="fnc-slide__content">
-            <h2 class="fnc-slide__heading">
-              <div class="fnc-slide__heading-line">
-                <span>STAND-UP<br>COMEDY</span>
-              </div>
-            </h2>
-            <button type="button" class="fnc-slide__action-btn">
-              Culturals
-              <span data-text="Culturals">Culturals</span>
-            </button>
+        <div id="top-banner-8" class="banner">
+          <div class="banner-inner-wrapper">
+            <h2>Welcome to</h2>
+            <h1>&nbsp;<br>Chitrakruthya</h1>
+            <div class="line"></div>
+            <div class="learn-more-button"><a href="#section-2">Culturals</a></div>
           </div>
         </div>
-      </div>
-      <!-- slide end -->
-      <!-- slide start -->
-      <div class="fnc-slide m--blend-crimson">
-        <div class="fnc-slide__inner">
-          <div class="fnc-slide__mask">
-            <div class="fnc-slide__mask-inner"></div>
-          </div>
-          <div class="fnc-slide__content">
-            <h2 class="fnc-slide__heading">
-              <div class="fnc-slide__heading-line">
-                <span>ARTS</span>
-              </div>
-            </h2>
-            <button type="button" class="fnc-slide__action-btn">
-              Culturals
-              <span data-text="Culturals">Culturals</span>
-            </button>
+        <div id="top-banner-9" class="banner">
+          <div class="banner-inner-wrapper">
+            <h2>Welcome to</h2>
+            <h1>&nbsp;<br>Anveshana</h1>
+            <div class="line"></div>
+            <div class="learn-more-button"><a href="#section-2">Culturals</a></div>
           </div>
         </div>
-      </div>
-      <!-- slide end -->
-      <!-- slide start -->
-      <div class="fnc-slide m--blend-grey">
-        <div class="fnc-slide__inner">
-          <div class="fnc-slide__mask">
-            <div class="fnc-slide__mask-inner"></div>
-          </div>
-          <div class="fnc-slide__content">
-            <h2 class="fnc-slide__heading">
-              <div class="fnc-slide__heading-line">
-                <span>TREASURE<br>HUNT</span>
-              </div>
-            </h2>
-            <button type="button" class="fnc-slide__action-btn">
-              Culturals
-              <span data-text="Culturals">Culturals</span>
-            </button>
+        <div id="top-banner-10" class="banner">
+          <div class="banner-inner-wrapper">
+            <h2>Welcome to</h2>
+            <h1>&nbsp;<br>Chitralahari</h1>
+            <div class="line"></div>
+            <div class="learn-more-button"><a href="#section-2">Culturals</a></div>
           </div>
         </div>
+        <div id="top-banner-11" class="banner">
+          <div class="banner-inner-wrapper">
+            <h2>Welcome to</h2>
+            <h1>Code <br>Prathibimbam</h1>
+            <div class="line"></div>
+            <div class="learn-more-button"><a href="#section-2">Culturals</a></div>
+          </div>
+        </div>
+      
       </div>
+      <nav>
+        <div class="controls">
+          <label for="banner1" onclick="setTimeout(function(){ $(`#card1`).toggleClass(`expand`) }, 100);location.href='#card1'"><span class="progressbar"><span class="progressbar-fill"></span></span><span>01</span>swarasruthi</label>
+          <label for="banner2" onclick="setTimeout(function(){ $(`#card2`).toggleClass(`expand`) }, 200);location.href='#card2'"><span class="progressbar"><span class="progressbar-fill"></span></span><span>02</span> Beat-box/rap </label>
+          <label for="banner3" onclick="setTimeout(function(){ $(`#card3`).toggleClass(`expand`) }, 300);location.href='#card3'"><span class="progressbar"><span class="progressbar-fill"></span></span><span>03</span> Dhvanipratapa</label>
+          <label for="banner4" onclick="setTimeout(function(){ $(`#card4`).toggleClass(`expand`) }, 400);location.href='#card4'"><span class="progressbar"><span class="progressbar-fill"></span></span><span>04</span>Abhivyakti</label>
+          <label for="banner5" onclick="setTimeout(function(){ $(`#card5`).toggleClass(`expand`) }, 500);location.href='#card5'"><span class="progressbar"><span class="progressbar-fill"></span></span><span>05</span>Tridhara</label>
+          <label for="banner6" onclick="setTimeout(function(){ $(`#card6`).toggleClass(`expand`) }, 600);location.href='#card6'"><span class="progressbar"><span class="progressbar-fill"></span></span><span>06</span>Shresta</label>
+          <label for="banner7" onclick="setTimeout(function(){ $(`#card7`).toggleClass(`expand`) }, 700);location.href='#card7'"><span class="progressbar"><span class="progressbar-fill"></span></span><span>07</span>Kalakruthi</label>
+          <label for="banner8" onclick="setTimeout(function(){ $(`#card8`).toggleClass(`expand`) }, 800);location.href='#card8'"><span class="progressbar"><span class="progressbar-fill"></span></span><span>08</span>Chitrakruthya</label>
+          <label for="banner9" onclick="setTimeout(function(){ $(`#card9`).toggleClass(`expand`) }, 900);location.href='#card9'"><span class="progressbar"><span class="progressbar-fill"></span></span><span>09</span>Anveshana</label>
+          <label for="banner10" onclick="setTimeout(function(){ $(`#card10`).toggleClass(`expand`) },1000);location.href='#card10'"><span class="progressbar"><span class="progressbar-fill"></span></span><span>10</span>Chitralahari</label>
+          <label for="banner11" onclick="setTimeout(function(){ $(`#card11`).toggleClass(`expand`) },1000);location.href='#card11';"><span class="progressbar"><span class="progressbar-fill"></span></span><span>11</span>Prathibimbam</label>
+         
+        </div>
+      </nav>
     </div>
-    <!-- slide end -->
-    <nav class="fnc-nav">
-      <div class="fnc-nav__bgs">
-        <div class="fnc-nav__bg m--navbg-green m--active-nav-bg"></div>
-        <div class="fnc-nav__bg m--navbg-dark"></div>
-        <div class="fnc-nav__bg m--navbg-red"></div>
-        <div class="fnc-nav__bg m--navbg-blue"></div>
-        <div class="fnc-nav__bg m--navbg-grey"></div>
-        <div class="fnc-nav__bg m--navbg-pink"></div>
-        <div class="fnc-nav__bg m--navbg-crimson"></div>
-        <div class="fnc-nav__bg m--navbg-red"></div>
-        <div class="fnc-nav__bg m--navbg-dark"></div>
-        <div class="fnc-nav__bg m--navbg-crimson"></div>
-        <div class="fnc-nav__bg m--navbg-grey"></div>
-      </div>
-      <div class="fnc-nav__controls">
-        <button class="fnc-nav__control">
-          SINGING
-          <span class="fnc-nav__control-progress"></span>
-        </button>
-        <button class="fnc-nav__control">
-          BEAT-BOX|RAP
-          <span class="fnc-nav__control-progress"></span>
-        </button>
-        <button class="fnc-nav__control">
-          BATTLE-OF-BANDS
-          <span class="fnc-nav__control-progress"></span>
-        </button>
-        <button class="fnc-nav__control">
-          CLASSICAL-DANCE
-          <span class="fnc-nav__control-progress"></span>
-        </button>
-        <button class="fnc-nav__control">
-         SEMI-CLASSICAL
-         <span class="fnc-nav__control-progress"></span>
-       </button>
-       <button class="fnc-nav__control">
-        WESTERN-DANCE
-        <span class="fnc-nav__control-progress"></span>
-      </button>
-      <button class="fnc-nav__control">
-        PHOTOGRAPHY
-        <span class="fnc-nav__control-progress"></span>
-      </button>
-      <button class="fnc-nav__control">
-        SHORT-FLIM
-        <span class="fnc-nav__control-progress"></span>
-      </button>
-      <button class="fnc-nav__control">
-        STAND-UP|COMEDY
-        <span class="fnc-nav__control-progress"></span>
-      </button>
-      <button class="fnc-nav__control">
-        ARTS
-        <span class="fnc-nav__control-progress"></span>
-      </button>
-      <button class="fnc-nav__control">
-        TREASURE-HUNT
-        <span class="fnc-nav__control-progress"></span>
-      </button>
-    </div>
-  </nav>
-</div>
-<!-- slider end -->
-<div class="demo-cont__credits">
-  <div class="demo-cont__credits-close"></div>
-  <h2 class="demo-cont__credits-heading">culturals</h2>
-  <img src="#.jpg" alt="" class="demo-cont__Culturals-img" />
-  <h3 class="demo-cont__credits-name">Want to unleash your technical skills by taking part in some interesting,out of the box,unique competitions,then here is your chance. Aadritha 2020 offers never before opportunities to prove your technical skills.</h3>
+    <section class="text-center " id="section-2" style="color:#fff;height:auto;background-image: linear-gradient(to right, #0F2027, #203A43,#2C5364);">  
+    <br><br>
 
-  <div class="colorful-switch">
-    <input type="checkbox" class="colorful-switch__checkbox js-activate-global-blending" id="colorful-switch-cb" />
-    <label class="colorful-switch__label" for="colorful-switch-cb">
-      <span class="colorful-switch__bg"></span>
-      <span class="colorful-switch__dot"></span>
-      <span class="colorful-switch__on">
-        <span class="colorful-switch__on__inner"></span>
-      </span>
-      <span class="colorful-switch__off"></span>
-    </label>
-  </div>
-</div>
-</div>
+  <h3 style="font-size: 35px;" >About</h3>
+  <h2>Mvgr Cultural Events </h2>
+  
+  <h5 style="font-size: 19px;" > Want to unleash your technical skills by taking part in some interesting and unique competitions, then here is your chance. Aadhrita 2020 <br> offers never before opportunities to prove your technical skills. </h5>
+ 
+</section>
+<div  id="car_view" style="background-image: linear-gradient(to right, #0F2027, #203A43,#2C5364); ">
 <div class="container">
   <div class="row" >
     <?php
@@ -383,9 +230,10 @@ because it requires specific images, where more than 50% of bg is transparent or
       onmouseout="this.classList.toggle(`expanded`)" id="'.$x.'" style="max-width: 20rem;min-height:29rem;" >
       <div class="card-front">
       <img class="label" src="'.$row['images'].'" viewBox="100 100 0 0"  width="100%">
+      <h3 class="title">'.$row['ename'].'</h3>
       <div class="text1">
       <div class="text-content">
-      <h2 class="title">'.$row['ename'].'</h2>
+      
       <div class="body-text">'.$row['etagline'].'</div>
       <button  onclick="$(`'.$y.'`).toggleClass(`expand`)" class="btn btn-outline-primary ">Description</button>
       </div>
@@ -410,24 +258,26 @@ because it requires specific images, where more than 50% of bg is transparent or
     ?>
   </div>
 </div>
-      <footer style="background-color: #2c292f;padding-top: 30px;min-height: 100px; font-family: 'Righteous', cursive;">
+    </div>
+    <footer  style="background-color: #2c292f;padding-top: 30px;min-height: 100px; font-family: 'Righteous', cursive;">
         <div class="container" >
           <div class="row">
             <div class="col-md-4 text-center text-md-left">
               <h4 class="my-3 text-warning">Quicklinks</h4>
               <p class="footer-links font-weight-bold">
                 <a class="text" style="color:#50d8af;" href="../../">Home |</a>
-                <a class="text"style="color: #50d8af;" href="../technical/">Technical |</a>
-                <a class="text" style="color:#50d8af;" href="../workshop/">Workshops |</a>
-                <a class="text"style="color: #50d8af;" href="../cultural/">Culturals |</a>
-                <a class="text"style="color: #50d8af;" href="../login/">Register |</a>
-                <a class="text" style="color:#50d8af;" href="../about/">About</a>
+                <a class="text"style="color: #50d8af;" href="#">Technical |</a>
+                <a class="text" style="color:#50d8af;" href="./workshop.php">Workshops |</a>
+                
+                <a class="text"style="color: #50d8af;" href="./cultural.php">Culturals |</a>
+                <!-- <a class="text"style="color: #50d8af;" href="./register/login.php">Register |</a> -->
+                <a class="text" style="color:#50d8af;" href="./about.php">About</a>
               </p>
               <div class="py-1">
                 <h4 class="my-3 text-warning">Follow us on</h4>
-                <a target="_blank" href="https://www.facebook.com/aadhrita.mvgr"><i class="fab fa-facebook fa-2x text-primary mx-3"></i></a>
+                <a target="_blank" href="https://www.facebook.com/Aadhrita-MVGR-104600827715856/"><i class="fab fa-facebook fa-2x text-primary mx-3"></i></a>
                 <a target="_blank" href="https://www.instagram.com/aadhrita2020/"><i class="fab fa-instagram fa-2x text-danger mx-6"></i></a>
-                <a target="_blank" href="https://twitter.com/aadhrita2020"><i class="fab fa-twitter fa-2x text-info mx-3"></i></a>
+                <a target="_blank" href="https://twitter.com/MVGRCEA"><i class="fab fa-twitter fa-2x text-info mx-3"></i></a>
                 <a target="_blank" href="https://www.youtube.com/channel/UCF4345SfdBnl5R73kmIfICw"><i class="fab fa-youtube fa-2x text-danger mx-6"></i></a>
               </div>
             </div>    
@@ -464,16 +314,29 @@ because it requires specific images, where more than 50% of bg is transparent or
           <p align="center" style="padding-top: 20px;">Copyright &copy;2020, AadhritaWebteam</p>
         </div>
       </footer>
+<!-- partial -->
   <script type="text/javascript">
     function soon() {
       window.alert("Registrations will be opened soon");
     }
   </script>
-  <!-- partial -->
   <script src="../../js/jquery.min.js"></script>
   <script src='https://kit.fontawesome.com/a076d05399.js'></script> 
-  <script  src="../../js/common.js"></script>
+ 
   <script src="../../js/popper.min.js"></script>
+  <script  src="../../js/technical_script.js"></script>
+ 
+  <script src='../../js/jquery.min.js'></script>
+<script src='https://use.fontawesome.com/8ae46bccf5.js'></script>
 
 </body>
+<script>
+      $(window).on("load",function(){
+        $(".loader-wrapper").fadeOut("slow");
+        $(".main-header_nav").css("visibility","visible");
+        $(".footer").fadeIn("slow");
+        $(".car_view").css("visibility","visible");
+        $("#section-1").css("visibility","visible");
+      });
+    </script>
 </html>
