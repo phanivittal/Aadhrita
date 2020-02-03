@@ -7,7 +7,7 @@ session_start();
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width,initial-scale=1.0" charset="utf-8">
-  <title>Aadhrita | Culturals</title>
+  <title>Aadhrita | SPORTS</title>
   <link rel="stylesheet" href="../../css/bootstrap/bootstrap.min.css">
   <link rel='stylesheet' href='https://fonts.googleapis.com/css?family=Open+Sans'>
   <link rel="stylesheet" href="../../css/sports.css">
@@ -113,7 +113,7 @@ because it requires specific images, where more than 50% of bg is transparent or
           </div>
         </div>
       </div>
-      <div class="fnc-slide m--blend-dark">
+      <div class="fnc-slide m--blend-blue">
         <div class="fnc-slide__inner">
           <div class="fnc-slide__mask">
             <div class="fnc-slide__mask-inner"></div>
@@ -132,7 +132,7 @@ because it requires specific images, where more than 50% of bg is transparent or
           </div>
         </div>
       </div>
-      <div class="fnc-slide m--blend-red">
+      <div class="fnc-slide m--blend-green">
         <div class="fnc-slide__inner">
           <div class="fnc-slide__mask">
             <div class="fnc-slide__mask-inner"></div>
@@ -158,8 +158,8 @@ because it requires specific images, where more than 50% of bg is transparent or
       <div class="fnc-nav__bgs">
         <div class="fnc-nav__bg m--navbg-green m--active-nav-bg"></div>
         <div class="fnc-nav__bg m--navbg-dark"></div>
-        <div class="fnc-nav__bg m--navbg-red"></div>
-        <div class="fnc-nav__bg m--navbg-dark"></div>
+        <div class="fnc-nav__bg m--navbg-blue"></div>
+        <div class="fnc-nav__bg m--navbg-green"></div>
         
         
       </div>
@@ -206,12 +206,12 @@ because it requires specific images, where more than 50% of bg is transparent or
 </div> 
 
 <body >
-<div  id="car_view" style="background-image: linear-gradient(to right, #0F2027, #203A43,#2C5364); ">
+<div  id="car_view" style="visibility:hidden;background-image: linear-gradient(to right, #0F2027, #203A43,#2C5364); ">
 <div class="container">
   <div class="row" >
     <?php
     require '../db/db.php';
-    $sql = "SELECT * FROM `events` where etype = 'CULTURAL'";
+    $sql = "SELECT * FROM `events` where etype = 'SPORTS'";
     $retval = mysqli_query($conn,$sql);
     $n = mysqli_num_rows($retval);
     for ($i=1; $i <= $n ; $i++) {
@@ -253,7 +253,7 @@ because it requires specific images, where more than 50% of bg is transparent or
   </div>
 </div>
     </div>
-      <footer style="background-color: #2c292f;padding-top: 30px;min-height: 100px; font-family: 'Righteous', cursive;">
+      <footer style="visibility:hidden;background-color: #2c292f;padding-top: 30px;min-height: 100px; font-family: 'Righteous', cursive;">
         <div class="container" >
           <div class="row">
                    <div class="col-md-4 text-center text-md-left">

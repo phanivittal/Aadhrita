@@ -84,7 +84,7 @@ session_start();
           </div>
         </div>
       </div>
-      <div class="fnc-slide m--blend-dark">
+      <div class="fnc-slide m--blend-blue">
         <div class="fnc-slide__inner">
           <div class="fnc-slide__mask">
             <div class="fnc-slide__mask-inner"></div>
@@ -103,7 +103,7 @@ session_start();
           </div>
         </div>
       </div>
-      <div class="fnc-slide m--blend-dark">
+      <div class="fnc-slide m--blend-red">
         <div class="fnc-slide__inner">
           <div class="fnc-slide__mask">
             <div class="fnc-slide__mask-inner"></div>
@@ -122,7 +122,7 @@ session_start();
           </div>
         </div>
       </div>
-      <div class="fnc-slide m--blend-dark">
+      <div class="fnc-slide m--blend-blue">
         <div class="fnc-slide__inner">
           <div class="fnc-slide__mask">
             <div class="fnc-slide__mask-inner"></div>
@@ -141,7 +141,7 @@ session_start();
           </div>
         </div>
       </div>
-      <div class="fnc-slide m--blend-dark">
+      <div class="fnc-slide m--blend-grey">
         <div class="fnc-slide__inner">
           <div class="fnc-slide__mask">
             <div class="fnc-slide__mask-inner"></div>
@@ -160,7 +160,7 @@ session_start();
           </div>
         </div>
       </div>
-      <div class="fnc-slide m--blend-dark">
+      <div class="fnc-slide m--blend-green">
         <div class="fnc-slide__inner">
           <div class="fnc-slide__mask">
             <div class="fnc-slide__mask-inner"></div>
@@ -180,7 +180,7 @@ session_start();
         </div>
       </div>
       
-      <div class="fnc-slide m--blend-red">
+      <div class="fnc-slide m--blend-purple">
         <div class="fnc-slide__inner">
           <div class="fnc-slide__mask">
             <div class="fnc-slide__mask-inner"></div>
@@ -205,12 +205,12 @@ session_start();
     <nav class="fnc-nav">
       <div class="fnc-nav__bgs">
         <div class="fnc-nav__bg m--navbg-green m--active-nav-bg"></div>
-        <div class="fnc-nav__bg m--navbg-dark"></div>
+        <div class="fnc-nav__bg m--navbg-blue"></div>
         <div class="fnc-nav__bg m--navbg-red"></div>
         <div class="fnc-nav__bg m--navbg-blue"></div>
         <div class="fnc-nav__bg m--navbg-grey"></div>
-        <div class="fnc-nav__bg m--navbg-pink"></div>
-        <div class="fnc-nav__bg m--navbg-crimson"></div>
+        <div class="fnc-nav__bg m--navbg-green"></div>
+        <div class="fnc-nav__bg m--navbg-purple"></div>
         
         
       </div>
@@ -271,7 +271,7 @@ session_start();
   <div class="row" >
     <?php
     require '../db/db.php';
-    $sql = "SELECT * FROM `events` where etype = 'CULTURAL'";
+    $sql = "SELECT * FROM `events` where etype = 'WORKSHOP'";
     $retval = mysqli_query($conn,$sql);
     $n = mysqli_num_rows($retval);
     for ($i=1; $i <= $n ; $i++) {

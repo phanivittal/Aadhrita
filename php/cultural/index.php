@@ -99,7 +99,7 @@ because it requires specific images, where more than 50% of bg is transparent or
         <div id="top-banner-1" class="banner">
           <div class="banner-inner-wrapper">
             <h2>Welcome to</h2>
-            <h1>&nbsp;<br>swarasruthi</h1>
+            <h1>&nbsp;<br>Dhvanipratapa</h1>
             <div class="line"></div>
             <div class="learn-more-button"><a  href="#section-2">Culturals</a></div>
           </div>
@@ -107,7 +107,7 @@ because it requires specific images, where more than 50% of bg is transparent or
         <div id="top-banner-2" class="banner">
           <div class="banner-inner-wrapper">
             <h2>Welcome to</h2>
-            <h1>&nbsp;<br>Beat-box/rap</h1>
+            <h1>&nbsp;<br>Tridhara</h1>
             <div class="line"></div>
             <div class="learn-more-button"><a href="#section-2">Culturals</a></div>
           </div>
@@ -115,7 +115,7 @@ because it requires specific images, where more than 50% of bg is transparent or
         <div id="top-banner-3" class="banner">
           <div class="banner-inner-wrapper">
             <h2>Welcome to</h2>
-            <h1>&nbsp;<br>Dhvanipratapa</h1>
+            <h1>&nbsp;<br>Kalakruthi</h1>
             <div class="line"></div>
             <div class="learn-more-button"><a href="#section-2">Culturals</a></div>
           </div>
@@ -123,7 +123,7 @@ because it requires specific images, where more than 50% of bg is transparent or
         <div id="top-banner-4" class="banner">
           <div class="banner-inner-wrapper">
             <h2>Welcome to</h2>
-            <h1>&nbsp;<br>Abhivyakti</h1>
+            <h1>&nbsp;<br>Chitralahari</h1>
             <div class="line"></div>
             <div class="learn-more-button"><a href="#section-2">Culturals</a></div>
           </div>
@@ -131,7 +131,7 @@ because it requires specific images, where more than 50% of bg is transparent or
         <div id="top-banner-5" class="banner">
           <div class="banner-inner-wrapper">
             <h2>Welcome to</h2>
-            <h1>&nbsp;<br>Tridhara</h1>
+            <h1>&nbsp;<br>Swarasruthi</h1>
             <div class="line"></div>
             <div class="learn-more-button"><a href="#section-2">Culturals</a></div>
           </div>
@@ -139,7 +139,7 @@ because it requires specific images, where more than 50% of bg is transparent or
         <div id="top-banner-6" class="banner">
           <div class="banner-inner-wrapper">
             <h2>Welcome to</h2>
-            <h1>&nbsp;<br>Shresta</h1>
+            <h1>&nbsp;<br>Anveshana</h1>
             <div class="line"></div>
             <div class="learn-more-button"><a href="#section-2">Culturals</a></div>
           </div>
@@ -147,7 +147,7 @@ because it requires specific images, where more than 50% of bg is transparent or
         <div id="top-banner-7" class="banner">
           <div class="banner-inner-wrapper">
             <h2>Welcome to</h2>
-            <h1>&nbsp;<br>Kalakruthi</h1>
+            <h1>&nbsp;<br>Abhivyakthi</h1>
             <div class="line"></div>
             <div class="learn-more-button"><a href="#section-2">Culturals</a></div>
           </div>
@@ -155,7 +155,7 @@ because it requires specific images, where more than 50% of bg is transparent or
         <div id="top-banner-8" class="banner">
           <div class="banner-inner-wrapper">
             <h2>Welcome to</h2>
-            <h1>&nbsp;<br>Chitrakruthya</h1>
+            <h1>&nbsp;<br>Shresta</h1>
             <div class="line"></div>
             <div class="learn-more-button"><a href="#section-2">Culturals</a></div>
           </div>
@@ -163,7 +163,7 @@ because it requires specific images, where more than 50% of bg is transparent or
         <div id="top-banner-9" class="banner">
           <div class="banner-inner-wrapper">
             <h2>Welcome to</h2>
-            <h1>&nbsp;<br>Anveshana</h1>
+            <h1>&nbsp;<br>Prathibimbam</h1>
             <div class="line"></div>
             <div class="learn-more-button"><a href="#section-2">Culturals</a></div>
           </div>
@@ -179,7 +179,7 @@ because it requires specific images, where more than 50% of bg is transparent or
         <div id="top-banner-11" class="banner">
           <div class="banner-inner-wrapper">
             <h2>Welcome to</h2>
-            <h1>Code <br>Prathibimbam</h1>
+            <h1>&nbsp;<br>Beat Box/Rap</h1>
             <div class="line"></div>
             <div class="learn-more-button"><a href="#section-2">Culturals</a></div>
           </div>
@@ -190,7 +190,7 @@ because it requires specific images, where more than 50% of bg is transparent or
         <div class="controls">
           <label for="banner1" onclick="setTimeout(function(){ $(`#card1`).toggleClass(`expand`) }, 100);location.href='#card1'"><span class="progressbar"><span class="progressbar-fill"></span></span><span>01</span>swarasruthi</label>
           <label for="banner2" onclick="setTimeout(function(){ $(`#card2`).toggleClass(`expand`) }, 200);location.href='#card2'"><span class="progressbar"><span class="progressbar-fill"></span></span><span>02</span> Beat-box/rap </label>
-          <label for="banner3" onclick="setTimeout(function(){ $(`#card3`).toggleClass(`expand`) }, 300);location.href='#card3'"><span class="progressbar"><span class="progressbar-fill"></span></span><span>03</span> Dhvanipratapa</label>
+          <label for="banner3" onclick="setTimeout(function(){ $(`#card3`).toggleClass(`expand`) }, 300);location.href='#card3'"><span class="progressbar"><span class="progressbar-fill"></span></span><span>03</span>Dhvanipratapa</label>
           <label for="banner4" onclick="setTimeout(function(){ $(`#card4`).toggleClass(`expand`) }, 400);location.href='#card4'"><span class="progressbar"><span class="progressbar-fill"></span></span><span>04</span>Abhivyakti</label>
           <label for="banner5" onclick="setTimeout(function(){ $(`#card5`).toggleClass(`expand`) }, 500);location.href='#card5'"><span class="progressbar"><span class="progressbar-fill"></span></span><span>05</span>Tridhara</label>
           <label for="banner6" onclick="setTimeout(function(){ $(`#card6`).toggleClass(`expand`) }, 600);location.href='#card6'"><span class="progressbar"><span class="progressbar-fill"></span></span><span>06</span>Shresta</label>

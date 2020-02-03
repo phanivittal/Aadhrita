@@ -101,61 +101,108 @@ if ($retval) {
       <section id="aboutEvent">
         <div class="blog-slider">
           <div class="blog-slider__wrp swiper-wrapper">
+
             <div class="blog-slider__item swiper-slide">
               <div class="blog-slider__img">
-                <img src="../../static/images/home/edm1.jpeg" alt="">
+                <img src="./static/images/home/highlights/cultural.jpg" alt="">
               </div>
               <div class="blog-slider__content">
-                <h class="mb-4 pb-0">Aadhrita2020 Events</h>
-                <span class="blog-slider__code">20,21,22 FEB 2020</span>
-                <div class="blog-slider__title">Technical Events</div>
+                <h1><b style="color: #8b98ff;">EVENT HIGHLIGHTS</b></h1>
+                <span class="blog-slider__code"></span>
+                <div class="blog-slider__title">Cultural Night</div>
                 <div class="blog-slider__text">
-                  Want to unleash your technical skills by taking part in some interesting,out of the box,unique competitions,then here is your chance. Aadhrita 2020 offers never before opportunities to prove your technical skills.
-                  <a href="./php/technical.php"> click here</a>
+                  MVGR's rich cultural heritage has witnessed a metamorphosis over many generations and now as a part of it Cultural Night is going to happen on 21st February 2020 on the occasion of Aadhrita which celebrate culture, creativity and fun all around. Let's come and enjoy the music, live performances and food.
+                  So get excited for Aadhrita's cultural night which is a perfect balance of everything.
+                </div>
+              </div>
+            </div>
+            <div class="blog-slider__item swiper-slide">
+              <div class="blog-slider__img">
+                <img src="./static/images/home/highlights/bobands.jpeg" alt="">
+              </div>
+              <div class="blog-slider__content">
+                <h1><b  style="color: #8b98ff;">EVENT HIGHLIGHTS</b></h1>
+                <span class="blog-slider__code"></span>
+                <div class="blog-slider__title">Musical Beasts</div>
+                <div class="blog-slider__text">
+                  Music beasts is the talk of the music community and is known for its rock and melodious performances. They have made their presence felt and heard as loud as thunder. They specialize in cover songs and fusion of 90's with latest music. After wowing audiences in Vizag youth festival, IEEE Hyderabad, GMRIT, Vignan and in the most recent Vizianagaram Utsav and now they return to perform at Aadhrita. You don't want to miss their invigorative performance.
+                </div>
+              </div>
+            </div>
+            <div class="blog-slider__item swiper-slide">
+              <div class="blog-slider__img">
+                <img src="./static/images/home/highlights/edm1.jpeg" alt="">
+              </div>
+              <div class="blog-slider__content">
+                <h1><b  style="color: #8b98ff;">EVENT HIGHLIGHTS</b></h1>
+                <span class="blog-slider__code"></span>
+                <div class="blog-slider__title">EDM Night</div>
+                <div class="blog-slider__text">
+                  Want to refuel your mind? Then dive into our EDM paradise, when bringing the best fusion
+                  of technology, music, fun and entertainment. Gear up for the sensational night of music, Dance and EDM.
+                  Put your hands in the air and fire up for an unforgettable experience with your friends because this night is still young!
+
                 </div>
 
               </div>
             </div>
             <div class="blog-slider__item swiper-slide">
               <div class="blog-slider__img">
-                <img src="../../static/images/home/cultural.jpeg" alt="">
+                <img src="./static/images/home/highlights/cultural.jpg" alt="">
               </div>
               <div class="blog-slider__content">
-                <h>Aadhrita2020 Events</h>
-                <span class="blog-slider__code">20,21,22 FEB 2020</span>
-                <div class="blog-slider__title">Workshops</div>
+                <h1><b  style="color: #8b98ff;">EVENT HIGHLIGHTS</b></h1>
+                <span class="blog-slider__code"></span>
+                <div class="blog-slider__title">Validatory Function</div>
                 <div class="blog-slider__text">
-                  Want to reboot your technical skills by being part in some amazing workshops then here is your chance. Aadhrita 2020 offers never before opportunities to improve understanding of theae topics at the grassroot level and provide tools for initiating projects. for more <a href="../workshop/"> click here</a>
+                  Finally Aadhrita's elites, endowed with talent can allure the audience with their performances. Wanna know how? Aadhrita provides a glorious oppurtunity for all the winners of Swarasruthi, Dvaniprathapa, Abhivyakthi, Shresta and Thridhara to perform once again on the stage in the presence of honourable chief guests and get a chance to receive applauds from the virtuous on the event of closing ceremony which is on February 22.
+
+                </div>
+              </div>
+            </div>
+            <div class="blog-slider__item swiper-slide">
+              <div class="blog-slider__img">
+                <img src="./static/images/home/highlights/cultural.jpg" alt="">
+              </div>
+              <div class="blog-slider__content">
+                <h1><b  style="color: #8b98ff;">EVENT HIGHLIGHTS</b></h1>
+                <span class="blog-slider__code"></span>
+                <div class="blog-slider__title">Philosophy of OPEN SOURCE</div>
+                <div class="blog-slider__text">
+
+
+                </div>
+              </div>
+            </div>
+            <div class="blog-slider__item swiper-slide">
+              <div class="blog-slider__img">
+                <img src="../static/images/home/highlights/cultural.jpg" alt="">
+              </div>
+              <div class="blog-slider__content">
+                <h1><b  style="color: #8b98ff;">EVENT HIGHLIGHTS</b></h1>
+                <span class="blog-slider__code"></span>
+                <div class="blog-slider__title">Talk 2</div>
+                <div class="blog-slider__text">
+
+
+                </div>
+              </div>
+            </div>
+            <div class="blog-slider__item swiper-slide">
+              <div class="blog-slider__img">
+                <img src="./static/images/home/highlights/cultural.jpg" alt="">
+              </div>
+              <div class="blog-slider__content">
+                <h1><b  style="color: #8b98ff;">EVENT HIGHLIGHTS</b></h1>
+                <span class="blog-slider__code"></span>
+                <div class="blog-slider__title">Talk 3</div>
+                <div class="blog-slider__text">
+
+
                 </div>
               </div>
             </div>
 
-            <div class="blog-slider__item swiper-slide">
-              <div class="blog-slider__img">
-                <img src="static/images/home/trea.jpeg" alt="">
-              </div>
-              <div class="blog-slider__content">
-                <h>Aadhrita2020 Events</h>
-                <span class="blog-slider__code">20,21,22 FEB 2019</span>
-                <div class="blog-slider__title">Cultural Events</div>
-                <div class="blog-slider__text">
-                  Music pervades everyday life! Aadhrita 2020 offers never before opportunities to inspire, impress, entertain and express your art in the form of music and dance.  Come and join us in  celebrations of this age old art form.<a href="../cultural/"> click here</a>
-                </div>
-              </div>
-            </div>
-            <div class="blog-slider__item swiper-slide">
-              <div class="blog-slider__img">
-                <img src="static/images/home/cultural.jpeg" alt="">
-              </div>
-              <div class="blog-slider__content">
-                <h>Aadhrita2020 Events</h>
-                <span class="blog-slider__code">20,21,22 FEB 2020</span>
-                <div class="blog-slider__title">Sports</div>
-                <div class="blog-slider__text">
-                  <a href="../../static/pdfs/sports/sports.pdf"> click here</a>
-                </div>
-              </div>
-            </div>
             <div class="blog-slider__pagination"></div>
           </div>
         </div>

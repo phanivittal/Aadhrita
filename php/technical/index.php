@@ -298,7 +298,7 @@ because it requires specific images, where more than 50% of bg is transparent or
             <div class="card card-flip col-auto mx-auto my-3" onmouseover="this.classList.toggle(`expanded`)"
             onmouseout="this.classList.toggle(`expanded`)" id="'.$x.'" style="max-width: 20rem;min-height:29rem;" >
               <div class="card-front" >
-                <img class="label" src="../'.$row['images'].'" viewBox="100 100 0 0"  width="100%">
+                <img class="label" src="'.$row['images'].'" viewBox="100 100 0 0"  width="100%">
                 <h3 class="title">'.$row['ename'].'</h3>
                 <div class="text1">
                   <div class="text-content">
