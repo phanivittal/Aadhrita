@@ -3,6 +3,7 @@
 <html lang="en" >
 <head>
   <meta charset="UTF-8">
+  <link rel="icon" href="../../static/logo1.png">
   <meta name="viewport" content="width=device-width,initial-scale=1.0" charset="utf-8">
   <title>Aadhrita | Technical</title>
  <link rel="stylesheet" href="../../css/bootstrap/bootstrap.min.css">
@@ -21,7 +22,7 @@
     font-weight: 400;
 }
 
-html {
+    html,body {
   scroll-behavior: smooth;
 }
 
@@ -36,7 +37,7 @@ html {
 </div>
 <header class="main-header_nav" style="font-size:15px;">
 <div class="logo">
-       <img  onclick="window.location.href='../../index.php'" src="../../static/logo2.png"  style="height:70px;width:100px;" alt="LOGO"></img>
+       <img  onclick="window.location.href='../../index.php'" src="../../static/logo2.png"  style="height:60px;width:120px;" alt="LOGO"></img>
     </div>
     <input type="checkbox" class="menu-btn" id="menu-btn">
     <label for="menu-btn" class="menu-icon">
@@ -251,24 +252,24 @@ because it requires specific images, where more than 50% of bg is transparent or
       </div>
       <nav>
         <div class="controls">
-          <label for="banner1" onclick="setTimeout(function(){ $(`#card1`).toggleClass(`expand`) }, 100);location.href='#card1'"><span class="progressbar"><span class="progressbar-fill"></span></span><span>01</span>Paper Presentation</label>
-          <label for="banner2" onclick="setTimeout(function(){ $(`#card2`).toggleClass(`expand`) }, 200);location.href='#card2'"><span class="progressbar"><span class="progressbar-fill"></span></span><span>02</span> Hydraulic Crane </label>
-          <label for="banner3" onclick="setTimeout(function(){ $(`#card3`).toggleClass(`expand`) }, 300);location.href='#card3'"><span class="progressbar"><span class="progressbar-fill"></span></span><span>03</span> Vipani Kriya</label>
-          <label for="banner4" onclick="setTimeout(function(){ $(`#card4`).toggleClass(`expand`) }, 400);location.href='#card4'"><span class="progressbar"><span class="progressbar-fill"></span></span><span>04</span>Instridge</label>
-          <label for="banner5" onclick="setTimeout(function(){ $(`#card5`).toggleClass(`expand`) }, 500);location.href='#card5'"><span class="progressbar"><span class="progressbar-fill"></span></span><span>05</span> Witricity</label>
-          <label for="banner6" onclick="setTimeout(function(){ $(`#card6`).toggleClass(`expand`) }, 600);location.href='#card6'"><span class="progressbar"><span class="progressbar-fill"></span></span><span>06</span> Sampatti</label>
-          <label for="banner7" onclick="setTimeout(function(){ $(`#card7`).toggleClass(`expand`) }, 700);location.href='#card7'"><span class="progressbar"><span class="progressbar-fill"></span></span><span>07</span> Hovercraft</label>
-          <label for="banner8" onclick="setTimeout(function(){ $(`#card8`).toggleClass(`expand`) }, 800);location.href='#card8'"><span class="progressbar"><span class="progressbar-fill"></span></span><span>08</span>Hackathon</label>
-          <label for="banner9" onclick="setTimeout(function(){ $(`#card9`).toggleClass(`expand`) }, 900);location.href='#card9'"><span class="progressbar"><span class="progressbar-fill"></span></span><span>09</span>  Sampathi <br>Kreeda</label>
-          <label for="banner10" onclick="setTimeout(function(){ $(`#card10`).toggleClass(`expand`) }; 1000);location.href='#card10'"><span class="progressbar"><span class="progressbar-fill"></span></span><span>10</span> Embedded</label>
-          <label for="banner11" onclick="setTimeout(function(){ $(`#card11`).toggleClass(`expand`) }, 1100);location.href='#card11'"><span class="progressbar"><span class="progressbar-fill"></span></span><span>11</span> Code Champs</label>
-          <label for="banner12" onclick="setTimeout(function(){ $(`#card12`).toggleClass(`expand`) }, 1200);location.href='#card12'"><span class="progressbar"><span class="progressbar-fill"></span></span><span>12</span> Circuitrix</label>
-          <label for="banner13" onclick="setTimeout(function(){ $(`#card13`).toggleClass(`expand`) }, 1200);location.href='#card13'"><span class="progressbar"><span class="progressbar-fill"></span></span><span>13</span> Tech Industrial</label>
-          <label for="banner14" onclick="setTimeout(function(){ $(`#card14`).toggleClass(`expand`) }, 1300);location.href='#card14'"><span class="progressbar"><span class="progressbar-fill"></span></span><span>14</span>  CADathon</label>
-          <label for="banner15" onclick="setTimeout(function(){ $(`#card15`).toggleClass(`expand`) }, 1300);location.href='#card15'"><span class="progressbar"><span class="progressbar-fill"></span></span><span>15</span> Bodha</label>
-          <label for="banner16" onclick="setTimeout(function(){ $(`#card16`).toggleClass(`expand`) }, 1400);location.href='#card16'"><span class="progressbar"><span class="progressbar-fill"></span></span><span>16</span> Ankur</label>
-          <label for="banner17" onclick="setTimeout(function(){ $(`#card17`).toggleClass(`expand`) }, 1400);location.href='#card17'"><span class="progressbar"><span class="progressbar-fill"></span></span><span>17</span>Aqua Bazooka</label>
-          <label for="banner18" onclick="setTimeout(function(){ $(`#card18`).toggleClass(`expand`) }, 1500);location.href='#card18'"><span class="progressbar"><span class="progressbar-fill"></span></span><span>18</span>TECH SOFTWARE</label>
+          <label for="banner1" onclick="location.href='#card1';setTimeout(function(){ $(`#card1`).toggleClass(`expand`) }, 100);"><span class="progressbar"><span class="progressbar-fill"></span></span><span>01</span>Paper Presentation</label>
+          <label for="banner2" onclick="location.href='#card2';setTimeout(function(){ $(`#card2`).toggleClass(`expand`) }, 200);"><span class="progressbar"><span class="progressbar-fill"></span></span><span>02</span> Hydraulic Crane </label>
+          <label for="banner3" onclick="location.href='#card3';setTimeout(function(){ $(`#card3`).toggleClass(`expand`) }, 300);"><span class="progressbar"><span class="progressbar-fill"></span></span><span>03</span> Vipani Kriya</label>
+          <label for="banner4" onclick="location.href='#card4';setTimeout(function(){ $(`#card4`).toggleClass(`expand`) }, 400);"><span class="progressbar"><span class="progressbar-fill"></span></span><span>04</span>Instridge</label>
+          <label for="banner5" onclick="location.href='#card5';setTimeout(function(){ $(`#card5`).toggleClass(`expand`) }, 500);"><span class="progressbar"><span class="progressbar-fill"></span></span><span>05</span> Witricity</label>
+          <label for="banner6" onclick="location.href='#card6';setTimeout(function(){ $(`#card6`).toggleClass(`expand`) }, 600);"><span class="progressbar"><span class="progressbar-fill"></span></span><span>06</span> Sampatti</label>
+          <label for="banner7" onclick="location.href='#card7';setTimeout(function(){ $(`#card7`).toggleClass(`expand`) }, 700);"><span class="progressbar"><span class="progressbar-fill"></span></span><span>07</span> Hovercraft</label>
+          <label for="banner8" onclick="location.href='#card8';setTimeout(function(){ $(`#card8`).toggleClass(`expand`) }, 800);"><span class="progressbar"><span class="progressbar-fill"></span></span><span>08</span>Hackathon</label>
+          <label for="banner9" onclick="location.href='#card9';setTimeout(function(){ $(`#card9`).toggleClass(`expand`) }, 900);"><span class="progressbar"><span class="progressbar-fill"></span></span><span>09</span>  Sampathi <br>Kreeda</label>
+          <label for="banner10" onclick="location.href='#card10';setTimeout(function(){ $(`#card10`).toggleClass(`expand`) },920);"><span class="progressbar"><span class="progressbar-fill"></span></span><span>10</span> Embedded</label>
+          <label for="banner11" onclick="location.href='#card11';setTimeout(function(){ $(`#card11`).toggleClass(`expand`) },930);"><span class="progressbar"><span class="progressbar-fill"></span></span><span>11</span> Code Champs</label>
+          <label for="banner12" onclick="location.href='#card12';setTimeout(function(){ $(`#card12`).toggleClass(`expand`) },950);"><span class="progressbar"><span class="progressbar-fill"></span></span><span>12</span> Circuitrix</label>
+          <label for="banner13" onclick="location.href='#card13';setTimeout(function(){ $(`#card13`).toggleClass(`expand`) },970);"><span class="progressbar"><span class="progressbar-fill"></span></span><span>13</span> Tech Industrial</label>
+          <label for="banner14" onclick="location.href='#card14';setTimeout(function(){ $(`#card14`).toggleClass(`expand`) },980);"><span class="progressbar"><span class="progressbar-fill"></span></span><span>14</span>  CADathon</label>
+          <label for="banner15" onclick="location.href='#card15';setTimeout(function(){ $(`#card15`).toggleClass(`expand`) },1000);"><span class="progressbar"><span class="progressbar-fill"></span></span><span>15</span> Bodha</label>
+          <label for="banner16" onclick="location.href='#card16';setTimeout(function(){ $(`#card16`).toggleClass(`expand`) },1000);"><span class="progressbar"><span class="progressbar-fill"></span></span><span>16</span> Ankur</label>
+          <label for="banner17" onclick="location.href='#card17';setTimeout(function(){ $(`#card17`).toggleClass(`expand`) },1100);"><span class="progressbar"><span class="progressbar-fill"></span></span><span>17</span>Aqua Bazooka</label>
+          <label for="banner18" onclick="location.href='#card18';setTimeout(function(){ $(`#card18`).toggleClass(`expand`) },1200);"><span class="progressbar"><span class="progressbar-fill"></span></span><span>18</span>TECH SOFTWARE</label>
         </div>
       </nav>
     </div>
@@ -314,7 +315,7 @@ because it requires specific images, where more than 50% of bg is transparent or
                   <i onclick="$(`'.$y.'`).toggleClass(`expand`)" class="fas fa-arrow-left fa-2x" ></i><br>
                   <h3 align:center>'.$row['ename'].'</h3>
                   
-                  <p> '.$row['edescription'].'</p>
+                  <p style="color:#3b3b3b"> '.$row['edescription'].'</p>
                   <div class="container">
                     <p> For Rules <a href="'.$row['pdfs'].'" target ="__blank">click here</a></p>
                   </div>

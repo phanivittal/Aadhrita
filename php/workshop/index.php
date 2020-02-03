@@ -5,6 +5,7 @@ session_start();
 <!DOCTYPE html>
 <html lang="en" >
 <head>
+  <link rel="icon" href="../../static/logo1.png">
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width,initial-scale=1.0" charset="utf-8">
   <title>MVGR | workshop </title>
@@ -39,7 +40,7 @@ session_start();
 <body >
 
 <header class="main-header" style="font-size:16px;">
-  <div class="logo"><img   src="../../static/logo2.png"  style="height:70px;width:100px;" alt="LOGO"></img></div>
+  <div class="logo"><img   src="../../static/logo2.png"  style="height:60px;width:120px;" alt="LOGO"></img></div>
   <input type="checkbox" class="menu-btn" id="menu-btn">
   <label for="menu-btn" class="menu-icon"><span class="menu-icon__line"></span></label>
   <ul class="nav-links">

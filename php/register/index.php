@@ -9,8 +9,8 @@ session_start();
 
 <head>
     <!-- Required meta tags-->
+    <link rel="icon" href="../../static/logo1.png">
     <meta name="viewport" content="width=device-width,initial-scale=1.0" charset="utf-8">
-        <meta name="author" content="K Sai Phani Vittal">
     <meta name="keywords" content="aadhrita">
 
     <!-- Title Page-->

@@ -17,6 +17,7 @@ if ($retval) {
 <!DOCTYPE html>
 <html lang="en">
 <head>
+<link rel="icon" href="./static/logo1.png">
   <title>Aadhrita</title>
   <meta content="width=device-width, initial-scale=1.0" name="viewport">
   <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,700,700i|Raleway:300,400,500,700,800|Oleo+Script" rel="stylesheet">
@@ -44,7 +45,7 @@ if ($retval) {
 
 <body>
 <header class="main-header" style="font-size:16px;">
-  <div class="logo"><img   src="./static/logo2.png"  style="height:70px;width:100px;" alt="LOGO"></img></div>
+  <div class="logo"><img   src="./static/logo2.png"  style="height:60px;width:120px;" alt="LOGO"></img></div>
   <input type="checkbox" class="menu-btn" id="menu-btn">
   <label for="menu-btn" class="menu-icon"><span class="menu-icon__line"></span></label>
   <ul class="nav-links">

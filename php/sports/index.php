@@ -5,6 +5,7 @@ session_start();
 <!DOCTYPE html>
 <html lang="en" >
 <head>
+<link rel="icon" href="../../static/logo1.png">
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width,initial-scale=1.0" charset="utf-8">
   <title>Aadhrita | SPORTS</title>
@@ -37,7 +38,7 @@ session_start();
 <body>
   <header class="main-header" style="visibility:hidden;">
     <div class="logo">
-     <img  onclick="window.location.href='../../index.php'" src="../../static/logo2.png" style="height:70px;width:100px;" alt="LOGO"></img>
+     <img  onclick="window.location.href='../../index.php'" src="../../static/logo2.png" style="height:60px;width:120px;" alt="LOGO"></img>
    </div>
    <input type="checkbox" class="menu-btn" id="menu-btn">
    <label for="menu-btn" class="menu-icon">

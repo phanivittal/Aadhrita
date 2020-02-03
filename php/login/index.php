@@ -2,6 +2,7 @@
 <html lang="en" >
 <head>
   <meta charset="UTF-8">
+  <link rel="icon" href="../../static/logo1.png">
   <meta name="viewport" content="width=device-width,initial-scale=1.0" charset="utf-8">
   <title>Aadhrita | Register</title>
   <link rel="stylesheet" href="../../css/bootstrap/bootstrap.min.css">
@@ -18,7 +19,7 @@
 </head>
 <body >
 <header class="main-header" style="font-size:16px;">
-  <div class="logo"><img   src="../../static/logo2.png"  style="height:70px;width:100px;" alt="LOGO"></img></div>
+  <div class="logo"><img   src="../../static/logo2.png"  style="height:60px;width:120px;" alt="LOGO"></img></div>
   <input type="checkbox" class="menu-btn" id="menu-btn">
   <label for="menu-btn" class="menu-icon"><span class="menu-icon__line"></span></label>
   <ul class="nav-links">
@@ -26,7 +27,7 @@
     <li class="nav-link"><a href="../technical/">Technical</a></li>
     <li class="nav-link"><a href="../workshop/">WorkShops</a></li>
     <li class="nav-link"><a href="../cultural">Culturals</a></li>
-    <li class="nav-link active"><a href="../about">About</a></li>
+    <li class="nav-link "><a href="../about">About</a></li>
     <?php
     if (isset($_SESSION['session_email'])) {
       echo '
@@ -35,7 +36,7 @@
       ';
     }
     else{
-      echo '<li class="nav-link"><a href="#">Register</a></li>';
+      echo '<li class="nav-link active"><a href="#">Register</a></li>';
     }
     ?>
   </ul>

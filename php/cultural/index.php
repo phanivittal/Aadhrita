@@ -5,8 +5,9 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width,initial-scale=1.0" charset="utf-8">
   <title>Aadhrita | Cultural</title>
+  <link rel="icon" href="../../static/logo1.png">
  <link rel="stylesheet" href="../../css/bootstrap/bootstrap.min.css">
-  <link rel="stylesheet" type="text/css" href="../../css/technical_car.css"/>
+  <link rel="stylesheet" type="text/css" href="../../css/cultural_car.css"/>
   <link rel='stylesheet' href='https://fonts.googleapis.com/css?family=Open+Sans'>
   <link rel="stylesheet" href="../../css/card.css">
   <link rel="stylesheet" href="../../css/preloader.css">
@@ -35,7 +36,7 @@ html {
 </div>
 <header class="main-header_nav" style="font-size:15px;">
 <div class="logo">
-       <img  onclick="window.location.href='../../index.php'" src="../../static/logo2.png"  style="height:70px;width:100px;" alt="LOGO"></img>
+       <img  onclick="window.location.href='../../index.php'" src="../../static/logo2.png"  style="height:60px;width:120px;" alt="LOGO"></img>
     </div>
     <input type="checkbox" class="menu-btn" id="menu-btn">
     <label for="menu-btn" class="menu-icon">
@@ -99,7 +100,7 @@ because it requires specific images, where more than 50% of bg is transparent or
         <div id="top-banner-1" class="banner">
           <div class="banner-inner-wrapper">
             <h2>Welcome to</h2>
-            <h1>&nbsp;<br>Dhvanipratapa</h1>
+            <h1>&nbsp;<br>Dhvaniprsatapa</h1>
             <div class="line"></div>
             <div class="learn-more-button"><a  href="#section-2">Culturals</a></div>
           </div>
@@ -171,7 +172,7 @@ because it requires specific images, where more than 50% of bg is transparent or
         <div id="top-banner-10" class="banner">
           <div class="banner-inner-wrapper">
             <h2>Welcome to</h2>
-            <h1>&nbsp;<br>Chitralahari</h1>
+            <h1>&nbsp;<br>Chitrakruthya</h1>
             <div class="line"></div>
             <div class="learn-more-button"><a href="#section-2">Culturals</a></div>
           </div>
@@ -188,17 +189,17 @@ because it requires specific images, where more than 50% of bg is transparent or
       </div>
       <nav>
         <div class="controls">
-          <label for="banner1" onclick="setTimeout(function(){ $(`#card1`).toggleClass(`expand`) }, 100);location.href='#card1'"><span class="progressbar"><span class="progressbar-fill"></span></span><span>01</span>swarasruthi</label>
-          <label for="banner2" onclick="setTimeout(function(){ $(`#card2`).toggleClass(`expand`) }, 200);location.href='#card2'"><span class="progressbar"><span class="progressbar-fill"></span></span><span>02</span> Beat-box/rap </label>
-          <label for="banner3" onclick="setTimeout(function(){ $(`#card3`).toggleClass(`expand`) }, 300);location.href='#card3'"><span class="progressbar"><span class="progressbar-fill"></span></span><span>03</span>Dhvanipratapa</label>
-          <label for="banner4" onclick="setTimeout(function(){ $(`#card4`).toggleClass(`expand`) }, 400);location.href='#card4'"><span class="progressbar"><span class="progressbar-fill"></span></span><span>04</span>Abhivyakti</label>
-          <label for="banner5" onclick="setTimeout(function(){ $(`#card5`).toggleClass(`expand`) }, 500);location.href='#card5'"><span class="progressbar"><span class="progressbar-fill"></span></span><span>05</span>Tridhara</label>
-          <label for="banner6" onclick="setTimeout(function(){ $(`#card6`).toggleClass(`expand`) }, 600);location.href='#card6'"><span class="progressbar"><span class="progressbar-fill"></span></span><span>06</span>Shresta</label>
-          <label for="banner7" onclick="setTimeout(function(){ $(`#card7`).toggleClass(`expand`) }, 700);location.href='#card7'"><span class="progressbar"><span class="progressbar-fill"></span></span><span>07</span>Kalakruthi</label>
-          <label for="banner8" onclick="setTimeout(function(){ $(`#card8`).toggleClass(`expand`) }, 800);location.href='#card8'"><span class="progressbar"><span class="progressbar-fill"></span></span><span>08</span>Chitrakruthya</label>
-          <label for="banner9" onclick="setTimeout(function(){ $(`#card9`).toggleClass(`expand`) }, 900);location.href='#card9'"><span class="progressbar"><span class="progressbar-fill"></span></span><span>09</span>Anveshana</label>
-          <label for="banner10" onclick="setTimeout(function(){ $(`#card10`).toggleClass(`expand`) },1000);location.href='#card10'"><span class="progressbar"><span class="progressbar-fill"></span></span><span>10</span>Chitralahari</label>
-          <label for="banner11" onclick="setTimeout(function(){ $(`#card11`).toggleClass(`expand`) },1000);location.href='#card11';"><span class="progressbar"><span class="progressbar-fill"></span></span><span>11</span>Prathibimbam</label>
+          <label for="banner1" onclick="setTimeout(function(){ $(`#card1`).toggleClass(`expand`) }, 100);location.href='#card1'"><span class="progressbar"><span class="progressbar-fill"></span></span><span>01</span>Dhvanipratapa</label>
+          <label for="banner2" onclick="setTimeout(function(){ $(`#card2`).toggleClass(`expand`) }, 200);location.href='#card2'"><span class="progressbar"><span class="progressbar-fill"></span></span><span>02</span>Tridhara</label>
+          <label for="banner3" onclick="setTimeout(function(){ $(`#card3`).toggleClass(`expand`) }, 300);location.href='#card3'"><span class="progressbar"><span class="progressbar-fill"></span></span><span>03</span>Kalakruthi</label>
+          <label for="banner4" onclick="setTimeout(function(){ $(`#card4`).toggleClass(`expand`) }, 400);location.href='#card4'"><span class="progressbar"><span class="progressbar-fill"></span></span><span>04</span>Chitralahari</label>
+          <label for="banner5" onclick="setTimeout(function(){ $(`#card5`).toggleClass(`expand`) }, 500);location.href='#card5'"><span class="progressbar"><span class="progressbar-fill"></span></span><span>05</span>Swarasruthi</label>
+          <label for="banner6" onclick="setTimeout(function(){ $(`#card6`).toggleClass(`expand`) }, 600);location.href='#card6'"><span class="progressbar"><span class="progressbar-fill"></span></span><span>06</span>Anveshana</label>
+          <label for="banner7" onclick="setTimeout(function(){ $(`#card7`).toggleClass(`expand`) }, 700);location.href='#card7'"><span class="progressbar"><span class="progressbar-fill"></span></span><span>07</span>Abhivyakti</label>
+          <label for="banner8" onclick="setTimeout(function(){ $(`#card8`).toggleClass(`expand`) }, 800);location.href='#card8'"><span class="progressbar"><span class="progressbar-fill"></span></span><span>08</span>Shresta</label>
+          <label for="banner9" onclick="setTimeout(function(){ $(`#card9`).toggleClass(`expand`) }, 900);location.href='#card9'"><span class="progressbar"><span class="progressbar-fill"></span></span><span>09</span>Prathibimbam</label>
+          <label for="banner10" onclick="setTimeout(function(){ $(`#card10`).toggleClass(`expand`) },1000);location.href='#card10'"><span class="progressbar"><span class="progressbar-fill"></span></span><span>10</span>Chitrakruthya</label>
+          <label for="banner11" onclick="setTimeout(function(){ $(`#card11`).toggleClass(`expand`) },1000);location.href='#card11';"><span class="progressbar"><span class="progressbar-fill"></span></span><span>11</span>Beat Box / Rap</label>
          
         </div>
       </nav>
