@@ -34,6 +34,17 @@ if ($retval) {
         alert('Registrations will be opened soon');
     }
   </script>
+  <style type="text/css">
+    @font-face {
+      font-family: 'aadhritaFont';
+      src: url('./css/aadfont/aadhritaFont.eot'); /* IE9 Compat Modes */
+      src: url('./css/aadfont/aadhritaFont.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+           url('./css/aadfont/aadhritaFont.woff2') format('woff2'), /* Super Modern Browsers */
+           url('./css/aadfont/aadhritaFont.woff') format('woff'), /* Pretty Modern Browsers */
+           url('./css/aadfont/aadhritaFont.ttf')  format('truetype'), /* Safari, Android, iOS */
+           url('./css/aadfont/aadhritaFont.svg#svgFontName') format('svg'); /* Legacy iOS */
+    }
+  </style>
 </head>
 <div class="loader-wrapper">
   <div class="loader triangle">
@@ -70,7 +81,7 @@ if ($retval) {
 </header>
   <section id="intro">
     <div class="intro-container wow fadeIn">
-      <h1 class="mb-4 pb-0 title">Aadhrita&nbsp;&nbsp;&nbsp;2020</h1>
+      <h1 class="mb-4 pb-0 title" style="font-family: aadhritaFont;">Aadhrita&nbsp;&nbsp;&nbsp;2020</h1>
       <p1>Aadhrita2020 aims in bringing together budding engineers <br>across the corners of the country to take part in it <br>thereby providing them a platform to brainstorm on developments in their disciplines.</p1>
       <h2 class="mb-4">&nbsp;<br>Venue</h2>
       <p class="mb-4 pb-10"><span> 20,21,22 Feb, MVGR College of Engineering, Vizianagaram</span></p>
@@ -85,7 +96,7 @@ if ($retval) {
         <div class="row">
           <div class="col-lg-6">
             <h2>About The Event</h2>
-            <p>A nationwide fest, AADHRITA is around the corner and is already sending sparks into the January air. AADHRITA was brought into picture for the first time in the year 2012 and was a grand success back then. It was started with a hope to bring together colleges from across the country and encourage students to participate and nourish their talents on a phenomenal platform. This year, we are proud to host this event after eight years with that very same hope. AADHRITA returns with a grand entrance on the 20th, 21st and 22nd of February, 2020.</p>
+            <p>A nationwide fest, AADHRITA is around the corner and is already sending sparks into the January air. AADHRITA was brought into picture for the first time in the year 2008 and was a grand success back then. It was started with a hope to bring together colleges from across the country and encourage students to participate and nourish their talents on a phenomenal platform. This year, we are proud to host this event after eight years with that very same hope. AADHRITA returns with a grand entrance on the 20th, 21st and 22nd of February, 2020.</p>
           </div>
           <div class="col-lg-3">
             <h3>Where</h3>
@@ -161,7 +172,7 @@ if ($retval) {
                 </div>
               </div>
             </div>
-            <div class="blog-slider__item swiper-slide">
+            <!-- <div class="blog-slider__item swiper-slide">
               <div class="blog-slider__img">
                 <img src="./static/images/home/highlights/cultural.jpg" alt="">
               </div>
@@ -203,7 +214,7 @@ if ($retval) {
                 </div>
               </div>
             </div>
-
+ -->
             <div class="blog-slider__pagination"></div>
           </div>
         </div>
@@ -240,7 +251,7 @@ if ($retval) {
             <div>
               <ul>
                 <li class="fa fa-phone  mx-auto my-3 "><a style="color:#50d8af;" href="tel:+917095847156">&nbsp Prasoon : +917095847156 </a></li>
-                <!-- <li class="fa fa-phone  mx-auto my-3 "><a style="color:#50d8af;" href="tel:+919949110243">&nbsp Jeevan : +919949110243 </a></li> -->
+                <li class="fa fa-phone  mx-auto my-3 "><a style="color:#50d8af;" href="tel:+919949110243">&nbsp Jeevan : +919949110243 </a></li>
                 <li class="fa fa-envelope  mx-auto my-3 "><a style="color:#50d8af;" href="mailto:aadhrita2020@gmail.com">&nbsp aadhrita2020@gmail.com </a></li>
               </ul>
             </div>

@@ -90,7 +90,7 @@ because it requires specific images, where more than 50% of bg is transparent or
             </h3>
             <button type="button" class="fnc-slide__action-btn">
             Sports
-              <span data-text="Workshop">Sports</Canvas></span>
+              <span data-text="Sports">Sports</Canvas></span>
             </button>
           </div>
         </div>
@@ -109,7 +109,7 @@ because it requires specific images, where more than 50% of bg is transparent or
             </h3>
             <button type="button" class="fnc-slide__action-btn">
             Sports
-              <span data-text="Workshop">Sports</span>
+              <span data-text="Sports">Sports</span>
             </button>
           </div>
         </div>
@@ -128,7 +128,7 @@ because it requires specific images, where more than 50% of bg is transparent or
             </h3>
             <button type="button" class="fnc-slide__action-btn">
             Sports
-              <span data-text="Workshop">Sports</span>
+              <span data-text="Sports">Sports</span>
             </button>
           </div>
         </div>
@@ -147,7 +147,7 @@ because it requires specific images, where more than 50% of bg is transparent or
             </h3>
             <button type="button" class="fnc-slide__action-btn">
             Sports
-              <span data-text="Workshop">Sports</span>
+              <span data-text="Sports">Sports</span>
             </button>
           </div>
         </div>
@@ -254,7 +254,7 @@ because it requires specific images, where more than 50% of bg is transparent or
   </div>
 </div>
     </div>
-      <footer style="visibility:hidden;background-color: #2c292f;padding-top: 30px;min-height: 100px; font-family: 'Righteous', cursive;">
+      <footer style="background-color: #2c292f;padding-top: 30px;min-height: 100px; font-family: 'Righteous', cursive;">
         <div class="container" >
           <div class="row">
                    <div class="col-md-4 text-center text-md-left">
@@ -285,7 +285,7 @@ because it requires specific images, where more than 50% of bg is transparent or
                 <div>
                   <ul>
                     <li class="fa fa-phone  mx-auto my-3 "><a style="color:#50d8af;" href="tel:+917095847156">&nbsp Prasoon : +917095847156 </a></li>
-                    <!-- <li class="fa fa-phone  mx-auto my-3 "><a style="color:#50d8af;" href="tel:+919949110243">&nbsp Jeevan : +919949110243 </a></li> -->
+                    <li class="fa fa-phone  mx-auto my-3 "><a style="color:#50d8af;" href="tel:+919949110243">&nbsp Jeevan : +919949110243 </a></li>
                     <li class="fa fa-envelope  mx-auto my-3 "><a style="color:#50d8af;" href="mailto:aadhrita2020@gmail.com">&nbsp aadhrita2020@gmail.com </a></li>
                   </ul>
                 </div>

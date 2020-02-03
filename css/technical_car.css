@@ -647,47 +647,47 @@ body a {
   background-size: cover;
 }
 #section-1 .content-slider .slider #top-banner-2 {
-  background: url('../static/images/technical/circuitrix.png') no-repeat center center;
-  background-size: cover;
-}
-#section-1 .content-slider .slider #top-banner-3 {
-  background: url('../static/images/technical/witricity.png') no-repeat center center;
-  background-size: cover;
-}
-#section-1 .content-slider .slider #top-banner-4 {
-  background: url('../static/images/technical/embeddedProgramming.png') no-repeat center center;
-  background-size: cover;
-}
-#section-1 .content-slider .slider #top-banner-5 {
-  background: url('../static/images/technical/hovercraft.png') no-repeat center center;
-  background-size: cover;
-}
-#section-1 .content-slider .slider #top-banner-6 {
-  background: url('../static/images/technical/cadathon.png') no-repeat center center;
-  background-size: cover;
-}
-#section-1 .content-slider .slider #top-banner-7 {
-  background: url('../static/images/technical/water_rocket.png') no-repeat center center;
-  background-size: cover;
-}
-#section-1 .content-slider .slider #top-banner-8 {
   background: url('../static/images/technical/hydraulic.png') no-repeat center center;
   background-size: cover;
 }
-#section-1 .content-slider .slider #top-banner-9 {
+#section-1 .content-slider .slider #top-banner-3 {
+  background: url('../static/images/technical/marketing.png') no-repeat center center;
+  background-size: cover;
+}
+#section-1 .content-slider .slider #top-banner-4 {
   background: url('../static/images/technical/instridge.png') no-repeat center center;
   background-size: cover;
 }
-#section-1 .content-slider .slider #top-banner-10 {
-  background: url('../static/images/technical/code_champs.png') no-repeat center center;
+#section-1 .content-slider .slider #top-banner-5 {
+  background: url('../static/images/technical/witricity.png') no-repeat center center;
   background-size: cover;
 }
-#section-1 .content-slider .slider #top-banner-11{
+#section-1 .content-slider .slider #top-banner-6 {
+  background: url('../static/images/technical/hrevent.png') no-repeat center center;
+  background-size: cover;
+}
+#section-1 .content-slider .slider #top-banner-7 {
+  background: url('../static/images/technical/hovercraft.png') no-repeat center center;
+  background-size: cover;
+}
+#section-1 .content-slider .slider #top-banner-8 {
   background: url('../static/images/technical/hackothon.png') no-repeat center center;
   background-size: cover;
 }
+#section-1 .content-slider .slider #top-banner-9 {
+  background: url('../static/images/technical/finance.png') no-repeat center center;
+  background-size: cover;
+}
+#section-1 .content-slider .slider #top-banner-10 {
+  background: url('../static/images/technical/embeddedProgramming.png') no-repeat center center;
+  background-size: cover;
+}
+#section-1 .content-slider .slider #top-banner-11{
+  background: url('../static/images/technical/code_champs.png') no-repeat center center;
+  background-size: cover;
+}
 #section-1 .content-slider .slider #top-banner-12 {
-  background: url('../static/images/technical/software.png') no-repeat center center;
+  background: url('../static/images/technical/circuitrix.png') no-repeat center center;
   background-size: cover;
 }
 #section-1 .content-slider .slider #top-banner-13 {
@@ -695,7 +695,7 @@ body a {
   background-size: cover;
 }
 #section-1 .content-slider .slider #top-banner-14 {
-  background: url('../static/images/technical/marketing.png') no-repeat center center;
+  background: url('../static/images/technical/cadathon.png') no-repeat center center;
   background-size: cover;
 }
 #section-1 .content-slider .slider #top-banner-15 {
@@ -707,11 +707,11 @@ body a {
   background-size: cover;
 }
 #section-1 .content-slider .slider #top-banner-17 {
-  background: url('../static/images/technical/hrevent.png') no-repeat center center;
+  background: url('../static/images/technical/water_rocket.png') no-repeat center center;
   background-size: cover;
 }
 #section-1 .content-slider .slider #top-banner-18 {
-  background: url('../static/images/technical/finance.png') no-repeat center center;
+  background: url('../static/images/technical/software.png') no-repeat center center;
   background-size: cover;
 }
 

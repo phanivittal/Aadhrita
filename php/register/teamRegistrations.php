@@ -41,18 +41,6 @@
     	}
     ?>
     </ul>
-  
-    <?php
-		        if (isset($_SESSION['session_email'])) {
-					echo '
-					<li class="nav-link"><a href="./content/profile.php">Profile</a></li>
-					<li class="nav-link"><a href="./register/logout.php">Logout</a></li>
-					';
-		        }
-		        else{
-					echo '<li class="nav-link"><a href="./register/login.php">Register</a></li>';
-		        }
-		    ?>
   </header>
 	<body>
 	<div class="container jumbotron mt-5">
@@ -74,7 +62,7 @@
 			}
 			else{
 				$id =  $_GET['id'];
-				header("Location:login.php?msg=First register to login for the fest");
+				header("Location:../login/?msg=First register to login for the fest");
 			}
 		?>
 		
@@ -132,7 +120,7 @@
                 <div>
                   <ul>
                     <li class="fa fa-phone  mx-auto my-3 "><a style="color:#50d8af;" href="tel:+917095847156">&nbsp Prasoon : +917095847156 </a></li>
-                    <!-- <li class="fa fa-phone  mx-auto my-3 "><a style="color:#50d8af;" href="tel:+919949110243">&nbsp Jeevan : +919949110243 </a></li> -->
+                    <li class="fa fa-phone  mx-auto my-3 "><a style="color:#50d8af;" href="tel:+919949110243">&nbsp Jeevan : +919949110243 </a></li>
                     <li class="fa fa-envelope  mx-auto my-3 "><a style="color:#50d8af;" href="mailto:aadhrita2020@gmail.com">&nbsp aadhrita2020@gmail.com </a></li>
                   </ul>
                 </div>
