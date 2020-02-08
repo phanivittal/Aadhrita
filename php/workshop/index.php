@@ -5,7 +5,7 @@ session_start();
 <!DOCTYPE html>
 <html lang="en" >
 <head>
-  <link rel="icon" href="../../static/logo1.png">
+  <link rel="icon" href="../../static/logo3.png">
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width,initial-scale=1.0" charset="utf-8">
   <title>MVGR | workshop </title>
@@ -251,7 +251,7 @@ session_start();
   <div class="demo-cont__credits-close"></div>
   <h2 class="demo-cont__credits-heading">Workshops</h2>
   <img src="#.jpg" alt="" class="demo-cont__Culturals-img" />
-  <h3 class="demo-cont__credits-name">Music pervades everyday life! Aadritha 2020 offers never before opportunities to inspire, impress, entertain and express your art in the form of music and dance.  Come and join us in  celebrations of this age old art form.</h3>
+  <h3 class="demo-cont__credits-name">Only he who can see the invisible can do the impossible! want to explore & discover more. Come and join us.</h3>
 
   <div class="colorful-switch">
     <input type="checkbox" class="colorful-switch__checkbox js-activate-global-blending" id="colorful-switch-cb" />
@@ -304,7 +304,7 @@ session_start();
       <p> For Rules <a href="'.$row['pdfs'].'" target ="__blank" >click here</a></p>
       </div>
       <div class="container mt-3">
-      <a type="button" class="btn btn-info" onclick = soon() >Register</a>
+      <a type="button" class="btn btn-info" onclick ="location.href=`../login/`" >Register</a>
       </div>
       </div>
       </div>

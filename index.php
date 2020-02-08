@@ -29,11 +29,7 @@ if ($retval) {
   <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.3.5/css/swiper.min.css'>
   <link href="./css/home/style.css" rel="stylesheet">
   <link href='https://fonts.googleapis.com/css?family=Kaushan+Script' rel='stylesheet' type='text/css'>
-  <script>
-    function willbesoon(){
-        alert('Registrations will be opened soon');
-    }
-  </script>
+  
   <style type="text/css">
     @font-face {
       font-family: 'aadhritaFont';
@@ -56,7 +52,7 @@ if ($retval) {
 
 <body>
 <header class="main-header" style="font-size:16px;">
-  <div class="logo"><img   src="./static/logo2.png"  style="height:60px;width:120px;" alt="LOGO"></img></div>
+  <div class="logo"><img   src="static/logo2.png"  style="height:60px;width:120px;" alt="LOGO"></img></div>
   <input type="checkbox" class="menu-btn" id="menu-btn">
   <label for="menu-btn" class="menu-icon"><span class="menu-icon__line"></span></label>
   <ul class="nav-links">
@@ -87,7 +83,7 @@ if ($retval) {
       <p class="mb-4 pb-10"><span> 20,21,22 Feb, MVGR College of Engineering, Vizianagaram</span></p>
       <a href="https://www.youtube.com/channel/UCF4345SfdBnl5R73kmIfICw" target="__blank" class="venobox play-btn mb-4" data-vbtype="video"
       data-autoplay="true"></a>
-      <a class="about-btn" style="cursor: pointer;"   onclick="willbesoon()">Register for the Event</a>
+      <a class="about-btn" style="cursor: pointer;"  onclick ="location.href=`php/login/`">Register for the Event</a>
     </div>
   </section>
   <main id="main">
@@ -116,7 +112,7 @@ if ($retval) {
 
             <div class="blog-slider__item swiper-slide">
               <div class="blog-slider__img">
-                <img src="./static/images/home/highlights/cultural.jpg" alt="">
+                <img src="./static/images/home/highlights/culturalni8.png" alt="Cultural Night">
               </div>
               <div class="blog-slider__content">
                 <h1><b style="color: #8b98ff;">EVENT HIGHLIGHTS</b></h1>
@@ -130,7 +126,7 @@ if ($retval) {
             </div>
             <div class="blog-slider__item swiper-slide">
               <div class="blog-slider__img">
-                <img src="./static/images/home/highlights/bobands.jpeg" alt="">
+                <img src="./static/images/home/highlights/bobands.png" alt="Musical Beasts">
               </div>
               <div class="blog-slider__content">
                 <h1><b  style="color: #8b98ff;">EVENT HIGHLIGHTS</b></h1>
@@ -143,7 +139,7 @@ if ($retval) {
             </div>
             <div class="blog-slider__item swiper-slide">
               <div class="blog-slider__img">
-                <img src="./static/images/home/highlights/edm1.jpeg" alt="">
+                <img src="./static/images/home/highlights/edm1.jpeg" alt="EDM Night">
               </div>
               <div class="blog-slider__content">
                 <h1><b  style="color: #8b98ff;">EVENT HIGHLIGHTS</b></h1>
@@ -160,7 +156,7 @@ if ($retval) {
             </div>
             <div class="blog-slider__item swiper-slide">
               <div class="blog-slider__img">
-                <img src="./static/images/home/highlights/cultural.jpg" alt="">
+                <img src="./static/images/home/highlights/validating.png" alt="Validatory Function">
               </div>
               <div class="blog-slider__content">
                 <h1><b  style="color: #8b98ff;">EVENT HIGHLIGHTS</b></h1>

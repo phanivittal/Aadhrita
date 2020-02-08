@@ -15,38 +15,12 @@
 	    <link rel="stylesheet" href="../../css/navbar.css">
 	    <link rel="stylesheet" href="../../css/card.css">
 	</head>
-	<header class="main-header">
-	<div class="logo">
-       <img  onclick="window.location.href='../../index.php'" src="../static/logo.png" style="height:50px;width:30px;" alt="LOGO"></img>
-    </div>
-  
-    <input type="checkbox" class="menu-btn" id="menu-btn">
-    <label for="menu-btn" class="menu-icon">
-      <span class="menu-icon__line"></span>
-    </label>
-    <ul class="nav-links">
-    	<li class="nav-link"><a href="../../index.php">Home</a></li>
-    	<li class="nav-link"><a href="../workshop.php">WorkShops</a></li>
-    	<li class="nav-link"><a href="../cultural.php">Culturals</a></li>
-    	<li class="nav-link"><a href="../technical.php">Technical</a></li>
-    	<li class="nav-link"><a href="../about.php">About</a></li>
-    	<?php
-    	if (isset($_SESSION['session_email'])) {
-    		echo '
-    		<li class="nav-link"><a href="./content/profile.php">Profile</a></li>
-    		<li class="nav-link"><a href="./register/logout.php">Logout</a></li>';
-    	}
-    	else{
-    		echo '<li class="nav-link"><a href="#">Register</a></li>';
-    	}
-    ?>
-    </ul>
-  </header>
+	
 	<body>
 	<div class="container jumbotron mt-5">
 		<?php
 			if (isset($_SESSION['session_email'])) {
-				include 'db.php';
+				include '../db/db.php';
 				$sid = $_GET['id'];
 				$id = utf8_decode(urldecode($sid));
 				$_SESSION['eventId'] = $id;
@@ -66,14 +40,14 @@
 			}
 		?>
 		
-		<form method="POST" enctype="multipart/form-data" action="./content/validateregistration.php">
+		<form method="POST" enctype="multipart/form-data" action="./validateTeamRegistration.php">
 			<div class="form-group">
 				<label>Enter Team Lead AADHRITA ID :</label>
-				<input type="text" class="form-control" name="tlid">
+				<input type="text" class="form-control" name="tlid" >
 			</div>
 			<div class="form-group">
 				<label>Enter Team Lead Email ID :</label>
-				<input type="text" class="form-control" name="tlemail">
+				<input type="text" class="form-control" name="tlemail" pattern="^([a-zA-Z0-9_\-\.]+)@([a-zA-Z0-9_\-\.]+)\.([a-zA-Z]{2,5})$">
 			</div>
 			<div class="form-group">
 				<label>Enter Team size :</label>
@@ -120,7 +94,7 @@
                 <div>
                   <ul>
                     <li class="fa fa-phone  mx-auto my-3 "><a style="color:#50d8af;" href="tel:+917095847156">&nbsp Prasoon : +917095847156 </a></li>
-                    <li class="fa fa-phone  mx-auto my-3 "><a style="color:#50d8af;" href="tel:+919949110243">&nbsp Jeevan : +919949110243 </a></li>
+                    <!-- <li class="fa fa-phone  mx-auto my-3 "><a style="color:#50d8af;" href="tel:+919949110243">&nbsp Jeevan : +919949110243 </a></li> -->
                     <li class="fa fa-envelope  mx-auto my-3 "><a style="color:#50d8af;" href="mailto:aadhrita2020@gmail.com">&nbsp aadhrita2020@gmail.com </a></li>
                   </ul>
                 </div>
@@ -148,7 +122,6 @@
     <script src='https://kit.fontawesome.com/a076d05399.js'></script> 
     <script  src="../../js/common.js"></script>
     <script src="../../js/popper.min.js"></script>
-    <script type="text/javascript" src="../../js/navbar.js" ></script>
 	
 	<script>
 
@@ -192,6 +165,7 @@
 	        		div1.className = "form-group";
 	           		input1.type = "text";
 		            input1.name = "memberEmail"+i;
+		            // input1.pattern = '^([a-zA-Z0-9_\-\.]+)@([a-zA-Z0-9_\-\.]+)\.([a-zA-Z]{2,5})$';
 		            input1.className = "form-control";
 		            input1.required = "yes";
 		            div1.appendChild(text1);
@@ -205,7 +179,7 @@
 	        	var submit = document.createElement("input");
 	        	submit.name = "submit";
 		        submit.className = "btn btn-primary mt-2";
-		        submit.value = "register";
+		        submit.value = "submit";
 		        submit.type = "submit";
 		        div2.appendChild(submit);
 	        }
@@ -213,18 +187,7 @@
 	        	alert("Enter allowed team size only");
 	        }
 		}
-
-		// Nav bar
-		function opennav(){
-			document.getElementById('sidemenu').classList.toggle("open");
-		}
-		function flip(){
-			$('.card-flip').toggleClass('expand');
-		}
-		$(".btns").click(function(){
-			var href = $('.btns').attr('href');
-			window.location.href = href;
-		});
+		
 	</script>
 </body>
 </html>

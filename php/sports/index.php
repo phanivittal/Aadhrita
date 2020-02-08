@@ -5,7 +5,7 @@ session_start();
 <!DOCTYPE html>
 <html lang="en" >
 <head>
-<link rel="icon" href="../../static/logo1.png">
+<link rel="icon" href="../../static/logo3.png">
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width,initial-scale=1.0" charset="utf-8">
   <title>Aadhrita | SPORTS</title>
@@ -190,7 +190,7 @@ because it requires specific images, where more than 50% of bg is transparent or
   <div class="demo-cont__credits-close"></div>
   <h2 class="demo-cont__credits-heading">Sports</h2>
   
-  <h3 class="demo-cont__credits-name">Music pervades everyday life! Aadritha 2020 offers never before opportunities to inspire, impress, entertain and express your art in the form of music and dance.  Come and join us in  celebrations of this age old art form.</h3>
+  <h3 class="demo-cont__credits-name">Sports has it's own corner reserved in the hearts of athletes. Their struggle is incomparable and often doesn't come into light. Aadhrita is here to shower some light on this struggle. Every sportsman would get an opportunity to showcase what they couldn't all this while and be appreciated for the same.</h3>
 
   <div class="colorful-switch">
     <input type="checkbox" class="colorful-switch__checkbox js-activate-global-blending" id="colorful-switch-cb" />

@@ -9,7 +9,7 @@ session_start();
 
 <head>
     <!-- Required meta tags-->
-    <link rel="icon" href="../../static/logo1.png">
+    <link rel="icon" href="../../static/logo3.png">
     <meta name="viewport" content="width=device-width,initial-scale=1.0" charset="utf-8">
     <meta name="keywords" content="aadhrita">
 

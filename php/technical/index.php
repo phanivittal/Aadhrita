@@ -3,7 +3,7 @@
 <html lang="en" >
 <head>
   <meta charset="UTF-8">
-  <link rel="icon" href="../../static/logo1.png">
+  <link rel="icon" href="../../static/logo3.png">
   <meta name="viewport" content="width=device-width,initial-scale=1.0" charset="utf-8">
   <title>Aadhrita | Technical</title>
  <link rel="stylesheet" href="../../css/bootstrap/bootstrap.min.css">
@@ -179,7 +179,7 @@ because it requires specific images, where more than 50% of bg is transparent or
         <div id="top-banner-10" class="banner">
           <div class="banner-inner-wrapper">
             <h2>Welcome to</h2>
-            <h1>&nbsp;<br>Embedded</h1>
+            <h1>Embedded<br>Programming</h1>
             <div class="line"></div>
             <div class="learn-more-button"><a href="#section-2">Technical</a></div>
           </div>
@@ -258,18 +258,18 @@ because it requires specific images, where more than 50% of bg is transparent or
           <label for="banner4" onclick="location.href='#card4';setTimeout(function(){ $(`#card4`).toggleClass(`expand`) }, 400);"><span class="progressbar"><span class="progressbar-fill"></span></span><span>04</span>Instridge</label>
           <label for="banner5" onclick="location.href='#card5';setTimeout(function(){ $(`#card5`).toggleClass(`expand`) }, 500);"><span class="progressbar"><span class="progressbar-fill"></span></span><span>05</span> Witricity</label>
           <label for="banner6" onclick="location.href='#card6';setTimeout(function(){ $(`#card6`).toggleClass(`expand`) }, 600);"><span class="progressbar"><span class="progressbar-fill"></span></span><span>06</span> Sampatti</label>
-          <label for="banner7" onclick="location.href='#card7';setTimeout(function(){ $(`#card7`).toggleClass(`expand`) }, 700);"><span class="progressbar"><span class="progressbar-fill"></span></span><span>07</span> Hovercraft</label>
-          <label for="banner8" onclick="location.href='#card8';setTimeout(function(){ $(`#card8`).toggleClass(`expand`) }, 800);"><span class="progressbar"><span class="progressbar-fill"></span></span><span>08</span>Hackathon</label>
-          <label for="banner9" onclick="location.href='#card9';setTimeout(function(){ $(`#card9`).toggleClass(`expand`) }, 900);"><span class="progressbar"><span class="progressbar-fill"></span></span><span>09</span>  Sampathi <br>Kreeda</label>
-          <label for="banner10" onclick="location.href='#card10';setTimeout(function(){ $(`#card10`).toggleClass(`expand`) },920);"><span class="progressbar"><span class="progressbar-fill"></span></span><span>10</span> Embedded</label>
-          <label for="banner11" onclick="location.href='#card11';setTimeout(function(){ $(`#card11`).toggleClass(`expand`) },930);"><span class="progressbar"><span class="progressbar-fill"></span></span><span>11</span> Code Champs</label>
-          <label for="banner12" onclick="location.href='#card12';setTimeout(function(){ $(`#card12`).toggleClass(`expand`) },950);"><span class="progressbar"><span class="progressbar-fill"></span></span><span>12</span> Circuitrix</label>
-          <label for="banner13" onclick="location.href='#card13';setTimeout(function(){ $(`#card13`).toggleClass(`expand`) },970);"><span class="progressbar"><span class="progressbar-fill"></span></span><span>13</span> Tech Industrial</label>
-          <label for="banner14" onclick="location.href='#card14';setTimeout(function(){ $(`#card14`).toggleClass(`expand`) },980);"><span class="progressbar"><span class="progressbar-fill"></span></span><span>14</span>  CADathon</label>
-          <label for="banner15" onclick="location.href='#card15';setTimeout(function(){ $(`#card15`).toggleClass(`expand`) },1000);"><span class="progressbar"><span class="progressbar-fill"></span></span><span>15</span> Bodha</label>
-          <label for="banner16" onclick="location.href='#card16';setTimeout(function(){ $(`#card16`).toggleClass(`expand`) },1000);"><span class="progressbar"><span class="progressbar-fill"></span></span><span>16</span> Ankur</label>
-          <label for="banner17" onclick="location.href='#card17';setTimeout(function(){ $(`#card17`).toggleClass(`expand`) },1100);"><span class="progressbar"><span class="progressbar-fill"></span></span><span>17</span>Aqua Bazooka</label>
-          <label for="banner18" onclick="location.href='#card18';setTimeout(function(){ $(`#card18`).toggleClass(`expand`) },1200);"><span class="progressbar"><span class="progressbar-fill"></span></span><span>18</span>TECH SOFTWARE</label>
+          <label for="banner7" onclick="location.href='#card7';setTimeout(function(){ $(`#card7`).toggleClass(`expand`) }, 850);"><span class="progressbar"><span class="progressbar-fill"></span></span><span>07</span> Hovercraft</label>
+          <label for="banner8" onclick="location.href='#card8';setTimeout(function(){ $(`#card8`).toggleClass(`expand`) }, 900);"><span class="progressbar"><span class="progressbar-fill"></span></span><span>08</span>Hackathon</label>
+          <label for="banner9" onclick="location.href='#card9';setTimeout(function(){ $(`#card9`).toggleClass(`expand`) }, 950);"><span class="progressbar"><span class="progressbar-fill"></span></span><span>09</span>Sampathi Kreeda</label>
+          <label for="banner10" onclick="location.href='#card10';setTimeout(function(){ $(`#card10`).toggleClass(`expand`) },960);"><span class="progressbar"><span class="progressbar-fill"></span></span><span>10</span> Embedded</label>
+          <label for="banner11" onclick="location.href='#card11';setTimeout(function(){ $(`#card11`).toggleClass(`expand`) },1030);"><span class="progressbar"><span class="progressbar-fill"></span></span><span>11</span> Code Champs</label>
+          <label for="banner12" onclick="location.href='#card12';setTimeout(function(){ $(`#card12`).toggleClass(`expand`) },1150);"><span class="progressbar"><span class="progressbar-fill"></span></span><span>12</span> Circuitrix</label>
+          <label for="banner13" onclick="location.href='#card13';setTimeout(function(){ $(`#card13`).toggleClass(`expand`) },1200);"><span class="progressbar"><span class="progressbar-fill"></span></span><span>13</span> Tech Industrial</label>
+          <label for="banner14" onclick="location.href='#card14';setTimeout(function(){ $(`#card14`).toggleClass(`expand`) },1300);"><span class="progressbar"><span class="progressbar-fill"></span></span><span>14</span>  CADathon</label>
+          <label for="banner15" onclick="location.href='#card15';setTimeout(function(){ $(`#card15`).toggleClass(`expand`) },1400);"><span class="progressbar"><span class="progressbar-fill"></span></span><span>15</span> Bodha</label>
+          <label for="banner16" onclick="location.href='#card16';setTimeout(function(){ $(`#card16`).toggleClass(`expand`) },1500);"><span class="progressbar"><span class="progressbar-fill"></span></span><span>16</span> Ankur</label>
+          <label for="banner17" onclick="location.href='#card17';setTimeout(function(){ $(`#card17`).toggleClass(`expand`) },1600);"><span class="progressbar"><span class="progressbar-fill"></span></span><span>17</span>Aqua Bazooka</label>
+          <label for="banner18" onclick="location.href='#card18';setTimeout(function(){ $(`#card18`).toggleClass(`expand`) },1700);"><span class="progressbar"><span class="progressbar-fill"></span></span><span>18</span>TECH SOFTWARE</label>
         </div>
       </nav>
     </div>

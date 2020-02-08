@@ -1,8 +1,9 @@
+<?php session_start(); ?>
 <!DOCTYPE html>
 <html lang="en" >
 <head>
   <meta charset="UTF-8">
-  <link rel="icon" href="../../static/logo1.png">
+  <link rel="icon" href="../../static/logo3.png">
   <meta name="viewport" content="width=device-width,initial-scale=1.0" charset="utf-8">
   <title>Aadhrita | Register</title>
   <link rel="stylesheet" href="../../css/bootstrap/bootstrap.min.css">
@@ -27,7 +28,7 @@
     <li class="nav-link"><a href="../technical/">Technical</a></li>
     <li class="nav-link"><a href="../workshop/">WorkShops</a></li>
     <li class="nav-link"><a href="../cultural">Culturals</a></li>
-    <li class="nav-link"><a href="#">Sports</a></li>
+    <li class="nav-link"><a href="../sports/">Sports</a></li>
     <li class="nav-link "><a href="../about">About</a></li>
     <?php
     if (isset($_SESSION['session_email'])) {
@@ -44,15 +45,15 @@
 </header>
 
  <div id="content" style="visibility:hidden;padding-top: 90px;background-image:linear-gradient(to right, #0F2027, #203A43,#2C5364);">
-  <!--<form action="./validateuser.php" method="POST" enctype="multipart/form-data" >
+ <form action="./validateuser.php" method="POST" enctype="multipart/form-data" >
     <div class="container">
       <div class="jumbotron">
        <div>
         <?php
-        //if (isset($_GET['msg'])) {
-          //$msg= $_GET['msg'];
-          //echo "<h5 style = 'color:red' >".$msg."</h5>";
-        //}
+        if (isset($_GET['msg'])) {
+          $msg= $_GET['msg'];
+          echo "<h5 style = 'color:red' >".$msg."</h5>";
+        }
         ?>
       </div><br>
       <h3>Enter the credentials : </h3>
@@ -70,16 +71,7 @@
       </div>
     </div>
   </div>
-</form> -->
-    <div>
-      <br><br><br><br><br><br><br><br><br><br><br><br><br>
-    </div>
-    <div class="container">
-      <marquee><h2 style=" " >Registrations will be opened soon.</h2></marquee>
-    </div>
-    <div>
-      <br><br><br><br><br><br><br><br><br><br><br><br><br>
-    </div>
+</form>
 
       <footer style="visibility:hidden;background-color: #2c292f;padding-top: 30px;min-height: 100px; font-family: 'Righteous', cursive;">
         <div class="container" >
@@ -111,7 +103,7 @@
                 <div>
                   <ul>
                     <li class="fa fa-phone  mx-auto my-3 "><a style="color:#50d8af;" href="tel:+917095847156">&nbsp Prasoon : +917095847156 </a></li>
-                    <!-- <li class="fa fa-phone  mx-auto my-3 "><a style="color:#50d8af;" href="tel:+919949110243">&nbsp Jeevan : +919949110243 </a></li> -->
+                    <li class="fa fa-phone  mx-auto my-3 "><a style="color:#50d8af;" href="tel:+919949110243">&nbsp Jeevan : +919949110243 </a></li>
                     <li class="fa fa-envelope  mx-auto my-3 "><a style="color:#50d8af;" href="mailto:aadhrita2020@gmail.com">&nbsp aadhrita2020@gmail.com </a></li>
                   </ul>
                 </div>

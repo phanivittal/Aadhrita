@@ -1,3 +1,4 @@
+<link rel="icon" href="./static/logo3.png">
 <div class="container" style="padding-top:90px;">
 			<?php
 			$AAD3ID = "AAD3001";

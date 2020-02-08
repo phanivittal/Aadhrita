@@ -14,48 +14,28 @@ require '../db/db.php';
 		<link rel='stylesheet' href='https://fonts.googleapis.com/css?family=Open+Sans'>
 		
 	</head>
-	<header class="main-header" >
-		<div class="logo">
-			<a href="../../../index.php">LOGO</a>
-		</div>
-		
-		<input type="checkbox" class="menu-btn" id="menu-btn">
-		<label for="menu-btn" class="menu-icon">
-			<span class="menu-icon__line"></span>
-		</label>
-		
-		<ul class="nav-links">
-			<li class="nav-link">
-				<a href="../../">Home</a>
-			</li>
-			
-			<li class="nav-link">
-				<a href="../workshop/">WorkShops</a>
-			</li>
-			<li class="nav-link">
-				<a href="../cultural/">Culturals</a>
-			</li>
-			
-			<li class="nav-link">
-				<a href="../technical/">Technical</a>
-			</li>
-			<li class="nav-link">
-				<a href="../about/">About</a>
-			</li>
-			<?php
-			if (isset($_SESSION['session_email'])) {	
-				echo '
-				<li class="nav-link"><a href="#">Profile</a></li>
-				<li class="nav-link"><a href="../logout/">Logout</a></li>
-				';
-			}
-			else{
-				echo '
-				<li class="nav-link"><a href="../register/">Register</a></li>
-				';
-			}
-			?>
-		</ul>
+	<header class="main-header" style="font-size:16px;">
+	  <div class="logo"><img   src="../../static/logo2.png"  style="height:50px;width:40px;" alt="LOGO"></img></div>
+	  <input type="checkbox" class="menu-btn" id="menu-btn">
+	  <label for="menu-btn" class="menu-icon"><span class="menu-icon__line"></span></label>
+	  <ul class="nav-links">
+	    <li class="nav-link"><a href="../../">Home</a></li>
+	    <li class="nav-link"><a href="../technical/">Technical</a></li>
+	    <li class="nav-link"><a href="../workshop/">WorkShops</a></li>
+	    <li class="nav-link"><a href="../cultural">Culturals</a></li>
+	    <li class="nav-link"><a href="../about/">About</a></li>
+	    <?php
+	    if (isset($_SESSION['session_email'])) {
+	      echo '
+	      <li class="nav-link active"><a href="../profile/">Profile</a></li>
+	      <li class="nav-link"><a href="../logout/">Logout</a></li>
+	      ';
+	    }
+	    else{
+	      echo '<li class="nav-link"><a href="../login/">Register</a></li>';
+	    }
+	    ?>
+	  </ul>
 	</header>
 	<body>
 		<br>
@@ -86,7 +66,6 @@ require '../db/db.php';
 						<h5>registered for some Technical Event</h5>
 						</div>
 						";
-						
 					}
 				}
 				else{

@@ -3,7 +3,7 @@
 <html lang="en" >
 <head>
   <meta charset="utf-8">
-  <link rel="icon" href="../../static/logo1.png">
+  <link rel="icon" href="../../static/logo3.png">
   <meta name="viewport" content="width=device-width, initial-scale=1.0" charset="utf-8">
   <title>Aadhrita | About Us</title>
   <link rel="stylesheet" href="../../css/bootstrap/bootstrap.min.css">
@@ -20,7 +20,7 @@
   <style>
     @font-face {
       font-family: 'aadhritaFont';
-      src: url('./css/aadfont/aadhritaFont.eot'); /* IE9 Compat Modes */
+      src: url('../../css/aadfont/aadhritaFont.eot'); /* IE9 Compat Modes */
       src: url('../../css/aadfont/aadhritaFont.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
            url('../../css/aadfont/aadhritaFont.woff2') format('woff2'), /* Super Modern Browsers */
            url('../../css/aadfont/aadhritaFont.woff') format('woff'), /* Pretty Modern Browsers */
@@ -79,7 +79,7 @@
     <li class="nav-link"><a href="../technical/">Technical</a></li>
     <li class="nav-link"><a href="../workshop/">WorkShops</a></li>
     <li class="nav-link"><a href="../cultural">Culturals</a></li>
-    <li class="nav-link"><a href="#">Sports</a></li>
+    <li class="nav-link"><a href="../sports/">Sports</a></li>
     <li class="nav-link active"><a href="#">About</a></li>
     <?php
     if (isset($_SESSION['session_email'])) {
@@ -145,149 +145,7 @@
     </div>
 
     <br>
-   <!--
-    <h1 style="font-family:Acme,cursive; color: white;"><center>Core Committee </center></h1>
-
-
-    <div class="container" style="margin-top: 50px">
-      <div class="row">
-        <div class="col-12 col-sm-6 col-md-4 col-lg-3">
-          <div class="our-team">
-            <div class="picture">
-              <img class="img-fluid" src="../../static/images/about/AshokGajapathiRaju (1).jpg">
-            </div>
-            <div class="team-content">
-              <h3 class="name">Sir P.Ashok Gajapathi Raju</h3>
-              <h4 class="title">Chairman MANSAS</h4>
-            </div>
-            <ul class="social">
-              <li><a href="tel:+918074467501" class="fa fa-phone" aria-hidden="true"></a></li>
-              <li><a href="mailto:" class="fas fa-envelope" aria-hidden="true"></a></li>
-            </ul>
-          </div>
-        </div>
-        <div class="col-12 col-sm-6 col-md-4 col-lg-3">
-          <div class="our-team">
-            <div class="picture">
-              <img class="img-fluid" src="../../static/images/about/AditiGajapathiRaju (1).jpg">
-            </div>
-            <div class="team-content">
-              <h3 class="name">Ms.Aditi Gajapathi Raju</h3>
-              <h4 class="title">Member,MANSAS Trust Board</h4>
-            </div>
-            <ul class="social">
-              <li><a href="tel:+918074467501" class="fa fa-phone" aria-hidden="true"></a></li>
-              <li><a href="mailto:" class="fas fa-envelope" aria-hidden="true"></a></li>
-            </ul>
-          </div>
-        </div>
-        <div class="col-12 col-sm-6 col-md-4 col-lg-3">
-          <div class="our-team">
-            <div class="picture">
-              <img class="img-fluid" src="../../static/images/about/principalsir (1).jpg">
-            </div>
-            <div class="team-content">
-              <h3 class="name">Dr.KVL Raju</h3>
-              <h4 class="title">Correspondent<br>MANSAS and Principal</h4>
-            </div>
-            <ul class="social">
-              <li><a href="tel:+918074467501" class="fa fa-phone" aria-hidden="true"></a></li>
-              <li><a href="mailto:" class="fas fa-envelope" aria-hidden="true"></a></li>
-            </ul>
-          </div>
-        </div>
-        <div class="col-12 col-sm-6 col-md-4 col-lg-3">
-          <div class="our-team">
-            <div class="picture">
-              <img class="img-fluid" src="../../static/images/about/vpacademics (1).jpg">
-            </div>
-            <div class="team-content">
-              <h3 class="name">Dr.YMC Sekhar</h3>
-              <h4 class="title">Vice Principal</h4>
-            </div>
-            <ul class="social">
-              <li><a href="tel:+918074467501" class="fa fa-phone" aria-hidden="true"></a></li>
-              <li><a href="mailto:" class="fas fa-envelope" aria-hidden="true"></a></li>
-            </ul>
-          </div>
-        </div>
-        <div class="col-12 col-sm-6 col-md-4 col-lg-3">
-          <div class="our-team">
-            <div class="picture">
-              <img class="img-fluid" src="../../static/images/about/english-hod (1).jpg">
-            </div>
-            <div class="team-content">
-              <h3 class="name">Mr.S.Mohan Kumar</h3>
-              <h4 class="title">Dean - Students</h4>
-            </div>
-            <ul class="social">
-              <li><a href="tel:+918074467501" class="fa fa-phone" aria-hidden="true"></a></li>
-              <li><a href="mailto:" class="fas fa-envelope" aria-hidden="true"></a></li>
-            </ul>
-          </div>
-        </div>
-        <div class="col-12 col-sm-6 col-md-4 col-lg-3">
-          <div class="our-team">
-            <div class="picture">
-              <img class="img-fluid" src="../../static/images/about/anjaneyulu (1).jpg">
-            </div>
-            <div class="team-content">
-              <h3 class="name">Dr.G.Anjaneyulu</h3>
-              <h4 class="title">Professor</h4>
-            </div>
-            <ul class="social">
-              <li><a href="tel:+918074467501" class="fa fa-phone" aria-hidden="true"></a></li>
-              <li><a href="mailto:" class="fas fa-envelope" aria-hidden="true"></a></li>
-            </ul>
-          </div>
-        </div>
-        <div class="col-12 col-sm-6 col-md-4 col-lg-3">
-          <div class="our-team">
-            <div class="picture">
-              <img class="img-fluid" src="../../static/images/about/kannamnaidu (1).jpg">
-            </div>
-            <div class="team-content">
-              <h3 class="name">Dr.M.Kannam Naidu</h3>
-              <h4 class="title">Associate Professor</h4>
-            </div>
-            <ul class="social">
-              <li><a href="tel:+918074467501" class="fa fa-phone" aria-hidden="true"></a></li>
-              <li><a href="mailto:" class="fas fa-envelope" aria-hidden="true"></a></li>
-            </ul>
-          </div>
-        </div>
-        <div class="col-12 col-sm-6 col-md-4 col-lg-3">
-          <div class="our-team">
-            <div class="picture">
-              <img class="img-fluid" src="../../static/images/about/sateesh (1).jpg">
-            </div>
-            <div class="team-content">
-              <h3 class="name">Dr.P.Sateesh</h3>
-              <h4 class="title">Associate Professor</h4>
-            </div>
-            <ul class="social">
-              <li><a href="tel:+918074467501" class="fa fa-phone" aria-hidden="true"></a></li>
-              <li><a href="mailto:" class="fas fa-envelope" aria-hidden="true"></a></li>
-            </ul>
-          </div>
-        </div>
-        <div class="col-12 col-sm-6 col-md-4 col-lg-3">
-          <div class="our-team">
-            <div class="picture">
-              <img class="img-fluid" src="../../static/images/about/kalyan_0 (1).jpg">
-            </div>
-            <div class="team-content">
-              <h3 class="name">Mr.E.S.Kalyan Kumar</h3>
-              <h4 class="title">Assistant Professor</h4>
-            </div>
-            <ul class="social">
-              <li><a href="tel:+918074467501" class="fa fa-phone" aria-hidden="true"></a></li>
-              <li><a href="mailto:" class="fas fa-envelope" aria-hidden="true"></a></li>
-            </ul>
-          </div>
-        </div>
-      </div>
-    </div>-->
+    
     <h1 style="font-family:Acme,cursive; color: white; margin-bottom: 30px"><center>Core Team<br> </center></h1>
     <div class="container">
       <div class="row">
@@ -444,21 +302,6 @@
             </div>
             <ul class="social">
               <li><a href="tel:+917995385169" class="fa fa-phone" aria-hidden="true"></a></li>
-              <li><a href="mailto:" class="fas fa-envelope" aria-hidden="true"></a></li>
-            </ul>
-          </div>
-        </div>
-        <div class="col-12 col-sm-6 col-md-4 col-lg-3">
-          <div class="our-team">
-            <div class="picture">
-              <img class="img-fluid" src="../../static/images/about/narren.jpg">
-            </div>
-            <div class="team-content">
-              <h3 class="name">M Sai Naren</h3>
-              <h4 class="title">Stage ands Hospitality</h4>
-            </div>
-            <ul class="social">
-              <li><a href="tel:+918309558532" class="fa fa-phone" aria-hidden="true"></a></li>
               <li><a href="mailto:" class="fas fa-envelope" aria-hidden="true"></a></li>
             </ul>
           </div>
