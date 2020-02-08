@@ -47,7 +47,9 @@
     ?>
   </ul>
 </header>
-	<body style="background-image: linear-gradient(to right, #0F2027, #203A43,#2C5364);">
+
+	<body>
+		<div id="card" style="height:100%;visibility:hidden;background-image: linear-gradient(to right, #0F2027, #203A43,#2C5364);">
 	
 	<div class="container jumbotron mt-5" style="visibility:hidden;">
 		<?php
@@ -96,6 +98,7 @@
 			</div>
 		</form>
 	</div>
+		</div>
 	<footer  style="visibility:hidden;background-color: #2c292f;padding-top: 30px;min-height: 100px; font-family: 'Righteous', cursive;">
         <div class="container" >
           <div class="row">
@@ -150,7 +153,7 @@
           <p align="center" style="padding-top: 20px;">Copyright &copy;2020, AadhritaWebteam</p>
         </div>
       </footer>
-  
+		</body>
 	
 	<script>
 
@@ -225,10 +228,10 @@
         $(".main-header").css("visibility","visible");
         $("footer").css("visibility","visible");
         $(".container").css("visibility","visible");
-       
+        $("#card").css("visibility","visible");
       });
 	</script>
-</body>
+
 <script src="../../js/nav.js"></script>
     <script src="../../js/jquery.min.js"></script>
 	<script src='https://kit.fontawesome.com/a076d05399.js'></script>

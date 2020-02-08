@@ -206,7 +206,6 @@ because it requires specific images, where more than 50% of bg is transparent or
 </div>
 </div> 
 
-<body >
 <div  id="car_view" style="visibility:hidden;background-image: linear-gradient(to right, #0F2027, #203A43,#2C5364); ">
 <div class="container">
   <div class="row" >
@@ -244,7 +243,7 @@ because it requires specific images, where more than 50% of bg is transparent or
       <p> For Rules <a href="'.$row['pdfs'].'" target ="__blank" >click here</a></p>
       </div>
       <div class="container mt-3">
-      <a type="button" class="btn btn-info" onclick = `../register/sportsteamregistrations.php?id=".urlencode(utf8_encode($eid))."`>Register</a>
+      <a type="button" class="btn btn-info" onclick ="location.href=`../register/sportsteamregistrations.php?id='.urlencode(utf8_encode($eid)).'`" >Register</a>
       </div>
       </div>
       </div>

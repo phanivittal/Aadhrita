@@ -113,8 +113,58 @@
 		echo "<script> alert('null')</script>";
 	else
 		echo '<br/>'.$_SESSION['userName'];
-	echo "<br><br><button  class='btn btn-outline-success' onclick=\"window.location.href='../../login/'\">Continue</button></div>";
-?>
 
+?>
+<?php
+$id=$_SESSION['eventId'];
+    $sql = "SELECT * FROM `events` WHERE `eid` = '$id'";
+    $retval = mysqli_query($conn,$sql);
+	$row = mysqli_fetch_assoc($retval);
+	$tsize=$_SESSION['team_size'];
+
+     if($row['etype'] == "SPORTS" && $_POST["STATUS"] == "TXN_SUCCESS" ) {
+      /* $sql1="select name, aadhritaID from registrations";
+       $res1=mysqli_query($conn,$sql1);
+       $sno=array();
+       $names=array();
+ 
+       while($row=mysqli_fetch_assoc($res1)){
+         $x = $row['aadhritaID'];
+         $sno[]=substr($x,4,6);
+         $names[]=$row['name'];
+         $aadhritaToken[]=$row['aadhritaID'];
+       }
+ 
+       $min=min($sno);*/ 
+       $eventId = $_SESSION["eventId"];
+	   $teamToken = $eventId.substr($_SESSION['phn'][0],4,6);
+	   echo $teamToken;
+	   $j = 0;
+	   $aad3id=$_SESSION['phn'];
+	   $emails=$_SESSION['spemails'];
+	   print_r($emails);
+	   print_r($aad3id);
+       for( $j = 0 ; $j < $tsize ; $j++ ){
+		   echo $j."<br/>";
+         if ($j==0) {
+           $sql2="insert into sportsregistrations values('$teamToken','$eventId','$aad3id[$j]','$emails[$j]','lead','$tsize')";
+         }
+         else{
+           $sql2="insert into sportsregistrations values('$teamToken','$eventId','$aad3id[$j]','$emails[$j]','member','$tsize')";
+         }
+          if(mysqli_query($conn,$sql2)){
+				  echo '<br>updated';
+         }
+        
+       }
+	 }
+	 else{
+		 echo "<script>alert('not updated');</script>";
+	 }
+
+	 echo "<br><br><button  class='btn btn-outline-success' onclick=\"window.location.href='../../login/'\">Continue</button></div>";
+
+  
+?>
 </body>
 </html>
