@@ -80,6 +80,30 @@ require '../db/db.php';
 				?>
 			</div>
 			<div class="jumbotron">
+				<h3>Registerd Sports Events : </h3>
+				<h4> To register for more Sports events click.... <a class="btn btn-primary" href="../sports/"> here </a></h4>
+				<?php
+				$sql = "SELECT * FROM `sportsRegistrations` WHERE `aadhritaID` = '$id'";
+				$retval = mysqli_query($conn,$sql);
+				if ($n = mysqli_num_rows($retval)) {
+					echo "
+					<div class = 'container'>
+					<h5>registered for some Workshop</h5>
+					</div>
+					";
+				}
+				else{
+					echo "
+					<div class = 'container'>
+					<h5>
+					you haven't registered for any workshops .
+					</h5>
+					</div>
+					";
+				}
+				?>
+			</div>
+			<div class="jumbotron">
 				<h3>Registerd Cultural Events : </h3>
 				<h4>To register for more Cultural Eents click.. <a class="btn btn-primary" href="../cultural/"> here </a></h4>
 				<?php

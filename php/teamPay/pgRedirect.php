@@ -25,7 +25,7 @@ $paramList["TXN_AMOUNT"] = $TXN_AMOUNT;
 $paramList["WEBSITE"] = PAYTM_MERCHANT_WEBSITE;
 
 
-$paramList["CALLBACK_URL"] = "http://localhost/aadhrita/aadhrita3.0/php/teamPay/pgResponse.php";
+$paramList["CALLBACK_URL"] = "http://localhost/final/aadhrita/php/teamPay/pgResponse.php";
 /*
 $paramList["MSISDN"] = $MSISDN; //Mobile number of customer
 $paramList["EMAIL"] = $EMAIL; //Email ID of customer

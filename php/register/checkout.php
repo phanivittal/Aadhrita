@@ -4,7 +4,7 @@
   header("Cache-Control: no-cache");
   header("Expires: 0");
   include './phpmailer.php';
-  include '../php/db/db.php';
+  include '../db/db.php';
   $_SESSION['userName']=$_POST['userName'];
   $_SESSION['collegeName']=$_POST['collegeName'];
   $_SESSION['collegeId']=$_POST['CollegeId'];
@@ -14,7 +14,6 @@
   $_SESSION['department']=$_POST['department'];
   $_SESSION['year']=$_POST['year'];
   $_SESSION['accommodation']=$_POST['accommodation'];
-          
   if(isset($_POST)){
     $email=$_POST['email'];
     $name=$_POST['userName'];
@@ -45,7 +44,7 @@
   <meta charset="utf-8">
   <meta name="author" content="seepana sai kiran" >
   <meta name="GENERATOR" content="Evrsoft First Page">
-  <link rel="stylesheet" href="../../css/bootstrap.min.css">
+  <link rel="stylesheet" href="../../css/bootstrap/bootstrap.min.css">
   <style>
     input{
       justify-content:center;

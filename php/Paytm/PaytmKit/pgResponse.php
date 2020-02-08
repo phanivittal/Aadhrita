@@ -1,4 +1,21 @@
-	<?php
+	
+<html>
+<head>
+  <title>AADHRITA | REGISTRATION</title>
+  <meta charset="utf-8">
+
+  <meta name="GENERATOR" content="Evrsoft First Page">
+  <link rel="stylesheet" href="../../../css/bootstrap/bootstrap.min.css">
+  <style>
+    input{
+      justify-content:center;
+      border-radius:8px;
+    }
+  </style>
+  
+</head>
+<body style="background-image: linear-gradient(to right, #0F2027, #203A43,#2C5364);">
+<?php
 	session_start();
 	header("Pragma: no-cache");
 	header("Cache-Control: no-cache");
@@ -19,7 +36,7 @@
 	$isValidChecksum = verifychecksum_e($paramList, PAYTM_MERCHANT_KEY, $paytmChecksum); //will return TRUE or FALSE string.
 
 	$params = array();
-
+	echo '<div class="container jumbotron mt-5">';
 	if (isset($_POST) && count($_POST)>0 ){
 		foreach($_POST as $paramName => $paramValue) {
 			echo "<br/>" . $paramName . " = " . $paramValue;
@@ -96,5 +113,8 @@
 		echo "<script> alert('null')</script>";
 	else
 		echo '<br/>'.$_SESSION['userName'];
-	echo "<br><br><button  onclick=\"window.location.href='../../login/'\">Continue</button>";
+	echo "<br><br><button  class='btn btn-outline-success' onclick=\"window.location.href='../../login/'\">Continue</button></div>";
 ?>
+
+</body>
+</html>
