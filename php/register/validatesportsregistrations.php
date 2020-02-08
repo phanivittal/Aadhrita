@@ -20,7 +20,7 @@ session_start();
     $id = $_SESSION['eventId'];
     $tsize = $_POST['tsize'];
     $etype = $_SESSION['event_type'];
-    echo "<h2 style='color:white;'>&nbsp;&nbsp;&nbsp; $etype<br></h2>";
+    echo "<br><br><h2 style='color:white;'>&nbsp;&nbsp;&nbsp; $etype<br><br></h2>";
     $aad3id = [$_POST['tlid']];
     $tempid =$_POST['tlid'];
     $email =$eml= [$_POST['tlemail']];
@@ -80,18 +80,11 @@ session_start();
      for($i=1;$i< $tsize;$i++) {
       
      echo '
-     
-    
        <tr>
          <th scope="row">'.$i.'</th>
-         <td>'.$aad3id[$i].'</td>
          <td>'.$email[$i].'</td>
-        
-       </tr>
-      
-  
-  
-   
+         <td>'.$aad3id[$i].'</td>
+       </tr> 
      ';
 
      }
@@ -103,7 +96,7 @@ session_start();
   }
   ?>
   </body>
-  <footer style="background-color: #2c292f;margin-top: 30vh;padding-top:30px;min-height: 100px; font-family: 'Righteous', cursive;">
+  <footer style="background-color: #2c292f;margin-top: 10vh;padding-top:30px;min-height: 100px; font-family: 'Righteous', cursive;">
         <div class="container" >
           <div class="row">
                    <div class="col-md-4 text-center text-md-left">

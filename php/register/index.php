@@ -27,12 +27,19 @@ session_start();
     <link href="../../css/register/select2/select2.min.css" rel="stylesheet" media="all">
     <!-- Main CSS-->
     <link href="../../css/register/main.css" rel="stylesheet" media="all">
-    <script>
+       <script>
         function validate() {
             var count2=0;
+            var email=document.myform.email.value;
             var contact=document.myform.contact.value;
             var password=document.myform.password.value;
             var repassword=document.myform.repassword.value;
+            
+            var regx=/^\w+([\.-]?\w+)*@\w+([\.-]?\w+)*(\.\w{2,3})+$/;
+            if (!regx.test(email)) {
+				alert("Email not valid.!");
+				return false;
+			}
             if(isNaN(contact)){
                alert("contact number shoud contain numbers");
                return false;
@@ -41,7 +48,7 @@ session_start();
                alert("enter a valid mobile number");
                return false;
            }
-
+           
            if(password!=repassword){
                alert("password did not matched...!");
                return false;
@@ -51,14 +58,14 @@ session_start();
                 count2++;
             }
         }
-       //  if(count2<1||password.length<8){
-       //     alert("password must contain atleast  1 capitals..! with length of 8 .!");
-       //     return false;
-       // }
-       if(!document.getElementById('accept').checked){
-           alert("Please accept terms and condition to proceed");
+         if(count2<1||password.length<8){
+           alert("password must contain atleast  1 capitals..! with length of 8 .!");
            return false;
-       }
+        }
+     //  if(!document.getElementById('accept').checked){
+     //      alert("Please accept terms and condition to proceed");
+     //      return false;
+     //  }
    }
 </script>
 </head>
@@ -91,7 +98,7 @@ session_start();
                         <div class="row row-space">
                             <div class="col-1" style="width:100%">
                                 <div class="input-group">
-                                    <label class="label">college Id</label>
+                                    <label class="label">college  Registration Id</label>
                                     <input class="input--style-4" type="text" name="CollegeId" required>
                                 </div>
                             </div>

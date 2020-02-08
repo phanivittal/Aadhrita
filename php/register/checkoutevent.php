@@ -29,10 +29,10 @@ $row=mysqli_fetch_assoc(mysqli_query($conn,$sql));
   
 </head>
 <body>
-  <h1 style="padding:20px;">AADHRITA EVENT  REGISTRATION</h1>
+  <h1 style="padding:20px;">AADHRITA SPORTS EVENT  REGISTRATION</h1>
   <pre>
   </pre>
-  <form name="myform" method="post" action="../Paytm/PaytmKit/pgRedirect.php" onsubmit="return validate()" autocomplete="yes">
+  <form name="myform" method="post" action="../Paytm/PaytmKit/sports/sportspgRedirect.php" onsubmit="return validate()" autocomplete="yes">
     <table class="table table-striped table-dark">
       <tr>
         <td>

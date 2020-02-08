@@ -12,10 +12,42 @@ require '../db/db.php';
 		<link rel="stylesheet" href="../../css/bootstrap/bootstrap.min.css">
 		<link rel="stylesheet" href="../../css/navbar.css">
 		<link rel='stylesheet' href='https://fonts.googleapis.com/css?family=Open+Sans'>
-		
+		<link rel="stylesheet" href="../../css/preloader.css">
+		<style>
+		 @media screen and (max-width:1166px)
+  {
+    .main-header .nav-links .nav-link a {
+      padding:1px 0px 1px;
+      }
+    
+  }
+    
+  @media screen and (max-width:1045px)
+  {
+    .main-header .nav-links .nav-link  {
+      padding:.5rem 9px;
+      }
+    
+  }
+  @media screen and (max-width:945px)
+  {
+    .main-header .nav-links .nav-link  {
+      padding:.5rem 7px;
+      }
+      .main-header .nav-links{
+      font-size: .799rem;}
+  }
+		</style>
 	</head>
+	<div class="loader-wrapper">
+  <div class="loader triangle">
+    <svg viewBox="0 0 86 80">
+      <polygon points="40 8 79 72 7 72"></polygon>
+    </svg>
+  </div>
+</div>
 	<header class="main-header" style="font-size:16px;">
-	  <div class="logo"><img   src="../../static/logo2.png"  style="height:50px;width:40px;" alt="LOGO"></img></div>
+	  <div class="logo"><img   src="../../static/logo2.png"  style="height:60px;width:120px;" alt="LOGO"></img></div>
 	  <input type="checkbox" class="menu-btn" id="menu-btn">
 	  <label for="menu-btn" class="menu-icon"><span class="menu-icon__line"></span></label>
 	  <ul class="nav-links">
@@ -37,21 +69,21 @@ require '../db/db.php';
 	    ?>
 	  </ul>
 	</header>
-	<body>
-		<br>
-		<div class="container" style="padding-top:90px;">
+
+	<body >
+		<div id="car_view" style="padding-top:190px;padding-bottom:50px;visibility:hidden;background-image: linear-gradient(to right, #0F2027, #203A43,#2C5364);">
 			<?php
-			$AAD3ID = "AAD3001";
+			
 			echo "
 			<div>
-			<p style= 'font-size: 20px'>Welcome 
+			<p class='mx-3 my-4' style= 'color:white;font-size: 20px'>Welcome 
 			".$_SESSION['session_user']." Token ID : 
 			".$_SESSION['aadhrita_id']."
 			</p>
 			</div>
 			";
 			?>
-			<div class="jumbotron">
+			<div class="jumbotron mx-3" >
 				<h3>Registerd Technical Events : </h3>
 				<h4>To register for more Technical Events click.. <a class="btn btn-primary" href="../technical/"> here </a></h4>
 				<?php
@@ -79,7 +111,7 @@ require '../db/db.php';
 				}
 				?>
 			</div>
-			<div class="jumbotron">
+			<div class="jumbotron mx-3">
 				<h3>Registerd Sports Events : </h3>
 				<h4> To register for more Sports events click.... <a class="btn btn-primary" href="../sports/"> here </a></h4>
 				<?php
@@ -103,7 +135,7 @@ require '../db/db.php';
 				}
 				?>
 			</div>
-			<div class="jumbotron">
+			<div class="jumbotron mx-3">
 				<h3>Registerd Cultural Events : </h3>
 				<h4>To register for more Cultural Eents click.. <a class="btn btn-primary" href="../cultural/"> here </a></h4>
 				<?php
@@ -128,7 +160,7 @@ require '../db/db.php';
 				}
 				?>
 			</div>
-			<div class="jumbotron">
+			<div class="jumbotron mx-3">
 				<h3>Registerd Workshops : </h3>
 				<h4> To register for more Workshops click.... <a class="btn btn-primary" href="../workshop/"> here </a></h4>
 				<?php
@@ -152,7 +184,7 @@ require '../db/db.php';
 				}
 				?>
 			</div>
-			<div class="jumbotron">
+			<div class="jumbotron mx-3">
 				<h3>Accommodation : </h3>
 				<h4> To register for Accommodation.... <a class="btn btn-primary" href="#"> opt </a></h4>
 				<?php
@@ -178,7 +210,7 @@ require '../db/db.php';
 				?>
 			</div>
 		</div>
-		<footer  style="background-color: #2c292f;padding-top: 30px;min-height: 100px; font-family: 'Righteous', cursive;">
+		<footer  style="visibility:hidden;background-color: #2c292f;padding-top: 30px;min-height: 100px; font-family: 'Righteous', cursive;">
 		    <div class="container" >
 		      <div class="row">
 		      	<div class="col-md-4 text-center text-md-left">
@@ -248,4 +280,13 @@ require '../db/db.php';
 		</script>
 	<script src="../../js/popper.min.js"></script>
 </body>
+<script>
+      $(window).on("load",function(){
+        $(".loader-wrapper").fadeOut("slow");
+        $(".main-header").css("visibility","visible");
+        $("footer").css("visibility","visible");
+        $(".container").css("visibility","visible");
+        $("#car_view").css("visibility","visible");
+      });
+    </script>
 </html>

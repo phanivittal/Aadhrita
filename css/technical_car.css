@@ -1035,7 +1035,29 @@ body a {
 }
 
 
-}
+@media screen and (max-width:1166px)
+  {
+    .main-header_nav .nav-links .nav-link a {
+      padding:1px 0px 1px;
+      }
+    
+  }
+    
+  @media screen and (max-width:1045px)
+  {
+    .main-header_nav .nav-links .nav-link  {
+      padding:.5rem 9px;
+      }
+    
+  }
+  @media screen and (max-width:945px)
+  {
+    .main-header_nav .nav-links .nav-link  {
+      padding:.5rem 7px;
+      }
+      .main-header .nav-links{
+      font-size: .799rem;}
+  }
 html {
   scroll-behavior: smooth;
 }

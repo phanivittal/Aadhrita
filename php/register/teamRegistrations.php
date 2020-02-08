@@ -52,6 +52,7 @@
 		<?php
 			if (isset($_SESSION['session_email'])) {
 				include '../db/db.php';
+				header("Location:../soon/");
 				$sid = $_GET['id'];
 				$id = utf8_decode(urldecode($sid));
 				$_SESSION['eventId'] = $id;
@@ -67,7 +68,7 @@
 			}
 			else{
 				$id =  $_GET['id'];
-				header("Location:../login/?msg=First register to login for the fest");
+				header("Location:../soon/");
 			}
 		?>
 		

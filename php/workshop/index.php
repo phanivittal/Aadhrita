@@ -304,7 +304,7 @@ session_start();
       <p> For Rules <a href="'.$row['pdfs'].'" target ="__blank" >click here</a></p>
       </div>
       <div class="container mt-3">
-      <a type="button" class="btn btn-info" onclick ="location.href=`../login/`" >Register</a>
+      <a type="button" class="btn btn-info" onclick ="location.href=`../soon/`" >Register</a>
       </div>
       </div>
       </div>

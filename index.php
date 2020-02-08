@@ -40,6 +40,7 @@ if ($retval) {
            url('./css/aadfont/aadhritaFont.ttf')  format('truetype'), /* Safari, Android, iOS */
            url('./css/aadfont/aadhritaFont.svg#svgFontName') format('svg'); /* Legacy iOS */
     }
+    
   </style>
 </head>
 <div class="loader-wrapper">
@@ -119,7 +120,7 @@ if ($retval) {
                 <span class="blog-slider__code"></span>
                 <div class="blog-slider__title">Cultural Night</div>
                 <div class="blog-slider__text">
-                  MVGR's rich cultural heritage has witnessed a metamorphosis over many generations and now as a part of it Cultural Night is going to happen on 21st February 2020 on the occasion of Aadhrita which celebrate culture, creativity and fun all around. Let's come and enjoy the music, live performances and food.
+                  MVGR's rich cultural heritage has witnessed a metamorphosis over many generations and now as a part of it Cultural Night is going to happen on 20st February 2020 on the occasion of Aadhrita which celebrate culture, creativity and fun all around. Let's come and enjoy the music, live performances and food.
                   So get excited for Aadhrita's cultural night which is a perfect balance of everything.
                 </div>
               </div>

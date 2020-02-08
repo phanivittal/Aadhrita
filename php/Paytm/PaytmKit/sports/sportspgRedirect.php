@@ -3,8 +3,8 @@ header("Pragma: no-cache");
 header("Cache-Control: no-cache");
 header("Expires: 0");
 // following files need to be included
-require_once("./lib/config_paytm.php");
-require_once("./lib/encdec_paytm.php");
+require_once("../lib/config_paytm.php");
+require_once("../lib/encdec_paytm.php");
 
 $checkSum = "";
 $paramList = array();
@@ -27,7 +27,7 @@ $paramList["WEBSITE"] = PAYTM_MERCHANT_WEBSITE;
 $EMAIL = $_POST["email"];
 $paramList["EMAIL"] = $EMAIL;
 
-$paramList["CALLBACK_URL"] = "https://aadhrita.org/php/Paytm/PaytmKit/pgResponse.php";
+$paramList["CALLBACK_URL"] = "http://localhost/final/php/Paytm/PaytmKit/sports/sportspgResponse.php";
 /*
 $paramList["MSISDN"] = $MSISDN; //Mobile number of customer
 $paramList["EMAIL"] = $EMAIL; //Email ID of customer

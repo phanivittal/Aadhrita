@@ -1,3 +1,0 @@
-[04-Feb-2020 12:13:46 UTC] PHP Notice:  Undefined index: user in /home/bn2ajew7rlqi/public_html/manual/php/landing/index.php on line 10
-[04-Feb-2020 12:13:46 UTC] PHP Stack trace:
-[04-Feb-2020 12:13:46 UTC] PHP   1. {main}() /home/bn2ajew7rlqi/public_html/manual/php/landing/index.php:0

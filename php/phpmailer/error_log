@@ -1,0 +1,15 @@
+[08-Feb-2020 12:50:52 UTC] PHP Deprecated:  __autoload() is deprecated, use spl_autoload_register() instead in /home/bn2ajew7rlqi/public_html/test/php/phpmailer/phpmailer/PHPMailerAutoload.php on line 45
+[08-Feb-2020 12:50:52 UTC] PHP Stack trace:
+[08-Feb-2020 12:50:52 UTC] PHP   1. {main}() /home/bn2ajew7rlqi/public_html/test/php/phpmailer/index1.php:0
+[08-Feb-2020 12:51:43 UTC] PHP Deprecated:  __autoload() is deprecated, use spl_autoload_register() instead in /home/bn2ajew7rlqi/public_html/test/php/phpmailer/phpmailer/PHPMailerAutoload.php on line 45
+[08-Feb-2020 12:51:43 UTC] PHP Stack trace:
+[08-Feb-2020 12:51:43 UTC] PHP   1. {main}() /home/bn2ajew7rlqi/public_html/test/php/phpmailer/index1.php:0
+[08-Feb-2020 12:52:23 UTC] PHP Deprecated:  __autoload() is deprecated, use spl_autoload_register() instead in /home/bn2ajew7rlqi/public_html/test/php/phpmailer/phpmailer/PHPMailerAutoload.php on line 45
+[08-Feb-2020 12:52:23 UTC] PHP Stack trace:
+[08-Feb-2020 12:52:23 UTC] PHP   1. {main}() /home/bn2ajew7rlqi/public_html/test/php/phpmailer/index1.php:0
+[08-Feb-2020 12:52:27 UTC] PHP Deprecated:  __autoload() is deprecated, use spl_autoload_register() instead in /home/bn2ajew7rlqi/public_html/test/php/phpmailer/phpmailer/PHPMailerAutoload.php on line 45
+[08-Feb-2020 12:52:27 UTC] PHP Stack trace:
+[08-Feb-2020 12:52:27 UTC] PHP   1. {main}() /home/bn2ajew7rlqi/public_html/test/php/phpmailer/index1.php:0
+[08-Feb-2020 12:52:31 UTC] PHP Deprecated:  __autoload() is deprecated, use spl_autoload_register() instead in /home/bn2ajew7rlqi/public_html/test/php/phpmailer/phpmailer/PHPMailerAutoload.php on line 45
+[08-Feb-2020 12:52:31 UTC] PHP Stack trace:
+[08-Feb-2020 12:52:31 UTC] PHP   1. {main}() /home/bn2ajew7rlqi/public_html/test/php/phpmailer/index1.php:0

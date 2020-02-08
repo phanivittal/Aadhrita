@@ -33,7 +33,7 @@
     <li class="nav-link"><a href="../workshop/">WorkShops</a></li>
     <li class="nav-link"><a href="../cultural">Culturals</a></li>
     <li class="nav-link"><a href="../sports/">Sports</a></li>
-    <li class="nav-link active"><a href="#">About</a></li>
+    <li class="nav-link"><a href="../about/">About</a></li>
     <?php
     if (isset($_SESSION['session_email'])) {
       echo '
@@ -47,11 +47,9 @@
     ?>
   </ul>
 </header>
-
-	<body>
-		<div id="card" style="height:100%;visibility:hidden;background-image: linear-gradient(to right, #0F2027, #203A43,#2C5364);">
-	
-	<div class="container jumbotron mt-5" style="visibility:hidden;">
+	<body >
+	<div id="card" style="background-image: linear-gradient(to right, #0F2027, #203A43,#2C5364);padding:90px 10px;visibility:hidden; margin-top:0px;width:100%" >
+	<div class="container jumbotron" >
 		<?php
 			if (isset($_SESSION['session_email'])) {
 				include '../db/db.php';
@@ -98,7 +96,7 @@
 			</div>
 		</form>
 	</div>
-		</div>
+	</div>
 	<footer  style="visibility:hidden;background-color: #2c292f;padding-top: 30px;min-height: 100px; font-family: 'Righteous', cursive;">
         <div class="container" >
           <div class="row">
@@ -153,7 +151,7 @@
           <p align="center" style="padding-top: 20px;">Copyright &copy;2020, AadhritaWebteam</p>
         </div>
       </footer>
-		</body>
+  
 	
 	<script>
 
@@ -227,11 +225,11 @@
         $(".loader-wrapper").fadeOut("slow");
         $(".main-header").css("visibility","visible");
         $("footer").css("visibility","visible");
-        $(".container").css("visibility","visible");
         $("#card").css("visibility","visible");
+       
       });
 	</script>
-
+</body>
 <script src="../../js/nav.js"></script>
     <script src="../../js/jquery.min.js"></script>
 	<script src='https://kit.fontawesome.com/a076d05399.js'></script>

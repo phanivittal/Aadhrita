@@ -1,6 +1,0 @@
-[04-Feb-2020 12:32:15 UTC] PHP Notice:  Undefined index: rtype in /home/bn2ajew7rlqi/public_html/manual/php/register/index.php on line 80
-[04-Feb-2020 12:32:15 UTC] PHP Stack trace:
-[04-Feb-2020 12:32:15 UTC] PHP   1. {main}() /home/bn2ajew7rlqi/public_html/manual/php/register/index.php:0
-[04-Feb-2020 15:12:51 UTC] PHP Notice:  Undefined index: rtype in /home/bn2ajew7rlqi/public_html/manual/php/register/index.php on line 80
-[04-Feb-2020 15:12:51 UTC] PHP Stack trace:
-[04-Feb-2020 15:12:51 UTC] PHP   1. {main}() /home/bn2ajew7rlqi/public_html/manual/php/register/index.php:0

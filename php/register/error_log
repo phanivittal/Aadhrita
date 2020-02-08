@@ -58,3 +58,531 @@
 [04-Feb-2020 15:00:34 UTC] PHP Notice:  Undefined index: tsize in /home/bn2ajew7rlqi/public_html/php/register/teamRegistrations.php on line 165
 [04-Feb-2020 15:00:34 UTC] PHP Stack trace:
 [04-Feb-2020 15:00:34 UTC] PHP   1. {main}() /home/bn2ajew7rlqi/public_html/php/register/teamRegistrations.php:0
+[08-Feb-2020 12:18:48 UTC] PHP Notice:  Undefined index: userName in /home/bn2ajew7rlqi/public_html/test/php/register/checkout.php on line 6
+[08-Feb-2020 12:18:48 UTC] PHP Stack trace:
+[08-Feb-2020 12:18:48 UTC] PHP   1. {main}() /home/bn2ajew7rlqi/public_html/test/php/register/checkout.php:0
+[08-Feb-2020 12:18:48 UTC] PHP Notice:  Undefined index: collegeName in /home/bn2ajew7rlqi/public_html/test/php/register/checkout.php on line 7
+[08-Feb-2020 12:18:48 UTC] PHP Stack trace:
+[08-Feb-2020 12:18:48 UTC] PHP   1. {main}() /home/bn2ajew7rlqi/public_html/test/php/register/checkout.php:0
+[08-Feb-2020 12:18:48 UTC] PHP Notice:  Undefined index: CollegeId in /home/bn2ajew7rlqi/public_html/test/php/register/checkout.php on line 8
+[08-Feb-2020 12:18:48 UTC] PHP Stack trace:
+[08-Feb-2020 12:18:48 UTC] PHP   1. {main}() /home/bn2ajew7rlqi/public_html/test/php/register/checkout.php:0
+[08-Feb-2020 12:18:48 UTC] PHP Notice:  Undefined index: email in /home/bn2ajew7rlqi/public_html/test/php/register/checkout.php on line 9
+[08-Feb-2020 12:18:48 UTC] PHP Stack trace:
+[08-Feb-2020 12:18:48 UTC] PHP   1. {main}() /home/bn2ajew7rlqi/public_html/test/php/register/checkout.php:0
+[08-Feb-2020 12:18:48 UTC] PHP Notice:  Undefined index: amount in /home/bn2ajew7rlqi/public_html/test/php/register/checkout.php on line 10
+[08-Feb-2020 12:18:48 UTC] PHP Stack trace:
+[08-Feb-2020 12:18:48 UTC] PHP   1. {main}() /home/bn2ajew7rlqi/public_html/test/php/register/checkout.php:0
+[08-Feb-2020 12:18:48 UTC] PHP Notice:  Undefined index: password in /home/bn2ajew7rlqi/public_html/test/php/register/checkout.php on line 11
+[08-Feb-2020 12:18:48 UTC] PHP Stack trace:
+[08-Feb-2020 12:18:48 UTC] PHP   1. {main}() /home/bn2ajew7rlqi/public_html/test/php/register/checkout.php:0
+[08-Feb-2020 12:18:48 UTC] PHP Notice:  Undefined index: department in /home/bn2ajew7rlqi/public_html/test/php/register/checkout.php on line 12
+[08-Feb-2020 12:18:48 UTC] PHP Stack trace:
+[08-Feb-2020 12:18:48 UTC] PHP   1. {main}() /home/bn2ajew7rlqi/public_html/test/php/register/checkout.php:0
+[08-Feb-2020 12:18:48 UTC] PHP Notice:  Undefined index: year in /home/bn2ajew7rlqi/public_html/test/php/register/checkout.php on line 13
+[08-Feb-2020 12:18:48 UTC] PHP Stack trace:
+[08-Feb-2020 12:18:48 UTC] PHP   1. {main}() /home/bn2ajew7rlqi/public_html/test/php/register/checkout.php:0
+[08-Feb-2020 12:18:48 UTC] PHP Notice:  Undefined index: accommodation in /home/bn2ajew7rlqi/public_html/test/php/register/checkout.php on line 14
+[08-Feb-2020 12:18:48 UTC] PHP Stack trace:
+[08-Feb-2020 12:18:48 UTC] PHP   1. {main}() /home/bn2ajew7rlqi/public_html/test/php/register/checkout.php:0
+[08-Feb-2020 12:18:48 UTC] PHP Notice:  Undefined index: email in /home/bn2ajew7rlqi/public_html/test/php/register/checkout.php on line 17
+[08-Feb-2020 12:18:48 UTC] PHP Stack trace:
+[08-Feb-2020 12:18:48 UTC] PHP   1. {main}() /home/bn2ajew7rlqi/public_html/test/php/register/checkout.php:0
+[08-Feb-2020 12:18:48 UTC] PHP Notice:  Undefined index: userName in /home/bn2ajew7rlqi/public_html/test/php/register/checkout.php on line 18
+[08-Feb-2020 12:18:48 UTC] PHP Stack trace:
+[08-Feb-2020 12:18:48 UTC] PHP   1. {main}() /home/bn2ajew7rlqi/public_html/test/php/register/checkout.php:0
+[08-Feb-2020 12:18:48 UTC] PHP Notice:  Undefined index: collegeName in /home/bn2ajew7rlqi/public_html/test/php/register/checkout.php on line 19
+[08-Feb-2020 12:18:48 UTC] PHP Stack trace:
+[08-Feb-2020 12:18:48 UTC] PHP   1. {main}() /home/bn2ajew7rlqi/public_html/test/php/register/checkout.php:0
+[08-Feb-2020 12:18:48 UTC] PHP Notice:  Undefined index: CollegeId in /home/bn2ajew7rlqi/public_html/test/php/register/checkout.php on line 22
+[08-Feb-2020 12:18:48 UTC] PHP Stack trace:
+[08-Feb-2020 12:18:48 UTC] PHP   1. {main}() /home/bn2ajew7rlqi/public_html/test/php/register/checkout.php:0
+[08-Feb-2020 12:18:48 UTC] PHP Notice:  Undefined index: accommodation in /home/bn2ajew7rlqi/public_html/test/php/register/checkout.php on line 23
+[08-Feb-2020 12:18:48 UTC] PHP Stack trace:
+[08-Feb-2020 12:18:48 UTC] PHP   1. {main}() /home/bn2ajew7rlqi/public_html/test/php/register/checkout.php:0
+[08-Feb-2020 12:18:48 UTC] PHP Notice:  Undefined variable: otp in /home/bn2ajew7rlqi/public_html/test/php/register/checkout.php on line 171
+[08-Feb-2020 12:18:48 UTC] PHP Stack trace:
+[08-Feb-2020 12:18:48 UTC] PHP   1. {main}() /home/bn2ajew7rlqi/public_html/test/php/register/checkout.php:0
+[08-Feb-2020 12:20:51 UTC] PHP Notice:  Undefined variable: otp in /home/bn2ajew7rlqi/public_html/test/php/register/checkout.php on line 171
+[08-Feb-2020 12:20:51 UTC] PHP Stack trace:
+[08-Feb-2020 12:20:51 UTC] PHP   1. {main}() /home/bn2ajew7rlqi/public_html/test/php/register/checkout.php:0
+[08-Feb-2020 12:30:54 UTC] PHP Notice:  Undefined variable: otp in /home/bn2ajew7rlqi/public_html/test/php/register/checkout.php on line 170
+[08-Feb-2020 12:30:54 UTC] PHP Stack trace:
+[08-Feb-2020 12:30:54 UTC] PHP   1. {main}() /home/bn2ajew7rlqi/public_html/test/php/register/checkout.php:0
+[08-Feb-2020 12:49:04 UTC] PHP Notice:  Undefined variable: otp in /home/bn2ajew7rlqi/public_html/test/php/register/checkout.php on line 176
+[08-Feb-2020 12:49:04 UTC] PHP Stack trace:
+[08-Feb-2020 12:49:04 UTC] PHP   1. {main}() /home/bn2ajew7rlqi/public_html/test/php/register/checkout.php:0
+[08-Feb-2020 13:21:31 UTC] PHP Notice:  Undefined index: tsize in /home/bn2ajew7rlqi/public_html/php/register/teamRegistrations.php on line 170
+[08-Feb-2020 13:21:31 UTC] PHP Stack trace:
+[08-Feb-2020 13:21:31 UTC] PHP   1. {main}() /home/bn2ajew7rlqi/public_html/php/register/teamRegistrations.php:0
+[08-Feb-2020 13:35:29 UTC] PHP Notice:  Undefined index: tsize in /home/bn2ajew7rlqi/public_html/php/register/teamRegistrations.php on line 170
+[08-Feb-2020 13:35:29 UTC] PHP Stack trace:
+[08-Feb-2020 13:35:29 UTC] PHP   1. {main}() /home/bn2ajew7rlqi/public_html/php/register/teamRegistrations.php:0
+[08-Feb-2020 13:35:52 UTC] PHP Notice:  Undefined index: tsize in /home/bn2ajew7rlqi/public_html/php/register/teamRegistrations.php on line 170
+[08-Feb-2020 13:35:52 UTC] PHP Stack trace:
+[08-Feb-2020 13:35:52 UTC] PHP   1. {main}() /home/bn2ajew7rlqi/public_html/php/register/teamRegistrations.php:0
+[08-Feb-2020 13:38:13 UTC] PHP Notice:  Undefined index: tsize in /home/bn2ajew7rlqi/public_html/php/register/teamRegistrations.php on line 170
+[08-Feb-2020 13:38:13 UTC] PHP Stack trace:
+[08-Feb-2020 13:38:13 UTC] PHP   1. {main}() /home/bn2ajew7rlqi/public_html/php/register/teamRegistrations.php:0
+[08-Feb-2020 13:38:55 UTC] PHP Notice:  Undefined index: tsize in /home/bn2ajew7rlqi/public_html/php/register/teamRegistrations.php on line 170
+[08-Feb-2020 13:38:55 UTC] PHP Stack trace:
+[08-Feb-2020 13:38:55 UTC] PHP   1. {main}() /home/bn2ajew7rlqi/public_html/php/register/teamRegistrations.php:0
+[08-Feb-2020 13:43:51 UTC] PHP Notice:  Undefined index: tsize in /home/bn2ajew7rlqi/public_html/php/register/teamRegistrations.php on line 170
+[08-Feb-2020 13:43:51 UTC] PHP Stack trace:
+[08-Feb-2020 13:43:51 UTC] PHP   1. {main}() /home/bn2ajew7rlqi/public_html/php/register/teamRegistrations.php:0
+[08-Feb-2020 13:45:59 UTC] PHP Notice:  Undefined index: tsize in /home/bn2ajew7rlqi/public_html/php/register/teamRegistrations.php on line 170
+[08-Feb-2020 13:45:59 UTC] PHP Stack trace:
+[08-Feb-2020 13:45:59 UTC] PHP   1. {main}() /home/bn2ajew7rlqi/public_html/php/register/teamRegistrations.php:0
+[08-Feb-2020 13:47:28 UTC] PHP Notice:  Undefined index: tsize in /home/bn2ajew7rlqi/public_html/php/register/teamRegistrations.php on line 170
+[08-Feb-2020 13:47:28 UTC] PHP Stack trace:
+[08-Feb-2020 13:47:28 UTC] PHP   1. {main}() /home/bn2ajew7rlqi/public_html/php/register/teamRegistrations.php:0
+[08-Feb-2020 13:49:55 UTC] PHP Notice:  Undefined index: tsize in /home/bn2ajew7rlqi/public_html/php/register/teamRegistrations.php on line 170
+[08-Feb-2020 13:49:55 UTC] PHP Stack trace:
+[08-Feb-2020 13:49:55 UTC] PHP   1. {main}() /home/bn2ajew7rlqi/public_html/php/register/teamRegistrations.php:0
+[08-Feb-2020 13:51:44 UTC] PHP Notice:  Undefined index: tsize in /home/bn2ajew7rlqi/public_html/php/register/teamRegistrations.php on line 170
+[08-Feb-2020 13:51:44 UTC] PHP Stack trace:
+[08-Feb-2020 13:51:44 UTC] PHP   1. {main}() /home/bn2ajew7rlqi/public_html/php/register/teamRegistrations.php:0
+[08-Feb-2020 13:52:47 UTC] PHP Notice:  Undefined index: tsize in /home/bn2ajew7rlqi/public_html/php/register/teamRegistrations.php on line 170
+[08-Feb-2020 13:52:47 UTC] PHP Stack trace:
+[08-Feb-2020 13:52:47 UTC] PHP   1. {main}() /home/bn2ajew7rlqi/public_html/php/register/teamRegistrations.php:0
+[08-Feb-2020 13:53:08 UTC] PHP Notice:  Undefined index: tsize in /home/bn2ajew7rlqi/public_html/php/register/teamRegistrations.php on line 170
+[08-Feb-2020 13:53:08 UTC] PHP Stack trace:
+[08-Feb-2020 13:53:08 UTC] PHP   1. {main}() /home/bn2ajew7rlqi/public_html/php/register/teamRegistrations.php:0
+[08-Feb-2020 13:55:01 UTC] PHP Notice:  Undefined index: tsize in /home/bn2ajew7rlqi/public_html/php/register/teamRegistrations.php on line 170
+[08-Feb-2020 13:55:01 UTC] PHP Stack trace:
+[08-Feb-2020 13:55:01 UTC] PHP   1. {main}() /home/bn2ajew7rlqi/public_html/php/register/teamRegistrations.php:0
+[08-Feb-2020 13:57:04 UTC] PHP Notice:  Undefined index: tsize in /home/bn2ajew7rlqi/public_html/php/register/teamRegistrations.php on line 170
+[08-Feb-2020 13:57:04 UTC] PHP Stack trace:
+[08-Feb-2020 13:57:04 UTC] PHP   1. {main}() /home/bn2ajew7rlqi/public_html/php/register/teamRegistrations.php:0
+[08-Feb-2020 13:57:59 UTC] PHP Notice:  Undefined index: tsize in /home/bn2ajew7rlqi/public_html/php/register/teamRegistrations.php on line 170
+[08-Feb-2020 13:57:59 UTC] PHP Stack trace:
+[08-Feb-2020 13:57:59 UTC] PHP   1. {main}() /home/bn2ajew7rlqi/public_html/php/register/teamRegistrations.php:0
+[08-Feb-2020 13:58:03 UTC] PHP Notice:  Undefined index: tsize in /home/bn2ajew7rlqi/public_html/php/register/teamRegistrations.php on line 170
+[08-Feb-2020 13:58:03 UTC] PHP Stack trace:
+[08-Feb-2020 13:58:03 UTC] PHP   1. {main}() /home/bn2ajew7rlqi/public_html/php/register/teamRegistrations.php:0
+[08-Feb-2020 13:58:12 UTC] PHP Notice:  Undefined index: tsize in /home/bn2ajew7rlqi/public_html/php/register/teamRegistrations.php on line 170
+[08-Feb-2020 13:58:12 UTC] PHP Stack trace:
+[08-Feb-2020 13:58:12 UTC] PHP   1. {main}() /home/bn2ajew7rlqi/public_html/php/register/teamRegistrations.php:0
+[08-Feb-2020 14:03:36 UTC] PHP Notice:  Undefined index: tsize in /home/bn2ajew7rlqi/public_html/php/register/teamRegistrations.php on line 170
+[08-Feb-2020 14:03:36 UTC] PHP Stack trace:
+[08-Feb-2020 14:03:36 UTC] PHP   1. {main}() /home/bn2ajew7rlqi/public_html/php/register/teamRegistrations.php:0
+[08-Feb-2020 14:05:30 UTC] PHP Notice:  Undefined index: tsize in /home/bn2ajew7rlqi/public_html/php/register/teamRegistrations.php on line 170
+[08-Feb-2020 14:05:30 UTC] PHP Stack trace:
+[08-Feb-2020 14:05:30 UTC] PHP   1. {main}() /home/bn2ajew7rlqi/public_html/php/register/teamRegistrations.php:0
+[08-Feb-2020 14:07:55 UTC] PHP Notice:  Undefined index: tsize in /home/bn2ajew7rlqi/public_html/php/register/teamRegistrations.php on line 170
+[08-Feb-2020 14:07:55 UTC] PHP Stack trace:
+[08-Feb-2020 14:07:55 UTC] PHP   1. {main}() /home/bn2ajew7rlqi/public_html/php/register/teamRegistrations.php:0
+[08-Feb-2020 14:12:45 UTC] PHP Notice:  Undefined index: userName in /home/bn2ajew7rlqi/public_html/php/register/checkout.php on line 6
+[08-Feb-2020 14:12:45 UTC] PHP Stack trace:
+[08-Feb-2020 14:12:45 UTC] PHP   1. {main}() /home/bn2ajew7rlqi/public_html/php/register/checkout.php:0
+[08-Feb-2020 14:12:45 UTC] PHP Notice:  Undefined index: collegeName in /home/bn2ajew7rlqi/public_html/php/register/checkout.php on line 7
+[08-Feb-2020 14:12:45 UTC] PHP Stack trace:
+[08-Feb-2020 14:12:45 UTC] PHP   1. {main}() /home/bn2ajew7rlqi/public_html/php/register/checkout.php:0
+[08-Feb-2020 14:12:45 UTC] PHP Notice:  Undefined index: CollegeId in /home/bn2ajew7rlqi/public_html/php/register/checkout.php on line 8
+[08-Feb-2020 14:12:45 UTC] PHP Stack trace:
+[08-Feb-2020 14:12:45 UTC] PHP   1. {main}() /home/bn2ajew7rlqi/public_html/php/register/checkout.php:0
+[08-Feb-2020 14:12:45 UTC] PHP Notice:  Undefined index: email in /home/bn2ajew7rlqi/public_html/php/register/checkout.php on line 9
+[08-Feb-2020 14:12:45 UTC] PHP Stack trace:
+[08-Feb-2020 14:12:45 UTC] PHP   1. {main}() /home/bn2ajew7rlqi/public_html/php/register/checkout.php:0
+[08-Feb-2020 14:12:45 UTC] PHP Notice:  Undefined index: amount in /home/bn2ajew7rlqi/public_html/php/register/checkout.php on line 10
+[08-Feb-2020 14:12:45 UTC] PHP Stack trace:
+[08-Feb-2020 14:12:45 UTC] PHP   1. {main}() /home/bn2ajew7rlqi/public_html/php/register/checkout.php:0
+[08-Feb-2020 14:12:45 UTC] PHP Notice:  Undefined index: password in /home/bn2ajew7rlqi/public_html/php/register/checkout.php on line 11
+[08-Feb-2020 14:12:45 UTC] PHP Stack trace:
+[08-Feb-2020 14:12:45 UTC] PHP   1. {main}() /home/bn2ajew7rlqi/public_html/php/register/checkout.php:0
+[08-Feb-2020 14:12:45 UTC] PHP Notice:  Undefined index: department in /home/bn2ajew7rlqi/public_html/php/register/checkout.php on line 12
+[08-Feb-2020 14:12:45 UTC] PHP Stack trace:
+[08-Feb-2020 14:12:45 UTC] PHP   1. {main}() /home/bn2ajew7rlqi/public_html/php/register/checkout.php:0
+[08-Feb-2020 14:12:45 UTC] PHP Notice:  Undefined index: year in /home/bn2ajew7rlqi/public_html/php/register/checkout.php on line 13
+[08-Feb-2020 14:12:45 UTC] PHP Stack trace:
+[08-Feb-2020 14:12:45 UTC] PHP   1. {main}() /home/bn2ajew7rlqi/public_html/php/register/checkout.php:0
+[08-Feb-2020 14:12:45 UTC] PHP Notice:  Undefined index: accommodation in /home/bn2ajew7rlqi/public_html/php/register/checkout.php on line 14
+[08-Feb-2020 14:12:45 UTC] PHP Stack trace:
+[08-Feb-2020 14:12:45 UTC] PHP   1. {main}() /home/bn2ajew7rlqi/public_html/php/register/checkout.php:0
+[08-Feb-2020 14:12:45 UTC] PHP Notice:  Undefined index: email in /home/bn2ajew7rlqi/public_html/php/register/checkout.php on line 17
+[08-Feb-2020 14:12:45 UTC] PHP Stack trace:
+[08-Feb-2020 14:12:45 UTC] PHP   1. {main}() /home/bn2ajew7rlqi/public_html/php/register/checkout.php:0
+[08-Feb-2020 14:12:45 UTC] PHP Notice:  Undefined index: userName in /home/bn2ajew7rlqi/public_html/php/register/checkout.php on line 18
+[08-Feb-2020 14:12:45 UTC] PHP Stack trace:
+[08-Feb-2020 14:12:45 UTC] PHP   1. {main}() /home/bn2ajew7rlqi/public_html/php/register/checkout.php:0
+[08-Feb-2020 14:12:45 UTC] PHP Notice:  Undefined index: collegeName in /home/bn2ajew7rlqi/public_html/php/register/checkout.php on line 19
+[08-Feb-2020 14:12:45 UTC] PHP Stack trace:
+[08-Feb-2020 14:12:45 UTC] PHP   1. {main}() /home/bn2ajew7rlqi/public_html/php/register/checkout.php:0
+[08-Feb-2020 14:12:45 UTC] PHP Notice:  Undefined index: CollegeId in /home/bn2ajew7rlqi/public_html/php/register/checkout.php on line 22
+[08-Feb-2020 14:12:45 UTC] PHP Stack trace:
+[08-Feb-2020 14:12:45 UTC] PHP   1. {main}() /home/bn2ajew7rlqi/public_html/php/register/checkout.php:0
+[08-Feb-2020 14:12:45 UTC] PHP Notice:  Undefined index: accommodation in /home/bn2ajew7rlqi/public_html/php/register/checkout.php on line 23
+[08-Feb-2020 14:12:45 UTC] PHP Stack trace:
+[08-Feb-2020 14:12:45 UTC] PHP   1. {main}() /home/bn2ajew7rlqi/public_html/php/register/checkout.php:0
+[08-Feb-2020 14:14:40 UTC] PHP Notice:  Undefined index: tsize in /home/bn2ajew7rlqi/public_html/php/register/teamRegistrations.php on line 170
+[08-Feb-2020 14:14:40 UTC] PHP Stack trace:
+[08-Feb-2020 14:14:40 UTC] PHP   1. {main}() /home/bn2ajew7rlqi/public_html/php/register/teamRegistrations.php:0
+[08-Feb-2020 14:15:52 UTC] PHP Notice:  Undefined index: tsize in /home/bn2ajew7rlqi/public_html/php/register/teamRegistrations.php on line 170
+[08-Feb-2020 14:15:52 UTC] PHP Stack trace:
+[08-Feb-2020 14:15:52 UTC] PHP   1. {main}() /home/bn2ajew7rlqi/public_html/php/register/teamRegistrations.php:0
+[08-Feb-2020 14:18:12 UTC] PHP Notice:  Undefined index: userName in /home/bn2ajew7rlqi/public_html/php/register/checkout.php on line 6
+[08-Feb-2020 14:18:12 UTC] PHP Stack trace:
+[08-Feb-2020 14:18:12 UTC] PHP   1. {main}() /home/bn2ajew7rlqi/public_html/php/register/checkout.php:0
+[08-Feb-2020 14:18:12 UTC] PHP Notice:  Undefined index: collegeName in /home/bn2ajew7rlqi/public_html/php/register/checkout.php on line 7
+[08-Feb-2020 14:18:12 UTC] PHP Stack trace:
+[08-Feb-2020 14:18:12 UTC] PHP   1. {main}() /home/bn2ajew7rlqi/public_html/php/register/checkout.php:0
+[08-Feb-2020 14:18:12 UTC] PHP Notice:  Undefined index: CollegeId in /home/bn2ajew7rlqi/public_html/php/register/checkout.php on line 8
+[08-Feb-2020 14:18:12 UTC] PHP Stack trace:
+[08-Feb-2020 14:18:12 UTC] PHP   1. {main}() /home/bn2ajew7rlqi/public_html/php/register/checkout.php:0
+[08-Feb-2020 14:18:12 UTC] PHP Notice:  Undefined index: email in /home/bn2ajew7rlqi/public_html/php/register/checkout.php on line 9
+[08-Feb-2020 14:18:12 UTC] PHP Stack trace:
+[08-Feb-2020 14:18:12 UTC] PHP   1. {main}() /home/bn2ajew7rlqi/public_html/php/register/checkout.php:0
+[08-Feb-2020 14:18:12 UTC] PHP Notice:  Undefined index: amount in /home/bn2ajew7rlqi/public_html/php/register/checkout.php on line 10
+[08-Feb-2020 14:18:12 UTC] PHP Stack trace:
+[08-Feb-2020 14:18:12 UTC] PHP   1. {main}() /home/bn2ajew7rlqi/public_html/php/register/checkout.php:0
+[08-Feb-2020 14:18:12 UTC] PHP Notice:  Undefined index: password in /home/bn2ajew7rlqi/public_html/php/register/checkout.php on line 11
+[08-Feb-2020 14:18:12 UTC] PHP Stack trace:
+[08-Feb-2020 14:18:12 UTC] PHP   1. {main}() /home/bn2ajew7rlqi/public_html/php/register/checkout.php:0
+[08-Feb-2020 14:18:12 UTC] PHP Notice:  Undefined index: department in /home/bn2ajew7rlqi/public_html/php/register/checkout.php on line 12
+[08-Feb-2020 14:18:12 UTC] PHP Stack trace:
+[08-Feb-2020 14:18:12 UTC] PHP   1. {main}() /home/bn2ajew7rlqi/public_html/php/register/checkout.php:0
+[08-Feb-2020 14:18:12 UTC] PHP Notice:  Undefined index: year in /home/bn2ajew7rlqi/public_html/php/register/checkout.php on line 13
+[08-Feb-2020 14:18:12 UTC] PHP Stack trace:
+[08-Feb-2020 14:18:12 UTC] PHP   1. {main}() /home/bn2ajew7rlqi/public_html/php/register/checkout.php:0
+[08-Feb-2020 14:18:12 UTC] PHP Notice:  Undefined index: accommodation in /home/bn2ajew7rlqi/public_html/php/register/checkout.php on line 14
+[08-Feb-2020 14:18:12 UTC] PHP Stack trace:
+[08-Feb-2020 14:18:12 UTC] PHP   1. {main}() /home/bn2ajew7rlqi/public_html/php/register/checkout.php:0
+[08-Feb-2020 14:18:12 UTC] PHP Notice:  Undefined index: email in /home/bn2ajew7rlqi/public_html/php/register/checkout.php on line 17
+[08-Feb-2020 14:18:12 UTC] PHP Stack trace:
+[08-Feb-2020 14:18:12 UTC] PHP   1. {main}() /home/bn2ajew7rlqi/public_html/php/register/checkout.php:0
+[08-Feb-2020 14:18:12 UTC] PHP Notice:  Undefined index: userName in /home/bn2ajew7rlqi/public_html/php/register/checkout.php on line 18
+[08-Feb-2020 14:18:12 UTC] PHP Stack trace:
+[08-Feb-2020 14:18:12 UTC] PHP   1. {main}() /home/bn2ajew7rlqi/public_html/php/register/checkout.php:0
+[08-Feb-2020 14:18:12 UTC] PHP Notice:  Undefined index: collegeName in /home/bn2ajew7rlqi/public_html/php/register/checkout.php on line 19
+[08-Feb-2020 14:18:12 UTC] PHP Stack trace:
+[08-Feb-2020 14:18:12 UTC] PHP   1. {main}() /home/bn2ajew7rlqi/public_html/php/register/checkout.php:0
+[08-Feb-2020 14:18:12 UTC] PHP Notice:  Undefined index: CollegeId in /home/bn2ajew7rlqi/public_html/php/register/checkout.php on line 22
+[08-Feb-2020 14:18:12 UTC] PHP Stack trace:
+[08-Feb-2020 14:18:12 UTC] PHP   1. {main}() /home/bn2ajew7rlqi/public_html/php/register/checkout.php:0
+[08-Feb-2020 14:18:12 UTC] PHP Notice:  Undefined index: accommodation in /home/bn2ajew7rlqi/public_html/php/register/checkout.php on line 23
+[08-Feb-2020 14:18:12 UTC] PHP Stack trace:
+[08-Feb-2020 14:18:12 UTC] PHP   1. {main}() /home/bn2ajew7rlqi/public_html/php/register/checkout.php:0
+[08-Feb-2020 14:21:53 UTC] PHP Notice:  Undefined index: tsize in /home/bn2ajew7rlqi/public_html/php/register/teamRegistrations.php on line 170
+[08-Feb-2020 14:21:53 UTC] PHP Stack trace:
+[08-Feb-2020 14:21:53 UTC] PHP   1. {main}() /home/bn2ajew7rlqi/public_html/php/register/teamRegistrations.php:0
+[08-Feb-2020 14:22:11 UTC] PHP Notice:  Undefined index: tsize in /home/bn2ajew7rlqi/public_html/php/register/teamRegistrations.php on line 170
+[08-Feb-2020 14:22:11 UTC] PHP Stack trace:
+[08-Feb-2020 14:22:11 UTC] PHP   1. {main}() /home/bn2ajew7rlqi/public_html/php/register/teamRegistrations.php:0
+[08-Feb-2020 14:23:09 UTC] PHP Notice:  Undefined index: tsize in /home/bn2ajew7rlqi/public_html/php/register/teamRegistrations.php on line 170
+[08-Feb-2020 14:23:09 UTC] PHP Stack trace:
+[08-Feb-2020 14:23:09 UTC] PHP   1. {main}() /home/bn2ajew7rlqi/public_html/php/register/teamRegistrations.php:0
+[08-Feb-2020 14:25:27 UTC] PHP Notice:  Undefined index: tsize in /home/bn2ajew7rlqi/public_html/php/register/teamRegistrations.php on line 170
+[08-Feb-2020 14:25:27 UTC] PHP Stack trace:
+[08-Feb-2020 14:25:27 UTC] PHP   1. {main}() /home/bn2ajew7rlqi/public_html/php/register/teamRegistrations.php:0
+[08-Feb-2020 14:25:48 UTC] PHP Notice:  Undefined index: tsize in /home/bn2ajew7rlqi/public_html/php/register/teamRegistrations.php on line 170
+[08-Feb-2020 14:25:48 UTC] PHP Stack trace:
+[08-Feb-2020 14:25:48 UTC] PHP   1. {main}() /home/bn2ajew7rlqi/public_html/php/register/teamRegistrations.php:0
+[08-Feb-2020 14:30:29 UTC] PHP Notice:  Undefined index: tsize in /home/bn2ajew7rlqi/public_html/php/register/teamRegistrations.php on line 170
+[08-Feb-2020 14:30:29 UTC] PHP Stack trace:
+[08-Feb-2020 14:30:29 UTC] PHP   1. {main}() /home/bn2ajew7rlqi/public_html/php/register/teamRegistrations.php:0
+[08-Feb-2020 14:30:32 UTC] PHP Notice:  Undefined index: tsize in /home/bn2ajew7rlqi/public_html/php/register/teamRegistrations.php on line 170
+[08-Feb-2020 14:30:32 UTC] PHP Stack trace:
+[08-Feb-2020 14:30:32 UTC] PHP   1. {main}() /home/bn2ajew7rlqi/public_html/php/register/teamRegistrations.php:0
+[08-Feb-2020 14:30:49 UTC] PHP Notice:  Undefined index: tsize in /home/bn2ajew7rlqi/public_html/php/register/teamRegistrations.php on line 170
+[08-Feb-2020 14:30:49 UTC] PHP Stack trace:
+[08-Feb-2020 14:30:49 UTC] PHP   1. {main}() /home/bn2ajew7rlqi/public_html/php/register/teamRegistrations.php:0
+[08-Feb-2020 14:32:51 UTC] PHP Notice:  Undefined index: tsize in /home/bn2ajew7rlqi/public_html/php/register/teamRegistrations.php on line 170
+[08-Feb-2020 14:32:51 UTC] PHP Stack trace:
+[08-Feb-2020 14:32:51 UTC] PHP   1. {main}() /home/bn2ajew7rlqi/public_html/php/register/teamRegistrations.php:0
+[08-Feb-2020 14:35:10 UTC] PHP Notice:  Undefined index: tsize in /home/bn2ajew7rlqi/public_html/php/register/teamRegistrations.php on line 170
+[08-Feb-2020 14:35:10 UTC] PHP Stack trace:
+[08-Feb-2020 14:35:10 UTC] PHP   1. {main}() /home/bn2ajew7rlqi/public_html/php/register/teamRegistrations.php:0
+[08-Feb-2020 14:40:51 UTC] PHP Notice:  Undefined index: tsize in /home/bn2ajew7rlqi/public_html/php/register/teamRegistrations.php on line 170
+[08-Feb-2020 14:40:51 UTC] PHP Stack trace:
+[08-Feb-2020 14:40:51 UTC] PHP   1. {main}() /home/bn2ajew7rlqi/public_html/php/register/teamRegistrations.php:0
+[08-Feb-2020 14:40:53 UTC] PHP Notice:  Undefined index: tsize in /home/bn2ajew7rlqi/public_html/php/register/teamRegistrations.php on line 170
+[08-Feb-2020 14:40:53 UTC] PHP Stack trace:
+[08-Feb-2020 14:40:53 UTC] PHP   1. {main}() /home/bn2ajew7rlqi/public_html/php/register/teamRegistrations.php:0
+[08-Feb-2020 14:41:31 UTC] PHP Notice:  Undefined index: tsize in /home/bn2ajew7rlqi/public_html/php/register/teamRegistrations.php on line 170
+[08-Feb-2020 14:41:31 UTC] PHP Stack trace:
+[08-Feb-2020 14:41:31 UTC] PHP   1. {main}() /home/bn2ajew7rlqi/public_html/php/register/teamRegistrations.php:0
+[08-Feb-2020 14:41:42 UTC] PHP Notice:  Undefined index: tsize in /home/bn2ajew7rlqi/public_html/php/register/teamRegistrations.php on line 170
+[08-Feb-2020 14:41:42 UTC] PHP Stack trace:
+[08-Feb-2020 14:41:42 UTC] PHP   1. {main}() /home/bn2ajew7rlqi/public_html/php/register/teamRegistrations.php:0
+[08-Feb-2020 14:43:10 UTC] PHP Notice:  Undefined index: tsize in /home/bn2ajew7rlqi/public_html/php/register/teamRegistrations.php on line 170
+[08-Feb-2020 14:43:10 UTC] PHP Stack trace:
+[08-Feb-2020 14:43:10 UTC] PHP   1. {main}() /home/bn2ajew7rlqi/public_html/php/register/teamRegistrations.php:0
+[08-Feb-2020 14:53:44 UTC] PHP Notice:  Undefined index: userName in /home/bn2ajew7rlqi/public_html/php/register/checkout.php on line 6
+[08-Feb-2020 14:53:44 UTC] PHP Stack trace:
+[08-Feb-2020 14:53:44 UTC] PHP   1. {main}() /home/bn2ajew7rlqi/public_html/php/register/checkout.php:0
+[08-Feb-2020 14:53:44 UTC] PHP Notice:  Undefined index: collegeName in /home/bn2ajew7rlqi/public_html/php/register/checkout.php on line 7
+[08-Feb-2020 14:53:44 UTC] PHP Stack trace:
+[08-Feb-2020 14:53:44 UTC] PHP   1. {main}() /home/bn2ajew7rlqi/public_html/php/register/checkout.php:0
+[08-Feb-2020 14:53:44 UTC] PHP Notice:  Undefined index: CollegeId in /home/bn2ajew7rlqi/public_html/php/register/checkout.php on line 8
+[08-Feb-2020 14:53:44 UTC] PHP Stack trace:
+[08-Feb-2020 14:53:44 UTC] PHP   1. {main}() /home/bn2ajew7rlqi/public_html/php/register/checkout.php:0
+[08-Feb-2020 14:53:44 UTC] PHP Notice:  Undefined index: email in /home/bn2ajew7rlqi/public_html/php/register/checkout.php on line 9
+[08-Feb-2020 14:53:44 UTC] PHP Stack trace:
+[08-Feb-2020 14:53:44 UTC] PHP   1. {main}() /home/bn2ajew7rlqi/public_html/php/register/checkout.php:0
+[08-Feb-2020 14:53:44 UTC] PHP Notice:  Undefined index: amount in /home/bn2ajew7rlqi/public_html/php/register/checkout.php on line 10
+[08-Feb-2020 14:53:44 UTC] PHP Stack trace:
+[08-Feb-2020 14:53:44 UTC] PHP   1. {main}() /home/bn2ajew7rlqi/public_html/php/register/checkout.php:0
+[08-Feb-2020 14:53:44 UTC] PHP Notice:  Undefined index: password in /home/bn2ajew7rlqi/public_html/php/register/checkout.php on line 11
+[08-Feb-2020 14:53:44 UTC] PHP Stack trace:
+[08-Feb-2020 14:53:44 UTC] PHP   1. {main}() /home/bn2ajew7rlqi/public_html/php/register/checkout.php:0
+[08-Feb-2020 14:53:44 UTC] PHP Notice:  Undefined index: department in /home/bn2ajew7rlqi/public_html/php/register/checkout.php on line 12
+[08-Feb-2020 14:53:44 UTC] PHP Stack trace:
+[08-Feb-2020 14:53:44 UTC] PHP   1. {main}() /home/bn2ajew7rlqi/public_html/php/register/checkout.php:0
+[08-Feb-2020 14:53:44 UTC] PHP Notice:  Undefined index: year in /home/bn2ajew7rlqi/public_html/php/register/checkout.php on line 13
+[08-Feb-2020 14:53:44 UTC] PHP Stack trace:
+[08-Feb-2020 14:53:44 UTC] PHP   1. {main}() /home/bn2ajew7rlqi/public_html/php/register/checkout.php:0
+[08-Feb-2020 14:53:44 UTC] PHP Notice:  Undefined index: accommodation in /home/bn2ajew7rlqi/public_html/php/register/checkout.php on line 14
+[08-Feb-2020 14:53:44 UTC] PHP Stack trace:
+[08-Feb-2020 14:53:44 UTC] PHP   1. {main}() /home/bn2ajew7rlqi/public_html/php/register/checkout.php:0
+[08-Feb-2020 14:53:44 UTC] PHP Notice:  Undefined index: email in /home/bn2ajew7rlqi/public_html/php/register/checkout.php on line 17
+[08-Feb-2020 14:53:44 UTC] PHP Stack trace:
+[08-Feb-2020 14:53:44 UTC] PHP   1. {main}() /home/bn2ajew7rlqi/public_html/php/register/checkout.php:0
+[08-Feb-2020 14:53:44 UTC] PHP Notice:  Undefined index: userName in /home/bn2ajew7rlqi/public_html/php/register/checkout.php on line 18
+[08-Feb-2020 14:53:44 UTC] PHP Stack trace:
+[08-Feb-2020 14:53:44 UTC] PHP   1. {main}() /home/bn2ajew7rlqi/public_html/php/register/checkout.php:0
+[08-Feb-2020 14:53:44 UTC] PHP Notice:  Undefined index: collegeName in /home/bn2ajew7rlqi/public_html/php/register/checkout.php on line 19
+[08-Feb-2020 14:53:44 UTC] PHP Stack trace:
+[08-Feb-2020 14:53:44 UTC] PHP   1. {main}() /home/bn2ajew7rlqi/public_html/php/register/checkout.php:0
+[08-Feb-2020 14:53:44 UTC] PHP Notice:  Undefined index: CollegeId in /home/bn2ajew7rlqi/public_html/php/register/checkout.php on line 22
+[08-Feb-2020 14:53:44 UTC] PHP Stack trace:
+[08-Feb-2020 14:53:44 UTC] PHP   1. {main}() /home/bn2ajew7rlqi/public_html/php/register/checkout.php:0
+[08-Feb-2020 14:53:44 UTC] PHP Notice:  Undefined index: accommodation in /home/bn2ajew7rlqi/public_html/php/register/checkout.php on line 23
+[08-Feb-2020 14:53:44 UTC] PHP Stack trace:
+[08-Feb-2020 14:53:44 UTC] PHP   1. {main}() /home/bn2ajew7rlqi/public_html/php/register/checkout.php:0
+[08-Feb-2020 14:57:08 UTC] PHP Notice:  Undefined index: tsize in /home/bn2ajew7rlqi/public_html/php/register/teamRegistrations.php on line 170
+[08-Feb-2020 14:57:08 UTC] PHP Stack trace:
+[08-Feb-2020 14:57:08 UTC] PHP   1. {main}() /home/bn2ajew7rlqi/public_html/php/register/teamRegistrations.php:0
+[08-Feb-2020 15:00:50 UTC] PHP Notice:  Undefined index: tsize in /home/bn2ajew7rlqi/public_html/php/register/teamRegistrations.php on line 170
+[08-Feb-2020 15:00:50 UTC] PHP Stack trace:
+[08-Feb-2020 15:00:50 UTC] PHP   1. {main}() /home/bn2ajew7rlqi/public_html/php/register/teamRegistrations.php:0
+[08-Feb-2020 15:03:48 UTC] PHP Notice:  Undefined index: tsize in /home/bn2ajew7rlqi/public_html/php/register/teamRegistrations.php on line 170
+[08-Feb-2020 15:03:48 UTC] PHP Stack trace:
+[08-Feb-2020 15:03:48 UTC] PHP   1. {main}() /home/bn2ajew7rlqi/public_html/php/register/teamRegistrations.php:0
+[08-Feb-2020 15:05:12 UTC] PHP Notice:  Undefined index: userName in /home/bn2ajew7rlqi/public_html/php/register/checkout.php on line 6
+[08-Feb-2020 15:05:12 UTC] PHP Stack trace:
+[08-Feb-2020 15:05:12 UTC] PHP   1. {main}() /home/bn2ajew7rlqi/public_html/php/register/checkout.php:0
+[08-Feb-2020 15:05:12 UTC] PHP Notice:  Undefined index: collegeName in /home/bn2ajew7rlqi/public_html/php/register/checkout.php on line 7
+[08-Feb-2020 15:05:12 UTC] PHP Stack trace:
+[08-Feb-2020 15:05:12 UTC] PHP   1. {main}() /home/bn2ajew7rlqi/public_html/php/register/checkout.php:0
+[08-Feb-2020 15:05:12 UTC] PHP Notice:  Undefined index: CollegeId in /home/bn2ajew7rlqi/public_html/php/register/checkout.php on line 8
+[08-Feb-2020 15:05:12 UTC] PHP Stack trace:
+[08-Feb-2020 15:05:12 UTC] PHP   1. {main}() /home/bn2ajew7rlqi/public_html/php/register/checkout.php:0
+[08-Feb-2020 15:05:12 UTC] PHP Notice:  Undefined index: email in /home/bn2ajew7rlqi/public_html/php/register/checkout.php on line 9
+[08-Feb-2020 15:05:12 UTC] PHP Stack trace:
+[08-Feb-2020 15:05:12 UTC] PHP   1. {main}() /home/bn2ajew7rlqi/public_html/php/register/checkout.php:0
+[08-Feb-2020 15:05:12 UTC] PHP Notice:  Undefined index: amount in /home/bn2ajew7rlqi/public_html/php/register/checkout.php on line 10
+[08-Feb-2020 15:05:12 UTC] PHP Stack trace:
+[08-Feb-2020 15:05:12 UTC] PHP   1. {main}() /home/bn2ajew7rlqi/public_html/php/register/checkout.php:0
+[08-Feb-2020 15:05:12 UTC] PHP Notice:  Undefined index: password in /home/bn2ajew7rlqi/public_html/php/register/checkout.php on line 11
+[08-Feb-2020 15:05:12 UTC] PHP Stack trace:
+[08-Feb-2020 15:05:12 UTC] PHP   1. {main}() /home/bn2ajew7rlqi/public_html/php/register/checkout.php:0
+[08-Feb-2020 15:05:12 UTC] PHP Notice:  Undefined index: department in /home/bn2ajew7rlqi/public_html/php/register/checkout.php on line 12
+[08-Feb-2020 15:05:12 UTC] PHP Stack trace:
+[08-Feb-2020 15:05:12 UTC] PHP   1. {main}() /home/bn2ajew7rlqi/public_html/php/register/checkout.php:0
+[08-Feb-2020 15:05:12 UTC] PHP Notice:  Undefined index: year in /home/bn2ajew7rlqi/public_html/php/register/checkout.php on line 13
+[08-Feb-2020 15:05:12 UTC] PHP Stack trace:
+[08-Feb-2020 15:05:12 UTC] PHP   1. {main}() /home/bn2ajew7rlqi/public_html/php/register/checkout.php:0
+[08-Feb-2020 15:05:12 UTC] PHP Notice:  Undefined index: accommodation in /home/bn2ajew7rlqi/public_html/php/register/checkout.php on line 14
+[08-Feb-2020 15:05:12 UTC] PHP Stack trace:
+[08-Feb-2020 15:05:12 UTC] PHP   1. {main}() /home/bn2ajew7rlqi/public_html/php/register/checkout.php:0
+[08-Feb-2020 15:05:12 UTC] PHP Notice:  Undefined index: email in /home/bn2ajew7rlqi/public_html/php/register/checkout.php on line 17
+[08-Feb-2020 15:05:12 UTC] PHP Stack trace:
+[08-Feb-2020 15:05:12 UTC] PHP   1. {main}() /home/bn2ajew7rlqi/public_html/php/register/checkout.php:0
+[08-Feb-2020 15:05:12 UTC] PHP Notice:  Undefined index: userName in /home/bn2ajew7rlqi/public_html/php/register/checkout.php on line 18
+[08-Feb-2020 15:05:12 UTC] PHP Stack trace:
+[08-Feb-2020 15:05:12 UTC] PHP   1. {main}() /home/bn2ajew7rlqi/public_html/php/register/checkout.php:0
+[08-Feb-2020 15:05:12 UTC] PHP Notice:  Undefined index: collegeName in /home/bn2ajew7rlqi/public_html/php/register/checkout.php on line 19
+[08-Feb-2020 15:05:12 UTC] PHP Stack trace:
+[08-Feb-2020 15:05:12 UTC] PHP   1. {main}() /home/bn2ajew7rlqi/public_html/php/register/checkout.php:0
+[08-Feb-2020 15:05:12 UTC] PHP Notice:  Undefined index: CollegeId in /home/bn2ajew7rlqi/public_html/php/register/checkout.php on line 22
+[08-Feb-2020 15:05:12 UTC] PHP Stack trace:
+[08-Feb-2020 15:05:12 UTC] PHP   1. {main}() /home/bn2ajew7rlqi/public_html/php/register/checkout.php:0
+[08-Feb-2020 15:05:12 UTC] PHP Notice:  Undefined index: accommodation in /home/bn2ajew7rlqi/public_html/php/register/checkout.php on line 23
+[08-Feb-2020 15:05:12 UTC] PHP Stack trace:
+[08-Feb-2020 15:05:12 UTC] PHP   1. {main}() /home/bn2ajew7rlqi/public_html/php/register/checkout.php:0
+[08-Feb-2020 15:18:01 UTC] PHP Notice:  Undefined index: tsize in /home/bn2ajew7rlqi/public_html/php/register/teamRegistrations.php on line 170
+[08-Feb-2020 15:18:01 UTC] PHP Stack trace:
+[08-Feb-2020 15:18:01 UTC] PHP   1. {main}() /home/bn2ajew7rlqi/public_html/php/register/teamRegistrations.php:0
+[08-Feb-2020 15:19:20 UTC] PHP Notice:  Undefined index: tsize in /home/bn2ajew7rlqi/public_html/php/register/teamRegistrations.php on line 170
+[08-Feb-2020 15:19:20 UTC] PHP Stack trace:
+[08-Feb-2020 15:19:20 UTC] PHP   1. {main}() /home/bn2ajew7rlqi/public_html/php/register/teamRegistrations.php:0
+[08-Feb-2020 15:26:13 UTC] PHP Notice:  Undefined index: tsize in /home/bn2ajew7rlqi/public_html/php/register/teamRegistrations.php on line 170
+[08-Feb-2020 15:26:13 UTC] PHP Stack trace:
+[08-Feb-2020 15:26:13 UTC] PHP   1. {main}() /home/bn2ajew7rlqi/public_html/php/register/teamRegistrations.php:0
+[08-Feb-2020 15:27:15 UTC] PHP Notice:  Undefined index: tsize in /home/bn2ajew7rlqi/public_html/php/register/teamRegistrations.php on line 170
+[08-Feb-2020 15:27:15 UTC] PHP Stack trace:
+[08-Feb-2020 15:27:15 UTC] PHP   1. {main}() /home/bn2ajew7rlqi/public_html/php/register/teamRegistrations.php:0
+[08-Feb-2020 15:31:34 UTC] PHP Notice:  Undefined index: tsize in /home/bn2ajew7rlqi/public_html/php/register/teamRegistrations.php on line 170
+[08-Feb-2020 15:31:34 UTC] PHP Stack trace:
+[08-Feb-2020 15:31:34 UTC] PHP   1. {main}() /home/bn2ajew7rlqi/public_html/php/register/teamRegistrations.php:0
+[08-Feb-2020 15:38:53 UTC] PHP Notice:  Undefined index: tsize in /home/bn2ajew7rlqi/public_html/php/register/teamRegistrations.php on line 170
+[08-Feb-2020 15:38:53 UTC] PHP Stack trace:
+[08-Feb-2020 15:38:53 UTC] PHP   1. {main}() /home/bn2ajew7rlqi/public_html/php/register/teamRegistrations.php:0
+[08-Feb-2020 15:51:20 UTC] PHP Notice:  Undefined index: tsize in /home/bn2ajew7rlqi/public_html/php/register/teamRegistrations.php on line 170
+[08-Feb-2020 15:51:20 UTC] PHP Stack trace:
+[08-Feb-2020 15:51:20 UTC] PHP   1. {main}() /home/bn2ajew7rlqi/public_html/php/register/teamRegistrations.php:0
+[08-Feb-2020 16:01:00 UTC] PHP Notice:  Undefined index: tsize in /home/bn2ajew7rlqi/public_html/php/register/teamRegistrations.php on line 170
+[08-Feb-2020 16:01:00 UTC] PHP Stack trace:
+[08-Feb-2020 16:01:00 UTC] PHP   1. {main}() /home/bn2ajew7rlqi/public_html/php/register/teamRegistrations.php:0
+[08-Feb-2020 16:01:26 UTC] PHP Notice:  Undefined index: tsize in /home/bn2ajew7rlqi/public_html/php/register/teamRegistrations.php on line 170
+[08-Feb-2020 16:01:26 UTC] PHP Stack trace:
+[08-Feb-2020 16:01:26 UTC] PHP   1. {main}() /home/bn2ajew7rlqi/public_html/php/register/teamRegistrations.php:0
+[08-Feb-2020 16:02:30 UTC] PHP Notice:  Undefined index: tsize in /home/bn2ajew7rlqi/public_html/php/register/teamRegistrations.php on line 170
+[08-Feb-2020 16:02:31 UTC] PHP Stack trace:
+[08-Feb-2020 16:02:31 UTC] PHP   1. {main}() /home/bn2ajew7rlqi/public_html/php/register/teamRegistrations.php:0
+[08-Feb-2020 16:10:40 UTC] PHP Notice:  Undefined index: tsize in /home/bn2ajew7rlqi/public_html/php/register/teamRegistrations.php on line 170
+[08-Feb-2020 16:10:40 UTC] PHP Stack trace:
+[08-Feb-2020 16:10:40 UTC] PHP   1. {main}() /home/bn2ajew7rlqi/public_html/php/register/teamRegistrations.php:0
+[08-Feb-2020 16:15:53 UTC] PHP Notice:  Undefined index: tsize in /home/bn2ajew7rlqi/public_html/php/register/teamRegistrations.php on line 170
+[08-Feb-2020 16:15:53 UTC] PHP Stack trace:
+[08-Feb-2020 16:15:53 UTC] PHP   1. {main}() /home/bn2ajew7rlqi/public_html/php/register/teamRegistrations.php:0
+[08-Feb-2020 16:18:55 UTC] PHP Notice:  Undefined index: tsize in /home/bn2ajew7rlqi/public_html/php/register/teamRegistrations.php on line 170
+[08-Feb-2020 16:18:55 UTC] PHP Stack trace:
+[08-Feb-2020 16:18:55 UTC] PHP   1. {main}() /home/bn2ajew7rlqi/public_html/php/register/teamRegistrations.php:0
+[08-Feb-2020 16:20:17 UTC] PHP Notice:  Undefined index: tsize in /home/bn2ajew7rlqi/public_html/php/register/teamRegistrations.php on line 170
+[08-Feb-2020 16:20:17 UTC] PHP Stack trace:
+[08-Feb-2020 16:20:17 UTC] PHP   1. {main}() /home/bn2ajew7rlqi/public_html/php/register/teamRegistrations.php:0
+[08-Feb-2020 16:20:39 UTC] PHP Notice:  Undefined index: tsize in /home/bn2ajew7rlqi/public_html/php/register/teamRegistrations.php on line 170
+[08-Feb-2020 16:20:39 UTC] PHP Stack trace:
+[08-Feb-2020 16:20:39 UTC] PHP   1. {main}() /home/bn2ajew7rlqi/public_html/php/register/teamRegistrations.php:0
+[08-Feb-2020 16:22:09 UTC] PHP Notice:  Undefined index: tsize in /home/bn2ajew7rlqi/public_html/php/register/teamRegistrations.php on line 170
+[08-Feb-2020 16:22:09 UTC] PHP Stack trace:
+[08-Feb-2020 16:22:09 UTC] PHP   1. {main}() /home/bn2ajew7rlqi/public_html/php/register/teamRegistrations.php:0
+[08-Feb-2020 16:22:40 UTC] PHP Notice:  Undefined index: tsize in /home/bn2ajew7rlqi/public_html/php/register/teamRegistrations.php on line 170
+[08-Feb-2020 16:22:40 UTC] PHP Stack trace:
+[08-Feb-2020 16:22:40 UTC] PHP   1. {main}() /home/bn2ajew7rlqi/public_html/php/register/teamRegistrations.php:0
+[08-Feb-2020 16:28:02 UTC] PHP Notice:  Undefined index: tsize in /home/bn2ajew7rlqi/public_html/php/register/teamRegistrations.php on line 170
+[08-Feb-2020 16:28:02 UTC] PHP Stack trace:
+[08-Feb-2020 16:28:02 UTC] PHP   1. {main}() /home/bn2ajew7rlqi/public_html/php/register/teamRegistrations.php:0
+[08-Feb-2020 16:30:23 UTC] PHP Notice:  Undefined index: tsize in /home/bn2ajew7rlqi/public_html/php/register/teamRegistrations.php on line 170
+[08-Feb-2020 16:30:23 UTC] PHP Stack trace:
+[08-Feb-2020 16:30:23 UTC] PHP   1. {main}() /home/bn2ajew7rlqi/public_html/php/register/teamRegistrations.php:0
+[08-Feb-2020 16:42:49 UTC] PHP Notice:  Undefined index: userName in /home/bn2ajew7rlqi/public_html/php/register/checkout.php on line 6
+[08-Feb-2020 16:42:49 UTC] PHP Stack trace:
+[08-Feb-2020 16:42:49 UTC] PHP   1. {main}() /home/bn2ajew7rlqi/public_html/php/register/checkout.php:0
+[08-Feb-2020 16:42:49 UTC] PHP Notice:  Undefined index: collegeName in /home/bn2ajew7rlqi/public_html/php/register/checkout.php on line 7
+[08-Feb-2020 16:42:49 UTC] PHP Stack trace:
+[08-Feb-2020 16:42:49 UTC] PHP   1. {main}() /home/bn2ajew7rlqi/public_html/php/register/checkout.php:0
+[08-Feb-2020 16:42:49 UTC] PHP Notice:  Undefined index: CollegeId in /home/bn2ajew7rlqi/public_html/php/register/checkout.php on line 8
+[08-Feb-2020 16:42:49 UTC] PHP Stack trace:
+[08-Feb-2020 16:42:49 UTC] PHP   1. {main}() /home/bn2ajew7rlqi/public_html/php/register/checkout.php:0
+[08-Feb-2020 16:42:49 UTC] PHP Notice:  Undefined index: email in /home/bn2ajew7rlqi/public_html/php/register/checkout.php on line 9
+[08-Feb-2020 16:42:49 UTC] PHP Stack trace:
+[08-Feb-2020 16:42:49 UTC] PHP   1. {main}() /home/bn2ajew7rlqi/public_html/php/register/checkout.php:0
+[08-Feb-2020 16:42:49 UTC] PHP Notice:  Undefined index: amount in /home/bn2ajew7rlqi/public_html/php/register/checkout.php on line 10
+[08-Feb-2020 16:42:49 UTC] PHP Stack trace:
+[08-Feb-2020 16:42:49 UTC] PHP   1. {main}() /home/bn2ajew7rlqi/public_html/php/register/checkout.php:0
+[08-Feb-2020 16:42:49 UTC] PHP Notice:  Undefined index: password in /home/bn2ajew7rlqi/public_html/php/register/checkout.php on line 11
+[08-Feb-2020 16:42:49 UTC] PHP Stack trace:
+[08-Feb-2020 16:42:49 UTC] PHP   1. {main}() /home/bn2ajew7rlqi/public_html/php/register/checkout.php:0
+[08-Feb-2020 16:42:49 UTC] PHP Notice:  Undefined index: department in /home/bn2ajew7rlqi/public_html/php/register/checkout.php on line 12
+[08-Feb-2020 16:42:49 UTC] PHP Stack trace:
+[08-Feb-2020 16:42:49 UTC] PHP   1. {main}() /home/bn2ajew7rlqi/public_html/php/register/checkout.php:0
+[08-Feb-2020 16:42:49 UTC] PHP Notice:  Undefined index: year in /home/bn2ajew7rlqi/public_html/php/register/checkout.php on line 13
+[08-Feb-2020 16:42:49 UTC] PHP Stack trace:
+[08-Feb-2020 16:42:49 UTC] PHP   1. {main}() /home/bn2ajew7rlqi/public_html/php/register/checkout.php:0
+[08-Feb-2020 16:42:49 UTC] PHP Notice:  Undefined index: accommodation in /home/bn2ajew7rlqi/public_html/php/register/checkout.php on line 14
+[08-Feb-2020 16:42:49 UTC] PHP Stack trace:
+[08-Feb-2020 16:42:49 UTC] PHP   1. {main}() /home/bn2ajew7rlqi/public_html/php/register/checkout.php:0
+[08-Feb-2020 16:42:49 UTC] PHP Notice:  Undefined index: email in /home/bn2ajew7rlqi/public_html/php/register/checkout.php on line 17
+[08-Feb-2020 16:42:49 UTC] PHP Stack trace:
+[08-Feb-2020 16:42:49 UTC] PHP   1. {main}() /home/bn2ajew7rlqi/public_html/php/register/checkout.php:0
+[08-Feb-2020 16:42:49 UTC] PHP Notice:  Undefined index: userName in /home/bn2ajew7rlqi/public_html/php/register/checkout.php on line 18
+[08-Feb-2020 16:42:49 UTC] PHP Stack trace:
+[08-Feb-2020 16:42:49 UTC] PHP   1. {main}() /home/bn2ajew7rlqi/public_html/php/register/checkout.php:0
+[08-Feb-2020 16:42:49 UTC] PHP Notice:  Undefined index: collegeName in /home/bn2ajew7rlqi/public_html/php/register/checkout.php on line 19
+[08-Feb-2020 16:42:49 UTC] PHP Stack trace:
+[08-Feb-2020 16:42:49 UTC] PHP   1. {main}() /home/bn2ajew7rlqi/public_html/php/register/checkout.php:0
+[08-Feb-2020 16:42:49 UTC] PHP Notice:  Undefined index: CollegeId in /home/bn2ajew7rlqi/public_html/php/register/checkout.php on line 22
+[08-Feb-2020 16:42:49 UTC] PHP Stack trace:
+[08-Feb-2020 16:42:49 UTC] PHP   1. {main}() /home/bn2ajew7rlqi/public_html/php/register/checkout.php:0
+[08-Feb-2020 16:42:49 UTC] PHP Notice:  Undefined index: accommodation in /home/bn2ajew7rlqi/public_html/php/register/checkout.php on line 23
+[08-Feb-2020 16:42:49 UTC] PHP Stack trace:
+[08-Feb-2020 16:42:49 UTC] PHP   1. {main}() /home/bn2ajew7rlqi/public_html/php/register/checkout.php:0
+[08-Feb-2020 16:43:12 UTC] PHP Notice:  Undefined index: userName in /home/bn2ajew7rlqi/public_html/php/register/checkout.php on line 6
+[08-Feb-2020 16:43:12 UTC] PHP Stack trace:
+[08-Feb-2020 16:43:12 UTC] PHP   1. {main}() /home/bn2ajew7rlqi/public_html/php/register/checkout.php:0
+[08-Feb-2020 16:43:12 UTC] PHP Notice:  Undefined index: collegeName in /home/bn2ajew7rlqi/public_html/php/register/checkout.php on line 7
+[08-Feb-2020 16:43:12 UTC] PHP Stack trace:
+[08-Feb-2020 16:43:12 UTC] PHP   1. {main}() /home/bn2ajew7rlqi/public_html/php/register/checkout.php:0
+[08-Feb-2020 16:43:12 UTC] PHP Notice:  Undefined index: CollegeId in /home/bn2ajew7rlqi/public_html/php/register/checkout.php on line 8
+[08-Feb-2020 16:43:12 UTC] PHP Stack trace:
+[08-Feb-2020 16:43:12 UTC] PHP   1. {main}() /home/bn2ajew7rlqi/public_html/php/register/checkout.php:0
+[08-Feb-2020 16:43:12 UTC] PHP Notice:  Undefined index: email in /home/bn2ajew7rlqi/public_html/php/register/checkout.php on line 9
+[08-Feb-2020 16:43:12 UTC] PHP Stack trace:
+[08-Feb-2020 16:43:12 UTC] PHP   1. {main}() /home/bn2ajew7rlqi/public_html/php/register/checkout.php:0
+[08-Feb-2020 16:43:12 UTC] PHP Notice:  Undefined index: amount in /home/bn2ajew7rlqi/public_html/php/register/checkout.php on line 10
+[08-Feb-2020 16:43:12 UTC] PHP Stack trace:
+[08-Feb-2020 16:43:12 UTC] PHP   1. {main}() /home/bn2ajew7rlqi/public_html/php/register/checkout.php:0
+[08-Feb-2020 16:43:12 UTC] PHP Notice:  Undefined index: password in /home/bn2ajew7rlqi/public_html/php/register/checkout.php on line 11
+[08-Feb-2020 16:43:12 UTC] PHP Stack trace:
+[08-Feb-2020 16:43:12 UTC] PHP   1. {main}() /home/bn2ajew7rlqi/public_html/php/register/checkout.php:0
+[08-Feb-2020 16:43:12 UTC] PHP Notice:  Undefined index: department in /home/bn2ajew7rlqi/public_html/php/register/checkout.php on line 12
+[08-Feb-2020 16:43:12 UTC] PHP Stack trace:
+[08-Feb-2020 16:43:12 UTC] PHP   1. {main}() /home/bn2ajew7rlqi/public_html/php/register/checkout.php:0
+[08-Feb-2020 16:43:12 UTC] PHP Notice:  Undefined index: year in /home/bn2ajew7rlqi/public_html/php/register/checkout.php on line 13
+[08-Feb-2020 16:43:12 UTC] PHP Stack trace:
+[08-Feb-2020 16:43:12 UTC] PHP   1. {main}() /home/bn2ajew7rlqi/public_html/php/register/checkout.php:0
+[08-Feb-2020 16:43:12 UTC] PHP Notice:  Undefined index: accommodation in /home/bn2ajew7rlqi/public_html/php/register/checkout.php on line 14
+[08-Feb-2020 16:43:13 UTC] PHP Stack trace:
+[08-Feb-2020 16:43:13 UTC] PHP   1. {main}() /home/bn2ajew7rlqi/public_html/php/register/checkout.php:0
+[08-Feb-2020 16:43:13 UTC] PHP Notice:  Undefined index: email in /home/bn2ajew7rlqi/public_html/php/register/checkout.php on line 17
+[08-Feb-2020 16:43:13 UTC] PHP Stack trace:
+[08-Feb-2020 16:43:13 UTC] PHP   1. {main}() /home/bn2ajew7rlqi/public_html/php/register/checkout.php:0
+[08-Feb-2020 16:43:13 UTC] PHP Notice:  Undefined index: userName in /home/bn2ajew7rlqi/public_html/php/register/checkout.php on line 18
+[08-Feb-2020 16:43:13 UTC] PHP Stack trace:
+[08-Feb-2020 16:43:13 UTC] PHP   1. {main}() /home/bn2ajew7rlqi/public_html/php/register/checkout.php:0
+[08-Feb-2020 16:43:13 UTC] PHP Notice:  Undefined index: collegeName in /home/bn2ajew7rlqi/public_html/php/register/checkout.php on line 19
+[08-Feb-2020 16:43:13 UTC] PHP Stack trace:
+[08-Feb-2020 16:43:13 UTC] PHP   1. {main}() /home/bn2ajew7rlqi/public_html/php/register/checkout.php:0
+[08-Feb-2020 16:43:13 UTC] PHP Notice:  Undefined index: CollegeId in /home/bn2ajew7rlqi/public_html/php/register/checkout.php on line 22
+[08-Feb-2020 16:43:13 UTC] PHP Stack trace:
+[08-Feb-2020 16:43:13 UTC] PHP   1. {main}() /home/bn2ajew7rlqi/public_html/php/register/checkout.php:0
+[08-Feb-2020 16:43:13 UTC] PHP Notice:  Undefined index: accommodation in /home/bn2ajew7rlqi/public_html/php/register/checkout.php on line 23
+[08-Feb-2020 16:43:13 UTC] PHP Stack trace:
+[08-Feb-2020 16:43:13 UTC] PHP   1. {main}() /home/bn2ajew7rlqi/public_html/php/register/checkout.php:0
+[08-Feb-2020 16:43:33 UTC] PHP Notice:  Undefined index: userName in /home/bn2ajew7rlqi/public_html/php/register/checkout.php on line 6
+[08-Feb-2020 16:43:33 UTC] PHP Stack trace:
+[08-Feb-2020 16:43:33 UTC] PHP   1. {main}() /home/bn2ajew7rlqi/public_html/php/register/checkout.php:0
+[08-Feb-2020 16:43:33 UTC] PHP Notice:  Undefined index: collegeName in /home/bn2ajew7rlqi/public_html/php/register/checkout.php on line 7
+[08-Feb-2020 16:43:33 UTC] PHP Stack trace:
+[08-Feb-2020 16:43:33 UTC] PHP   1. {main}() /home/bn2ajew7rlqi/public_html/php/register/checkout.php:0
+[08-Feb-2020 16:43:33 UTC] PHP Notice:  Undefined index: CollegeId in /home/bn2ajew7rlqi/public_html/php/register/checkout.php on line 8
+[08-Feb-2020 16:43:33 UTC] PHP Stack trace:
+[08-Feb-2020 16:43:33 UTC] PHP   1. {main}() /home/bn2ajew7rlqi/public_html/php/register/checkout.php:0
+[08-Feb-2020 16:43:33 UTC] PHP Notice:  Undefined index: email in /home/bn2ajew7rlqi/public_html/php/register/checkout.php on line 9
+[08-Feb-2020 16:43:33 UTC] PHP Stack trace:
+[08-Feb-2020 16:43:33 UTC] PHP   1. {main}() /home/bn2ajew7rlqi/public_html/php/register/checkout.php:0
+[08-Feb-2020 16:43:33 UTC] PHP Notice:  Undefined index: amount in /home/bn2ajew7rlqi/public_html/php/register/checkout.php on line 10
+[08-Feb-2020 16:43:33 UTC] PHP Stack trace:
+[08-Feb-2020 16:43:33 UTC] PHP   1. {main}() /home/bn2ajew7rlqi/public_html/php/register/checkout.php:0
+[08-Feb-2020 16:43:33 UTC] PHP Notice:  Undefined index: password in /home/bn2ajew7rlqi/public_html/php/register/checkout.php on line 11
+[08-Feb-2020 16:43:33 UTC] PHP Stack trace:
+[08-Feb-2020 16:43:33 UTC] PHP   1. {main}() /home/bn2ajew7rlqi/public_html/php/register/checkout.php:0
+[08-Feb-2020 16:43:33 UTC] PHP Notice:  Undefined index: department in /home/bn2ajew7rlqi/public_html/php/register/checkout.php on line 12
+[08-Feb-2020 16:43:33 UTC] PHP Stack trace:
+[08-Feb-2020 16:43:33 UTC] PHP   1. {main}() /home/bn2ajew7rlqi/public_html/php/register/checkout.php:0
+[08-Feb-2020 16:43:33 UTC] PHP Notice:  Undefined index: year in /home/bn2ajew7rlqi/public_html/php/register/checkout.php on line 13
+[08-Feb-2020 16:43:33 UTC] PHP Stack trace:
+[08-Feb-2020 16:43:33 UTC] PHP   1. {main}() /home/bn2ajew7rlqi/public_html/php/register/checkout.php:0
+[08-Feb-2020 16:43:33 UTC] PHP Notice:  Undefined index: accommodation in /home/bn2ajew7rlqi/public_html/php/register/checkout.php on line 14
+[08-Feb-2020 16:43:33 UTC] PHP Stack trace:
+[08-Feb-2020 16:43:33 UTC] PHP   1. {main}() /home/bn2ajew7rlqi/public_html/php/register/checkout.php:0
+[08-Feb-2020 16:43:33 UTC] PHP Notice:  Undefined index: email in /home/bn2ajew7rlqi/public_html/php/register/checkout.php on line 17
+[08-Feb-2020 16:43:33 UTC] PHP Stack trace:
+[08-Feb-2020 16:43:33 UTC] PHP   1. {main}() /home/bn2ajew7rlqi/public_html/php/register/checkout.php:0
+[08-Feb-2020 16:43:33 UTC] PHP Notice:  Undefined index: userName in /home/bn2ajew7rlqi/public_html/php/register/checkout.php on line 18
+[08-Feb-2020 16:43:33 UTC] PHP Stack trace:
+[08-Feb-2020 16:43:33 UTC] PHP   1. {main}() /home/bn2ajew7rlqi/public_html/php/register/checkout.php:0
+[08-Feb-2020 16:43:33 UTC] PHP Notice:  Undefined index: collegeName in /home/bn2ajew7rlqi/public_html/php/register/checkout.php on line 19
+[08-Feb-2020 16:43:33 UTC] PHP Stack trace:
+[08-Feb-2020 16:43:33 UTC] PHP   1. {main}() /home/bn2ajew7rlqi/public_html/php/register/checkout.php:0
+[08-Feb-2020 16:43:33 UTC] PHP Notice:  Undefined index: CollegeId in /home/bn2ajew7rlqi/public_html/php/register/checkout.php on line 22
+[08-Feb-2020 16:43:33 UTC] PHP Stack trace:
+[08-Feb-2020 16:43:33 UTC] PHP   1. {main}() /home/bn2ajew7rlqi/public_html/php/register/checkout.php:0
+[08-Feb-2020 16:43:33 UTC] PHP Notice:  Undefined index: accommodation in /home/bn2ajew7rlqi/public_html/php/register/checkout.php on line 23
+[08-Feb-2020 16:43:33 UTC] PHP Stack trace:
+[08-Feb-2020 16:43:33 UTC] PHP   1. {main}() /home/bn2ajew7rlqi/public_html/php/register/checkout.php:0
+[08-Feb-2020 16:47:57 UTC] PHP Notice:  Undefined index: tsize in /home/bn2ajew7rlqi/public_html/php/register/teamRegistrations.php on line 170
+[08-Feb-2020 16:47:57 UTC] PHP Stack trace:
+[08-Feb-2020 16:47:57 UTC] PHP   1. {main}() /home/bn2ajew7rlqi/public_html/php/register/teamRegistrations.php:0
