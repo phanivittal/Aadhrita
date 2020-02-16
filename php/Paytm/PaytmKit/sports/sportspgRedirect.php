@@ -27,7 +27,7 @@ $paramList["WEBSITE"] = PAYTM_MERCHANT_WEBSITE;
 $EMAIL = $_POST["email"];
 $paramList["EMAIL"] = $EMAIL;
 
-$paramList["CALLBACK_URL"] = "http://localhost/final/php/Paytm/PaytmKit/sports/sportspgResponse.php";
+$paramList["CALLBACK_URL"] = "http://localhost/aadhritaaa/php/Paytm/PaytmKit/sports/sportspgResponse.php";
 /*
 $paramList["MSISDN"] = $MSISDN; //Mobile number of customer
 $paramList["EMAIL"] = $EMAIL; //Email ID of customer

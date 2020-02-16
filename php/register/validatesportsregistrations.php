@@ -20,7 +20,7 @@ session_start();
     $id = $_SESSION['eventId'];
     $tsize = $_POST['tsize'];
     $etype = $_SESSION['event_type'];
-    echo "<br><br><h2 style='color:white;'>&nbsp;&nbsp;&nbsp; $etype<br><br></h2>";
+    echo "<br><br><h2 style='color:white;'><center>$etype</center><br><br></h2>";
     $aad3id = [$_POST['tlid']];
     $tempid =$_POST['tlid'];
     $email =$eml= [$_POST['tlemail']];
@@ -90,7 +90,7 @@ session_start();
      }
     echo '   </tbody> </table>';
  
- echo "<button class='btn btn-outline-primary ml-5' onclick='location.href=`./checkoutevent.php`';>Paynow</button>";
+ echo "<button class='btn btn-outline-primary ml-5' onclick='location.href=`./checkoutevent.php?msg=SPORTS`';>Paynow</button>";
    echo '</div>';
   
   }

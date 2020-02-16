@@ -13,3 +13,6 @@
 [08-Feb-2020 12:52:31 UTC] PHP Deprecated:  __autoload() is deprecated, use spl_autoload_register() instead in /home/bn2ajew7rlqi/public_html/test/php/phpmailer/phpmailer/PHPMailerAutoload.php on line 45
 [08-Feb-2020 12:52:31 UTC] PHP Stack trace:
 [08-Feb-2020 12:52:31 UTC] PHP   1. {main}() /home/bn2ajew7rlqi/public_html/test/php/phpmailer/index1.php:0
+[11-Feb-2020 17:05:40 UTC] PHP Deprecated:  __autoload() is deprecated, use spl_autoload_register() instead in /home/bn2ajew7rlqi/public_html/php/phpmailer/phpmailer/PHPMailerAutoload.php on line 45
+[11-Feb-2020 17:05:40 UTC] PHP Stack trace:
+[11-Feb-2020 17:05:40 UTC] PHP   1. {main}() /home/bn2ajew7rlqi/public_html/php/phpmailer/index1.php:0

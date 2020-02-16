@@ -5,7 +5,7 @@
   <meta charset="utf-8">
   <link rel="icon" href="../../static/logo3.png">
   <meta name="viewport" content="width=device-width, initial-scale=1.0" charset="utf-8">
-  <title>Aadhrita |Team REgistrations</title>
+  <title>Aadhrita | Team Registrations</title>
   <link rel="stylesheet" href="../../css/bootstrap/bootstrap.min.css">
   
   <link rel="stylesheet" href="../../css/navbar.css">
@@ -33,7 +33,7 @@
     <li class="nav-link"><a href="../workshop/">WorkShops</a></li>
     <li class="nav-link"><a href="../cultural">Culturals</a></li>
     <li class="nav-link"><a href="../sports/">Sports</a></li>
-    <li class="nav-link active"><a href="#">About</a></li>
+    <li class="nav-link"><a href="../about/">About</a></li>
     <?php
     if (isset($_SESSION['session_email'])) {
       echo '
@@ -47,12 +47,21 @@
     ?>
   </ul>
 </header>
-	<body  style="background-image: linear-gradient(to right, #0F2027, #203A43,#2C5364);">
-	<div class="container jumbotron mt-5"style="visibility:hidden">
+<?php
+	$sid = $_GET['id'];
+		if($sid=='AAD3CE01'){
+			header('Location:cultural/Dhvaniprata/Dhvanipratateamregistrations.php?id=AAD3CE01');
+		}
+		elseif($sid=='AAD3CE13'){
+			header('Location:cultural/Shresta_Group/Shresta_Groupteamregistrations.php?id=AAD3CE13');
+		}
+?>
+	<body >
+	<div id="card" style="background-image: linear-gradient(to right, #0F2027, #203A43,#2C5364);padding:90px 10px;visibility:hidden; margin-top:0px;width:100%" >
+	<div class="container jumbotron" >
 		<?php
 			if (isset($_SESSION['session_email'])) {
 				include '../db/db.php';
-				header("Location:../soon/");
 				$sid = $_GET['id'];
 				$id = utf8_decode(urldecode($sid));
 				$_SESSION['eventId'] = $id;
@@ -68,18 +77,18 @@
 			}
 			else{
 				$id =  $_GET['id'];
-				header("Location:../soon/");
+				header("Location:../login/?msg=First Login to Register for the event. ");
 			}
 		?>
 		
 		<form method="POST" enctype="multipart/form-data" action="./validateTeamRegistration.php">
 			<div class="form-group">
 				<label>Enter Team Lead AADHRITA ID :</label>
-				<input type="text" class="form-control" name="tlid" >
+				<input type="text" class="form-control" name="tlid">
 			</div>
 			<div class="form-group">
 				<label>Enter Team Lead Email ID :</label>
-				<input type="text" class="form-control" name="tlemail" pattern="^([a-zA-Z0-9_\-\.]+)@([a-zA-Z0-9_\-\.]+)\.([a-zA-Z]{2,5})$">
+				<input type="text" class="form-control" name="tlemail">
 			</div>
 			<div class="form-group">
 				<label>Enter Team size :</label>
@@ -95,6 +104,7 @@
 				
 			</div>
 		</form>
+	</div>
 	</div>
 	<footer  style="background-color: #2c292f;padding-top: 30px;min-height: 100px; font-family: 'Righteous', cursive;visibility:hidden">
         <div class="container" >
@@ -150,10 +160,7 @@
           <p align="center" style="padding-top: 20px;">Copyright &copy;2020, AadhritaWebteam</p>
         </div>
       </footer>
-    <script src="../../js/jquery.min.js"></script>
-    <script src='https://kit.fontawesome.com/a076d05399.js'></script> 
-    <script  src="../../js/common.js"></script>
-    <script src="../../js/popper.min.js"></script>
+  
 	
 	<script>
 
@@ -224,7 +231,7 @@
         $(".loader-wrapper").fadeOut("slow");
         $(".main-header").css("visibility","visible");
         $("footer").css("visibility","visible");
-        $(".container").css("visibility","visible");
+        $("#card").css("visibility","visible");
        
       });
    

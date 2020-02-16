@@ -78,6 +78,7 @@ if ($retval) {
 </header>
   <section id="intro">
     <div class="intro-container wow fadeIn">
+    <marquee width="100%" direction="left" height="100px" style="color: white;margin: auto;display: block;font-family:'Kaushan Script', cursive;font-size:16pt">  <a href="https://docs.google.com/forms/d/e/1FAIpQLSdWnz3FYzWaP5iUFyO7hvR05ntL6KrcQ8-Ba7qxX2hpOWYdAw/viewform">click here</a> Registered participants who got blank values in place of their details or unable to login, please fill in the following form <a href="https://docs.google.com/forms/d/e/1FAIpQLSdWnz3FYzWaP5iUFyO7hvR05ntL6KrcQ8-Ba7qxX2hpOWYdAw/viewform">click here</a></marquee>
       <h1 class="mb-4 pb-0 title" style="font-family: aadhritaFont;">Aadhrita&nbsp;&nbsp;&nbsp;2020</h1>
       <p1>Aadhrita2020 aims in bringing together budding engineers <br>across the corners of the country to take part in it <br>thereby providing them a platform to brainstorm on developments in their disciplines.</p1>
       <h2 class="mb-4">&nbsp;<br>Venue</h2>
@@ -120,7 +121,7 @@ if ($retval) {
                 <span class="blog-slider__code"></span>
                 <div class="blog-slider__title">Cultural Night</div>
                 <div class="blog-slider__text">
-                  MVGR's rich cultural heritage has witnessed a metamorphosis over many generations and now as a part of it Cultural Night is going to happen on 20st February 2020 on the occasion of Aadhrita which celebrate culture, creativity and fun all around. Let's come and enjoy the music, live performances and food.
+                  MVGR's rich cultural heritage has witnessed a metamorphosis over many generations and now as a part of it Cultural Night is going to happen on 20th February 2020 on the occasion of Aadhrita which celebrate culture, creativity and fun all around. Let's come and enjoy the music, live performances and food.
                   So get excited for Aadhrita's cultural night which is a perfect balance of everything.
                 </div>
               </div>

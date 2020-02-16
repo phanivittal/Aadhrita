@@ -9,8 +9,11 @@ if (isset($_POST['submit'])) {
 	$retval = mysqli_query($conn,$sql);
 	$n = mysqli_num_rows($retval);
 	if ($n==0) {
-		header("Location:./?msg=Invalid user Id and Password . Please do register");
+		header("Location:./index.php?msg=Invalid user Id and Password . Please do register");
 	}
+		if ($_POST["userName"]=="" || $_POST["password"]=="" ){
+		    header("Location:./index.php?msg=Invalid user Id and Password . Please do register");
+		}
 	elseif ($n==1) {
 		$row = mysqli_fetch_assoc($retval); 
 		if ($row['email']==$userName&&$row['password']==$password) {
@@ -20,7 +23,7 @@ if (isset($_POST['submit'])) {
 			header("Location:../profile/");
 		}
 		else{
-			header("Location:./?msg=Invalid Password Please Enter Valid Password");
+			header("Location:./index.php?msg=Invalid Password Please Enter Valid Password");
 		}
 	}
 }

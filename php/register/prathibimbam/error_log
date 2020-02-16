@@ -1,0 +1,42 @@
+[15-Feb-2020 11:30:36 UTC] PHP Notice:  Undefined index: team_size in /home/bn2ajew7rlqi/public_html/php/register/prathibimbam/prathibimbam.php on line 5
+[15-Feb-2020 11:30:36 UTC] PHP Stack trace:
+[15-Feb-2020 11:30:37 UTC] PHP   1. {main}() /home/bn2ajew7rlqi/public_html/php/register/prathibimbam/prathibimbam.php:0
+[15-Feb-2020 11:30:37 UTC] PHP Notice:  Undefined index: event_type in /home/bn2ajew7rlqi/public_html/php/register/prathibimbam/prathibimbam.php on line 6
+[15-Feb-2020 11:30:37 UTC] PHP Stack trace:
+[15-Feb-2020 11:30:37 UTC] PHP   1. {main}() /home/bn2ajew7rlqi/public_html/php/register/prathibimbam/prathibimbam.php:0
+[15-Feb-2020 11:30:37 UTC] PHP Notice:  Undefined index: finalAmount in /home/bn2ajew7rlqi/public_html/php/register/prathibimbam/prathibimbam.php on line 9
+[15-Feb-2020 11:30:37 UTC] PHP Stack trace:
+[15-Feb-2020 11:30:37 UTC] PHP   1. {main}() /home/bn2ajew7rlqi/public_html/php/register/prathibimbam/prathibimbam.php:0
+[15-Feb-2020 11:30:37 UTC] PHP Notice:  Undefined index: tokens in /home/bn2ajew7rlqi/public_html/php/register/prathibimbam/prathibimbam.php on line 10
+[15-Feb-2020 11:30:37 UTC] PHP Stack trace:
+[15-Feb-2020 11:30:37 UTC] PHP   1. {main}() /home/bn2ajew7rlqi/public_html/php/register/prathibimbam/prathibimbam.php:0
+[15-Feb-2020 11:30:37 UTC] PHP Notice:  Undefined index: emails in /home/bn2ajew7rlqi/public_html/php/register/prathibimbam/prathibimbam.php on line 11
+[15-Feb-2020 11:30:37 UTC] PHP Stack trace:
+[15-Feb-2020 11:30:37 UTC] PHP   1. {main}() /home/bn2ajew7rlqi/public_html/php/register/prathibimbam/prathibimbam.php:0
+[15-Feb-2020 11:30:37 UTC] PHP Notice:  Undefined index: uname in /home/bn2ajew7rlqi/public_html/php/register/prathibimbam/prathibimbam.php on line 12
+[15-Feb-2020 11:30:37 UTC] PHP Stack trace:
+[15-Feb-2020 11:30:37 UTC] PHP   1. {main}() /home/bn2ajew7rlqi/public_html/php/register/prathibimbam/prathibimbam.php:0
+[15-Feb-2020 11:30:37 UTC] PHP Notice:  Undefined index: teamToken in /home/bn2ajew7rlqi/public_html/php/register/prathibimbam/prathibimbam.php on line 36
+[15-Feb-2020 11:30:37 UTC] PHP Stack trace:
+[15-Feb-2020 11:30:37 UTC] PHP   1. {main}() /home/bn2ajew7rlqi/public_html/php/register/prathibimbam/prathibimbam.php:0
+[15-Feb-2020 11:33:48 UTC] PHP Notice:  Undefined index: team_size in /home/bn2ajew7rlqi/public_html/php/register/prathibimbam/prathibimbam.php on line 5
+[15-Feb-2020 11:33:48 UTC] PHP Stack trace:
+[15-Feb-2020 11:33:48 UTC] PHP   1. {main}() /home/bn2ajew7rlqi/public_html/php/register/prathibimbam/prathibimbam.php:0
+[15-Feb-2020 11:33:48 UTC] PHP Notice:  Undefined index: event_type in /home/bn2ajew7rlqi/public_html/php/register/prathibimbam/prathibimbam.php on line 6
+[15-Feb-2020 11:33:48 UTC] PHP Stack trace:
+[15-Feb-2020 11:33:48 UTC] PHP   1. {main}() /home/bn2ajew7rlqi/public_html/php/register/prathibimbam/prathibimbam.php:0
+[15-Feb-2020 11:33:48 UTC] PHP Notice:  Undefined index: finalAmount in /home/bn2ajew7rlqi/public_html/php/register/prathibimbam/prathibimbam.php on line 9
+[15-Feb-2020 11:33:48 UTC] PHP Stack trace:
+[15-Feb-2020 11:33:48 UTC] PHP   1. {main}() /home/bn2ajew7rlqi/public_html/php/register/prathibimbam/prathibimbam.php:0
+[15-Feb-2020 11:33:48 UTC] PHP Notice:  Undefined index: tokens in /home/bn2ajew7rlqi/public_html/php/register/prathibimbam/prathibimbam.php on line 10
+[15-Feb-2020 11:33:48 UTC] PHP Stack trace:
+[15-Feb-2020 11:33:48 UTC] PHP   1. {main}() /home/bn2ajew7rlqi/public_html/php/register/prathibimbam/prathibimbam.php:0
+[15-Feb-2020 11:33:48 UTC] PHP Notice:  Undefined index: emails in /home/bn2ajew7rlqi/public_html/php/register/prathibimbam/prathibimbam.php on line 11
+[15-Feb-2020 11:33:48 UTC] PHP Stack trace:
+[15-Feb-2020 11:33:48 UTC] PHP   1. {main}() /home/bn2ajew7rlqi/public_html/php/register/prathibimbam/prathibimbam.php:0
+[15-Feb-2020 11:33:48 UTC] PHP Notice:  Undefined index: uname in /home/bn2ajew7rlqi/public_html/php/register/prathibimbam/prathibimbam.php on line 12
+[15-Feb-2020 11:33:48 UTC] PHP Stack trace:
+[15-Feb-2020 11:33:48 UTC] PHP   1. {main}() /home/bn2ajew7rlqi/public_html/php/register/prathibimbam/prathibimbam.php:0
+[15-Feb-2020 11:33:48 UTC] PHP Notice:  Undefined index: teamToken in /home/bn2ajew7rlqi/public_html/php/register/prathibimbam/prathibimbam.php on line 36
+[15-Feb-2020 11:33:48 UTC] PHP Stack trace:
+[15-Feb-2020 11:33:48 UTC] PHP   1. {main}() /home/bn2ajew7rlqi/public_html/php/register/prathibimbam/prathibimbam.php:0

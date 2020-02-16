@@ -70,7 +70,7 @@ session_start();
       <br><br><br><br><br><br><br><br><br>
    </div>
     <div>
-      <marquee><h3>Event Registrations will be oppened soon.</h3> </marquee>
+      <marquee><h3>Web site is under maintenance.</h3> </marquee>
     </div>
     <div>
       <br><br><br><br><br><br><br><br><br>

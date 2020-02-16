@@ -1,0 +1,66 @@
+[10-Feb-2020 13:03:30 UTC] PHP Warning:  mysqli_connect(): (28000/1045): Access denied for user 'root'@'localhost' (using password: NO) in /home/bn2ajew7rlqi/public_html/test/anonymous/php/db/db.php on line 2
+[10-Feb-2020 13:03:30 UTC] PHP Stack trace:
+[10-Feb-2020 13:03:30 UTC] PHP   1. {main}() /home/bn2ajew7rlqi/public_html/test/anonymous/php/login/validateuser.php:0
+[10-Feb-2020 13:03:30 UTC] PHP   2. require() /home/bn2ajew7rlqi/public_html/test/anonymous/php/login/validateuser.php:3
+[10-Feb-2020 13:03:30 UTC] PHP   3. mysqli_connect() /home/bn2ajew7rlqi/public_html/test/anonymous/php/db/db.php:2
+[10-Feb-2020 13:03:30 UTC] PHP Warning:  mysqli_escape_string() expects parameter 1 to be mysqli, bool given in /home/bn2ajew7rlqi/public_html/test/anonymous/php/login/validateuser.php on line 5
+[10-Feb-2020 13:03:30 UTC] PHP Stack trace:
+[10-Feb-2020 13:03:30 UTC] PHP   1. {main}() /home/bn2ajew7rlqi/public_html/test/anonymous/php/login/validateuser.php:0
+[10-Feb-2020 13:03:30 UTC] PHP   2. mysqli_escape_string() /home/bn2ajew7rlqi/public_html/test/anonymous/php/login/validateuser.php:5
+[10-Feb-2020 13:03:30 UTC] PHP Warning:  mysqli_escape_string() expects parameter 1 to be mysqli, bool given in /home/bn2ajew7rlqi/public_html/test/anonymous/php/login/validateuser.php on line 6
+[10-Feb-2020 13:03:30 UTC] PHP Stack trace:
+[10-Feb-2020 13:03:30 UTC] PHP   1. {main}() /home/bn2ajew7rlqi/public_html/test/anonymous/php/login/validateuser.php:0
+[10-Feb-2020 13:03:30 UTC] PHP   2. mysqli_escape_string() /home/bn2ajew7rlqi/public_html/test/anonymous/php/login/validateuser.php:6
+[10-Feb-2020 13:03:30 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, bool given in /home/bn2ajew7rlqi/public_html/test/anonymous/php/login/validateuser.php on line 9
+[10-Feb-2020 13:03:30 UTC] PHP Stack trace:
+[10-Feb-2020 13:03:30 UTC] PHP   1. {main}() /home/bn2ajew7rlqi/public_html/test/anonymous/php/login/validateuser.php:0
+[10-Feb-2020 13:03:30 UTC] PHP   2. mysqli_query() /home/bn2ajew7rlqi/public_html/test/anonymous/php/login/validateuser.php:9
+[10-Feb-2020 13:03:30 UTC] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, null given in /home/bn2ajew7rlqi/public_html/test/anonymous/php/login/validateuser.php on line 10
+[10-Feb-2020 13:03:30 UTC] PHP Stack trace:
+[10-Feb-2020 13:03:30 UTC] PHP   1. {main}() /home/bn2ajew7rlqi/public_html/test/anonymous/php/login/validateuser.php:0
+[10-Feb-2020 13:03:30 UTC] PHP   2. mysqli_num_rows() /home/bn2ajew7rlqi/public_html/test/anonymous/php/login/validateuser.php:10
+[10-Feb-2020 13:03:30 UTC] PHP Warning:  mysqli_connect(): (28000/1045): Access denied for user 'root'@'localhost' (using password: NO) in /home/bn2ajew7rlqi/public_html/test/anonymous/php/db/db.php on line 2
+[10-Feb-2020 13:03:30 UTC] PHP Stack trace:
+[10-Feb-2020 13:03:30 UTC] PHP   1. {main}() /home/bn2ajew7rlqi/public_html/test/anonymous/php/login/validateuser.php:0
+[10-Feb-2020 13:03:30 UTC] PHP   2. require() /home/bn2ajew7rlqi/public_html/test/anonymous/php/login/validateuser.php:3
+[10-Feb-2020 13:03:30 UTC] PHP   3. mysqli_connect() /home/bn2ajew7rlqi/public_html/test/anonymous/php/db/db.php:2
+[10-Feb-2020 13:03:30 UTC] PHP Warning:  mysqli_escape_string() expects parameter 1 to be mysqli, bool given in /home/bn2ajew7rlqi/public_html/test/anonymous/php/login/validateuser.php on line 5
+[10-Feb-2020 13:03:30 UTC] PHP Stack trace:
+[10-Feb-2020 13:03:30 UTC] PHP   1. {main}() /home/bn2ajew7rlqi/public_html/test/anonymous/php/login/validateuser.php:0
+[10-Feb-2020 13:03:30 UTC] PHP   2. mysqli_escape_string() /home/bn2ajew7rlqi/public_html/test/anonymous/php/login/validateuser.php:5
+[10-Feb-2020 13:03:30 UTC] PHP Warning:  mysqli_escape_string() expects parameter 1 to be mysqli, bool given in /home/bn2ajew7rlqi/public_html/test/anonymous/php/login/validateuser.php on line 6
+[10-Feb-2020 13:03:30 UTC] PHP Stack trace:
+[10-Feb-2020 13:03:30 UTC] PHP   1. {main}() /home/bn2ajew7rlqi/public_html/test/anonymous/php/login/validateuser.php:0
+[10-Feb-2020 13:03:30 UTC] PHP   2. mysqli_escape_string() /home/bn2ajew7rlqi/public_html/test/anonymous/php/login/validateuser.php:6
+[10-Feb-2020 13:03:30 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, bool given in /home/bn2ajew7rlqi/public_html/test/anonymous/php/login/validateuser.php on line 9
+[10-Feb-2020 13:03:30 UTC] PHP Stack trace:
+[10-Feb-2020 13:03:30 UTC] PHP   1. {main}() /home/bn2ajew7rlqi/public_html/test/anonymous/php/login/validateuser.php:0
+[10-Feb-2020 13:03:30 UTC] PHP   2. mysqli_query() /home/bn2ajew7rlqi/public_html/test/anonymous/php/login/validateuser.php:9
+[10-Feb-2020 13:03:30 UTC] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, null given in /home/bn2ajew7rlqi/public_html/test/anonymous/php/login/validateuser.php on line 10
+[10-Feb-2020 13:03:30 UTC] PHP Stack trace:
+[10-Feb-2020 13:03:30 UTC] PHP   1. {main}() /home/bn2ajew7rlqi/public_html/test/anonymous/php/login/validateuser.php:0
+[10-Feb-2020 13:03:30 UTC] PHP   2. mysqli_num_rows() /home/bn2ajew7rlqi/public_html/test/anonymous/php/login/validateuser.php:10
+[14-Feb-2020 09:05:14 UTC] PHP Warning:  Use of undefined constant k - assumed 'k' (this will throw an Error in a future version of PHP) in /home/bn2ajew7rlqi/public_html/php/login/forget.php on line 154
+[14-Feb-2020 09:05:14 UTC] PHP Stack trace:
+[14-Feb-2020 09:05:14 UTC] PHP   1. {main}() /home/bn2ajew7rlqi/public_html/php/login/forget.php:0
+[14-Feb-2020 09:06:47 UTC] PHP Warning:  Use of undefined constant k - assumed 'k' (this will throw an Error in a future version of PHP) in /home/bn2ajew7rlqi/public_html/php/login/forget.php on line 154
+[14-Feb-2020 09:06:47 UTC] PHP Stack trace:
+[14-Feb-2020 09:06:47 UTC] PHP   1. {main}() /home/bn2ajew7rlqi/public_html/php/login/forget.php:0
+[14-Feb-2020 09:10:26 UTC] PHP Warning:  Use of undefined constant k - assumed 'k' (this will throw an Error in a future version of PHP) in /home/bn2ajew7rlqi/public_html/php/login/forget.php on line 154
+[14-Feb-2020 09:10:26 UTC] PHP Stack trace:
+[14-Feb-2020 09:10:26 UTC] PHP   1. {main}() /home/bn2ajew7rlqi/public_html/php/login/forget.php:0
+[14-Feb-2020 09:10:35 UTC] PHP Warning:  Use of undefined constant k - assumed 'k' (this will throw an Error in a future version of PHP) in /home/bn2ajew7rlqi/public_html/php/login/forget.php on line 154
+[14-Feb-2020 09:10:35 UTC] PHP Stack trace:
+[14-Feb-2020 09:10:35 UTC] PHP   1. {main}() /home/bn2ajew7rlqi/public_html/php/login/forget.php:0
+[14-Feb-2020 09:12:31 UTC] PHP Warning:  Use of undefined constant k - assumed 'k' (this will throw an Error in a future version of PHP) in /home/bn2ajew7rlqi/public_html/php/login/forget.php on line 154
+[14-Feb-2020 09:12:31 UTC] PHP Stack trace:
+[14-Feb-2020 09:12:31 UTC] PHP   1. {main}() /home/bn2ajew7rlqi/public_html/php/login/forget.php:0
+[14-Feb-2020 09:23:26 UTC] PHP Warning:  Use of undefined constant k - assumed 'k' (this will throw an Error in a future version of PHP) in /home/bn2ajew7rlqi/public_html/php/login/forget.php on line 154
+[14-Feb-2020 09:23:26 UTC] PHP Stack trace:
+[14-Feb-2020 09:23:26 UTC] PHP   1. {main}() /home/bn2ajew7rlqi/public_html/php/login/forget.php:0
+[14-Feb-2020 09:24:01 UTC] PHP Warning:  Use of undefined constant k - assumed 'k' (this will throw an Error in a future version of PHP) in /home/bn2ajew7rlqi/public_html/php/login/forget.php on line 154
+[14-Feb-2020 09:24:01 UTC] PHP Stack trace:
+[14-Feb-2020 09:24:01 UTC] PHP   1. {main}() /home/bn2ajew7rlqi/public_html/php/login/forget.php:0
+[14-Feb-2020 09:26:24 UTC] PHP Warning:  Use of undefined constant k - assumed 'k' (this will throw an Error in a future version of PHP) in /home/bn2ajew7rlqi/public_html/php/login/forget.php on line 154
+[14-Feb-2020 09:26:24 UTC] PHP Stack trace:
+[14-Feb-2020 09:26:24 UTC] PHP   1. {main}() /home/bn2ajew7rlqi/public_html/php/login/forget.php:0

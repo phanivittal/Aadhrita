@@ -8,7 +8,7 @@ session_start();
   <link rel="icon" href="../../static/logo3.png">
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width,initial-scale=1.0" charset="utf-8">
-  <title>MVGR | workshop </title>
+  <title>Aadhrita | workshop </title>
  <link rel="stylesheet" href="../../css/bootstrap/bootstrap.min.css">
   <link rel='stylesheet' href='https://fonts.googleapis.com/css?family=Open+Sans'>
   <link rel="stylesheet" href="../../css/workshopcs.css">
@@ -304,7 +304,7 @@ session_start();
       <p> For Rules <a href="'.$row['pdfs'].'" target ="__blank" >click here</a></p>
       </div>
       <div class="container mt-3">
-      <a type="button" class="btn btn-info" onclick ="location.href=`../soon/`" >Register</a>
+      <a type="button" class="btn btn-info" href="../register/teamRegistrations.php?id='.urlencode(utf8_encode($eid)).'">Register</a>
       </div>
       </div>
       </div>

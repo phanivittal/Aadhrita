@@ -58,13 +58,14 @@
       </div><br>
       <h3>Enter the credentials : </h3>
       <div class="form-group">
-        <label>username :</label> <i class="fas fa-user"></i>
+        <label>Email ID :</label> <i class="fas fa-user"></i>
         <input type="text" class="form-control" name="userName" placeholder="Registered EmailID">
       </div>
       <div class="form-group">
         <label>password :</label> <i class="fas fa-lock"></i>
         <input type="password" class="form-control" name="password" placeholder="Password">
       </div>
+     <a href="forget.php" style="padding:5px 5px;" >Forgot Password</a><br/>
       <div class="form-group">
         <input type="submit" class="btn btn-outline-success" name="submit" value="login">
         <label>&nbsp&nbsp Not an user? Click here to register &nbsp&nbsp</label><button type="button" class="btn  btn-outline-danger" onclick="location.href='../register/';">register</button>

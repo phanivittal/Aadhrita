@@ -1,0 +1,126 @@
+[14-Feb-2020 12:46:45 UTC] PHP Notice:  Undefined index: team_size in /home/bn2ajew7rlqi/public_html/php/register/paperpresentation/paperpresentation.php on line 5
+[14-Feb-2020 12:46:45 UTC] PHP Stack trace:
+[14-Feb-2020 12:46:45 UTC] PHP   1. {main}() /home/bn2ajew7rlqi/public_html/php/register/paperpresentation/paperpresentation.php:0
+[14-Feb-2020 12:46:45 UTC] PHP Notice:  Undefined index: event_type in /home/bn2ajew7rlqi/public_html/php/register/paperpresentation/paperpresentation.php on line 6
+[14-Feb-2020 12:46:45 UTC] PHP Stack trace:
+[14-Feb-2020 12:46:45 UTC] PHP   1. {main}() /home/bn2ajew7rlqi/public_html/php/register/paperpresentation/paperpresentation.php:0
+[14-Feb-2020 12:46:45 UTC] PHP Notice:  Undefined index: finalAmount in /home/bn2ajew7rlqi/public_html/php/register/paperpresentation/paperpresentation.php on line 9
+[14-Feb-2020 12:46:45 UTC] PHP Stack trace:
+[14-Feb-2020 12:46:45 UTC] PHP   1. {main}() /home/bn2ajew7rlqi/public_html/php/register/paperpresentation/paperpresentation.php:0
+[14-Feb-2020 12:46:45 UTC] PHP Notice:  Undefined index: tokens in /home/bn2ajew7rlqi/public_html/php/register/paperpresentation/paperpresentation.php on line 10
+[14-Feb-2020 12:46:45 UTC] PHP Stack trace:
+[14-Feb-2020 12:46:45 UTC] PHP   1. {main}() /home/bn2ajew7rlqi/public_html/php/register/paperpresentation/paperpresentation.php:0
+[14-Feb-2020 12:46:45 UTC] PHP Notice:  Undefined index: emails in /home/bn2ajew7rlqi/public_html/php/register/paperpresentation/paperpresentation.php on line 11
+[14-Feb-2020 12:46:45 UTC] PHP Stack trace:
+[14-Feb-2020 12:46:45 UTC] PHP   1. {main}() /home/bn2ajew7rlqi/public_html/php/register/paperpresentation/paperpresentation.php:0
+[14-Feb-2020 12:46:45 UTC] PHP Notice:  Undefined index: uname in /home/bn2ajew7rlqi/public_html/php/register/paperpresentation/paperpresentation.php on line 12
+[14-Feb-2020 12:46:45 UTC] PHP Stack trace:
+[14-Feb-2020 12:46:45 UTC] PHP   1. {main}() /home/bn2ajew7rlqi/public_html/php/register/paperpresentation/paperpresentation.php:0
+[14-Feb-2020 12:46:45 UTC] PHP Notice:  Undefined index: teamToken in /home/bn2ajew7rlqi/public_html/php/register/paperpresentation/paperpresentation.php on line 36
+[14-Feb-2020 12:46:45 UTC] PHP Stack trace:
+[14-Feb-2020 12:46:45 UTC] PHP   1. {main}() /home/bn2ajew7rlqi/public_html/php/register/paperpresentation/paperpresentation.php:0
+[14-Feb-2020 18:04:10 UTC] PHP Notice:  Undefined index: team_size in /home/bn2ajew7rlqi/public_html/php/register/paperpresentation/paperpresentation.php on line 5
+[14-Feb-2020 18:04:10 UTC] PHP Stack trace:
+[14-Feb-2020 18:04:10 UTC] PHP   1. {main}() /home/bn2ajew7rlqi/public_html/php/register/paperpresentation/paperpresentation.php:0
+[14-Feb-2020 18:04:10 UTC] PHP Notice:  Undefined index: event_type in /home/bn2ajew7rlqi/public_html/php/register/paperpresentation/paperpresentation.php on line 6
+[14-Feb-2020 18:04:10 UTC] PHP Stack trace:
+[14-Feb-2020 18:04:10 UTC] PHP   1. {main}() /home/bn2ajew7rlqi/public_html/php/register/paperpresentation/paperpresentation.php:0
+[14-Feb-2020 18:04:10 UTC] PHP Notice:  Undefined index: finalAmount in /home/bn2ajew7rlqi/public_html/php/register/paperpresentation/paperpresentation.php on line 9
+[14-Feb-2020 18:04:10 UTC] PHP Stack trace:
+[14-Feb-2020 18:04:10 UTC] PHP   1. {main}() /home/bn2ajew7rlqi/public_html/php/register/paperpresentation/paperpresentation.php:0
+[14-Feb-2020 18:04:10 UTC] PHP Notice:  Undefined index: tokens in /home/bn2ajew7rlqi/public_html/php/register/paperpresentation/paperpresentation.php on line 10
+[14-Feb-2020 18:04:10 UTC] PHP Stack trace:
+[14-Feb-2020 18:04:10 UTC] PHP   1. {main}() /home/bn2ajew7rlqi/public_html/php/register/paperpresentation/paperpresentation.php:0
+[14-Feb-2020 18:04:10 UTC] PHP Notice:  Undefined index: emails in /home/bn2ajew7rlqi/public_html/php/register/paperpresentation/paperpresentation.php on line 11
+[14-Feb-2020 18:04:10 UTC] PHP Stack trace:
+[14-Feb-2020 18:04:10 UTC] PHP   1. {main}() /home/bn2ajew7rlqi/public_html/php/register/paperpresentation/paperpresentation.php:0
+[14-Feb-2020 18:04:10 UTC] PHP Notice:  Undefined index: uname in /home/bn2ajew7rlqi/public_html/php/register/paperpresentation/paperpresentation.php on line 12
+[14-Feb-2020 18:04:10 UTC] PHP Stack trace:
+[14-Feb-2020 18:04:10 UTC] PHP   1. {main}() /home/bn2ajew7rlqi/public_html/php/register/paperpresentation/paperpresentation.php:0
+[14-Feb-2020 18:04:10 UTC] PHP Notice:  Undefined index: teamToken in /home/bn2ajew7rlqi/public_html/php/register/paperpresentation/paperpresentation.php on line 36
+[14-Feb-2020 18:04:10 UTC] PHP Stack trace:
+[14-Feb-2020 18:04:10 UTC] PHP   1. {main}() /home/bn2ajew7rlqi/public_html/php/register/paperpresentation/paperpresentation.php:0
+[14-Feb-2020 18:04:36 UTC] PHP Notice:  Undefined index: team_size in /home/bn2ajew7rlqi/public_html/php/register/paperpresentation/paperpresentation.php on line 5
+[14-Feb-2020 18:04:36 UTC] PHP Stack trace:
+[14-Feb-2020 18:04:36 UTC] PHP   1. {main}() /home/bn2ajew7rlqi/public_html/php/register/paperpresentation/paperpresentation.php:0
+[14-Feb-2020 18:04:36 UTC] PHP Notice:  Undefined index: event_type in /home/bn2ajew7rlqi/public_html/php/register/paperpresentation/paperpresentation.php on line 6
+[14-Feb-2020 18:04:36 UTC] PHP Stack trace:
+[14-Feb-2020 18:04:36 UTC] PHP   1. {main}() /home/bn2ajew7rlqi/public_html/php/register/paperpresentation/paperpresentation.php:0
+[14-Feb-2020 18:04:36 UTC] PHP Notice:  Undefined index: finalAmount in /home/bn2ajew7rlqi/public_html/php/register/paperpresentation/paperpresentation.php on line 9
+[14-Feb-2020 18:04:36 UTC] PHP Stack trace:
+[14-Feb-2020 18:04:36 UTC] PHP   1. {main}() /home/bn2ajew7rlqi/public_html/php/register/paperpresentation/paperpresentation.php:0
+[14-Feb-2020 18:04:36 UTC] PHP Notice:  Undefined index: tokens in /home/bn2ajew7rlqi/public_html/php/register/paperpresentation/paperpresentation.php on line 10
+[14-Feb-2020 18:04:36 UTC] PHP Stack trace:
+[14-Feb-2020 18:04:36 UTC] PHP   1. {main}() /home/bn2ajew7rlqi/public_html/php/register/paperpresentation/paperpresentation.php:0
+[14-Feb-2020 18:04:36 UTC] PHP Notice:  Undefined index: emails in /home/bn2ajew7rlqi/public_html/php/register/paperpresentation/paperpresentation.php on line 11
+[14-Feb-2020 18:04:36 UTC] PHP Stack trace:
+[14-Feb-2020 18:04:36 UTC] PHP   1. {main}() /home/bn2ajew7rlqi/public_html/php/register/paperpresentation/paperpresentation.php:0
+[14-Feb-2020 18:04:36 UTC] PHP Notice:  Undefined index: uname in /home/bn2ajew7rlqi/public_html/php/register/paperpresentation/paperpresentation.php on line 12
+[14-Feb-2020 18:04:36 UTC] PHP Stack trace:
+[14-Feb-2020 18:04:36 UTC] PHP   1. {main}() /home/bn2ajew7rlqi/public_html/php/register/paperpresentation/paperpresentation.php:0
+[14-Feb-2020 18:04:36 UTC] PHP Notice:  Undefined index: teamToken in /home/bn2ajew7rlqi/public_html/php/register/paperpresentation/paperpresentation.php on line 36
+[14-Feb-2020 18:04:36 UTC] PHP Stack trace:
+[14-Feb-2020 18:04:36 UTC] PHP   1. {main}() /home/bn2ajew7rlqi/public_html/php/register/paperpresentation/paperpresentation.php:0
+[15-Feb-2020 03:36:45 UTC] PHP Notice:  Undefined index: team_size in /home/bn2ajew7rlqi/public_html/php/register/paperpresentation/paperpresentation.php on line 5
+[15-Feb-2020 03:36:45 UTC] PHP Stack trace:
+[15-Feb-2020 03:36:45 UTC] PHP   1. {main}() /home/bn2ajew7rlqi/public_html/php/register/paperpresentation/paperpresentation.php:0
+[15-Feb-2020 03:36:45 UTC] PHP Notice:  Undefined index: event_type in /home/bn2ajew7rlqi/public_html/php/register/paperpresentation/paperpresentation.php on line 6
+[15-Feb-2020 03:36:45 UTC] PHP Stack trace:
+[15-Feb-2020 03:36:45 UTC] PHP   1. {main}() /home/bn2ajew7rlqi/public_html/php/register/paperpresentation/paperpresentation.php:0
+[15-Feb-2020 03:36:45 UTC] PHP Notice:  Undefined index: finalAmount in /home/bn2ajew7rlqi/public_html/php/register/paperpresentation/paperpresentation.php on line 9
+[15-Feb-2020 03:36:45 UTC] PHP Stack trace:
+[15-Feb-2020 03:36:45 UTC] PHP   1. {main}() /home/bn2ajew7rlqi/public_html/php/register/paperpresentation/paperpresentation.php:0
+[15-Feb-2020 03:36:45 UTC] PHP Notice:  Undefined index: tokens in /home/bn2ajew7rlqi/public_html/php/register/paperpresentation/paperpresentation.php on line 10
+[15-Feb-2020 03:36:45 UTC] PHP Stack trace:
+[15-Feb-2020 03:36:45 UTC] PHP   1. {main}() /home/bn2ajew7rlqi/public_html/php/register/paperpresentation/paperpresentation.php:0
+[15-Feb-2020 03:36:45 UTC] PHP Notice:  Undefined index: emails in /home/bn2ajew7rlqi/public_html/php/register/paperpresentation/paperpresentation.php on line 11
+[15-Feb-2020 03:36:45 UTC] PHP Stack trace:
+[15-Feb-2020 03:36:45 UTC] PHP   1. {main}() /home/bn2ajew7rlqi/public_html/php/register/paperpresentation/paperpresentation.php:0
+[15-Feb-2020 03:36:45 UTC] PHP Notice:  Undefined index: uname in /home/bn2ajew7rlqi/public_html/php/register/paperpresentation/paperpresentation.php on line 12
+[15-Feb-2020 03:36:45 UTC] PHP Stack trace:
+[15-Feb-2020 03:36:45 UTC] PHP   1. {main}() /home/bn2ajew7rlqi/public_html/php/register/paperpresentation/paperpresentation.php:0
+[15-Feb-2020 03:36:45 UTC] PHP Notice:  Undefined index: teamToken in /home/bn2ajew7rlqi/public_html/php/register/paperpresentation/paperpresentation.php on line 36
+[15-Feb-2020 03:36:45 UTC] PHP Stack trace:
+[15-Feb-2020 03:36:45 UTC] PHP   1. {main}() /home/bn2ajew7rlqi/public_html/php/register/paperpresentation/paperpresentation.php:0
+[15-Feb-2020 07:15:34 UTC] PHP Notice:  Undefined index: team_size in /home/bn2ajew7rlqi/public_html/php/register/paperpresentation/paperpresentation.php on line 5
+[15-Feb-2020 07:15:34 UTC] PHP Stack trace:
+[15-Feb-2020 07:15:34 UTC] PHP   1. {main}() /home/bn2ajew7rlqi/public_html/php/register/paperpresentation/paperpresentation.php:0
+[15-Feb-2020 07:15:34 UTC] PHP Notice:  Undefined index: event_type in /home/bn2ajew7rlqi/public_html/php/register/paperpresentation/paperpresentation.php on line 6
+[15-Feb-2020 07:15:34 UTC] PHP Stack trace:
+[15-Feb-2020 07:15:34 UTC] PHP   1. {main}() /home/bn2ajew7rlqi/public_html/php/register/paperpresentation/paperpresentation.php:0
+[15-Feb-2020 07:15:34 UTC] PHP Notice:  Undefined index: finalAmount in /home/bn2ajew7rlqi/public_html/php/register/paperpresentation/paperpresentation.php on line 9
+[15-Feb-2020 07:15:34 UTC] PHP Stack trace:
+[15-Feb-2020 07:15:34 UTC] PHP   1. {main}() /home/bn2ajew7rlqi/public_html/php/register/paperpresentation/paperpresentation.php:0
+[15-Feb-2020 07:15:34 UTC] PHP Notice:  Undefined index: tokens in /home/bn2ajew7rlqi/public_html/php/register/paperpresentation/paperpresentation.php on line 10
+[15-Feb-2020 07:15:34 UTC] PHP Stack trace:
+[15-Feb-2020 07:15:34 UTC] PHP   1. {main}() /home/bn2ajew7rlqi/public_html/php/register/paperpresentation/paperpresentation.php:0
+[15-Feb-2020 07:15:34 UTC] PHP Notice:  Undefined index: emails in /home/bn2ajew7rlqi/public_html/php/register/paperpresentation/paperpresentation.php on line 11
+[15-Feb-2020 07:15:34 UTC] PHP Stack trace:
+[15-Feb-2020 07:15:34 UTC] PHP   1. {main}() /home/bn2ajew7rlqi/public_html/php/register/paperpresentation/paperpresentation.php:0
+[15-Feb-2020 07:15:34 UTC] PHP Notice:  Undefined index: uname in /home/bn2ajew7rlqi/public_html/php/register/paperpresentation/paperpresentation.php on line 12
+[15-Feb-2020 07:15:34 UTC] PHP Stack trace:
+[15-Feb-2020 07:15:34 UTC] PHP   1. {main}() /home/bn2ajew7rlqi/public_html/php/register/paperpresentation/paperpresentation.php:0
+[15-Feb-2020 07:15:34 UTC] PHP Notice:  Undefined index: teamToken in /home/bn2ajew7rlqi/public_html/php/register/paperpresentation/paperpresentation.php on line 36
+[15-Feb-2020 07:15:34 UTC] PHP Stack trace:
+[15-Feb-2020 07:15:34 UTC] PHP   1. {main}() /home/bn2ajew7rlqi/public_html/php/register/paperpresentation/paperpresentation.php:0
+[15-Feb-2020 09:55:38 UTC] PHP Notice:  Undefined index: team_size in /home/bn2ajew7rlqi/public_html/php/register/paperpresentation/paperpresentation.php on line 5
+[15-Feb-2020 09:55:38 UTC] PHP Stack trace:
+[15-Feb-2020 09:55:38 UTC] PHP   1. {main}() /home/bn2ajew7rlqi/public_html/php/register/paperpresentation/paperpresentation.php:0
+[15-Feb-2020 09:55:38 UTC] PHP Notice:  Undefined index: event_type in /home/bn2ajew7rlqi/public_html/php/register/paperpresentation/paperpresentation.php on line 6
+[15-Feb-2020 09:55:38 UTC] PHP Stack trace:
+[15-Feb-2020 09:55:38 UTC] PHP   1. {main}() /home/bn2ajew7rlqi/public_html/php/register/paperpresentation/paperpresentation.php:0
+[15-Feb-2020 09:55:38 UTC] PHP Notice:  Undefined index: finalAmount in /home/bn2ajew7rlqi/public_html/php/register/paperpresentation/paperpresentation.php on line 9
+[15-Feb-2020 09:55:38 UTC] PHP Stack trace:
+[15-Feb-2020 09:55:38 UTC] PHP   1. {main}() /home/bn2ajew7rlqi/public_html/php/register/paperpresentation/paperpresentation.php:0
+[15-Feb-2020 09:55:38 UTC] PHP Notice:  Undefined index: tokens in /home/bn2ajew7rlqi/public_html/php/register/paperpresentation/paperpresentation.php on line 10
+[15-Feb-2020 09:55:38 UTC] PHP Stack trace:
+[15-Feb-2020 09:55:38 UTC] PHP   1. {main}() /home/bn2ajew7rlqi/public_html/php/register/paperpresentation/paperpresentation.php:0
+[15-Feb-2020 09:55:38 UTC] PHP Notice:  Undefined index: emails in /home/bn2ajew7rlqi/public_html/php/register/paperpresentation/paperpresentation.php on line 11
+[15-Feb-2020 09:55:38 UTC] PHP Stack trace:
+[15-Feb-2020 09:55:38 UTC] PHP   1. {main}() /home/bn2ajew7rlqi/public_html/php/register/paperpresentation/paperpresentation.php:0
+[15-Feb-2020 09:55:38 UTC] PHP Notice:  Undefined index: uname in /home/bn2ajew7rlqi/public_html/php/register/paperpresentation/paperpresentation.php on line 12
+[15-Feb-2020 09:55:38 UTC] PHP Stack trace:
+[15-Feb-2020 09:55:38 UTC] PHP   1. {main}() /home/bn2ajew7rlqi/public_html/php/register/paperpresentation/paperpresentation.php:0
+[15-Feb-2020 09:55:38 UTC] PHP Notice:  Undefined index: teamToken in /home/bn2ajew7rlqi/public_html/php/register/paperpresentation/paperpresentation.php on line 36
+[15-Feb-2020 09:55:38 UTC] PHP Stack trace:
+[15-Feb-2020 09:55:38 UTC] PHP   1. {main}() /home/bn2ajew7rlqi/public_html/php/register/paperpresentation/paperpresentation.php:0

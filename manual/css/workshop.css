@@ -1,0 +1,54 @@
+
+
+  .example-slider {
+    z-index: 2;
+    -webkit-transform: translate3d(0, 0, 0);
+            transform: translate3d(0, 0, 0);
+    transition: -webkit-transform 0.7s;
+    transition: transform 0.7s;
+    transition: transform 0.7s, -webkit-transform 0.7s;
+  }
+  .credits-active .example-slider {
+    -webkit-transform: translate3d(-400px, 0, 0) rotateY(10deg) scale(0.9);
+            transform: translate3d(-400px, 0, 0) rotateY(10deg) scale(0.9);
+  }
+  .example-slider .fnc-slide-3 .fnc-slide__inner,
+  .example-slider .fnc-slide-3 .fnc-slide__mask-inner {
+    background-image: url("../static/images/iot.svg");
+  }
+  .example-slider .fnc-slide-1 .fnc-slide__inner,
+  .example-slider .fnc-slide-1 .fnc-slide__mask-inner {
+    background-image: url("../static/images/photography.png");
+  }
+  .example-slider .fnc-slide-2 .fnc-slide__inner,
+  .example-slider .fnc-slide-2 .fnc-slide__mask-inner {
+    background-image: url("../static/images/h7.png");
+  }
+  
+  .example-slider .fnc-slide-3 .fnc-slide__inner:before {
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(255, 255, 255, 0.1);
+  }
+  
+  .example-slider .fnc-slide-4 .fnc-slide__inner:before {
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.2);
+  }
+ 
+  .example-slider .fnc-slide__heading,
+  .example-slider .fnc-slide__action-btn,
+  .example-slider .fnc-nav__control {
+    font-family: "Open Sans", Helvetica, Arial, sans-serif;
+  }
+  
+  

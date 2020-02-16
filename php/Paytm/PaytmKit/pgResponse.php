@@ -2,7 +2,7 @@
 <html>
 <head>
 	<title>Final checkout</title>
-	<meta name="author" content="SAI PHANI VITTAL" >
+	<meta name="author" content="SEEPANA SAIKIRAN" >
 	<link rel="stylesheet" type="text/css" href="../../../css/bootstrap/bootstrap.min.css">
 </head>
 <body style="background-image: linear-gradient(to right, #0F2027, #203A43,#2C5364);">
@@ -39,6 +39,7 @@
 	$email = $_SESSION['email'];
 	if($isValidChecksum == "TRUE") {
 		echo "
+		<div class = 'container'>
 	<div class = 'jumbotron' style = 'margin:60px 10px;padding:10px;'>
 		";
 		echo "<h3>Please Download PDF of the following details:</h3><br/>";
@@ -59,48 +60,93 @@
 				$aadhritaID = "AAD3".$n;
 			}
 
-			echo '
-			<table class="table table-striped table-dark">
-				<tr>
-					<th>Field</th>
-					<th>Value</th>
-				</tr>
-				<tr>
-					<td> Bank Transaction ID </td>
-					<td> '.$params[11].' </td>
-				</tr>
-				<tr>
-					<td> Date of Transaction </td>
-					<td> '.$params[6].' </td>
-				</tr>
-				<tr>
-					<td> Amount of Transaction </td>
-					<td> '.$params[3].' </td>
-				</tr>
-				<tr>
-					<td> Status </td>
-					<td> '.$params[8].' </td>
-				</tr>
-				<tr>
-					<td> AADHRITA Token </td>
-					<td> '.$aadhritaID.' </td>
-				</tr>
-				<tr>
-					<td> User Name  </td>
-					<td> '.$_SESSION['userName'].' </td>
-				</tr>
-				<tr>
-					<td> College ID </td>
-					<td> '.$_SESSION['collegeId'].' </td>
-				</tr>
-				<tr>
-					<td> Password </td>
-					<td> '.$_SESSION['password'].' </td>
-				</tr>
-			';
-			$sql ="INSERT INTO `transactionsdata` (`paytmTransactionID`, `bankTransactionID`, `transactionDate`, `transactionAmount`, `transactionStatus`, `aadhritaID`, `userName`, `emailID`) VALUES ('$params[2]', '$params[11]', '$params[6]', '$params[3]', '$params[8]', '$aadhritaID', '$user', '$email')";
+			
+			if ($params[2]=='Txn Success') { 
+				$sql ="INSERT INTO `transactionsdata` (`paytmTransactionID`, `bankTransactionID`, `transactionDate`, `transactionAmount`, `transactionStatus`, `aadhritaID`, `userName`, `emailID`) VALUES ('$params[7]', '$params[11]', '$params[12]', '$params[8]', '$params[10]', '$aadhritaID', '$user', '$email')";
+				echo '
+				<table class="table table-striped table-dark">
+					<tr>
+						<th>Field</th>
+						<th>Value</th>
+					</tr>
+					<tr>
+						<td> Bank Transaction ID </td>
+						<td> '.$params[11].' </td>
+					</tr>
+					<tr>
+						<td> Date of Transaction </td>
+						<td> '.$params[12].' </td>
+					</tr>
+					<tr>
+						<td> Amount of Transaction </td>
+						<td> '.$params[12].' </td>
+					</tr>
+					<tr>
+						<td> Status </td>
+						<td> '.$params[8].' </td>
+					</tr>
+					<tr>
+						<td> AADHRITA Token </td>
+						<td> '.$aadhritaID.' </td>
+					</tr>
+					<tr>
+						<td> User Name  </td>
+						<td> '.$_SESSION['userName'].' </td>
+					</tr>
+					<tr>
+						<td> College ID </td>
+						<td> '.$_SESSION['collegeId'].' </td>
+					</tr>
+					<tr>
+						<td> Password </td>
+						<td> '.$_SESSION['password'].' </td>
+					</tr>
+				';
+			}
+			else{
+				$sql ="INSERT INTO `transactionsdata` (`paytmTransactionID`, `bankTransactionID`, `transactionDate`, `transactionAmount`, `transactionStatus`, `aadhritaID`, `userName`, `emailID`) VALUES ('$params[2]', '$params[11]', '$params[6]', '$params[3]', '$params[7]', '$aadhritaID', '$user', '$email')";
+				echo '
+				<table class="table table-striped table-dark">
+					<tr>
+						<th>Field</th>
+						<th>Value</th>
+					</tr>
+					<tr>
+						<td> Bank Transaction ID </td>
+						<td> '.$params[11].' </td>
+					</tr>
+					<tr>
+						<td> Date of Transaction </td>
+						<td> '.$params[6].' </td>
+					</tr>
+					<tr>
+						<td> Amount of Transaction </td>
+						<td> '.$params[3].' </td>
+					</tr>
+					<tr>
+						<td> Status </td>
+						<td> '.$params[7].' </td>
+					</tr>
+					<tr>
+						<td> AADHRITA Token </td>
+						<td> '.$aadhritaID.' </td>
+					</tr>
+					<tr>
+						<td> User Name  </td>
+						<td> '.$_SESSION['userName'].' </td>
+					</tr>
+					<tr>
+						<td> College ID </td>
+						<td> '.$_SESSION['collegeId'].' </td>
+					</tr>
+					<tr>
+						<td> Password </td>
+						<td> '.$_SESSION['password'].' </td>
+					</tr>
+				';
+			}
 				$res = mysqli_query($conn,$sql);
-				if ($res) {
+				if ($res) { 
 					$name = $_SESSION['userName'];
 					$collegename = $_SESSION['collegeName'];
 					$collegeid = $_SESSION['collegeId'];
@@ -121,7 +167,7 @@
 				else{
 					echo "
 					<tr>
-						<td colspan = '2'><center>UNSUCESSFUL Entry </center></td>
+						<td colspan = '2'><center> Refreshing the page may cause errors </center></td>
 
 					";
 				}
@@ -138,15 +184,17 @@
 			<tr>
 				<td colspan = '2'>
 					<center>
-						<button class='btn btn-primary mr-5' name='profile' onclick='location.href=`../../../`'>Profile</button>
+					<button class='btn btn-outline-success mr-5' id='create_pdf' value='Generate PDF'>Generate pdf</button>
+						<button class='btn btn-outline-success ml-5' name='profile' onclick='location.href=`../../login/`'>Login</button>
 					
-						<button class='btn btn-outline-success ml-5' id='create_pdf' value='Generate PDF'>Generate pdf</button>
+						
 					</center>
 				</td>
 			</tr>
 			
 		</table>
-		<div>	
+		<div>
+		</div>
 		
 		";
 	}

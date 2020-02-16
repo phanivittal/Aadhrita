@@ -133,11 +133,11 @@ session_start();
                                     <label class="label">Gender</label>
                                     <div class="p-t-10">
                                         <label class="radio-container m-r-45">Male
-                                            <input type="radio" checked="checked" name="gender" required>
+                                            <input type="radio" checked="checked" name="gender" value="MALE" required>
                                             <span class="checkmark"></span>
                                         </label>
                                         <label class="radio-container">Female
-                                            <input type="radio" name="gender">
+                                            <input type="radio" name="gender" value="FEMALE">
                                             <span class="checkmark"></span>
                                         </label>
                                     </div>

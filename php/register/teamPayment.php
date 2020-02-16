@@ -18,7 +18,7 @@
 	$finalAmount = $_SESSION['finalAmount'];
 	$aad3id = $_SESSION['tokens'];
 	$email = $_SESSION['emails'];
-
+	$uname = $_SESSION['uname'];
 ?>
 <!DOCTYPE html>
 <html>
@@ -65,6 +65,7 @@
 			        <tr>
 			        	<th scope="col">Aadhrita ID</th>
 			        	<th scope="col" >Email ID</th>
+			        	<th scope="col" >user name</th>
 			        	<th scope="col">LEAD / MEMBER</th>
 			        </tr>
 			        <?php
@@ -72,6 +73,8 @@
 			        		echo "<tr>";
 			        		echo "<td>".$aad3id[$i]."</td>";
 			        		echo "<td>".$email[$i]."</td>";
+			        		echo "<td>".$uname[$i]."</td>";
+			        		
 			        		if ($i==0) {
 			        			echo "<td>Lead</td>";
 			        		}
@@ -80,13 +83,12 @@
 			        		}
 			        		echo "</tr>";
 			        	}
-			        	print_r($aad3id[0]);
 			        ?>
 			        <tr>
 			        	<td>Final Amount</td>
-			        	<td colspan="2"><input type="text" name="TXN_AMOUNT" value="<?php echo $finalAmount; ?>" hidden ="yes" > <?php echo $finalAmount; ?></td>
+			        	<td colspan="4"><input type="text" name="TXN_AMOUNT" value="<?php echo $finalAmount; ?>" hidden ="yes" > <?php echo $finalAmount; ?></td>
 			        </tr>
-			          <td colspan="3" align="center">
+			          <td colspan="4" align="center">
 			            <input class="btn btn-outline-success" value="CheckOut" type="submit" onclick="">
 			          </td>
 			        </tr>

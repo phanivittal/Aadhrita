@@ -1,0 +1,177 @@
+[04-Feb-2020 12:32:15 UTC] PHP Notice:  Undefined index: rtype in /home/bn2ajew7rlqi/public_html/manual/php/register/index.php on line 80
+[04-Feb-2020 12:32:15 UTC] PHP Stack trace:
+[04-Feb-2020 12:32:15 UTC] PHP   1. {main}() /home/bn2ajew7rlqi/public_html/manual/php/register/index.php:0
+[04-Feb-2020 15:12:51 UTC] PHP Notice:  Undefined index: rtype in /home/bn2ajew7rlqi/public_html/manual/php/register/index.php on line 80
+[04-Feb-2020 15:12:51 UTC] PHP Stack trace:
+[04-Feb-2020 15:12:51 UTC] PHP   1. {main}() /home/bn2ajew7rlqi/public_html/manual/php/register/index.php:0
+[10-Feb-2020 12:28:04 UTC] PHP Notice:  Undefined index: rtype in /home/bn2ajew7rlqi/public_html/manual/php/register/index.php on line 80
+[10-Feb-2020 12:28:04 UTC] PHP Stack trace:
+[10-Feb-2020 12:28:04 UTC] PHP   1. {main}() /home/bn2ajew7rlqi/public_html/manual/php/register/index.php:0
+[12-Feb-2020 05:19:14 UTC] PHP Notice:  Undefined index: rtype in /home/bn2ajew7rlqi/public_html/manual/php/register/index.php on line 80
+[12-Feb-2020 05:19:14 UTC] PHP Stack trace:
+[12-Feb-2020 05:19:14 UTC] PHP   1. {main}() /home/bn2ajew7rlqi/public_html/manual/php/register/index.php:0
+[12-Feb-2020 08:31:03 UTC] PHP Notice:  Undefined index: rtype in /home/bn2ajew7rlqi/public_html/manual/php/register/index.php on line 80
+[12-Feb-2020 08:31:03 UTC] PHP Stack trace:
+[12-Feb-2020 08:31:03 UTC] PHP   1. {main}() /home/bn2ajew7rlqi/public_html/manual/php/register/index.php:0
+[12-Feb-2020 08:31:05 UTC] PHP Notice:  Undefined index: rtype in /home/bn2ajew7rlqi/public_html/manual/php/register/index.php on line 80
+[12-Feb-2020 08:31:05 UTC] PHP Stack trace:
+[12-Feb-2020 08:31:05 UTC] PHP   1. {main}() /home/bn2ajew7rlqi/public_html/manual/php/register/index.php:0
+[12-Feb-2020 08:31:14 UTC] PHP Notice:  Undefined index: rtype in /home/bn2ajew7rlqi/public_html/manual/php/register/index.php on line 80
+[12-Feb-2020 08:31:14 UTC] PHP Stack trace:
+[12-Feb-2020 08:31:14 UTC] PHP   1. {main}() /home/bn2ajew7rlqi/public_html/manual/php/register/index.php:0
+[12-Feb-2020 08:31:44 UTC] PHP Notice:  Undefined index: rtype in /home/bn2ajew7rlqi/public_html/manual/php/register/index.php on line 80
+[12-Feb-2020 08:31:44 UTC] PHP Stack trace:
+[12-Feb-2020 08:31:44 UTC] PHP   1. {main}() /home/bn2ajew7rlqi/public_html/manual/php/register/index.php:0
+[12-Feb-2020 08:33:03 UTC] PHP Notice:  Undefined index: rtype in /home/bn2ajew7rlqi/public_html/manual/php/register/index.php on line 80
+[12-Feb-2020 08:33:03 UTC] PHP Stack trace:
+[12-Feb-2020 08:33:03 UTC] PHP   1. {main}() /home/bn2ajew7rlqi/public_html/manual/php/register/index.php:0
+[12-Feb-2020 08:34:09 UTC] PHP Notice:  Undefined index: rtype in /home/bn2ajew7rlqi/public_html/manual/php/register/index.php on line 80
+[12-Feb-2020 08:34:09 UTC] PHP Stack trace:
+[12-Feb-2020 08:34:09 UTC] PHP   1. {main}() /home/bn2ajew7rlqi/public_html/manual/php/register/index.php:0
+[12-Feb-2020 08:34:21 UTC] PHP Notice:  Undefined index: rtype in /home/bn2ajew7rlqi/public_html/manual/php/register/index.php on line 80
+[12-Feb-2020 08:34:21 UTC] PHP Stack trace:
+[12-Feb-2020 08:34:21 UTC] PHP   1. {main}() /home/bn2ajew7rlqi/public_html/manual/php/register/index.php:0
+[12-Feb-2020 08:35:14 UTC] PHP Notice:  Undefined index: rtype in /home/bn2ajew7rlqi/public_html/manual/php/register/index.php on line 80
+[12-Feb-2020 08:35:14 UTC] PHP Stack trace:
+[12-Feb-2020 08:35:14 UTC] PHP   1. {main}() /home/bn2ajew7rlqi/public_html/manual/php/register/index.php:0
+[12-Feb-2020 08:35:26 UTC] PHP Notice:  Undefined index: rtype in /home/bn2ajew7rlqi/public_html/manual/php/register/index.php on line 80
+[12-Feb-2020 08:35:26 UTC] PHP Stack trace:
+[12-Feb-2020 08:35:26 UTC] PHP   1. {main}() /home/bn2ajew7rlqi/public_html/manual/php/register/index.php:0
+[12-Feb-2020 08:42:40 UTC] PHP Notice:  Undefined index: rtype in /home/bn2ajew7rlqi/public_html/manual/php/register/index.php on line 80
+[12-Feb-2020 08:42:40 UTC] PHP Stack trace:
+[12-Feb-2020 08:42:40 UTC] PHP   1. {main}() /home/bn2ajew7rlqi/public_html/manual/php/register/index.php:0
+[12-Feb-2020 08:45:18 UTC] PHP Notice:  Undefined index: rtype in /home/bn2ajew7rlqi/public_html/manual/php/register/index.php on line 80
+[12-Feb-2020 08:45:18 UTC] PHP Stack trace:
+[12-Feb-2020 08:45:18 UTC] PHP   1. {main}() /home/bn2ajew7rlqi/public_html/manual/php/register/index.php:0
+[12-Feb-2020 08:45:43 UTC] PHP Notice:  Undefined index: rtype in /home/bn2ajew7rlqi/public_html/manual/php/register/index.php on line 80
+[12-Feb-2020 08:45:43 UTC] PHP Stack trace:
+[12-Feb-2020 08:45:43 UTC] PHP   1. {main}() /home/bn2ajew7rlqi/public_html/manual/php/register/index.php:0
+[12-Feb-2020 08:48:34 UTC] PHP Notice:  Undefined index: rtype in /home/bn2ajew7rlqi/public_html/manual/php/register/index.php on line 80
+[12-Feb-2020 08:48:34 UTC] PHP Stack trace:
+[12-Feb-2020 08:48:34 UTC] PHP   1. {main}() /home/bn2ajew7rlqi/public_html/manual/php/register/index.php:0
+[12-Feb-2020 09:10:35 UTC] PHP Notice:  Undefined index: rtype in /home/bn2ajew7rlqi/public_html/manual/php/register/index.php on line 80
+[12-Feb-2020 09:10:35 UTC] PHP Stack trace:
+[12-Feb-2020 09:10:35 UTC] PHP   1. {main}() /home/bn2ajew7rlqi/public_html/manual/php/register/index.php:0
+[12-Feb-2020 09:11:29 UTC] PHP Notice:  Undefined index: rtype in /home/bn2ajew7rlqi/public_html/manual/php/register/index.php on line 80
+[12-Feb-2020 09:11:29 UTC] PHP Stack trace:
+[12-Feb-2020 09:11:29 UTC] PHP   1. {main}() /home/bn2ajew7rlqi/public_html/manual/php/register/index.php:0
+[12-Feb-2020 09:11:36 UTC] PHP Notice:  Undefined index: rtype in /home/bn2ajew7rlqi/public_html/manual/php/register/index.php on line 80
+[12-Feb-2020 09:11:36 UTC] PHP Stack trace:
+[12-Feb-2020 09:11:36 UTC] PHP   1. {main}() /home/bn2ajew7rlqi/public_html/manual/php/register/index.php:0
+[12-Feb-2020 09:11:39 UTC] PHP Notice:  Undefined index: rtype in /home/bn2ajew7rlqi/public_html/manual/php/register/index.php on line 80
+[12-Feb-2020 09:11:39 UTC] PHP Stack trace:
+[12-Feb-2020 09:11:39 UTC] PHP   1. {main}() /home/bn2ajew7rlqi/public_html/manual/php/register/index.php:0
+[12-Feb-2020 09:12:47 UTC] PHP Notice:  Undefined index: rtype in /home/bn2ajew7rlqi/public_html/manual/php/register/index.php on line 80
+[12-Feb-2020 09:12:47 UTC] PHP Stack trace:
+[12-Feb-2020 09:12:47 UTC] PHP   1. {main}() /home/bn2ajew7rlqi/public_html/manual/php/register/index.php:0
+[12-Feb-2020 09:12:55 UTC] PHP Notice:  Undefined index: rtype in /home/bn2ajew7rlqi/public_html/manual/php/register/index.php on line 80
+[12-Feb-2020 09:12:55 UTC] PHP Stack trace:
+[12-Feb-2020 09:12:55 UTC] PHP   1. {main}() /home/bn2ajew7rlqi/public_html/manual/php/register/index.php:0
+[12-Feb-2020 09:25:55 UTC] PHP Notice:  Undefined index: rtype in /home/bn2ajew7rlqi/public_html/manual/php/register/index.php on line 80
+[12-Feb-2020 09:25:56 UTC] PHP Stack trace:
+[12-Feb-2020 09:25:56 UTC] PHP   1. {main}() /home/bn2ajew7rlqi/public_html/manual/php/register/index.php:0
+[12-Feb-2020 09:25:59 UTC] PHP Notice:  Undefined index: rtype in /home/bn2ajew7rlqi/public_html/manual/php/register/index.php on line 80
+[12-Feb-2020 09:25:59 UTC] PHP Stack trace:
+[12-Feb-2020 09:25:59 UTC] PHP   1. {main}() /home/bn2ajew7rlqi/public_html/manual/php/register/index.php:0
+[12-Feb-2020 09:26:05 UTC] PHP Notice:  Undefined index: rtype in /home/bn2ajew7rlqi/public_html/manual/php/register/index.php on line 80
+[12-Feb-2020 09:26:05 UTC] PHP Stack trace:
+[12-Feb-2020 09:26:05 UTC] PHP   1. {main}() /home/bn2ajew7rlqi/public_html/manual/php/register/index.php:0
+[12-Feb-2020 13:19:40 UTC] PHP Notice:  Undefined index: rtype in /home/bn2ajew7rlqi/public_html/manual/php/register/index.php on line 80
+[12-Feb-2020 13:19:40 UTC] PHP Stack trace:
+[12-Feb-2020 13:19:40 UTC] PHP   1. {main}() /home/bn2ajew7rlqi/public_html/manual/php/register/index.php:0
+[12-Feb-2020 17:57:41 UTC] PHP Notice:  Undefined index: rtype in /home/bn2ajew7rlqi/public_html/manual/php/register/index.php on line 80
+[12-Feb-2020 17:57:41 UTC] PHP Stack trace:
+[12-Feb-2020 17:57:41 UTC] PHP   1. {main}() /home/bn2ajew7rlqi/public_html/manual/php/register/index.php:0
+[13-Feb-2020 05:21:28 UTC] PHP Notice:  Undefined index: rtype in /home/bn2ajew7rlqi/public_html/manual/php/register/index.php on line 80
+[13-Feb-2020 05:21:28 UTC] PHP Stack trace:
+[13-Feb-2020 05:21:28 UTC] PHP   1. {main}() /home/bn2ajew7rlqi/public_html/manual/php/register/index.php:0
+[13-Feb-2020 06:41:56 UTC] PHP Notice:  Undefined index: rtype in /home/bn2ajew7rlqi/public_html/manual/php/register/index.php on line 80
+[13-Feb-2020 06:41:56 UTC] PHP Stack trace:
+[13-Feb-2020 06:41:56 UTC] PHP   1. {main}() /home/bn2ajew7rlqi/public_html/manual/php/register/index.php:0
+[13-Feb-2020 07:11:50 UTC] PHP Notice:  Undefined index: rtype in /home/bn2ajew7rlqi/public_html/manual/php/register/index.php on line 80
+[13-Feb-2020 07:11:50 UTC] PHP Stack trace:
+[13-Feb-2020 07:11:50 UTC] PHP   1. {main}() /home/bn2ajew7rlqi/public_html/manual/php/register/index.php:0
+[13-Feb-2020 07:25:38 UTC] PHP Notice:  Undefined index: rtype in /home/bn2ajew7rlqi/public_html/manual/php/register/index.php on line 80
+[13-Feb-2020 07:25:38 UTC] PHP Stack trace:
+[13-Feb-2020 07:25:38 UTC] PHP   1. {main}() /home/bn2ajew7rlqi/public_html/manual/php/register/index.php:0
+[13-Feb-2020 07:25:56 UTC] PHP Notice:  Undefined index: rtype in /home/bn2ajew7rlqi/public_html/manual/php/register/index.php on line 80
+[13-Feb-2020 07:25:56 UTC] PHP Stack trace:
+[13-Feb-2020 07:25:56 UTC] PHP   1. {main}() /home/bn2ajew7rlqi/public_html/manual/php/register/index.php:0
+[13-Feb-2020 08:25:42 UTC] PHP Notice:  Undefined index: rtype in /home/bn2ajew7rlqi/public_html/manual/php/register/index.php on line 80
+[13-Feb-2020 08:25:42 UTC] PHP Stack trace:
+[13-Feb-2020 08:25:42 UTC] PHP   1. {main}() /home/bn2ajew7rlqi/public_html/manual/php/register/index.php:0
+[13-Feb-2020 09:20:18 UTC] PHP Notice:  Undefined index: rtype in /home/bn2ajew7rlqi/public_html/manual/php/register/index.php on line 80
+[13-Feb-2020 09:20:19 UTC] PHP Stack trace:
+[13-Feb-2020 09:20:19 UTC] PHP   1. {main}() /home/bn2ajew7rlqi/public_html/manual/php/register/index.php:0
+[13-Feb-2020 09:20:27 UTC] PHP Notice:  Undefined index: rtype in /home/bn2ajew7rlqi/public_html/manual/php/register/index.php on line 80
+[13-Feb-2020 09:20:27 UTC] PHP Stack trace:
+[13-Feb-2020 09:20:27 UTC] PHP   1. {main}() /home/bn2ajew7rlqi/public_html/manual/php/register/index.php:0
+[13-Feb-2020 10:05:16 UTC] PHP Notice:  Undefined index: rtype in /home/bn2ajew7rlqi/public_html/manual/php/register/index.php on line 80
+[13-Feb-2020 10:05:16 UTC] PHP Stack trace:
+[13-Feb-2020 10:05:16 UTC] PHP   1. {main}() /home/bn2ajew7rlqi/public_html/manual/php/register/index.php:0
+[13-Feb-2020 11:48:35 UTC] PHP Notice:  Undefined index: rtype in /home/bn2ajew7rlqi/public_html/manual/php/register/index.php on line 80
+[13-Feb-2020 11:48:35 UTC] PHP Stack trace:
+[13-Feb-2020 11:48:35 UTC] PHP   1. {main}() /home/bn2ajew7rlqi/public_html/manual/php/register/index.php:0
+[13-Feb-2020 12:15:01 UTC] PHP Notice:  Undefined index: rtype in /home/bn2ajew7rlqi/public_html/manual/php/register/index.php on line 80
+[13-Feb-2020 12:15:01 UTC] PHP Stack trace:
+[13-Feb-2020 12:15:01 UTC] PHP   1. {main}() /home/bn2ajew7rlqi/public_html/manual/php/register/index.php:0
+[14-Feb-2020 02:33:50 UTC] PHP Notice:  Undefined index: rtype in /home/bn2ajew7rlqi/public_html/manual/php/register/index.php on line 80
+[14-Feb-2020 02:33:50 UTC] PHP Stack trace:
+[14-Feb-2020 02:33:50 UTC] PHP   1. {main}() /home/bn2ajew7rlqi/public_html/manual/php/register/index.php:0
+[14-Feb-2020 04:38:36 UTC] PHP Notice:  Undefined index: rtype in /home/bn2ajew7rlqi/public_html/manual/php/register/index.php on line 80
+[14-Feb-2020 04:38:36 UTC] PHP Stack trace:
+[14-Feb-2020 04:38:36 UTC] PHP   1. {main}() /home/bn2ajew7rlqi/public_html/manual/php/register/index.php:0
+[14-Feb-2020 07:24:14 UTC] PHP Notice:  Undefined index: rtype in /home/bn2ajew7rlqi/public_html/manual/php/register/index.php on line 80
+[14-Feb-2020 07:24:14 UTC] PHP Stack trace:
+[14-Feb-2020 07:24:14 UTC] PHP   1. {main}() /home/bn2ajew7rlqi/public_html/manual/php/register/index.php:0
+[14-Feb-2020 07:42:32 UTC] PHP Notice:  Undefined index: rtype in /home/bn2ajew7rlqi/public_html/manual/php/register/index.php on line 80
+[14-Feb-2020 07:42:32 UTC] PHP Stack trace:
+[14-Feb-2020 07:42:32 UTC] PHP   1. {main}() /home/bn2ajew7rlqi/public_html/manual/php/register/index.php:0
+[14-Feb-2020 07:42:51 UTC] PHP Notice:  Undefined index: rtype in /home/bn2ajew7rlqi/public_html/manual/php/register/index.php on line 80
+[14-Feb-2020 07:42:51 UTC] PHP Stack trace:
+[14-Feb-2020 07:42:51 UTC] PHP   1. {main}() /home/bn2ajew7rlqi/public_html/manual/php/register/index.php:0
+[14-Feb-2020 07:43:08 UTC] PHP Notice:  Undefined index: rtype in /home/bn2ajew7rlqi/public_html/manual/php/register/index.php on line 80
+[14-Feb-2020 07:43:09 UTC] PHP Stack trace:
+[14-Feb-2020 07:43:09 UTC] PHP   1. {main}() /home/bn2ajew7rlqi/public_html/manual/php/register/index.php:0
+[14-Feb-2020 07:53:40 UTC] PHP Notice:  Undefined index: rtype in /home/bn2ajew7rlqi/public_html/manual/php/register/index.php on line 80
+[14-Feb-2020 07:53:40 UTC] PHP Stack trace:
+[14-Feb-2020 07:53:40 UTC] PHP   1. {main}() /home/bn2ajew7rlqi/public_html/manual/php/register/index.php:0
+[14-Feb-2020 08:05:30 UTC] PHP Notice:  Undefined index: rtype in /home/bn2ajew7rlqi/public_html/manual/php/register/index.php on line 80
+[14-Feb-2020 08:05:30 UTC] PHP Stack trace:
+[14-Feb-2020 08:05:30 UTC] PHP   1. {main}() /home/bn2ajew7rlqi/public_html/manual/php/register/index.php:0
+[14-Feb-2020 08:28:29 UTC] PHP Notice:  Undefined index: rtype in /home/bn2ajew7rlqi/public_html/manual/php/register/index.php on line 80
+[14-Feb-2020 08:28:29 UTC] PHP Stack trace:
+[14-Feb-2020 08:28:29 UTC] PHP   1. {main}() /home/bn2ajew7rlqi/public_html/manual/php/register/index.php:0
+[14-Feb-2020 08:28:38 UTC] PHP Notice:  Undefined index: rtype in /home/bn2ajew7rlqi/public_html/manual/php/register/index.php on line 80
+[14-Feb-2020 08:28:38 UTC] PHP Stack trace:
+[14-Feb-2020 08:28:38 UTC] PHP   1. {main}() /home/bn2ajew7rlqi/public_html/manual/php/register/index.php:0
+[14-Feb-2020 09:18:30 UTC] PHP Notice:  Undefined index: rtype in /home/bn2ajew7rlqi/public_html/manual/php/register/index.php on line 80
+[14-Feb-2020 09:18:30 UTC] PHP Stack trace:
+[14-Feb-2020 09:18:30 UTC] PHP   1. {main}() /home/bn2ajew7rlqi/public_html/manual/php/register/index.php:0
+[14-Feb-2020 09:33:36 UTC] PHP Notice:  Undefined index: rtype in /home/bn2ajew7rlqi/public_html/manual/php/register/index.php on line 80
+[14-Feb-2020 09:33:36 UTC] PHP Stack trace:
+[14-Feb-2020 09:33:36 UTC] PHP   1. {main}() /home/bn2ajew7rlqi/public_html/manual/php/register/index.php:0
+[14-Feb-2020 09:42:15 UTC] PHP Notice:  Undefined index: rtype in /home/bn2ajew7rlqi/public_html/manual/php/register/index.php on line 80
+[14-Feb-2020 09:42:15 UTC] PHP Stack trace:
+[14-Feb-2020 09:42:15 UTC] PHP   1. {main}() /home/bn2ajew7rlqi/public_html/manual/php/register/index.php:0
+[14-Feb-2020 09:42:41 UTC] PHP Notice:  Undefined index: rtype in /home/bn2ajew7rlqi/public_html/manual/php/register/index.php on line 80
+[14-Feb-2020 09:42:41 UTC] PHP Stack trace:
+[14-Feb-2020 09:42:41 UTC] PHP   1. {main}() /home/bn2ajew7rlqi/public_html/manual/php/register/index.php:0
+[14-Feb-2020 10:27:28 UTC] PHP Notice:  Undefined index: rtype in /home/bn2ajew7rlqi/public_html/manual/php/register/index.php on line 80
+[14-Feb-2020 10:27:28 UTC] PHP Stack trace:
+[14-Feb-2020 10:27:28 UTC] PHP   1. {main}() /home/bn2ajew7rlqi/public_html/manual/php/register/index.php:0
+[14-Feb-2020 11:03:18 UTC] PHP Notice:  Undefined index: rtype in /home/bn2ajew7rlqi/public_html/manual/php/register/index.php on line 80
+[14-Feb-2020 11:03:18 UTC] PHP Stack trace:
+[14-Feb-2020 11:03:18 UTC] PHP   1. {main}() /home/bn2ajew7rlqi/public_html/manual/php/register/index.php:0
+[14-Feb-2020 11:14:22 UTC] PHP Notice:  Undefined index: rtype in /home/bn2ajew7rlqi/public_html/manual/php/register/index.php on line 80
+[14-Feb-2020 11:14:22 UTC] PHP Stack trace:
+[14-Feb-2020 11:14:22 UTC] PHP   1. {main}() /home/bn2ajew7rlqi/public_html/manual/php/register/index.php:0
+[14-Feb-2020 13:02:43 UTC] PHP Notice:  Undefined index: rtype in /home/bn2ajew7rlqi/public_html/manual/php/register/index.php on line 80
+[14-Feb-2020 13:02:43 UTC] PHP Stack trace:
+[14-Feb-2020 13:02:43 UTC] PHP   1. {main}() /home/bn2ajew7rlqi/public_html/manual/php/register/index.php:0
+[14-Feb-2020 14:00:15 UTC] PHP Notice:  Undefined index: rtype in /home/bn2ajew7rlqi/public_html/manual/php/register/index.php on line 80
+[14-Feb-2020 14:00:15 UTC] PHP Stack trace:
+[14-Feb-2020 14:00:15 UTC] PHP   1. {main}() /home/bn2ajew7rlqi/public_html/manual/php/register/index.php:0
+[15-Feb-2020 09:02:46 UTC] PHP Notice:  Undefined index: rtype in /home/bn2ajew7rlqi/public_html/manual/php/register/index.php on line 80
+[15-Feb-2020 09:02:46 UTC] PHP Stack trace:
+[15-Feb-2020 09:02:46 UTC] PHP   1. {main}() /home/bn2ajew7rlqi/public_html/manual/php/register/index.php:0

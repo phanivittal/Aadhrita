@@ -1,34 +1,33 @@
 	
 <html>
 <head>
-  <title>AADHRITA | REGISTRATION</title>
+  <title>AADHRITA | SPORTS REGISTRATION</title>
   <meta charset="utf-8">
-
-  <meta name="GENERATOR" content="Evrsoft First Page">
+  <meta name="author" content="SAI PHANI VITTAL" >
   <link rel="stylesheet" href="../../../../css/bootstrap/bootstrap.min.css">
   <style>
     input{
       justify-content:center;
       border-radius:8px;
-    }
-  </style>
-  
+  }
+</style>
+
 </head>
 <body style="background-image: linear-gradient(to right, #0F2027, #203A43,#2C5364);">
-<form class="form">
-<?php
-	session_start();
-	header("Pragma: no-cache");
-	header("Cache-Control: no-cache");
-	header("Expires: 0");
+    <form class="form">
+        <?php
+        session_start();
+        header("Pragma: no-cache");
+        header("Cache-Control: no-cache");
+        header("Expires: 0");
 	// following files need to be included
-	require_once("../lib/config_paytm.php");
-	require_once("../lib/encdec_paytm.php");
-	include '../../../db/db.php';
-	$paytmChecksum = "";
-	$paramList = array();
-	$isValidChecksum = "FALSE";
-	$paramList = $_POST;
+        require_once("../lib/config_paytm.php");
+        require_once("../lib/encdec_paytm.php");
+        include '../../../db/db.php';
+        $paytmChecksum = "";
+        $paramList = array();
+        $isValidChecksum = "FALSE";
+        $paramList = $_POST;
 	$paytmChecksum = isset($_POST["CHECKSUMHASH"]) ? $_POST["CHECKSUMHASH"] : ""; //Sent by Paytm pg
 
 	//Verify all parameters received from Paytm pg to your application. Like MID received from paytm pg is same as your application�s MID, TXN_AMOUNT and ORDER_ID are same as what was sent by you to Paytm PG for initiating transaction etc.
@@ -36,84 +35,198 @@
 	$isValidChecksum = verifychecksum_e($paramList, PAYTM_MERCHANT_KEY, $paytmChecksum); //will return TRUE or FALSE string.
 
 	$params = array();
-	echo '<div class= "jumbotron mt-5" style = "margin:60px 10px;padding:10px;"">';
 	if (isset($_POST) && count($_POST)>0 ){
 		foreach($_POST as $paramName => $paramValue) {
-			echo "<br/>" . $paramName . " = " . $paramValue;
 			array_push($params, $paramValue);
 		}
-	print_r($params);
 	}
 	if($isValidChecksum == "TRUE") {
-		echo "<b>Checksum matched and following are the transaction details:</b><br/>";
-			}
-	else {
-		echo "<b>Checksum mismatched.</b>";
-		//Process transaction as suspicious.
-	}
+
+        $id=$_SESSION['eventId'];
+        $sql = "SELECT * FROM `events` WHERE `eid` = '$id'";
+        $retval = mysqli_query($conn,$sql);
+        $row = mysqli_fetch_assoc($retval);
+        $tsize=$_SESSION['team_size'];
+        $user = $_SESSION['session_user'];
+        $email = $_SESSION['session_email'];
+        $aadhritaID = $_SESSION['aadhrita_id'] ;
+        if($row['etype'] == "SPORTS" && $_POST["STATUS"] == "TXN_SUCCESS" ) {
+            echo "
+            <div class = 'container' style = ' padding-top: 100px; ' >
+            <div class = 'jumbotron'>
+            ";
+
+            $eventId = $_SESSION["eventId"];
+            $sql = "SELECT `teamToken` FROM `sportsregistrations`";
+            $retval = mysqli_query( $conn , $sql ) ;
+            $rows = mysqli_num_rows($retval);
+            if ($rows == 0) {
+                $n = 1;
+            }
+            else{
+                while ($row = mysqli_fetch_assoc($retval)) {
+                    $n = substr($row['teamToken'], 8,2)+1 ;
+                }
+            }
+            if ($n<10) {
+                $teamToken = $eventId.'0'.$n;
+            }
+            else{
+                $teamToken = $eventId.$n;
+            }
+            $j = 0;
+            $aad3id=$_SESSION['phn'];
+            $emails=$_SESSION['spemails'];
+            if ($params[2]=='Txn Success') { 
+                $sql ="INSERT INTO `transactionsdata` (`paytmTransactionID`, `bankTransactionID`, `transactionDate`, `transactionAmount`, `transactionStatus`, `aadhritaID`, `userName`, `emailID`) VALUES ('$params[7]', '$params[11]', '$params[12]', '$params[8]', '$params[10]', '$aadhritaID', '$user', '$email')";
+                echo '
+                <table class="table table-striped table-dark">
+                <tr>
+                <th>Field</th>
+                <th>Value</th>
+                </tr>
+                <tr>
+                <td> Bank Transaction ID </td>
+                <td> '.$params[11].' </td>
+                </tr>
+                <tr>
+                <td> Date of Transaction </td>
+                <td> '.$params[12].' </td>
+                </tr>
+                <tr>
+                <td> Amount of Transaction </td>
+                <td> '.$params[8].' </td>
+                </tr>
+                <tr>
+                <td> Status </td>
+                <td> '.$params[10].' </td>
+                </tr>
+                <tr>
+                <td> AADHRITA Token </td>
+                <td> '.$aadhritaID.' </td>
+                </tr>
+                <tr>
+                <td> Event ID  </td>
+                <td> '.$eventId.' </td>
+                </tr>
+                <tr>
+                <td> Team Token </td>
+                <td> '.$teamToken.' </td>
+                </tr>
+                ';
+                if(mysqli_query($conn,$sql)){
+                    echo "dta inserted in transactions";
+
+                }else{
+                    echo "dta  not inserted in transactions";
+
+                }
+            }
+
+            else{
+                $sql ="INSERT INTO `transactionsdata` (`paytmTransactionID`, `bankTransactionID`, `transactionDate`, `transactionAmount`, `transactionStatus`, `aadhritaID`, `userName`, `emailID`) VALUES ('$params[2]', '$params[11]', '$params[6]', '$params[3]', '$params[7]', '$aadhritaID', '$user', '$email')";
+                echo '
+                <table class="table table-striped table-dark">
+                <tr>
+                <th>Field</th>
+                <th>Value</th>
+                </tr>
+                <tr>
+                <td> Bank Transaction ID </td>
+                <td> '.$params[11].' </td>
+                </tr>
+                <tr>
+                <td> Date of Transaction </td>
+                <td> '.$params[6].' </td>
+                </tr>
+                <tr>
+                <td> Amount of Transaction </td>
+                <td> '.$params[3].' </td>
+                </tr>
+                <tr>
+                <td> Status </td>
+                <td> '.$params[7].' </td>
+                </tr>
+                <tr>
+                <td> AADHRITA Token </td>
+                <td> '.$aadhritaID.' </td>
+                </tr>
+                <tr>
+                <td> Event ID  </td>
+                <td> '.$eventId.' </td>
+                </tr>
+                <tr>
+                <td> Team Token </td>
+                <td> '.$teamToken.' </td>
+                </tr>
+
+                ';
+            }
+            for( $j = 0 ; $j < $tsize ; $j++ ){
+               if ($j==0) {
+                 $sql2="insert into sportsregistrations values('$teamToken','$eventId','$aad3id[$j]','$emails[$j]','lead','$tsize')";
+             }
+             else{
+                 $sql2="insert into sportsregistrations values('$teamToken','$eventId','$aad3id[$j]','$emails[$j]','member','$tsize')";
+             }
+             if(mysqli_query($conn,$sql2)){
+          }
+
+      }
+
+  }
+  else {
+                echo "<b>Transaction status is failure</b>" . "<br/>";
+                $sql ="INSERT INTO `failedTransactionsData`(`transactionMail`,`token`, `status`, `responseCode`, `responseMessage`, `transactionAmount`, `transactionTime`) VALUES ('$email','$params[0]','$params[4]','$params[6]','$params[7]','$params[8]',CURRENT_TIMESTAMP)";
+                $res = mysqli_query($conn,$sql);
+                if ($res) {
+                    echo "
+                    <tr>
+                        <td colspan = '2'>
+                            <center> If amount deducted contact prasoon</center>
+                        </td>
+                    </tr>
+                    ";
+                }
+            }
+ }
+
+else {
+  echo "
+  <tr>
+    <td colspan = '2'>
+        <center><b>Checksum mismatched.</b></center>
+    </td>
+  </tr>
+  ";
+}
 
 ?>
 <?php
-$id=$_SESSION['eventId'];
-    $sql = "SELECT * FROM `events` WHERE `eid` = '$id'";
-    $retval = mysqli_query($conn,$sql);
-	$row = mysqli_fetch_assoc($retval);
-	$tsize=$_SESSION['team_size'];
 
-     if($row['etype'] == "SPORTS" && $_POST["STATUS"] == "TXN_SUCCESS" ) {
-      /* $sql1="select name, aadhritaID from registrations";
-       $res1=mysqli_query($conn,$sql1);
-       $sno=array();
-       $names=array();
- 
-       while($row=mysqli_fetch_assoc($res1)){
-         $x = $row['aadhritaID'];
-         $sno[]=substr($x,4,6);
-         $names[]=$row['name'];
-         $aadhritaToken[]=$row['aadhritaID'];
-       }
- 
-       $min=min($sno);*/ 
-       $eventId = $_SESSION["eventId"];
-	   $teamToken = $eventId.substr($_SESSION['phn'][0],4,6);
-	   echo $teamToken;
-	   $j = 0;
-	   $aad3id=$_SESSION['phn'];
-	   $emails=$_SESSION['spemails'];
-	   print_r($emails);
-	   print_r($aad3id);
-       for( $j = 0 ; $j < $tsize ; $j++ ){
-		   echo $j."<br/>";
-         if ($j==0) {
-           $sql2="insert into sportsregistrations values('$teamToken','$eventId','$aad3id[$j]','$emails[$j]','lead','$tsize')";
-         }
-         else{
-           $sql2="insert into sportsregistrations values('$teamToken','$eventId','$aad3id[$j]','$emails[$j]','member','$tsize')";
-         }
-          if(mysqli_query($conn,$sql2)){
-				  echo '<br>updated';
-         }
-        
-       }
-	 }
-	 else{
-		 echo "<script>alert('not updated');</script>";
-	 }
-
-	 echo "<br><br><button  class='btn btn-outline-success mr-5' onclick=\"window.location.href='../../login/'\">Continue</button><button class='btn btn-outline-primary ml-5' id='create_pdf'>Generate PDF</button</div><br>
+echo "
+<tr>
+<td colspan = '2'>
+<center>
+<button class='btn btn-outline-success mr-5' id='create_pdf'  Type='button' value='Generate PDF'>Generate pdf</button>
+						<button class='btn btn-outline-success ml-5' Type='button' name='profile' onclick='location.href=`../../../profile/`'>Profile</button>
      
-         ";
+</center>
+</td>
+</tr>
+</table>
+</div>
+</div>
+";
 
-  
 ?>
 </form>
 </body>
 <script src="https://code.jquery.com/jquery-1.12.4.min.js" integrity="sha256-ZosEbRLbNQzLpnKIkEdrPv7lOy9C27hHQ+Xp8a4MxAQ=" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/1.3.5/jspdf.min.js"></script>
-    <script>
+<script>
     (function () {
-        var
-        jumbotron = $('.jumbotron'),
+        var jumbotron = $('.jumbotron'),
          cache_width = jumbotron.width(),
          a4 = [595.28, 841.89]; // for a4 size paper width and height
 
@@ -131,7 +244,7 @@ $id=$_SESSION['eventId'];
                      format: 'a4'
                  });
                 doc.addImage(img, 'JPEG', 20, 20);
-                doc.save('AADHRITA2020_REGISRATION.pdf');
+                doc.save('AADHRITA2020_SPORTS_REGISRATION.pdf');
                 jumbotron.width(cache_width);
             });
         }

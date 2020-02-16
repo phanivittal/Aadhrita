@@ -1,0 +1,138 @@
+[09-Feb-2020 23:04:42 UTC] PHP Notice:  Undefined index: emails in /home/bn2ajew7rlqi/public_html/php/teamPay/pgResponse.php on line 39
+[09-Feb-2020 23:04:42 UTC] PHP Stack trace:
+[09-Feb-2020 23:04:42 UTC] PHP   1. {main}() /home/bn2ajew7rlqi/public_html/php/teamPay/pgResponse.php:0
+[09-Feb-2020 23:04:42 UTC] PHP Notice:  Undefined index: tokens in /home/bn2ajew7rlqi/public_html/php/teamPay/pgResponse.php on line 40
+[09-Feb-2020 23:04:42 UTC] PHP Stack trace:
+[09-Feb-2020 23:04:42 UTC] PHP   1. {main}() /home/bn2ajew7rlqi/public_html/php/teamPay/pgResponse.php:0
+[09-Feb-2020 23:04:42 UTC] PHP Notice:  Undefined index: uname in /home/bn2ajew7rlqi/public_html/php/teamPay/pgResponse.php on line 41
+[09-Feb-2020 23:04:42 UTC] PHP Stack trace:
+[09-Feb-2020 23:04:42 UTC] PHP   1. {main}() /home/bn2ajew7rlqi/public_html/php/teamPay/pgResponse.php:0
+[09-Feb-2020 23:04:42 UTC] PHP Notice:  Undefined index: team_size in /home/bn2ajew7rlqi/public_html/php/teamPay/pgResponse.php on line 45
+[09-Feb-2020 23:04:42 UTC] PHP Stack trace:
+[09-Feb-2020 23:04:42 UTC] PHP   1. {main}() /home/bn2ajew7rlqi/public_html/php/teamPay/pgResponse.php:0
+[09-Feb-2020 23:04:42 UTC] PHP Notice:  Undefined index: eventId in /home/bn2ajew7rlqi/public_html/php/teamPay/pgResponse.php on line 46
+[09-Feb-2020 23:04:42 UTC] PHP Stack trace:
+[09-Feb-2020 23:04:42 UTC] PHP   1. {main}() /home/bn2ajew7rlqi/public_html/php/teamPay/pgResponse.php:0
+[09-Feb-2020 23:04:42 UTC] PHP Notice:  Undefined index: event_type in /home/bn2ajew7rlqi/public_html/php/teamPay/pgResponse.php on line 54
+[09-Feb-2020 23:04:42 UTC] PHP Stack trace:
+[09-Feb-2020 23:04:42 UTC] PHP   1. {main}() /home/bn2ajew7rlqi/public_html/php/teamPay/pgResponse.php:0
+[09-Feb-2020 23:04:42 UTC] PHP Notice:  Undefined index: event_type in /home/bn2ajew7rlqi/public_html/php/teamPay/pgResponse.php on line 75
+[09-Feb-2020 23:04:42 UTC] PHP Stack trace:
+[09-Feb-2020 23:04:42 UTC] PHP   1. {main}() /home/bn2ajew7rlqi/public_html/php/teamPay/pgResponse.php:0
+[09-Feb-2020 23:04:42 UTC] PHP Notice:  Undefined index: event_type in /home/bn2ajew7rlqi/public_html/php/teamPay/pgResponse.php on line 94
+[09-Feb-2020 23:04:42 UTC] PHP Stack trace:
+[09-Feb-2020 23:04:42 UTC] PHP   1. {main}() /home/bn2ajew7rlqi/public_html/php/teamPay/pgResponse.php:0
+[09-Feb-2020 23:04:42 UTC] PHP Notice:  Undefined variable: teamToken in /home/bn2ajew7rlqi/public_html/php/teamPay/pgResponse.php on line 149
+[09-Feb-2020 23:04:42 UTC] PHP Stack trace:
+[09-Feb-2020 23:04:42 UTC] PHP   1. {main}() /home/bn2ajew7rlqi/public_html/php/teamPay/pgResponse.php:0
+[09-Feb-2020 23:04:42 UTC] PHP Notice:  Undefined index: event_type in /home/bn2ajew7rlqi/public_html/php/teamPay/pgResponse.php on line 196
+[09-Feb-2020 23:04:42 UTC] PHP Stack trace:
+[09-Feb-2020 23:04:42 UTC] PHP   1. {main}() /home/bn2ajew7rlqi/public_html/php/teamPay/pgResponse.php:0
+[09-Feb-2020 23:04:42 UTC] PHP Notice:  Undefined index: event_type in /home/bn2ajew7rlqi/public_html/php/teamPay/pgResponse.php on line 216
+[09-Feb-2020 23:04:42 UTC] PHP Stack trace:
+[09-Feb-2020 23:04:42 UTC] PHP   1. {main}() /home/bn2ajew7rlqi/public_html/php/teamPay/pgResponse.php:0
+[09-Feb-2020 23:04:42 UTC] PHP Notice:  Undefined index: event_type in /home/bn2ajew7rlqi/public_html/php/teamPay/pgResponse.php on line 236
+[09-Feb-2020 23:04:42 UTC] PHP Stack trace:
+[09-Feb-2020 23:04:42 UTC] PHP   1. {main}() /home/bn2ajew7rlqi/public_html/php/teamPay/pgResponse.php:0
+[11-Feb-2020 06:40:05 UTC] PHP Notice:  Undefined index: emails in /home/bn2ajew7rlqi/public_html/php/teamPay/pgResponse.php on line 39
+[11-Feb-2020 06:40:05 UTC] PHP Stack trace:
+[11-Feb-2020 06:40:05 UTC] PHP   1. {main}() /home/bn2ajew7rlqi/public_html/php/teamPay/pgResponse.php:0
+[11-Feb-2020 06:40:05 UTC] PHP Notice:  Undefined index: tokens in /home/bn2ajew7rlqi/public_html/php/teamPay/pgResponse.php on line 40
+[11-Feb-2020 06:40:05 UTC] PHP Stack trace:
+[11-Feb-2020 06:40:05 UTC] PHP   1. {main}() /home/bn2ajew7rlqi/public_html/php/teamPay/pgResponse.php:0
+[11-Feb-2020 06:40:05 UTC] PHP Notice:  Undefined index: uname in /home/bn2ajew7rlqi/public_html/php/teamPay/pgResponse.php on line 41
+[11-Feb-2020 06:40:05 UTC] PHP Stack trace:
+[11-Feb-2020 06:40:05 UTC] PHP   1. {main}() /home/bn2ajew7rlqi/public_html/php/teamPay/pgResponse.php:0
+[11-Feb-2020 06:40:05 UTC] PHP Notice:  Undefined index: team_size in /home/bn2ajew7rlqi/public_html/php/teamPay/pgResponse.php on line 45
+[11-Feb-2020 06:40:05 UTC] PHP Stack trace:
+[11-Feb-2020 06:40:05 UTC] PHP   1. {main}() /home/bn2ajew7rlqi/public_html/php/teamPay/pgResponse.php:0
+[11-Feb-2020 06:40:05 UTC] PHP Notice:  Undefined index: eventId in /home/bn2ajew7rlqi/public_html/php/teamPay/pgResponse.php on line 46
+[11-Feb-2020 06:40:05 UTC] PHP Stack trace:
+[11-Feb-2020 06:40:05 UTC] PHP   1. {main}() /home/bn2ajew7rlqi/public_html/php/teamPay/pgResponse.php:0
+[12-Feb-2020 10:03:36 UTC] PHP Notice:  Undefined index: emails in /home/bn2ajew7rlqi/public_html/php/teamPay/pgResponse.php on line 39
+[12-Feb-2020 10:03:36 UTC] PHP Stack trace:
+[12-Feb-2020 10:03:36 UTC] PHP   1. {main}() /home/bn2ajew7rlqi/public_html/php/teamPay/pgResponse.php:0
+[12-Feb-2020 10:03:36 UTC] PHP Notice:  Undefined index: tokens in /home/bn2ajew7rlqi/public_html/php/teamPay/pgResponse.php on line 40
+[12-Feb-2020 10:03:36 UTC] PHP Stack trace:
+[12-Feb-2020 10:03:36 UTC] PHP   1. {main}() /home/bn2ajew7rlqi/public_html/php/teamPay/pgResponse.php:0
+[12-Feb-2020 10:03:36 UTC] PHP Notice:  Undefined index: uname in /home/bn2ajew7rlqi/public_html/php/teamPay/pgResponse.php on line 41
+[12-Feb-2020 10:03:36 UTC] PHP Stack trace:
+[12-Feb-2020 10:03:36 UTC] PHP   1. {main}() /home/bn2ajew7rlqi/public_html/php/teamPay/pgResponse.php:0
+[12-Feb-2020 10:03:36 UTC] PHP Notice:  Undefined index: team_size in /home/bn2ajew7rlqi/public_html/php/teamPay/pgResponse.php on line 45
+[12-Feb-2020 10:03:36 UTC] PHP Stack trace:
+[12-Feb-2020 10:03:36 UTC] PHP   1. {main}() /home/bn2ajew7rlqi/public_html/php/teamPay/pgResponse.php:0
+[12-Feb-2020 10:03:36 UTC] PHP Notice:  Undefined index: eventId in /home/bn2ajew7rlqi/public_html/php/teamPay/pgResponse.php on line 46
+[12-Feb-2020 10:03:36 UTC] PHP Stack trace:
+[12-Feb-2020 10:03:36 UTC] PHP   1. {main}() /home/bn2ajew7rlqi/public_html/php/teamPay/pgResponse.php:0
+[14-Feb-2020 16:56:36 UTC] PHP Notice:  Undefined index: emails in /home/bn2ajew7rlqi/public_html/php/teamPay/pgResponse.php on line 39
+[14-Feb-2020 16:56:36 UTC] PHP Stack trace:
+[14-Feb-2020 16:56:36 UTC] PHP   1. {main}() /home/bn2ajew7rlqi/public_html/php/teamPay/pgResponse.php:0
+[14-Feb-2020 16:56:36 UTC] PHP Notice:  Undefined index: tokens in /home/bn2ajew7rlqi/public_html/php/teamPay/pgResponse.php on line 40
+[14-Feb-2020 16:56:36 UTC] PHP Stack trace:
+[14-Feb-2020 16:56:36 UTC] PHP   1. {main}() /home/bn2ajew7rlqi/public_html/php/teamPay/pgResponse.php:0
+[14-Feb-2020 16:56:36 UTC] PHP Notice:  Undefined index: uname in /home/bn2ajew7rlqi/public_html/php/teamPay/pgResponse.php on line 41
+[14-Feb-2020 16:56:36 UTC] PHP Stack trace:
+[14-Feb-2020 16:56:36 UTC] PHP   1. {main}() /home/bn2ajew7rlqi/public_html/php/teamPay/pgResponse.php:0
+[14-Feb-2020 16:56:36 UTC] PHP Notice:  Undefined index: team_size in /home/bn2ajew7rlqi/public_html/php/teamPay/pgResponse.php on line 45
+[14-Feb-2020 16:56:36 UTC] PHP Stack trace:
+[14-Feb-2020 16:56:36 UTC] PHP   1. {main}() /home/bn2ajew7rlqi/public_html/php/teamPay/pgResponse.php:0
+[14-Feb-2020 16:56:36 UTC] PHP Notice:  Undefined index: eventId in /home/bn2ajew7rlqi/public_html/php/teamPay/pgResponse.php on line 46
+[14-Feb-2020 16:56:36 UTC] PHP Stack trace:
+[14-Feb-2020 16:56:36 UTC] PHP   1. {main}() /home/bn2ajew7rlqi/public_html/php/teamPay/pgResponse.php:0
+[14-Feb-2020 16:56:36 UTC] PHP Notice:  Undefined index: event_type in /home/bn2ajew7rlqi/public_html/php/teamPay/pgResponse.php on line 54
+[14-Feb-2020 16:56:36 UTC] PHP Stack trace:
+[14-Feb-2020 16:56:36 UTC] PHP   1. {main}() /home/bn2ajew7rlqi/public_html/php/teamPay/pgResponse.php:0
+[14-Feb-2020 16:56:36 UTC] PHP Notice:  Undefined index: event_type in /home/bn2ajew7rlqi/public_html/php/teamPay/pgResponse.php on line 75
+[14-Feb-2020 16:56:36 UTC] PHP Stack trace:
+[14-Feb-2020 16:56:36 UTC] PHP   1. {main}() /home/bn2ajew7rlqi/public_html/php/teamPay/pgResponse.php:0
+[14-Feb-2020 16:56:36 UTC] PHP Notice:  Undefined index: event_type in /home/bn2ajew7rlqi/public_html/php/teamPay/pgResponse.php on line 94
+[14-Feb-2020 16:56:36 UTC] PHP Stack trace:
+[14-Feb-2020 16:56:36 UTC] PHP   1. {main}() /home/bn2ajew7rlqi/public_html/php/teamPay/pgResponse.php:0
+[14-Feb-2020 16:56:36 UTC] PHP Notice:  Undefined variable: teamToken in /home/bn2ajew7rlqi/public_html/php/teamPay/pgResponse.php on line 187
+[14-Feb-2020 16:56:36 UTC] PHP Stack trace:
+[14-Feb-2020 16:56:36 UTC] PHP   1. {main}() /home/bn2ajew7rlqi/public_html/php/teamPay/pgResponse.php:0
+[14-Feb-2020 16:56:36 UTC] PHP Notice:  Undefined index: event_type in /home/bn2ajew7rlqi/public_html/php/teamPay/pgResponse.php on line 196
+[14-Feb-2020 16:56:36 UTC] PHP Stack trace:
+[14-Feb-2020 16:56:36 UTC] PHP   1. {main}() /home/bn2ajew7rlqi/public_html/php/teamPay/pgResponse.php:0
+[14-Feb-2020 16:56:36 UTC] PHP Notice:  Undefined index: event_type in /home/bn2ajew7rlqi/public_html/php/teamPay/pgResponse.php on line 216
+[14-Feb-2020 16:56:36 UTC] PHP Stack trace:
+[14-Feb-2020 16:56:36 UTC] PHP   1. {main}() /home/bn2ajew7rlqi/public_html/php/teamPay/pgResponse.php:0
+[14-Feb-2020 16:56:36 UTC] PHP Notice:  Undefined index: event_type in /home/bn2ajew7rlqi/public_html/php/teamPay/pgResponse.php on line 236
+[14-Feb-2020 16:56:36 UTC] PHP Stack trace:
+[14-Feb-2020 16:56:36 UTC] PHP   1. {main}() /home/bn2ajew7rlqi/public_html/php/teamPay/pgResponse.php:0
+[15-Feb-2020 04:06:20 UTC] PHP Notice:  Undefined index: emails in /home/bn2ajew7rlqi/public_html/php/teamPay/pgResponse.php on line 39
+[15-Feb-2020 04:06:20 UTC] PHP Stack trace:
+[15-Feb-2020 04:06:20 UTC] PHP   1. {main}() /home/bn2ajew7rlqi/public_html/php/teamPay/pgResponse.php:0
+[15-Feb-2020 04:06:20 UTC] PHP Notice:  Undefined index: tokens in /home/bn2ajew7rlqi/public_html/php/teamPay/pgResponse.php on line 40
+[15-Feb-2020 04:06:20 UTC] PHP Stack trace:
+[15-Feb-2020 04:06:20 UTC] PHP   1. {main}() /home/bn2ajew7rlqi/public_html/php/teamPay/pgResponse.php:0
+[15-Feb-2020 04:06:20 UTC] PHP Notice:  Undefined index: uname in /home/bn2ajew7rlqi/public_html/php/teamPay/pgResponse.php on line 41
+[15-Feb-2020 04:06:20 UTC] PHP Stack trace:
+[15-Feb-2020 04:06:20 UTC] PHP   1. {main}() /home/bn2ajew7rlqi/public_html/php/teamPay/pgResponse.php:0
+[15-Feb-2020 04:06:20 UTC] PHP Notice:  Undefined index: team_size in /home/bn2ajew7rlqi/public_html/php/teamPay/pgResponse.php on line 45
+[15-Feb-2020 04:06:20 UTC] PHP Stack trace:
+[15-Feb-2020 04:06:20 UTC] PHP   1. {main}() /home/bn2ajew7rlqi/public_html/php/teamPay/pgResponse.php:0
+[15-Feb-2020 04:06:20 UTC] PHP Notice:  Undefined index: eventId in /home/bn2ajew7rlqi/public_html/php/teamPay/pgResponse.php on line 46
+[15-Feb-2020 04:06:20 UTC] PHP Stack trace:
+[15-Feb-2020 04:06:20 UTC] PHP   1. {main}() /home/bn2ajew7rlqi/public_html/php/teamPay/pgResponse.php:0
+[15-Feb-2020 04:06:20 UTC] PHP Notice:  Undefined index: event_type in /home/bn2ajew7rlqi/public_html/php/teamPay/pgResponse.php on line 54
+[15-Feb-2020 04:06:20 UTC] PHP Stack trace:
+[15-Feb-2020 04:06:20 UTC] PHP   1. {main}() /home/bn2ajew7rlqi/public_html/php/teamPay/pgResponse.php:0
+[15-Feb-2020 04:06:20 UTC] PHP Notice:  Undefined index: event_type in /home/bn2ajew7rlqi/public_html/php/teamPay/pgResponse.php on line 75
+[15-Feb-2020 04:06:20 UTC] PHP Stack trace:
+[15-Feb-2020 04:06:20 UTC] PHP   1. {main}() /home/bn2ajew7rlqi/public_html/php/teamPay/pgResponse.php:0
+[15-Feb-2020 04:06:20 UTC] PHP Notice:  Undefined index: event_type in /home/bn2ajew7rlqi/public_html/php/teamPay/pgResponse.php on line 94
+[15-Feb-2020 04:06:20 UTC] PHP Stack trace:
+[15-Feb-2020 04:06:20 UTC] PHP   1. {main}() /home/bn2ajew7rlqi/public_html/php/teamPay/pgResponse.php:0
+[15-Feb-2020 04:06:20 UTC] PHP Notice:  Undefined variable: teamToken in /home/bn2ajew7rlqi/public_html/php/teamPay/pgResponse.php on line 187
+[15-Feb-2020 04:06:20 UTC] PHP Stack trace:
+[15-Feb-2020 04:06:20 UTC] PHP   1. {main}() /home/bn2ajew7rlqi/public_html/php/teamPay/pgResponse.php:0
+[15-Feb-2020 04:06:20 UTC] PHP Notice:  Undefined index: event_type in /home/bn2ajew7rlqi/public_html/php/teamPay/pgResponse.php on line 196
+[15-Feb-2020 04:06:20 UTC] PHP Stack trace:
+[15-Feb-2020 04:06:20 UTC] PHP   1. {main}() /home/bn2ajew7rlqi/public_html/php/teamPay/pgResponse.php:0
+[15-Feb-2020 04:06:20 UTC] PHP Notice:  Undefined index: event_type in /home/bn2ajew7rlqi/public_html/php/teamPay/pgResponse.php on line 216
+[15-Feb-2020 04:06:20 UTC] PHP Stack trace:
+[15-Feb-2020 04:06:20 UTC] PHP   1. {main}() /home/bn2ajew7rlqi/public_html/php/teamPay/pgResponse.php:0
+[15-Feb-2020 04:06:20 UTC] PHP Notice:  Undefined index: event_type in /home/bn2ajew7rlqi/public_html/php/teamPay/pgResponse.php on line 236
+[15-Feb-2020 04:06:20 UTC] PHP Stack trace:
+[15-Feb-2020 04:06:20 UTC] PHP   1. {main}() /home/bn2ajew7rlqi/public_html/php/teamPay/pgResponse.php:0

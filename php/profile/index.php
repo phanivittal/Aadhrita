@@ -55,6 +55,7 @@ require '../db/db.php';
 	    <li class="nav-link"><a href="../technical/">Technical</a></li>
 	    <li class="nav-link"><a href="../workshop/">WorkShops</a></li>
 	    <li class="nav-link"><a href="../cultural">Culturals</a></li>
+	    <li class="nav-link "><a href="../sports/">sports</a></li>
 	    <li class="nav-link"><a href="../about/">About</a></li>
 	    <?php
 	    if (isset($_SESSION['session_email'])) {
@@ -71,144 +72,208 @@ require '../db/db.php';
 	</header>
 
 	<body >
-		<div id="car_view" style="padding-top:190px;padding-bottom:50px;visibility:hidden;background-image: linear-gradient(to right, #0F2027, #203A43,#2C5364);">
-			<?php
-			
-			echo "
-			<div>
-			<p class='mx-3 my-4' style= 'color:white;font-size: 20px'>Welcome 
-			".$_SESSION['session_user']." Token ID : 
-			".$_SESSION['aadhrita_id']."
-			</p>
-			</div>
-			";
-			?>
-			<div class="jumbotron mx-3" >
-				<h3>Registerd Technical Events : </h3>
-				<h4>To register for more Technical Events click.. <a class="btn btn-primary" href="../technical/"> here </a></h4>
-				<?php
-				$id = $_SESSION['aadhrita_id'];
-				$sql = "SELECT * FROM `technicalRegistrations` WHERE `aadhritaID` = '$id'";
-				$retval = mysqli_query($conn,$sql);
+		<div id="car_view" style="padding-top:190px;padding-bottom:50px;visibility:hidden;background-image: linear-gradient(to right, #0F2027, #203A43,#2C5364);" >
+			<div class="container">
 				
-				if ($n = mysqli_num_rows($retval)) {
-					for ($i=0; $i <$n ; $i++) { 
+				<?php
+				
+				echo "
+				<div>
+				<p class='mx-3 my-4' style= 'color:white;font-size: 20px'>Welcome 
+				".$_SESSION['session_user']." Token ID : 
+				".$_SESSION['aadhrita_id']."
+				</p>
+				</div>
+				";
+				?>
+				<div class="jumbotron mx-3" >
+					<h3>Registerd Technical Events : </h3>
+					<h4>To register for more Technical Events click.. <a class="btn btn-primary" href="../technical/"> here </a></h4>
+					<?php
+					$id = $_SESSION['aadhrita_id'];
+					$sql = "SELECT * FROM `technicalregistrations` WHERE `aadhritaID` = '$id'";
+					$retval = mysqli_query($conn,$sql);
+					
+					if ($n = mysqli_num_rows($retval)) {
+					
+							echo "
+							<div class = 'container'>
+							<h5>registered for some Technical Event</h5><button class='btn btn-outline-success' onclick='location.href=`./eventprofile.php?id=TL".$id."`'> RECEIPT</button>
+							</div>
+							";
+						
+					}
+					else{
 						echo "
 						<div class = 'container'>
-						<h5>registered for some Technical Event</h5>
+						<h5>
+						you haven't registered for any Technical Event .
+						</h5>
 						</div>
 						";
 					}
-				}
-				else{
-					echo "
-					<div class = 'container'>
-					<h5>
-					you haven't registered for any Technical Event .
-					</h5>
-					</div>
-					";
-				}
-				?>
+					?>
+				</div>
+				<div class="jumbotron mx-3">
+					<h3>Registerd Sports Events : </h3>
+					<h4> To register for more Sports events click.... <a class="btn btn-primary" href="../sports/"> here </a></h4>
+					<?php
+					$sql = "SELECT * FROM `sportsregistrations` WHERE `aadhritaID` = '$id'";
+					$retval = mysqli_query($conn,$sql);
+					if ($n = mysqli_num_rows($retval)) {
+						echo "
+						<div class = 'container'>
+						<h5>registered for some Sports</h5> <button class='btn btn-outline-success' onclick='location.href=`./eventprofile.php?id=SL".$id."`'> RECEIPT</button>
+						</div>
+						";
+					}
+					else{
+						echo "
+						<div class = 'container'>
+						<h5>
+						you haven't registered for any workshops .
+						</h5>
+						</div>
+						";
+					}
+					?>
+				</div>
+				<div class="jumbotron mx-3">
+					<h3>Registerd Cultural Events : </h3>
+					<h4>To register for more Cultural Eents click.. <a class="btn btn-primary" href="../cultural/"> here </a></h4>
+					<?php
+					$id = $_SESSION['aadhrita_id'];
+					$sql = "SELECT * FROM `culturalregistrations` WHERE `aadhritaID` = '$id'";
+					$retval = mysqli_query($conn,$sql);
+					if ($n = mysqli_num_rows($retval)) {
+						echo "
+						<div class = 'container'>
+						<h5>registered for some Cultural Evevnt</h5> <button class='btn btn-outline-success' onclick='location.href=`./eventprofile.php?id=CL".$id."`'> RECEIPT</button>
+						</div>
+						";
+					}
+					else{
+						echo "
+						<div class = 'container'>
+						<h5>
+						you haven't registered for any Cultural Event .
+						</h5>
+						</div>
+						";
+					}
+					?>
+				</div>
+				<div class="jumbotron mx-3">
+					<h3>Registerd Workshops : </h3>
+					<h4> To register for more Workshops click.... <a class="btn btn-primary" href="../workshop/"> here </a></h4>
+					<?php
+					$sql = "SELECT * FROM `workshopregistrations` WHERE `aadhritaID` = '$id'";
+					$retval = mysqli_query($conn,$sql);
+					if ($n = mysqli_num_rows($retval)) {
+						echo "
+						<div class = 'container'>
+						<h5>registered for some Workshop</h5><button class='btn btn-outline-success' onclick='location.href=`./eventprofile.php?id=WL".$id."`'> RECEIPT</button>
+						</div>
+						";
+					}
+					else{
+						echo "
+						<div class = 'container'>
+						<h5>
+						you haven't registered for any workshops .
+						</h5>
+						</div>
+						";
+					}
+					?>
+				</div>
+				<div class="jumbotron mx-3">
+					<h3>Accommodation : </h3>
+					<?php
+					$sql = "SELECT * FROM `registrations` WHERE `aadhritaID` = '$id'";
+					$retval = mysqli_query($conn,$sql);
+					$row = mysqli_fetch_assoc($retval);
+					if ( $row['accommodation'] == "yes" ) {
+						echo "
+						<div class = 'container'>
+						<h5>Accomodation granted .</h5>
+						</div>
+						";
+					}
+					else{
+						echo "
+						<div class = 'container'>
+						<h5>
+						you haven't opted for any Accommodation .
+						</h5>
+						</div>
+						";
+					}
+					?>
+				</div>
+				<button type="button" class="btn btn-primary  col-auto my-5" id="create_pdf"  value="Generate PDF">Download Receipt</button>
 			</div>
-			<div class="jumbotron mx-3">
-				<h3>Registerd Sports Events : </h3>
-				<h4> To register for more Sports events click.... <a class="btn btn-primary" href="../sports/"> here </a></h4>
-				<?php
-				$sql = "SELECT * FROM `sportsRegistrations` WHERE `aadhritaID` = '$id'";
-				$retval = mysqli_query($conn,$sql);
-				if ($n = mysqli_num_rows($retval)) {
-					echo "
-					<div class = 'container'>
-					<h5>registered for some Workshop</h5>
-					</div>
-					";
-				}
-				else{
-					echo "
-					<div class = 'container'>
-					<h5>
-					you haven't registered for any workshops .
-					</h5>
-					</div>
-					";
-				}
-				?>
-			</div>
-			<div class="jumbotron mx-3">
-				<h3>Registerd Cultural Events : </h3>
-				<h4>To register for more Cultural Eents click.. <a class="btn btn-primary" href="../cultural/"> here </a></h4>
-				<?php
-				$id = $_SESSION['aadhrita_id'];
-				$sql = "SELECT * FROM `culturalRegistrations` WHERE `aadhritaID` = '$id'";
-				$retval = mysqli_query($conn,$sql);
-				if ($n = mysqli_num_rows($retval)) {
-					echo "
-					<div class = 'container'>
-					<h5>registered for some Cultural Evevnt</h5>
-					</div>
-					";
-				}
-				else{
-					echo "
-					<div class = 'container'>
-					<h5>
-					you haven't registered for any Cultural Event .
-					</h5>
-					</div>
-					";
-				}
-				?>
-			</div>
-			<div class="jumbotron mx-3">
-				<h3>Registerd Workshops : </h3>
-				<h4> To register for more Workshops click.... <a class="btn btn-primary" href="../workshop/"> here </a></h4>
-				<?php
-				$sql = "SELECT * FROM `workshopRegistrations` WHERE `aadhritaID` = '$id'";
-				$retval = mysqli_query($conn,$sql);
-				if ($n = mysqli_num_rows($retval)) {
-					echo "
-					<div class = 'container'>
-					<h5>registered for some Workshop</h5>
-					</div>
-					";
-				}
-				else{
-					echo "
-					<div class = 'container'>
-					<h5>
-					you haven't registered for any workshops .
-					</h5>
-					</div>
-					";
-				}
-				?>
-			</div>
-			<div class="jumbotron mx-3">
-				<h3>Accommodation : </h3>
-				<h4> To register for Accommodation.... <a class="btn btn-primary" href="#"> opt </a></h4>
-				<?php
-				$sql = "SELECT * FROM `registrations` WHERE `aadhritaID` = '$id'";
-				$retval = mysqli_query($conn,$sql);
-				$row = mysqli_fetch_assoc($retval);
-				if ( $row['accommodation'] == "yes" ) {
-					echo "
-					<div class = 'container'>
-					<h5>Accomodation granted .</h5>
-					</div>
-					";
-				}
-				else{
-					echo "
-					<div class = 'container'>
-					<h5>
-					you haven't opted for any Accommodation .
-					</h5>
-					</div>
-					";
-				}
-				?>
-			</div>
+		</div>
+		<div class="form" style="margin-bottom:-17px;max-width: none; visibility:hidden; width: auto;background-image: linear-gradient(to right, #0F2027, #203A43,#2C5364);" >
+		<table class="table table-striped table-dark" style="border-radius:10px">
+		<?php 
+		$sql = "SELECT * FROM `registrations` WHERE `aadhritaID` = '$id'";
+		$retval = mysqli_query($conn,$sql);
+		$values = mysqli_fetch_assoc($retval);
+		$sql1 = "SELECT * FROM `transactionsdata` WHERE `aadhritaID` = '$id'";
+		$retval = mysqli_query($conn,$sql1);
+		$values1 = mysqli_fetch_assoc($retval);
+		echo '
+		
+		<tr>
+                  <td>Aadhrita ID</td>
+                  <td>
+                  '.$values["aadhritaID"].'
+                  </td>
+				</tr>
+				<tr>
+                  <td>email</td>
+                  <td>
+                  '.$values["name"].'
+                  </td>
+				</tr>
+				<tr>
+                  <td>college</td>
+                  <td>
+				  '.$values["collegename"].'
+                  </td>
+                </tr>
+                <tr>
+                  <td>User Name</td>
+                  <td>
+				  '.$values["email"].'
+                  </td>
+                </tr>
+				
+				<tr>
+						<td> Password </td>
+						<td> '.$values['password'].' </td>
+					</tr>
+				<tr>
+						<td> College ID </td>
+						<td> '.$values['collegeid'].' </td>
+					</tr>
+				<tr>
+						<td> Bank Transaction ID </td>
+						<td> '.$values1['bankTransactionID'].' </td>
+					</tr>
+					<tr>
+						<td> Date of Transaction </td>
+						<td> '.$values['createdtime'].' </td>
+					</tr>
+					<tr>
+						<td> Amount of Transaction </td>
+						<td> '.$values1['transactionAmount'].' </td>
+					</tr>
+					
+					
+				</table>
+			';	?>
 		</div>
 		<footer  style="visibility:hidden;background-color: #2c292f;padding-top: 30px;min-height: 100px; font-family: 'Righteous', cursive;">
 		    <div class="container" >
@@ -286,7 +351,113 @@ require '../db/db.php';
         $(".main-header").css("visibility","visible");
         $("footer").css("visibility","visible");
         $(".container").css("visibility","visible");
+        $(".form").css("visibility","visible");
         $("#car_view").css("visibility","visible");
       });
     </script>
+	<script src="https://code.jquery.com/jquery-1.12.4.min.js" integrity="sha256-ZosEbRLbNQzLpnKIkEdrPv7lOy9C27hHQ+Xp8a4MxAQ=" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/1.3.5/jspdf.min.js"></script>
+
+	<script>
+    (function () {
+        var
+         form = $('.form'),
+         cache_width = form.width(),
+         a4 = [595.28, 841.89]; // for a4 size paper width and height
+
+        $('#create_pdf').on('click', function () {
+            $('body').scrollTop(0);
+            createPDF();
+        });
+        //create pdf
+        function createPDF() {
+            getCanvas().then(function (canvas) {
+                var
+                 img = canvas.toDataURL("image/png"),
+                 doc = new jsPDF({
+                     unit: 'px',
+                     format: 'a4'
+                 });
+                doc.addImage(img, 'JPEG', 20, 20);
+                doc.save('Receipt.pdf');
+                form.width(cache_width);
+            });
+        }
+
+        // create canvas object
+        function getCanvas() {
+            form.width((a4[0] * 1.33333) - 80).css('max-width', 'none');
+            return html2canvas(form, {
+                imageTimeout: 2000,
+                removeContainer: true
+            });
+        }
+
+    }());
+</script>
+<script>
+    /*
+ * jQuery helper plugin for examples and tests
+ */
+    (function ($) {
+        $.fn.html2canvas = function (options) {
+            var date = new Date(),
+            $message = null,
+            timeoutTimer = false,
+            timer = date.getTime();
+            html2canvas.logging = options && options.logging;
+            html2canvas.Preload(this[0], $.extend({
+                complete: function (images) {
+                    var queue = html2canvas.Parse(this[0], images, options),
+                    $canvas = $(html2canvas.Renderer(queue, options)),
+                    finishTime = new Date();
+
+                    $canvas.css({ position: 'absolute', left: 0, top: 0 }).appendTo(document.body);
+                    $canvas.siblings().toggle();
+
+                    $(window).click(function () {
+                        if (!$canvas.is(':visible')) {
+                            $canvas.toggle().siblings().toggle();
+                            throwMessage("Canvas Render visible");
+                        } else {
+                            $canvas.siblings().toggle();
+                            $canvas.toggle();
+                            throwMessage("Canvas Render hidden");
+                        }
+                    });
+                    throwMessage('Screenshot created in ' + ((finishTime.getTime() - timer) / 1000) + " seconds<br />", 4000);
+                }
+            }, options));
+
+            function throwMessage(msg, duration) {
+                window.clearTimeout(timeoutTimer);
+                timeoutTimer = window.setTimeout(function () {
+                    $message.fadeOut(function () {
+                        $message.remove();
+                    });
+                }, duration || 2000);
+                if ($message)
+                    $message.remove();
+                $message = $('<div ></div>').html(msg).css({
+                    margin: 0,
+                    padding: 10,
+                    background: "#000",
+                    opacity: 0.7,
+                    position: "fixed",
+                    top: 10,
+                    right: 10,
+                    fontFamily: 'Tahoma',
+                    color: '#fff',
+                    fontSize: 12,
+                    borderRadius: 12,
+                    width: 'auto',
+                    height: 'auto',
+                    textAlign: 'center',
+                    textDecoration: 'none'
+                }).hide().fadeIn().appendTo('body');
+            }
+        };
+    })(jQuery);
+
+</script>
 </html>

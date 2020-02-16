@@ -226,6 +226,10 @@ because it requires specific images, where more than 50% of bg is transparent or
       $y="#card".$i;
       $row = mysqli_fetch_assoc($retval);
       $eid = $row['eid'];
+      
+     
+        $route = '<a type="button" class="btn btn-info" href="../register/teamRegistrations.php?id='.urlencode(utf8_encode($eid)).'">Register</a>';
+      
       echo '
       <div class="card card-flip col-auto mx-auto my-3" onmouseover="this.classList.toggle(`expanded`)"
       onmouseout="this.classList.toggle(`expanded`)" id="'.$x.'" style="max-width: 20rem;min-height:29rem;" >
@@ -250,7 +254,7 @@ because it requires specific images, where more than 50% of bg is transparent or
       <p> For Rules <a href="'.$row['pdfs'].'" target ="__blank" >click here</a></p>
       </div>
       <div class="container mt-3">
-      <a type="button" class="btn btn-info" href="../register/teamRegistrations.php?id='.urlencode(utf8_encode($eid)).'">Register</a>
+      '.$route.'
       </div>
       </div>
       </div>
